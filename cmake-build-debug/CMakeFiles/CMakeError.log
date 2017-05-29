@@ -1,0 +1,51 @@
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /home/panzhenfu/Documents/caffe/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_4ca76/fast"
+/usr/bin/make -f CMakeFiles/cmTC_4ca76.dir/build.make CMakeFiles/cmTC_4ca76.dir/build
+make[1]: Entering directory `/home/panzhenfu/Documents/caffe/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_4ca76.dir/CheckSymbolExists.c.o
+/usr/bin/cc     -o CMakeFiles/cmTC_4ca76.dir/CheckSymbolExists.c.o   -c /home/panzhenfu/Documents/caffe/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_4ca76
+/home/panzhenfu/clion-2017.1.1/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4ca76.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTC_4ca76.dir/CheckSymbolExists.c.o  -o cmTC_4ca76 -rdynamic 
+CMakeFiles/cmTC_4ca76.dir/CheckSymbolExists.c.o: In function `main':
+CheckSymbolExists.c:(.text+0x16): undefined reference to `pthread_create'
+collect2: error: ld returned 1 exit status
+make[1]: *** [cmTC_4ca76] Error 1
+make[1]: Leaving directory `/home/panzhenfu/Documents/caffe/cmake-build-debug/CMakeFiles/CMakeTmp'
+make: *** [cmTC_4ca76/fast] Error 2
+
+File /home/panzhenfu/Documents/caffe/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/panzhenfu/Documents/caffe/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_78cd9/fast"
+/usr/bin/make -f CMakeFiles/cmTC_78cd9.dir/build.make CMakeFiles/cmTC_78cd9.dir/build
+make[1]: Entering directory `/home/panzhenfu/Documents/caffe/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_78cd9.dir/CheckFunctionExists.c.o
+/usr/bin/cc    -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_78cd9.dir/CheckFunctionExists.c.o   -c /home/panzhenfu/clion-2017.1.1/bin/cmake/share/cmake-3.7/Modules/CheckFunctionExists.c
+Linking C executable cmTC_78cd9
+/home/panzhenfu/clion-2017.1.1/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_78cd9.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTC_78cd9.dir/CheckFunctionExists.c.o  -o cmTC_78cd9 -rdynamic -lpthreads 
+/usr/bin/ld: cannot find -lpthreads
+collect2: error: ld returned 1 exit status
+make[1]: *** [cmTC_78cd9] Error 1
+make[1]: Leaving directory `/home/panzhenfu/Documents/caffe/cmake-build-debug/CMakeFiles/CMakeTmp'
+make: *** [cmTC_78cd9/fast] Error 2
+
+
