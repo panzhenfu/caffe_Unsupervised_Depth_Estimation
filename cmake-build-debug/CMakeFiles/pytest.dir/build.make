@@ -43,10 +43,10 @@ RM = /home/panzhenfu/clion-2017.1.1/bin/cmake/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/panzhenfu/Documents/caffe
+CMAKE_SOURCE_DIR = /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/panzhenfu/Documents/caffe/cmake-build-debug
+CMAKE_BINARY_DIR = /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug
 
 # Utility rule file for pytest.
 
@@ -54,7 +54,7 @@ CMAKE_BINARY_DIR = /home/panzhenfu/Documents/caffe/cmake-build-debug
 include CMakeFiles/pytest.dir/progress.make
 
 CMakeFiles/pytest:
-	cd /home/panzhenfu/Documents/caffe/python && python2 -m unittest discover -s caffe/test
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/python && python2 -m unittest discover -s caffe/test
 
 pytest: CMakeFiles/pytest
 pytest: CMakeFiles/pytest.dir/build.make
@@ -71,6 +71,6 @@ CMakeFiles/pytest.dir/clean:
 .PHONY : CMakeFiles/pytest.dir/clean
 
 CMakeFiles/pytest.dir/depend:
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/panzhenfu/Documents/caffe /home/panzhenfu/Documents/caffe /home/panzhenfu/Documents/caffe/cmake-build-debug /home/panzhenfu/Documents/caffe/cmake-build-debug /home/panzhenfu/Documents/caffe/cmake-build-debug/CMakeFiles/pytest.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/CMakeFiles/pytest.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/pytest.dir/depend
 

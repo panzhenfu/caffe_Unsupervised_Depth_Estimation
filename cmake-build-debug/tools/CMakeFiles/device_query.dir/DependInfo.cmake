@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/panzhenfu/Documents/caffe/tools/device_query.cpp" "/home/panzhenfu/Documents/caffe/cmake-build-debug/tools/CMakeFiles/device_query.dir/device_query.cpp.o"
+  "/home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/tools/device_query.cpp" "/home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/tools/CMakeFiles/device_query.dir/device_query.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -30,8 +30,8 @@ set(CMAKE_CXX_TARGET_INCLUDE_PATH
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
-  "/home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/CMakeFiles/caffe.dir/DependInfo.cmake"
-  "/home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/CMakeFiles/caffeproto.dir/DependInfo.cmake"
+  "/home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/CMakeFiles/caffe.dir/DependInfo.cmake"
+  "/home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/CMakeFiles/caffeproto.dir/DependInfo.cmake"
   )
 
 # Fortran module output directory.

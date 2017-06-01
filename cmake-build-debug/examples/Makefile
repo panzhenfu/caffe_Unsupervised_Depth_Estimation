@@ -48,10 +48,10 @@ RM = /home/panzhenfu/clion-2017.1.1/bin/cmake/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/panzhenfu/Documents/caffe
+CMAKE_SOURCE_DIR = /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/panzhenfu/Documents/caffe/cmake-build-debug
+CMAKE_BINARY_DIR = /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -124,14 +124,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_progress_start /home/panzhenfu/Documents/caffe/cmake-build-debug/CMakeFiles /home/panzhenfu/Documents/caffe/cmake-build-debug/examples/CMakeFiles/progress.marks
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 examples/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/panzhenfu/Documents/caffe/cmake-build-debug/CMakeFiles 0
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_progress_start /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/CMakeFiles /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/examples/CMakeFiles/progress.marks
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 examples/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 examples/clean
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 examples/clean
 .PHONY : clean
 
 # The main clean target
@@ -141,22 +141,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 examples/preinstall
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 examples/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 examples/preinstall
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 examples/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 examples/CMakeFiles/convert_mnist_data.dir/rule:
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 examples/CMakeFiles/convert_mnist_data.dir/rule
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 examples/CMakeFiles/convert_mnist_data.dir/rule
 .PHONY : examples/CMakeFiles/convert_mnist_data.dir/rule
 
 # Convenience name for target.
@@ -166,12 +166,12 @@ convert_mnist_data: examples/CMakeFiles/convert_mnist_data.dir/rule
 
 # fast build rule for target.
 convert_mnist_data/fast:
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug && $(MAKE) -f examples/CMakeFiles/convert_mnist_data.dir/build.make examples/CMakeFiles/convert_mnist_data.dir/build
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug && $(MAKE) -f examples/CMakeFiles/convert_mnist_data.dir/build.make examples/CMakeFiles/convert_mnist_data.dir/build
 .PHONY : convert_mnist_data/fast
 
 # Convenience name for target.
 examples/CMakeFiles/convert_mnist_siamese_data.dir/rule:
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 examples/CMakeFiles/convert_mnist_siamese_data.dir/rule
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 examples/CMakeFiles/convert_mnist_siamese_data.dir/rule
 .PHONY : examples/CMakeFiles/convert_mnist_siamese_data.dir/rule
 
 # Convenience name for target.
@@ -181,12 +181,12 @@ convert_mnist_siamese_data: examples/CMakeFiles/convert_mnist_siamese_data.dir/r
 
 # fast build rule for target.
 convert_mnist_siamese_data/fast:
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug && $(MAKE) -f examples/CMakeFiles/convert_mnist_siamese_data.dir/build.make examples/CMakeFiles/convert_mnist_siamese_data.dir/build
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug && $(MAKE) -f examples/CMakeFiles/convert_mnist_siamese_data.dir/build.make examples/CMakeFiles/convert_mnist_siamese_data.dir/build
 .PHONY : convert_mnist_siamese_data/fast
 
 # Convenience name for target.
 examples/CMakeFiles/classification.dir/rule:
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 examples/CMakeFiles/classification.dir/rule
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 examples/CMakeFiles/classification.dir/rule
 .PHONY : examples/CMakeFiles/classification.dir/rule
 
 # Convenience name for target.
@@ -196,12 +196,12 @@ classification: examples/CMakeFiles/classification.dir/rule
 
 # fast build rule for target.
 classification/fast:
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug && $(MAKE) -f examples/CMakeFiles/classification.dir/build.make examples/CMakeFiles/classification.dir/build
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug && $(MAKE) -f examples/CMakeFiles/classification.dir/build.make examples/CMakeFiles/classification.dir/build
 .PHONY : classification/fast
 
 # Convenience name for target.
 examples/CMakeFiles/convert_cifar_data.dir/rule:
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 examples/CMakeFiles/convert_cifar_data.dir/rule
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 examples/CMakeFiles/convert_cifar_data.dir/rule
 .PHONY : examples/CMakeFiles/convert_cifar_data.dir/rule
 
 # Convenience name for target.
@@ -211,7 +211,7 @@ convert_cifar_data: examples/CMakeFiles/convert_cifar_data.dir/rule
 
 # fast build rule for target.
 convert_cifar_data/fast:
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug && $(MAKE) -f examples/CMakeFiles/convert_cifar_data.dir/build.make examples/CMakeFiles/convert_cifar_data.dir/build
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug && $(MAKE) -f examples/CMakeFiles/convert_cifar_data.dir/build.make examples/CMakeFiles/convert_cifar_data.dir/build
 .PHONY : convert_cifar_data/fast
 
 cifar10/convert_cifar_data.o: cifar10/convert_cifar_data.cpp.o
@@ -220,7 +220,7 @@ cifar10/convert_cifar_data.o: cifar10/convert_cifar_data.cpp.o
 
 # target to build an object file
 cifar10/convert_cifar_data.cpp.o:
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug && $(MAKE) -f examples/CMakeFiles/convert_cifar_data.dir/build.make examples/CMakeFiles/convert_cifar_data.dir/cifar10/convert_cifar_data.cpp.o
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug && $(MAKE) -f examples/CMakeFiles/convert_cifar_data.dir/build.make examples/CMakeFiles/convert_cifar_data.dir/cifar10/convert_cifar_data.cpp.o
 .PHONY : cifar10/convert_cifar_data.cpp.o
 
 cifar10/convert_cifar_data.i: cifar10/convert_cifar_data.cpp.i
@@ -229,7 +229,7 @@ cifar10/convert_cifar_data.i: cifar10/convert_cifar_data.cpp.i
 
 # target to preprocess a source file
 cifar10/convert_cifar_data.cpp.i:
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug && $(MAKE) -f examples/CMakeFiles/convert_cifar_data.dir/build.make examples/CMakeFiles/convert_cifar_data.dir/cifar10/convert_cifar_data.cpp.i
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug && $(MAKE) -f examples/CMakeFiles/convert_cifar_data.dir/build.make examples/CMakeFiles/convert_cifar_data.dir/cifar10/convert_cifar_data.cpp.i
 .PHONY : cifar10/convert_cifar_data.cpp.i
 
 cifar10/convert_cifar_data.s: cifar10/convert_cifar_data.cpp.s
@@ -238,7 +238,7 @@ cifar10/convert_cifar_data.s: cifar10/convert_cifar_data.cpp.s
 
 # target to generate assembly for a file
 cifar10/convert_cifar_data.cpp.s:
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug && $(MAKE) -f examples/CMakeFiles/convert_cifar_data.dir/build.make examples/CMakeFiles/convert_cifar_data.dir/cifar10/convert_cifar_data.cpp.s
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug && $(MAKE) -f examples/CMakeFiles/convert_cifar_data.dir/build.make examples/CMakeFiles/convert_cifar_data.dir/cifar10/convert_cifar_data.cpp.s
 .PHONY : cifar10/convert_cifar_data.cpp.s
 
 cpp_classification/classification.o: cpp_classification/classification.cpp.o
@@ -247,7 +247,7 @@ cpp_classification/classification.o: cpp_classification/classification.cpp.o
 
 # target to build an object file
 cpp_classification/classification.cpp.o:
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug && $(MAKE) -f examples/CMakeFiles/classification.dir/build.make examples/CMakeFiles/classification.dir/cpp_classification/classification.cpp.o
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug && $(MAKE) -f examples/CMakeFiles/classification.dir/build.make examples/CMakeFiles/classification.dir/cpp_classification/classification.cpp.o
 .PHONY : cpp_classification/classification.cpp.o
 
 cpp_classification/classification.i: cpp_classification/classification.cpp.i
@@ -256,7 +256,7 @@ cpp_classification/classification.i: cpp_classification/classification.cpp.i
 
 # target to preprocess a source file
 cpp_classification/classification.cpp.i:
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug && $(MAKE) -f examples/CMakeFiles/classification.dir/build.make examples/CMakeFiles/classification.dir/cpp_classification/classification.cpp.i
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug && $(MAKE) -f examples/CMakeFiles/classification.dir/build.make examples/CMakeFiles/classification.dir/cpp_classification/classification.cpp.i
 .PHONY : cpp_classification/classification.cpp.i
 
 cpp_classification/classification.s: cpp_classification/classification.cpp.s
@@ -265,7 +265,7 @@ cpp_classification/classification.s: cpp_classification/classification.cpp.s
 
 # target to generate assembly for a file
 cpp_classification/classification.cpp.s:
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug && $(MAKE) -f examples/CMakeFiles/classification.dir/build.make examples/CMakeFiles/classification.dir/cpp_classification/classification.cpp.s
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug && $(MAKE) -f examples/CMakeFiles/classification.dir/build.make examples/CMakeFiles/classification.dir/cpp_classification/classification.cpp.s
 .PHONY : cpp_classification/classification.cpp.s
 
 mnist/convert_mnist_data.o: mnist/convert_mnist_data.cpp.o
@@ -274,7 +274,7 @@ mnist/convert_mnist_data.o: mnist/convert_mnist_data.cpp.o
 
 # target to build an object file
 mnist/convert_mnist_data.cpp.o:
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug && $(MAKE) -f examples/CMakeFiles/convert_mnist_data.dir/build.make examples/CMakeFiles/convert_mnist_data.dir/mnist/convert_mnist_data.cpp.o
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug && $(MAKE) -f examples/CMakeFiles/convert_mnist_data.dir/build.make examples/CMakeFiles/convert_mnist_data.dir/mnist/convert_mnist_data.cpp.o
 .PHONY : mnist/convert_mnist_data.cpp.o
 
 mnist/convert_mnist_data.i: mnist/convert_mnist_data.cpp.i
@@ -283,7 +283,7 @@ mnist/convert_mnist_data.i: mnist/convert_mnist_data.cpp.i
 
 # target to preprocess a source file
 mnist/convert_mnist_data.cpp.i:
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug && $(MAKE) -f examples/CMakeFiles/convert_mnist_data.dir/build.make examples/CMakeFiles/convert_mnist_data.dir/mnist/convert_mnist_data.cpp.i
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug && $(MAKE) -f examples/CMakeFiles/convert_mnist_data.dir/build.make examples/CMakeFiles/convert_mnist_data.dir/mnist/convert_mnist_data.cpp.i
 .PHONY : mnist/convert_mnist_data.cpp.i
 
 mnist/convert_mnist_data.s: mnist/convert_mnist_data.cpp.s
@@ -292,7 +292,7 @@ mnist/convert_mnist_data.s: mnist/convert_mnist_data.cpp.s
 
 # target to generate assembly for a file
 mnist/convert_mnist_data.cpp.s:
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug && $(MAKE) -f examples/CMakeFiles/convert_mnist_data.dir/build.make examples/CMakeFiles/convert_mnist_data.dir/mnist/convert_mnist_data.cpp.s
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug && $(MAKE) -f examples/CMakeFiles/convert_mnist_data.dir/build.make examples/CMakeFiles/convert_mnist_data.dir/mnist/convert_mnist_data.cpp.s
 .PHONY : mnist/convert_mnist_data.cpp.s
 
 siamese/convert_mnist_siamese_data.o: siamese/convert_mnist_siamese_data.cpp.o
@@ -301,7 +301,7 @@ siamese/convert_mnist_siamese_data.o: siamese/convert_mnist_siamese_data.cpp.o
 
 # target to build an object file
 siamese/convert_mnist_siamese_data.cpp.o:
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug && $(MAKE) -f examples/CMakeFiles/convert_mnist_siamese_data.dir/build.make examples/CMakeFiles/convert_mnist_siamese_data.dir/siamese/convert_mnist_siamese_data.cpp.o
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug && $(MAKE) -f examples/CMakeFiles/convert_mnist_siamese_data.dir/build.make examples/CMakeFiles/convert_mnist_siamese_data.dir/siamese/convert_mnist_siamese_data.cpp.o
 .PHONY : siamese/convert_mnist_siamese_data.cpp.o
 
 siamese/convert_mnist_siamese_data.i: siamese/convert_mnist_siamese_data.cpp.i
@@ -310,7 +310,7 @@ siamese/convert_mnist_siamese_data.i: siamese/convert_mnist_siamese_data.cpp.i
 
 # target to preprocess a source file
 siamese/convert_mnist_siamese_data.cpp.i:
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug && $(MAKE) -f examples/CMakeFiles/convert_mnist_siamese_data.dir/build.make examples/CMakeFiles/convert_mnist_siamese_data.dir/siamese/convert_mnist_siamese_data.cpp.i
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug && $(MAKE) -f examples/CMakeFiles/convert_mnist_siamese_data.dir/build.make examples/CMakeFiles/convert_mnist_siamese_data.dir/siamese/convert_mnist_siamese_data.cpp.i
 .PHONY : siamese/convert_mnist_siamese_data.cpp.i
 
 siamese/convert_mnist_siamese_data.s: siamese/convert_mnist_siamese_data.cpp.s
@@ -319,7 +319,7 @@ siamese/convert_mnist_siamese_data.s: siamese/convert_mnist_siamese_data.cpp.s
 
 # target to generate assembly for a file
 siamese/convert_mnist_siamese_data.cpp.s:
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug && $(MAKE) -f examples/CMakeFiles/convert_mnist_siamese_data.dir/build.make examples/CMakeFiles/convert_mnist_siamese_data.dir/siamese/convert_mnist_siamese_data.cpp.s
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug && $(MAKE) -f examples/CMakeFiles/convert_mnist_siamese_data.dir/build.make examples/CMakeFiles/convert_mnist_siamese_data.dir/siamese/convert_mnist_siamese_data.cpp.s
 .PHONY : siamese/convert_mnist_siamese_data.cpp.s
 
 # Help Target
@@ -361,6 +361,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

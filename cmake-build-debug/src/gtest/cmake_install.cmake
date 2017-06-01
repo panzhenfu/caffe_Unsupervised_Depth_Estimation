@@ -1,8 +1,8 @@
-# Install script for directory: /home/panzhenfu/Documents/caffe/src/gtest
+# Install script for directory: /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/src/gtest
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/panzhenfu/Documents/caffe/cmake-build-debug/install")
+  set(CMAKE_INSTALL_PREFIX "/home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 

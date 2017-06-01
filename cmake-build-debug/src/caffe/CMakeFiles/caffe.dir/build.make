@@ -43,10 +43,10 @@ RM = /home/panzhenfu/clion-2017.1.1/bin/cmake/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/panzhenfu/Documents/caffe
+CMAKE_SOURCE_DIR = /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/panzhenfu/Documents/caffe/cmake-build-debug
+CMAKE_BINARY_DIR = /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug
 
 # Include any dependencies generated for this target.
 include src/caffe/CMakeFiles/caffe.dir/depend.make
@@ -60,442 +60,442 @@ include src/caffe/CMakeFiles/caffe.dir/flags.make
 src/caffe/CMakeFiles/cuda_compile_1.dir/layers/cuda_compile_1_generated_abs_loss_layer.cu.o: src/caffe/CMakeFiles/cuda_compile_1.dir/layers/cuda_compile_1_generated_abs_loss_layer.cu.o.depend
 src/caffe/CMakeFiles/cuda_compile_1.dir/layers/cuda_compile_1_generated_abs_loss_layer.cu.o: src/caffe/CMakeFiles/cuda_compile_1.dir/layers/cuda_compile_1_generated_abs_loss_layer.cu.o.Debug.cmake
 src/caffe/CMakeFiles/cuda_compile_1.dir/layers/cuda_compile_1_generated_abs_loss_layer.cu.o: ../src/caffe/layers/abs_loss_layer.cu
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/panzhenfu/Documents/caffe/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building NVCC (Device) object src/caffe/CMakeFiles/cuda_compile_1.dir/layers/cuda_compile_1_generated_abs_loss_layer.cu.o"
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers && /home/panzhenfu/clion-2017.1.1/bin/cmake/bin/cmake -E make_directory /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers/.
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers && /home/panzhenfu/clion-2017.1.1/bin/cmake/bin/cmake -D verbose:BOOL=$(VERBOSE) -D build_configuration:STRING=Debug -D generated_file:STRING=/home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers/./cuda_compile_1_generated_abs_loss_layer.cu.o -D generated_cubin_file:STRING=/home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers/./cuda_compile_1_generated_abs_loss_layer.cu.o.cubin.txt -P /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers/cuda_compile_1_generated_abs_loss_layer.cu.o.Debug.cmake
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building NVCC (Device) object src/caffe/CMakeFiles/cuda_compile_1.dir/layers/cuda_compile_1_generated_abs_loss_layer.cu.o"
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers && /home/panzhenfu/clion-2017.1.1/bin/cmake/bin/cmake -E make_directory /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers/.
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers && /home/panzhenfu/clion-2017.1.1/bin/cmake/bin/cmake -D verbose:BOOL=$(VERBOSE) -D build_configuration:STRING=Debug -D generated_file:STRING=/home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers/./cuda_compile_1_generated_abs_loss_layer.cu.o -D generated_cubin_file:STRING=/home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers/./cuda_compile_1_generated_abs_loss_layer.cu.o.cubin.txt -P /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers/cuda_compile_1_generated_abs_loss_layer.cu.o.Debug.cmake
 
 src/caffe/CMakeFiles/cuda_compile_1.dir/layers/cuda_compile_1_generated_absval_layer.cu.o: src/caffe/CMakeFiles/cuda_compile_1.dir/layers/cuda_compile_1_generated_absval_layer.cu.o.depend
 src/caffe/CMakeFiles/cuda_compile_1.dir/layers/cuda_compile_1_generated_absval_layer.cu.o: src/caffe/CMakeFiles/cuda_compile_1.dir/layers/cuda_compile_1_generated_absval_layer.cu.o.Debug.cmake
 src/caffe/CMakeFiles/cuda_compile_1.dir/layers/cuda_compile_1_generated_absval_layer.cu.o: ../src/caffe/layers/absval_layer.cu
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/panzhenfu/Documents/caffe/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building NVCC (Device) object src/caffe/CMakeFiles/cuda_compile_1.dir/layers/cuda_compile_1_generated_absval_layer.cu.o"
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers && /home/panzhenfu/clion-2017.1.1/bin/cmake/bin/cmake -E make_directory /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers/.
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers && /home/panzhenfu/clion-2017.1.1/bin/cmake/bin/cmake -D verbose:BOOL=$(VERBOSE) -D build_configuration:STRING=Debug -D generated_file:STRING=/home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers/./cuda_compile_1_generated_absval_layer.cu.o -D generated_cubin_file:STRING=/home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers/./cuda_compile_1_generated_absval_layer.cu.o.cubin.txt -P /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers/cuda_compile_1_generated_absval_layer.cu.o.Debug.cmake
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building NVCC (Device) object src/caffe/CMakeFiles/cuda_compile_1.dir/layers/cuda_compile_1_generated_absval_layer.cu.o"
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers && /home/panzhenfu/clion-2017.1.1/bin/cmake/bin/cmake -E make_directory /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers/.
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers && /home/panzhenfu/clion-2017.1.1/bin/cmake/bin/cmake -D verbose:BOOL=$(VERBOSE) -D build_configuration:STRING=Debug -D generated_file:STRING=/home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers/./cuda_compile_1_generated_absval_layer.cu.o -D generated_cubin_file:STRING=/home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers/./cuda_compile_1_generated_absval_layer.cu.o.cubin.txt -P /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers/cuda_compile_1_generated_absval_layer.cu.o.Debug.cmake
 
 src/caffe/CMakeFiles/cuda_compile_1.dir/layers/cuda_compile_1_generated_base_data_layer.cu.o: src/caffe/CMakeFiles/cuda_compile_1.dir/layers/cuda_compile_1_generated_base_data_layer.cu.o.depend
 src/caffe/CMakeFiles/cuda_compile_1.dir/layers/cuda_compile_1_generated_base_data_layer.cu.o: src/caffe/CMakeFiles/cuda_compile_1.dir/layers/cuda_compile_1_generated_base_data_layer.cu.o.Debug.cmake
 src/caffe/CMakeFiles/cuda_compile_1.dir/layers/cuda_compile_1_generated_base_data_layer.cu.o: ../src/caffe/layers/base_data_layer.cu
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/panzhenfu/Documents/caffe/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building NVCC (Device) object src/caffe/CMakeFiles/cuda_compile_1.dir/layers/cuda_compile_1_generated_base_data_layer.cu.o"
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers && /home/panzhenfu/clion-2017.1.1/bin/cmake/bin/cmake -E make_directory /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers/.
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers && /home/panzhenfu/clion-2017.1.1/bin/cmake/bin/cmake -D verbose:BOOL=$(VERBOSE) -D build_configuration:STRING=Debug -D generated_file:STRING=/home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers/./cuda_compile_1_generated_base_data_layer.cu.o -D generated_cubin_file:STRING=/home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers/./cuda_compile_1_generated_base_data_layer.cu.o.cubin.txt -P /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers/cuda_compile_1_generated_base_data_layer.cu.o.Debug.cmake
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building NVCC (Device) object src/caffe/CMakeFiles/cuda_compile_1.dir/layers/cuda_compile_1_generated_base_data_layer.cu.o"
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers && /home/panzhenfu/clion-2017.1.1/bin/cmake/bin/cmake -E make_directory /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers/.
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers && /home/panzhenfu/clion-2017.1.1/bin/cmake/bin/cmake -D verbose:BOOL=$(VERBOSE) -D build_configuration:STRING=Debug -D generated_file:STRING=/home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers/./cuda_compile_1_generated_base_data_layer.cu.o -D generated_cubin_file:STRING=/home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers/./cuda_compile_1_generated_base_data_layer.cu.o.cubin.txt -P /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers/cuda_compile_1_generated_base_data_layer.cu.o.Debug.cmake
 
 src/caffe/CMakeFiles/cuda_compile_1.dir/layers/cuda_compile_1_generated_batch_norm_layer.cu.o: src/caffe/CMakeFiles/cuda_compile_1.dir/layers/cuda_compile_1_generated_batch_norm_layer.cu.o.depend
 src/caffe/CMakeFiles/cuda_compile_1.dir/layers/cuda_compile_1_generated_batch_norm_layer.cu.o: src/caffe/CMakeFiles/cuda_compile_1.dir/layers/cuda_compile_1_generated_batch_norm_layer.cu.o.Debug.cmake
 src/caffe/CMakeFiles/cuda_compile_1.dir/layers/cuda_compile_1_generated_batch_norm_layer.cu.o: ../src/caffe/layers/batch_norm_layer.cu
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/panzhenfu/Documents/caffe/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building NVCC (Device) object src/caffe/CMakeFiles/cuda_compile_1.dir/layers/cuda_compile_1_generated_batch_norm_layer.cu.o"
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers && /home/panzhenfu/clion-2017.1.1/bin/cmake/bin/cmake -E make_directory /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers/.
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers && /home/panzhenfu/clion-2017.1.1/bin/cmake/bin/cmake -D verbose:BOOL=$(VERBOSE) -D build_configuration:STRING=Debug -D generated_file:STRING=/home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers/./cuda_compile_1_generated_batch_norm_layer.cu.o -D generated_cubin_file:STRING=/home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers/./cuda_compile_1_generated_batch_norm_layer.cu.o.cubin.txt -P /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers/cuda_compile_1_generated_batch_norm_layer.cu.o.Debug.cmake
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building NVCC (Device) object src/caffe/CMakeFiles/cuda_compile_1.dir/layers/cuda_compile_1_generated_batch_norm_layer.cu.o"
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers && /home/panzhenfu/clion-2017.1.1/bin/cmake/bin/cmake -E make_directory /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers/.
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers && /home/panzhenfu/clion-2017.1.1/bin/cmake/bin/cmake -D verbose:BOOL=$(VERBOSE) -D build_configuration:STRING=Debug -D generated_file:STRING=/home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers/./cuda_compile_1_generated_batch_norm_layer.cu.o -D generated_cubin_file:STRING=/home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers/./cuda_compile_1_generated_batch_norm_layer.cu.o.cubin.txt -P /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers/cuda_compile_1_generated_batch_norm_layer.cu.o.Debug.cmake
 
 src/caffe/CMakeFiles/cuda_compile_1.dir/layers/cuda_compile_1_generated_batch_reindex_layer.cu.o: src/caffe/CMakeFiles/cuda_compile_1.dir/layers/cuda_compile_1_generated_batch_reindex_layer.cu.o.depend
 src/caffe/CMakeFiles/cuda_compile_1.dir/layers/cuda_compile_1_generated_batch_reindex_layer.cu.o: src/caffe/CMakeFiles/cuda_compile_1.dir/layers/cuda_compile_1_generated_batch_reindex_layer.cu.o.Debug.cmake
 src/caffe/CMakeFiles/cuda_compile_1.dir/layers/cuda_compile_1_generated_batch_reindex_layer.cu.o: ../src/caffe/layers/batch_reindex_layer.cu
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/panzhenfu/Documents/caffe/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building NVCC (Device) object src/caffe/CMakeFiles/cuda_compile_1.dir/layers/cuda_compile_1_generated_batch_reindex_layer.cu.o"
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers && /home/panzhenfu/clion-2017.1.1/bin/cmake/bin/cmake -E make_directory /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers/.
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers && /home/panzhenfu/clion-2017.1.1/bin/cmake/bin/cmake -D verbose:BOOL=$(VERBOSE) -D build_configuration:STRING=Debug -D generated_file:STRING=/home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers/./cuda_compile_1_generated_batch_reindex_layer.cu.o -D generated_cubin_file:STRING=/home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers/./cuda_compile_1_generated_batch_reindex_layer.cu.o.cubin.txt -P /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers/cuda_compile_1_generated_batch_reindex_layer.cu.o.Debug.cmake
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building NVCC (Device) object src/caffe/CMakeFiles/cuda_compile_1.dir/layers/cuda_compile_1_generated_batch_reindex_layer.cu.o"
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers && /home/panzhenfu/clion-2017.1.1/bin/cmake/bin/cmake -E make_directory /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers/.
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers && /home/panzhenfu/clion-2017.1.1/bin/cmake/bin/cmake -D verbose:BOOL=$(VERBOSE) -D build_configuration:STRING=Debug -D generated_file:STRING=/home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers/./cuda_compile_1_generated_batch_reindex_layer.cu.o -D generated_cubin_file:STRING=/home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers/./cuda_compile_1_generated_batch_reindex_layer.cu.o.cubin.txt -P /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers/cuda_compile_1_generated_batch_reindex_layer.cu.o.Debug.cmake
 
 src/caffe/CMakeFiles/cuda_compile_1.dir/layers/cuda_compile_1_generated_bias_layer.cu.o: src/caffe/CMakeFiles/cuda_compile_1.dir/layers/cuda_compile_1_generated_bias_layer.cu.o.depend
 src/caffe/CMakeFiles/cuda_compile_1.dir/layers/cuda_compile_1_generated_bias_layer.cu.o: src/caffe/CMakeFiles/cuda_compile_1.dir/layers/cuda_compile_1_generated_bias_layer.cu.o.Debug.cmake
 src/caffe/CMakeFiles/cuda_compile_1.dir/layers/cuda_compile_1_generated_bias_layer.cu.o: ../src/caffe/layers/bias_layer.cu
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/panzhenfu/Documents/caffe/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building NVCC (Device) object src/caffe/CMakeFiles/cuda_compile_1.dir/layers/cuda_compile_1_generated_bias_layer.cu.o"
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers && /home/panzhenfu/clion-2017.1.1/bin/cmake/bin/cmake -E make_directory /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers/.
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers && /home/panzhenfu/clion-2017.1.1/bin/cmake/bin/cmake -D verbose:BOOL=$(VERBOSE) -D build_configuration:STRING=Debug -D generated_file:STRING=/home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers/./cuda_compile_1_generated_bias_layer.cu.o -D generated_cubin_file:STRING=/home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers/./cuda_compile_1_generated_bias_layer.cu.o.cubin.txt -P /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers/cuda_compile_1_generated_bias_layer.cu.o.Debug.cmake
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building NVCC (Device) object src/caffe/CMakeFiles/cuda_compile_1.dir/layers/cuda_compile_1_generated_bias_layer.cu.o"
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers && /home/panzhenfu/clion-2017.1.1/bin/cmake/bin/cmake -E make_directory /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers/.
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers && /home/panzhenfu/clion-2017.1.1/bin/cmake/bin/cmake -D verbose:BOOL=$(VERBOSE) -D build_configuration:STRING=Debug -D generated_file:STRING=/home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers/./cuda_compile_1_generated_bias_layer.cu.o -D generated_cubin_file:STRING=/home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers/./cuda_compile_1_generated_bias_layer.cu.o.cubin.txt -P /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers/cuda_compile_1_generated_bias_layer.cu.o.Debug.cmake
 
 src/caffe/CMakeFiles/cuda_compile_1.dir/layers/cuda_compile_1_generated_bnll_layer.cu.o: src/caffe/CMakeFiles/cuda_compile_1.dir/layers/cuda_compile_1_generated_bnll_layer.cu.o.depend
 src/caffe/CMakeFiles/cuda_compile_1.dir/layers/cuda_compile_1_generated_bnll_layer.cu.o: src/caffe/CMakeFiles/cuda_compile_1.dir/layers/cuda_compile_1_generated_bnll_layer.cu.o.Debug.cmake
 src/caffe/CMakeFiles/cuda_compile_1.dir/layers/cuda_compile_1_generated_bnll_layer.cu.o: ../src/caffe/layers/bnll_layer.cu
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/panzhenfu/Documents/caffe/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building NVCC (Device) object src/caffe/CMakeFiles/cuda_compile_1.dir/layers/cuda_compile_1_generated_bnll_layer.cu.o"
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers && /home/panzhenfu/clion-2017.1.1/bin/cmake/bin/cmake -E make_directory /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers/.
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers && /home/panzhenfu/clion-2017.1.1/bin/cmake/bin/cmake -D verbose:BOOL=$(VERBOSE) -D build_configuration:STRING=Debug -D generated_file:STRING=/home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers/./cuda_compile_1_generated_bnll_layer.cu.o -D generated_cubin_file:STRING=/home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers/./cuda_compile_1_generated_bnll_layer.cu.o.cubin.txt -P /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers/cuda_compile_1_generated_bnll_layer.cu.o.Debug.cmake
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building NVCC (Device) object src/caffe/CMakeFiles/cuda_compile_1.dir/layers/cuda_compile_1_generated_bnll_layer.cu.o"
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers && /home/panzhenfu/clion-2017.1.1/bin/cmake/bin/cmake -E make_directory /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers/.
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers && /home/panzhenfu/clion-2017.1.1/bin/cmake/bin/cmake -D verbose:BOOL=$(VERBOSE) -D build_configuration:STRING=Debug -D generated_file:STRING=/home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers/./cuda_compile_1_generated_bnll_layer.cu.o -D generated_cubin_file:STRING=/home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers/./cuda_compile_1_generated_bnll_layer.cu.o.cubin.txt -P /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers/cuda_compile_1_generated_bnll_layer.cu.o.Debug.cmake
 
 src/caffe/CMakeFiles/cuda_compile_1.dir/layers/cuda_compile_1_generated_concat_layer.cu.o: src/caffe/CMakeFiles/cuda_compile_1.dir/layers/cuda_compile_1_generated_concat_layer.cu.o.depend
 src/caffe/CMakeFiles/cuda_compile_1.dir/layers/cuda_compile_1_generated_concat_layer.cu.o: src/caffe/CMakeFiles/cuda_compile_1.dir/layers/cuda_compile_1_generated_concat_layer.cu.o.Debug.cmake
 src/caffe/CMakeFiles/cuda_compile_1.dir/layers/cuda_compile_1_generated_concat_layer.cu.o: ../src/caffe/layers/concat_layer.cu
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/panzhenfu/Documents/caffe/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building NVCC (Device) object src/caffe/CMakeFiles/cuda_compile_1.dir/layers/cuda_compile_1_generated_concat_layer.cu.o"
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers && /home/panzhenfu/clion-2017.1.1/bin/cmake/bin/cmake -E make_directory /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers/.
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers && /home/panzhenfu/clion-2017.1.1/bin/cmake/bin/cmake -D verbose:BOOL=$(VERBOSE) -D build_configuration:STRING=Debug -D generated_file:STRING=/home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers/./cuda_compile_1_generated_concat_layer.cu.o -D generated_cubin_file:STRING=/home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers/./cuda_compile_1_generated_concat_layer.cu.o.cubin.txt -P /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers/cuda_compile_1_generated_concat_layer.cu.o.Debug.cmake
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building NVCC (Device) object src/caffe/CMakeFiles/cuda_compile_1.dir/layers/cuda_compile_1_generated_concat_layer.cu.o"
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers && /home/panzhenfu/clion-2017.1.1/bin/cmake/bin/cmake -E make_directory /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers/.
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers && /home/panzhenfu/clion-2017.1.1/bin/cmake/bin/cmake -D verbose:BOOL=$(VERBOSE) -D build_configuration:STRING=Debug -D generated_file:STRING=/home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers/./cuda_compile_1_generated_concat_layer.cu.o -D generated_cubin_file:STRING=/home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers/./cuda_compile_1_generated_concat_layer.cu.o.cubin.txt -P /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers/cuda_compile_1_generated_concat_layer.cu.o.Debug.cmake
 
 src/caffe/CMakeFiles/cuda_compile_1.dir/layers/cuda_compile_1_generated_contrastive_loss_layer.cu.o: src/caffe/CMakeFiles/cuda_compile_1.dir/layers/cuda_compile_1_generated_contrastive_loss_layer.cu.o.depend
 src/caffe/CMakeFiles/cuda_compile_1.dir/layers/cuda_compile_1_generated_contrastive_loss_layer.cu.o: src/caffe/CMakeFiles/cuda_compile_1.dir/layers/cuda_compile_1_generated_contrastive_loss_layer.cu.o.Debug.cmake
 src/caffe/CMakeFiles/cuda_compile_1.dir/layers/cuda_compile_1_generated_contrastive_loss_layer.cu.o: ../src/caffe/layers/contrastive_loss_layer.cu
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/panzhenfu/Documents/caffe/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building NVCC (Device) object src/caffe/CMakeFiles/cuda_compile_1.dir/layers/cuda_compile_1_generated_contrastive_loss_layer.cu.o"
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers && /home/panzhenfu/clion-2017.1.1/bin/cmake/bin/cmake -E make_directory /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers/.
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers && /home/panzhenfu/clion-2017.1.1/bin/cmake/bin/cmake -D verbose:BOOL=$(VERBOSE) -D build_configuration:STRING=Debug -D generated_file:STRING=/home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers/./cuda_compile_1_generated_contrastive_loss_layer.cu.o -D generated_cubin_file:STRING=/home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers/./cuda_compile_1_generated_contrastive_loss_layer.cu.o.cubin.txt -P /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers/cuda_compile_1_generated_contrastive_loss_layer.cu.o.Debug.cmake
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building NVCC (Device) object src/caffe/CMakeFiles/cuda_compile_1.dir/layers/cuda_compile_1_generated_contrastive_loss_layer.cu.o"
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers && /home/panzhenfu/clion-2017.1.1/bin/cmake/bin/cmake -E make_directory /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers/.
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers && /home/panzhenfu/clion-2017.1.1/bin/cmake/bin/cmake -D verbose:BOOL=$(VERBOSE) -D build_configuration:STRING=Debug -D generated_file:STRING=/home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers/./cuda_compile_1_generated_contrastive_loss_layer.cu.o -D generated_cubin_file:STRING=/home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers/./cuda_compile_1_generated_contrastive_loss_layer.cu.o.cubin.txt -P /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers/cuda_compile_1_generated_contrastive_loss_layer.cu.o.Debug.cmake
 
 src/caffe/CMakeFiles/cuda_compile_1.dir/layers/cuda_compile_1_generated_conv_layer.cu.o: src/caffe/CMakeFiles/cuda_compile_1.dir/layers/cuda_compile_1_generated_conv_layer.cu.o.depend
 src/caffe/CMakeFiles/cuda_compile_1.dir/layers/cuda_compile_1_generated_conv_layer.cu.o: src/caffe/CMakeFiles/cuda_compile_1.dir/layers/cuda_compile_1_generated_conv_layer.cu.o.Debug.cmake
 src/caffe/CMakeFiles/cuda_compile_1.dir/layers/cuda_compile_1_generated_conv_layer.cu.o: ../src/caffe/layers/conv_layer.cu
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/panzhenfu/Documents/caffe/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building NVCC (Device) object src/caffe/CMakeFiles/cuda_compile_1.dir/layers/cuda_compile_1_generated_conv_layer.cu.o"
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers && /home/panzhenfu/clion-2017.1.1/bin/cmake/bin/cmake -E make_directory /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers/.
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers && /home/panzhenfu/clion-2017.1.1/bin/cmake/bin/cmake -D verbose:BOOL=$(VERBOSE) -D build_configuration:STRING=Debug -D generated_file:STRING=/home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers/./cuda_compile_1_generated_conv_layer.cu.o -D generated_cubin_file:STRING=/home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers/./cuda_compile_1_generated_conv_layer.cu.o.cubin.txt -P /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers/cuda_compile_1_generated_conv_layer.cu.o.Debug.cmake
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building NVCC (Device) object src/caffe/CMakeFiles/cuda_compile_1.dir/layers/cuda_compile_1_generated_conv_layer.cu.o"
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers && /home/panzhenfu/clion-2017.1.1/bin/cmake/bin/cmake -E make_directory /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers/.
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers && /home/panzhenfu/clion-2017.1.1/bin/cmake/bin/cmake -D verbose:BOOL=$(VERBOSE) -D build_configuration:STRING=Debug -D generated_file:STRING=/home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers/./cuda_compile_1_generated_conv_layer.cu.o -D generated_cubin_file:STRING=/home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers/./cuda_compile_1_generated_conv_layer.cu.o.cubin.txt -P /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers/cuda_compile_1_generated_conv_layer.cu.o.Debug.cmake
 
 src/caffe/CMakeFiles/cuda_compile_1.dir/layers/cuda_compile_1_generated_crop_layer.cu.o: src/caffe/CMakeFiles/cuda_compile_1.dir/layers/cuda_compile_1_generated_crop_layer.cu.o.depend
 src/caffe/CMakeFiles/cuda_compile_1.dir/layers/cuda_compile_1_generated_crop_layer.cu.o: src/caffe/CMakeFiles/cuda_compile_1.dir/layers/cuda_compile_1_generated_crop_layer.cu.o.Debug.cmake
 src/caffe/CMakeFiles/cuda_compile_1.dir/layers/cuda_compile_1_generated_crop_layer.cu.o: ../src/caffe/layers/crop_layer.cu
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/panzhenfu/Documents/caffe/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building NVCC (Device) object src/caffe/CMakeFiles/cuda_compile_1.dir/layers/cuda_compile_1_generated_crop_layer.cu.o"
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers && /home/panzhenfu/clion-2017.1.1/bin/cmake/bin/cmake -E make_directory /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers/.
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers && /home/panzhenfu/clion-2017.1.1/bin/cmake/bin/cmake -D verbose:BOOL=$(VERBOSE) -D build_configuration:STRING=Debug -D generated_file:STRING=/home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers/./cuda_compile_1_generated_crop_layer.cu.o -D generated_cubin_file:STRING=/home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers/./cuda_compile_1_generated_crop_layer.cu.o.cubin.txt -P /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers/cuda_compile_1_generated_crop_layer.cu.o.Debug.cmake
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building NVCC (Device) object src/caffe/CMakeFiles/cuda_compile_1.dir/layers/cuda_compile_1_generated_crop_layer.cu.o"
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers && /home/panzhenfu/clion-2017.1.1/bin/cmake/bin/cmake -E make_directory /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers/.
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers && /home/panzhenfu/clion-2017.1.1/bin/cmake/bin/cmake -D verbose:BOOL=$(VERBOSE) -D build_configuration:STRING=Debug -D generated_file:STRING=/home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers/./cuda_compile_1_generated_crop_layer.cu.o -D generated_cubin_file:STRING=/home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers/./cuda_compile_1_generated_crop_layer.cu.o.cubin.txt -P /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers/cuda_compile_1_generated_crop_layer.cu.o.Debug.cmake
 
 src/caffe/CMakeFiles/cuda_compile_1.dir/layers/cuda_compile_1_generated_cudnn_conv_layer.cu.o: src/caffe/CMakeFiles/cuda_compile_1.dir/layers/cuda_compile_1_generated_cudnn_conv_layer.cu.o.depend
 src/caffe/CMakeFiles/cuda_compile_1.dir/layers/cuda_compile_1_generated_cudnn_conv_layer.cu.o: src/caffe/CMakeFiles/cuda_compile_1.dir/layers/cuda_compile_1_generated_cudnn_conv_layer.cu.o.Debug.cmake
 src/caffe/CMakeFiles/cuda_compile_1.dir/layers/cuda_compile_1_generated_cudnn_conv_layer.cu.o: ../src/caffe/layers/cudnn_conv_layer.cu
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/panzhenfu/Documents/caffe/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building NVCC (Device) object src/caffe/CMakeFiles/cuda_compile_1.dir/layers/cuda_compile_1_generated_cudnn_conv_layer.cu.o"
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers && /home/panzhenfu/clion-2017.1.1/bin/cmake/bin/cmake -E make_directory /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers/.
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers && /home/panzhenfu/clion-2017.1.1/bin/cmake/bin/cmake -D verbose:BOOL=$(VERBOSE) -D build_configuration:STRING=Debug -D generated_file:STRING=/home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers/./cuda_compile_1_generated_cudnn_conv_layer.cu.o -D generated_cubin_file:STRING=/home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers/./cuda_compile_1_generated_cudnn_conv_layer.cu.o.cubin.txt -P /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers/cuda_compile_1_generated_cudnn_conv_layer.cu.o.Debug.cmake
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building NVCC (Device) object src/caffe/CMakeFiles/cuda_compile_1.dir/layers/cuda_compile_1_generated_cudnn_conv_layer.cu.o"
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers && /home/panzhenfu/clion-2017.1.1/bin/cmake/bin/cmake -E make_directory /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers/.
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers && /home/panzhenfu/clion-2017.1.1/bin/cmake/bin/cmake -D verbose:BOOL=$(VERBOSE) -D build_configuration:STRING=Debug -D generated_file:STRING=/home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers/./cuda_compile_1_generated_cudnn_conv_layer.cu.o -D generated_cubin_file:STRING=/home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers/./cuda_compile_1_generated_cudnn_conv_layer.cu.o.cubin.txt -P /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers/cuda_compile_1_generated_cudnn_conv_layer.cu.o.Debug.cmake
 
 src/caffe/CMakeFiles/cuda_compile_1.dir/layers/cuda_compile_1_generated_cudnn_lcn_layer.cu.o: src/caffe/CMakeFiles/cuda_compile_1.dir/layers/cuda_compile_1_generated_cudnn_lcn_layer.cu.o.depend
 src/caffe/CMakeFiles/cuda_compile_1.dir/layers/cuda_compile_1_generated_cudnn_lcn_layer.cu.o: src/caffe/CMakeFiles/cuda_compile_1.dir/layers/cuda_compile_1_generated_cudnn_lcn_layer.cu.o.Debug.cmake
 src/caffe/CMakeFiles/cuda_compile_1.dir/layers/cuda_compile_1_generated_cudnn_lcn_layer.cu.o: ../src/caffe/layers/cudnn_lcn_layer.cu
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/panzhenfu/Documents/caffe/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building NVCC (Device) object src/caffe/CMakeFiles/cuda_compile_1.dir/layers/cuda_compile_1_generated_cudnn_lcn_layer.cu.o"
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers && /home/panzhenfu/clion-2017.1.1/bin/cmake/bin/cmake -E make_directory /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers/.
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers && /home/panzhenfu/clion-2017.1.1/bin/cmake/bin/cmake -D verbose:BOOL=$(VERBOSE) -D build_configuration:STRING=Debug -D generated_file:STRING=/home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers/./cuda_compile_1_generated_cudnn_lcn_layer.cu.o -D generated_cubin_file:STRING=/home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers/./cuda_compile_1_generated_cudnn_lcn_layer.cu.o.cubin.txt -P /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers/cuda_compile_1_generated_cudnn_lcn_layer.cu.o.Debug.cmake
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building NVCC (Device) object src/caffe/CMakeFiles/cuda_compile_1.dir/layers/cuda_compile_1_generated_cudnn_lcn_layer.cu.o"
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers && /home/panzhenfu/clion-2017.1.1/bin/cmake/bin/cmake -E make_directory /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers/.
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers && /home/panzhenfu/clion-2017.1.1/bin/cmake/bin/cmake -D verbose:BOOL=$(VERBOSE) -D build_configuration:STRING=Debug -D generated_file:STRING=/home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers/./cuda_compile_1_generated_cudnn_lcn_layer.cu.o -D generated_cubin_file:STRING=/home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers/./cuda_compile_1_generated_cudnn_lcn_layer.cu.o.cubin.txt -P /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers/cuda_compile_1_generated_cudnn_lcn_layer.cu.o.Debug.cmake
 
 src/caffe/CMakeFiles/cuda_compile_1.dir/layers/cuda_compile_1_generated_cudnn_lrn_layer.cu.o: src/caffe/CMakeFiles/cuda_compile_1.dir/layers/cuda_compile_1_generated_cudnn_lrn_layer.cu.o.depend
 src/caffe/CMakeFiles/cuda_compile_1.dir/layers/cuda_compile_1_generated_cudnn_lrn_layer.cu.o: src/caffe/CMakeFiles/cuda_compile_1.dir/layers/cuda_compile_1_generated_cudnn_lrn_layer.cu.o.Debug.cmake
 src/caffe/CMakeFiles/cuda_compile_1.dir/layers/cuda_compile_1_generated_cudnn_lrn_layer.cu.o: ../src/caffe/layers/cudnn_lrn_layer.cu
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/panzhenfu/Documents/caffe/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building NVCC (Device) object src/caffe/CMakeFiles/cuda_compile_1.dir/layers/cuda_compile_1_generated_cudnn_lrn_layer.cu.o"
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers && /home/panzhenfu/clion-2017.1.1/bin/cmake/bin/cmake -E make_directory /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers/.
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers && /home/panzhenfu/clion-2017.1.1/bin/cmake/bin/cmake -D verbose:BOOL=$(VERBOSE) -D build_configuration:STRING=Debug -D generated_file:STRING=/home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers/./cuda_compile_1_generated_cudnn_lrn_layer.cu.o -D generated_cubin_file:STRING=/home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers/./cuda_compile_1_generated_cudnn_lrn_layer.cu.o.cubin.txt -P /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers/cuda_compile_1_generated_cudnn_lrn_layer.cu.o.Debug.cmake
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building NVCC (Device) object src/caffe/CMakeFiles/cuda_compile_1.dir/layers/cuda_compile_1_generated_cudnn_lrn_layer.cu.o"
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers && /home/panzhenfu/clion-2017.1.1/bin/cmake/bin/cmake -E make_directory /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers/.
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers && /home/panzhenfu/clion-2017.1.1/bin/cmake/bin/cmake -D verbose:BOOL=$(VERBOSE) -D build_configuration:STRING=Debug -D generated_file:STRING=/home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers/./cuda_compile_1_generated_cudnn_lrn_layer.cu.o -D generated_cubin_file:STRING=/home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers/./cuda_compile_1_generated_cudnn_lrn_layer.cu.o.cubin.txt -P /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers/cuda_compile_1_generated_cudnn_lrn_layer.cu.o.Debug.cmake
 
 src/caffe/CMakeFiles/cuda_compile_1.dir/layers/cuda_compile_1_generated_cudnn_pooling_layer.cu.o: src/caffe/CMakeFiles/cuda_compile_1.dir/layers/cuda_compile_1_generated_cudnn_pooling_layer.cu.o.depend
 src/caffe/CMakeFiles/cuda_compile_1.dir/layers/cuda_compile_1_generated_cudnn_pooling_layer.cu.o: src/caffe/CMakeFiles/cuda_compile_1.dir/layers/cuda_compile_1_generated_cudnn_pooling_layer.cu.o.Debug.cmake
 src/caffe/CMakeFiles/cuda_compile_1.dir/layers/cuda_compile_1_generated_cudnn_pooling_layer.cu.o: ../src/caffe/layers/cudnn_pooling_layer.cu
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/panzhenfu/Documents/caffe/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building NVCC (Device) object src/caffe/CMakeFiles/cuda_compile_1.dir/layers/cuda_compile_1_generated_cudnn_pooling_layer.cu.o"
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers && /home/panzhenfu/clion-2017.1.1/bin/cmake/bin/cmake -E make_directory /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers/.
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers && /home/panzhenfu/clion-2017.1.1/bin/cmake/bin/cmake -D verbose:BOOL=$(VERBOSE) -D build_configuration:STRING=Debug -D generated_file:STRING=/home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers/./cuda_compile_1_generated_cudnn_pooling_layer.cu.o -D generated_cubin_file:STRING=/home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers/./cuda_compile_1_generated_cudnn_pooling_layer.cu.o.cubin.txt -P /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers/cuda_compile_1_generated_cudnn_pooling_layer.cu.o.Debug.cmake
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building NVCC (Device) object src/caffe/CMakeFiles/cuda_compile_1.dir/layers/cuda_compile_1_generated_cudnn_pooling_layer.cu.o"
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers && /home/panzhenfu/clion-2017.1.1/bin/cmake/bin/cmake -E make_directory /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers/.
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers && /home/panzhenfu/clion-2017.1.1/bin/cmake/bin/cmake -D verbose:BOOL=$(VERBOSE) -D build_configuration:STRING=Debug -D generated_file:STRING=/home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers/./cuda_compile_1_generated_cudnn_pooling_layer.cu.o -D generated_cubin_file:STRING=/home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers/./cuda_compile_1_generated_cudnn_pooling_layer.cu.o.cubin.txt -P /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers/cuda_compile_1_generated_cudnn_pooling_layer.cu.o.Debug.cmake
 
 src/caffe/CMakeFiles/cuda_compile_1.dir/layers/cuda_compile_1_generated_cudnn_relu_layer.cu.o: src/caffe/CMakeFiles/cuda_compile_1.dir/layers/cuda_compile_1_generated_cudnn_relu_layer.cu.o.depend
 src/caffe/CMakeFiles/cuda_compile_1.dir/layers/cuda_compile_1_generated_cudnn_relu_layer.cu.o: src/caffe/CMakeFiles/cuda_compile_1.dir/layers/cuda_compile_1_generated_cudnn_relu_layer.cu.o.Debug.cmake
 src/caffe/CMakeFiles/cuda_compile_1.dir/layers/cuda_compile_1_generated_cudnn_relu_layer.cu.o: ../src/caffe/layers/cudnn_relu_layer.cu
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/panzhenfu/Documents/caffe/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building NVCC (Device) object src/caffe/CMakeFiles/cuda_compile_1.dir/layers/cuda_compile_1_generated_cudnn_relu_layer.cu.o"
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers && /home/panzhenfu/clion-2017.1.1/bin/cmake/bin/cmake -E make_directory /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers/.
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers && /home/panzhenfu/clion-2017.1.1/bin/cmake/bin/cmake -D verbose:BOOL=$(VERBOSE) -D build_configuration:STRING=Debug -D generated_file:STRING=/home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers/./cuda_compile_1_generated_cudnn_relu_layer.cu.o -D generated_cubin_file:STRING=/home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers/./cuda_compile_1_generated_cudnn_relu_layer.cu.o.cubin.txt -P /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers/cuda_compile_1_generated_cudnn_relu_layer.cu.o.Debug.cmake
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building NVCC (Device) object src/caffe/CMakeFiles/cuda_compile_1.dir/layers/cuda_compile_1_generated_cudnn_relu_layer.cu.o"
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers && /home/panzhenfu/clion-2017.1.1/bin/cmake/bin/cmake -E make_directory /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers/.
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers && /home/panzhenfu/clion-2017.1.1/bin/cmake/bin/cmake -D verbose:BOOL=$(VERBOSE) -D build_configuration:STRING=Debug -D generated_file:STRING=/home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers/./cuda_compile_1_generated_cudnn_relu_layer.cu.o -D generated_cubin_file:STRING=/home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers/./cuda_compile_1_generated_cudnn_relu_layer.cu.o.cubin.txt -P /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers/cuda_compile_1_generated_cudnn_relu_layer.cu.o.Debug.cmake
 
 src/caffe/CMakeFiles/cuda_compile_1.dir/layers/cuda_compile_1_generated_cudnn_sigmoid_layer.cu.o: src/caffe/CMakeFiles/cuda_compile_1.dir/layers/cuda_compile_1_generated_cudnn_sigmoid_layer.cu.o.depend
 src/caffe/CMakeFiles/cuda_compile_1.dir/layers/cuda_compile_1_generated_cudnn_sigmoid_layer.cu.o: src/caffe/CMakeFiles/cuda_compile_1.dir/layers/cuda_compile_1_generated_cudnn_sigmoid_layer.cu.o.Debug.cmake
 src/caffe/CMakeFiles/cuda_compile_1.dir/layers/cuda_compile_1_generated_cudnn_sigmoid_layer.cu.o: ../src/caffe/layers/cudnn_sigmoid_layer.cu
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/panzhenfu/Documents/caffe/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building NVCC (Device) object src/caffe/CMakeFiles/cuda_compile_1.dir/layers/cuda_compile_1_generated_cudnn_sigmoid_layer.cu.o"
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers && /home/panzhenfu/clion-2017.1.1/bin/cmake/bin/cmake -E make_directory /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers/.
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers && /home/panzhenfu/clion-2017.1.1/bin/cmake/bin/cmake -D verbose:BOOL=$(VERBOSE) -D build_configuration:STRING=Debug -D generated_file:STRING=/home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers/./cuda_compile_1_generated_cudnn_sigmoid_layer.cu.o -D generated_cubin_file:STRING=/home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers/./cuda_compile_1_generated_cudnn_sigmoid_layer.cu.o.cubin.txt -P /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers/cuda_compile_1_generated_cudnn_sigmoid_layer.cu.o.Debug.cmake
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building NVCC (Device) object src/caffe/CMakeFiles/cuda_compile_1.dir/layers/cuda_compile_1_generated_cudnn_sigmoid_layer.cu.o"
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers && /home/panzhenfu/clion-2017.1.1/bin/cmake/bin/cmake -E make_directory /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers/.
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers && /home/panzhenfu/clion-2017.1.1/bin/cmake/bin/cmake -D verbose:BOOL=$(VERBOSE) -D build_configuration:STRING=Debug -D generated_file:STRING=/home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers/./cuda_compile_1_generated_cudnn_sigmoid_layer.cu.o -D generated_cubin_file:STRING=/home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers/./cuda_compile_1_generated_cudnn_sigmoid_layer.cu.o.cubin.txt -P /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers/cuda_compile_1_generated_cudnn_sigmoid_layer.cu.o.Debug.cmake
 
 src/caffe/CMakeFiles/cuda_compile_1.dir/layers/cuda_compile_1_generated_cudnn_softmax_layer.cu.o: src/caffe/CMakeFiles/cuda_compile_1.dir/layers/cuda_compile_1_generated_cudnn_softmax_layer.cu.o.depend
 src/caffe/CMakeFiles/cuda_compile_1.dir/layers/cuda_compile_1_generated_cudnn_softmax_layer.cu.o: src/caffe/CMakeFiles/cuda_compile_1.dir/layers/cuda_compile_1_generated_cudnn_softmax_layer.cu.o.Debug.cmake
 src/caffe/CMakeFiles/cuda_compile_1.dir/layers/cuda_compile_1_generated_cudnn_softmax_layer.cu.o: ../src/caffe/layers/cudnn_softmax_layer.cu
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/panzhenfu/Documents/caffe/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building NVCC (Device) object src/caffe/CMakeFiles/cuda_compile_1.dir/layers/cuda_compile_1_generated_cudnn_softmax_layer.cu.o"
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers && /home/panzhenfu/clion-2017.1.1/bin/cmake/bin/cmake -E make_directory /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers/.
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers && /home/panzhenfu/clion-2017.1.1/bin/cmake/bin/cmake -D verbose:BOOL=$(VERBOSE) -D build_configuration:STRING=Debug -D generated_file:STRING=/home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers/./cuda_compile_1_generated_cudnn_softmax_layer.cu.o -D generated_cubin_file:STRING=/home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers/./cuda_compile_1_generated_cudnn_softmax_layer.cu.o.cubin.txt -P /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers/cuda_compile_1_generated_cudnn_softmax_layer.cu.o.Debug.cmake
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building NVCC (Device) object src/caffe/CMakeFiles/cuda_compile_1.dir/layers/cuda_compile_1_generated_cudnn_softmax_layer.cu.o"
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers && /home/panzhenfu/clion-2017.1.1/bin/cmake/bin/cmake -E make_directory /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers/.
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers && /home/panzhenfu/clion-2017.1.1/bin/cmake/bin/cmake -D verbose:BOOL=$(VERBOSE) -D build_configuration:STRING=Debug -D generated_file:STRING=/home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers/./cuda_compile_1_generated_cudnn_softmax_layer.cu.o -D generated_cubin_file:STRING=/home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers/./cuda_compile_1_generated_cudnn_softmax_layer.cu.o.cubin.txt -P /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers/cuda_compile_1_generated_cudnn_softmax_layer.cu.o.Debug.cmake
 
 src/caffe/CMakeFiles/cuda_compile_1.dir/layers/cuda_compile_1_generated_cudnn_tanh_layer.cu.o: src/caffe/CMakeFiles/cuda_compile_1.dir/layers/cuda_compile_1_generated_cudnn_tanh_layer.cu.o.depend
 src/caffe/CMakeFiles/cuda_compile_1.dir/layers/cuda_compile_1_generated_cudnn_tanh_layer.cu.o: src/caffe/CMakeFiles/cuda_compile_1.dir/layers/cuda_compile_1_generated_cudnn_tanh_layer.cu.o.Debug.cmake
 src/caffe/CMakeFiles/cuda_compile_1.dir/layers/cuda_compile_1_generated_cudnn_tanh_layer.cu.o: ../src/caffe/layers/cudnn_tanh_layer.cu
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/panzhenfu/Documents/caffe/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building NVCC (Device) object src/caffe/CMakeFiles/cuda_compile_1.dir/layers/cuda_compile_1_generated_cudnn_tanh_layer.cu.o"
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers && /home/panzhenfu/clion-2017.1.1/bin/cmake/bin/cmake -E make_directory /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers/.
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers && /home/panzhenfu/clion-2017.1.1/bin/cmake/bin/cmake -D verbose:BOOL=$(VERBOSE) -D build_configuration:STRING=Debug -D generated_file:STRING=/home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers/./cuda_compile_1_generated_cudnn_tanh_layer.cu.o -D generated_cubin_file:STRING=/home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers/./cuda_compile_1_generated_cudnn_tanh_layer.cu.o.cubin.txt -P /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers/cuda_compile_1_generated_cudnn_tanh_layer.cu.o.Debug.cmake
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building NVCC (Device) object src/caffe/CMakeFiles/cuda_compile_1.dir/layers/cuda_compile_1_generated_cudnn_tanh_layer.cu.o"
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers && /home/panzhenfu/clion-2017.1.1/bin/cmake/bin/cmake -E make_directory /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers/.
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers && /home/panzhenfu/clion-2017.1.1/bin/cmake/bin/cmake -D verbose:BOOL=$(VERBOSE) -D build_configuration:STRING=Debug -D generated_file:STRING=/home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers/./cuda_compile_1_generated_cudnn_tanh_layer.cu.o -D generated_cubin_file:STRING=/home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers/./cuda_compile_1_generated_cudnn_tanh_layer.cu.o.cubin.txt -P /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers/cuda_compile_1_generated_cudnn_tanh_layer.cu.o.Debug.cmake
 
 src/caffe/CMakeFiles/cuda_compile_1.dir/layers/cuda_compile_1_generated_deconv_layer.cu.o: src/caffe/CMakeFiles/cuda_compile_1.dir/layers/cuda_compile_1_generated_deconv_layer.cu.o.depend
 src/caffe/CMakeFiles/cuda_compile_1.dir/layers/cuda_compile_1_generated_deconv_layer.cu.o: src/caffe/CMakeFiles/cuda_compile_1.dir/layers/cuda_compile_1_generated_deconv_layer.cu.o.Debug.cmake
 src/caffe/CMakeFiles/cuda_compile_1.dir/layers/cuda_compile_1_generated_deconv_layer.cu.o: ../src/caffe/layers/deconv_layer.cu
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/panzhenfu/Documents/caffe/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building NVCC (Device) object src/caffe/CMakeFiles/cuda_compile_1.dir/layers/cuda_compile_1_generated_deconv_layer.cu.o"
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers && /home/panzhenfu/clion-2017.1.1/bin/cmake/bin/cmake -E make_directory /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers/.
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers && /home/panzhenfu/clion-2017.1.1/bin/cmake/bin/cmake -D verbose:BOOL=$(VERBOSE) -D build_configuration:STRING=Debug -D generated_file:STRING=/home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers/./cuda_compile_1_generated_deconv_layer.cu.o -D generated_cubin_file:STRING=/home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers/./cuda_compile_1_generated_deconv_layer.cu.o.cubin.txt -P /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers/cuda_compile_1_generated_deconv_layer.cu.o.Debug.cmake
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building NVCC (Device) object src/caffe/CMakeFiles/cuda_compile_1.dir/layers/cuda_compile_1_generated_deconv_layer.cu.o"
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers && /home/panzhenfu/clion-2017.1.1/bin/cmake/bin/cmake -E make_directory /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers/.
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers && /home/panzhenfu/clion-2017.1.1/bin/cmake/bin/cmake -D verbose:BOOL=$(VERBOSE) -D build_configuration:STRING=Debug -D generated_file:STRING=/home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers/./cuda_compile_1_generated_deconv_layer.cu.o -D generated_cubin_file:STRING=/home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers/./cuda_compile_1_generated_deconv_layer.cu.o.cubin.txt -P /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers/cuda_compile_1_generated_deconv_layer.cu.o.Debug.cmake
 
 src/caffe/CMakeFiles/cuda_compile_1.dir/layers/cuda_compile_1_generated_dropout_layer.cu.o: src/caffe/CMakeFiles/cuda_compile_1.dir/layers/cuda_compile_1_generated_dropout_layer.cu.o.depend
 src/caffe/CMakeFiles/cuda_compile_1.dir/layers/cuda_compile_1_generated_dropout_layer.cu.o: src/caffe/CMakeFiles/cuda_compile_1.dir/layers/cuda_compile_1_generated_dropout_layer.cu.o.Debug.cmake
 src/caffe/CMakeFiles/cuda_compile_1.dir/layers/cuda_compile_1_generated_dropout_layer.cu.o: ../src/caffe/layers/dropout_layer.cu
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/panzhenfu/Documents/caffe/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building NVCC (Device) object src/caffe/CMakeFiles/cuda_compile_1.dir/layers/cuda_compile_1_generated_dropout_layer.cu.o"
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers && /home/panzhenfu/clion-2017.1.1/bin/cmake/bin/cmake -E make_directory /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers/.
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers && /home/panzhenfu/clion-2017.1.1/bin/cmake/bin/cmake -D verbose:BOOL=$(VERBOSE) -D build_configuration:STRING=Debug -D generated_file:STRING=/home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers/./cuda_compile_1_generated_dropout_layer.cu.o -D generated_cubin_file:STRING=/home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers/./cuda_compile_1_generated_dropout_layer.cu.o.cubin.txt -P /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers/cuda_compile_1_generated_dropout_layer.cu.o.Debug.cmake
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building NVCC (Device) object src/caffe/CMakeFiles/cuda_compile_1.dir/layers/cuda_compile_1_generated_dropout_layer.cu.o"
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers && /home/panzhenfu/clion-2017.1.1/bin/cmake/bin/cmake -E make_directory /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers/.
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers && /home/panzhenfu/clion-2017.1.1/bin/cmake/bin/cmake -D verbose:BOOL=$(VERBOSE) -D build_configuration:STRING=Debug -D generated_file:STRING=/home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers/./cuda_compile_1_generated_dropout_layer.cu.o -D generated_cubin_file:STRING=/home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers/./cuda_compile_1_generated_dropout_layer.cu.o.cubin.txt -P /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers/cuda_compile_1_generated_dropout_layer.cu.o.Debug.cmake
 
 src/caffe/CMakeFiles/cuda_compile_1.dir/layers/cuda_compile_1_generated_eltwise_layer.cu.o: src/caffe/CMakeFiles/cuda_compile_1.dir/layers/cuda_compile_1_generated_eltwise_layer.cu.o.depend
 src/caffe/CMakeFiles/cuda_compile_1.dir/layers/cuda_compile_1_generated_eltwise_layer.cu.o: src/caffe/CMakeFiles/cuda_compile_1.dir/layers/cuda_compile_1_generated_eltwise_layer.cu.o.Debug.cmake
 src/caffe/CMakeFiles/cuda_compile_1.dir/layers/cuda_compile_1_generated_eltwise_layer.cu.o: ../src/caffe/layers/eltwise_layer.cu
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/panzhenfu/Documents/caffe/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building NVCC (Device) object src/caffe/CMakeFiles/cuda_compile_1.dir/layers/cuda_compile_1_generated_eltwise_layer.cu.o"
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers && /home/panzhenfu/clion-2017.1.1/bin/cmake/bin/cmake -E make_directory /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers/.
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers && /home/panzhenfu/clion-2017.1.1/bin/cmake/bin/cmake -D verbose:BOOL=$(VERBOSE) -D build_configuration:STRING=Debug -D generated_file:STRING=/home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers/./cuda_compile_1_generated_eltwise_layer.cu.o -D generated_cubin_file:STRING=/home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers/./cuda_compile_1_generated_eltwise_layer.cu.o.cubin.txt -P /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers/cuda_compile_1_generated_eltwise_layer.cu.o.Debug.cmake
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building NVCC (Device) object src/caffe/CMakeFiles/cuda_compile_1.dir/layers/cuda_compile_1_generated_eltwise_layer.cu.o"
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers && /home/panzhenfu/clion-2017.1.1/bin/cmake/bin/cmake -E make_directory /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers/.
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers && /home/panzhenfu/clion-2017.1.1/bin/cmake/bin/cmake -D verbose:BOOL=$(VERBOSE) -D build_configuration:STRING=Debug -D generated_file:STRING=/home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers/./cuda_compile_1_generated_eltwise_layer.cu.o -D generated_cubin_file:STRING=/home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers/./cuda_compile_1_generated_eltwise_layer.cu.o.cubin.txt -P /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers/cuda_compile_1_generated_eltwise_layer.cu.o.Debug.cmake
 
 src/caffe/CMakeFiles/cuda_compile_1.dir/layers/cuda_compile_1_generated_elu_layer.cu.o: src/caffe/CMakeFiles/cuda_compile_1.dir/layers/cuda_compile_1_generated_elu_layer.cu.o.depend
 src/caffe/CMakeFiles/cuda_compile_1.dir/layers/cuda_compile_1_generated_elu_layer.cu.o: src/caffe/CMakeFiles/cuda_compile_1.dir/layers/cuda_compile_1_generated_elu_layer.cu.o.Debug.cmake
 src/caffe/CMakeFiles/cuda_compile_1.dir/layers/cuda_compile_1_generated_elu_layer.cu.o: ../src/caffe/layers/elu_layer.cu
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/panzhenfu/Documents/caffe/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building NVCC (Device) object src/caffe/CMakeFiles/cuda_compile_1.dir/layers/cuda_compile_1_generated_elu_layer.cu.o"
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers && /home/panzhenfu/clion-2017.1.1/bin/cmake/bin/cmake -E make_directory /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers/.
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers && /home/panzhenfu/clion-2017.1.1/bin/cmake/bin/cmake -D verbose:BOOL=$(VERBOSE) -D build_configuration:STRING=Debug -D generated_file:STRING=/home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers/./cuda_compile_1_generated_elu_layer.cu.o -D generated_cubin_file:STRING=/home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers/./cuda_compile_1_generated_elu_layer.cu.o.cubin.txt -P /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers/cuda_compile_1_generated_elu_layer.cu.o.Debug.cmake
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building NVCC (Device) object src/caffe/CMakeFiles/cuda_compile_1.dir/layers/cuda_compile_1_generated_elu_layer.cu.o"
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers && /home/panzhenfu/clion-2017.1.1/bin/cmake/bin/cmake -E make_directory /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers/.
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers && /home/panzhenfu/clion-2017.1.1/bin/cmake/bin/cmake -D verbose:BOOL=$(VERBOSE) -D build_configuration:STRING=Debug -D generated_file:STRING=/home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers/./cuda_compile_1_generated_elu_layer.cu.o -D generated_cubin_file:STRING=/home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers/./cuda_compile_1_generated_elu_layer.cu.o.cubin.txt -P /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers/cuda_compile_1_generated_elu_layer.cu.o.Debug.cmake
 
 src/caffe/CMakeFiles/cuda_compile_1.dir/layers/cuda_compile_1_generated_embed_layer.cu.o: src/caffe/CMakeFiles/cuda_compile_1.dir/layers/cuda_compile_1_generated_embed_layer.cu.o.depend
 src/caffe/CMakeFiles/cuda_compile_1.dir/layers/cuda_compile_1_generated_embed_layer.cu.o: src/caffe/CMakeFiles/cuda_compile_1.dir/layers/cuda_compile_1_generated_embed_layer.cu.o.Debug.cmake
 src/caffe/CMakeFiles/cuda_compile_1.dir/layers/cuda_compile_1_generated_embed_layer.cu.o: ../src/caffe/layers/embed_layer.cu
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/panzhenfu/Documents/caffe/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building NVCC (Device) object src/caffe/CMakeFiles/cuda_compile_1.dir/layers/cuda_compile_1_generated_embed_layer.cu.o"
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers && /home/panzhenfu/clion-2017.1.1/bin/cmake/bin/cmake -E make_directory /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers/.
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers && /home/panzhenfu/clion-2017.1.1/bin/cmake/bin/cmake -D verbose:BOOL=$(VERBOSE) -D build_configuration:STRING=Debug -D generated_file:STRING=/home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers/./cuda_compile_1_generated_embed_layer.cu.o -D generated_cubin_file:STRING=/home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers/./cuda_compile_1_generated_embed_layer.cu.o.cubin.txt -P /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers/cuda_compile_1_generated_embed_layer.cu.o.Debug.cmake
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building NVCC (Device) object src/caffe/CMakeFiles/cuda_compile_1.dir/layers/cuda_compile_1_generated_embed_layer.cu.o"
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers && /home/panzhenfu/clion-2017.1.1/bin/cmake/bin/cmake -E make_directory /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers/.
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers && /home/panzhenfu/clion-2017.1.1/bin/cmake/bin/cmake -D verbose:BOOL=$(VERBOSE) -D build_configuration:STRING=Debug -D generated_file:STRING=/home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers/./cuda_compile_1_generated_embed_layer.cu.o -D generated_cubin_file:STRING=/home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers/./cuda_compile_1_generated_embed_layer.cu.o.cubin.txt -P /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers/cuda_compile_1_generated_embed_layer.cu.o.Debug.cmake
 
 src/caffe/CMakeFiles/cuda_compile_1.dir/layers/cuda_compile_1_generated_euclidean_loss_layer.cu.o: src/caffe/CMakeFiles/cuda_compile_1.dir/layers/cuda_compile_1_generated_euclidean_loss_layer.cu.o.depend
 src/caffe/CMakeFiles/cuda_compile_1.dir/layers/cuda_compile_1_generated_euclidean_loss_layer.cu.o: src/caffe/CMakeFiles/cuda_compile_1.dir/layers/cuda_compile_1_generated_euclidean_loss_layer.cu.o.Debug.cmake
 src/caffe/CMakeFiles/cuda_compile_1.dir/layers/cuda_compile_1_generated_euclidean_loss_layer.cu.o: ../src/caffe/layers/euclidean_loss_layer.cu
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/panzhenfu/Documents/caffe/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building NVCC (Device) object src/caffe/CMakeFiles/cuda_compile_1.dir/layers/cuda_compile_1_generated_euclidean_loss_layer.cu.o"
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers && /home/panzhenfu/clion-2017.1.1/bin/cmake/bin/cmake -E make_directory /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers/.
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers && /home/panzhenfu/clion-2017.1.1/bin/cmake/bin/cmake -D verbose:BOOL=$(VERBOSE) -D build_configuration:STRING=Debug -D generated_file:STRING=/home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers/./cuda_compile_1_generated_euclidean_loss_layer.cu.o -D generated_cubin_file:STRING=/home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers/./cuda_compile_1_generated_euclidean_loss_layer.cu.o.cubin.txt -P /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers/cuda_compile_1_generated_euclidean_loss_layer.cu.o.Debug.cmake
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building NVCC (Device) object src/caffe/CMakeFiles/cuda_compile_1.dir/layers/cuda_compile_1_generated_euclidean_loss_layer.cu.o"
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers && /home/panzhenfu/clion-2017.1.1/bin/cmake/bin/cmake -E make_directory /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers/.
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers && /home/panzhenfu/clion-2017.1.1/bin/cmake/bin/cmake -D verbose:BOOL=$(VERBOSE) -D build_configuration:STRING=Debug -D generated_file:STRING=/home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers/./cuda_compile_1_generated_euclidean_loss_layer.cu.o -D generated_cubin_file:STRING=/home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers/./cuda_compile_1_generated_euclidean_loss_layer.cu.o.cubin.txt -P /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers/cuda_compile_1_generated_euclidean_loss_layer.cu.o.Debug.cmake
 
 src/caffe/CMakeFiles/cuda_compile_1.dir/layers/cuda_compile_1_generated_exp_layer.cu.o: src/caffe/CMakeFiles/cuda_compile_1.dir/layers/cuda_compile_1_generated_exp_layer.cu.o.depend
 src/caffe/CMakeFiles/cuda_compile_1.dir/layers/cuda_compile_1_generated_exp_layer.cu.o: src/caffe/CMakeFiles/cuda_compile_1.dir/layers/cuda_compile_1_generated_exp_layer.cu.o.Debug.cmake
 src/caffe/CMakeFiles/cuda_compile_1.dir/layers/cuda_compile_1_generated_exp_layer.cu.o: ../src/caffe/layers/exp_layer.cu
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/panzhenfu/Documents/caffe/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building NVCC (Device) object src/caffe/CMakeFiles/cuda_compile_1.dir/layers/cuda_compile_1_generated_exp_layer.cu.o"
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers && /home/panzhenfu/clion-2017.1.1/bin/cmake/bin/cmake -E make_directory /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers/.
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers && /home/panzhenfu/clion-2017.1.1/bin/cmake/bin/cmake -D verbose:BOOL=$(VERBOSE) -D build_configuration:STRING=Debug -D generated_file:STRING=/home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers/./cuda_compile_1_generated_exp_layer.cu.o -D generated_cubin_file:STRING=/home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers/./cuda_compile_1_generated_exp_layer.cu.o.cubin.txt -P /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers/cuda_compile_1_generated_exp_layer.cu.o.Debug.cmake
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building NVCC (Device) object src/caffe/CMakeFiles/cuda_compile_1.dir/layers/cuda_compile_1_generated_exp_layer.cu.o"
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers && /home/panzhenfu/clion-2017.1.1/bin/cmake/bin/cmake -E make_directory /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers/.
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers && /home/panzhenfu/clion-2017.1.1/bin/cmake/bin/cmake -D verbose:BOOL=$(VERBOSE) -D build_configuration:STRING=Debug -D generated_file:STRING=/home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers/./cuda_compile_1_generated_exp_layer.cu.o -D generated_cubin_file:STRING=/home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers/./cuda_compile_1_generated_exp_layer.cu.o.cubin.txt -P /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers/cuda_compile_1_generated_exp_layer.cu.o.Debug.cmake
 
 src/caffe/CMakeFiles/cuda_compile_1.dir/layers/cuda_compile_1_generated_filter_layer.cu.o: src/caffe/CMakeFiles/cuda_compile_1.dir/layers/cuda_compile_1_generated_filter_layer.cu.o.depend
 src/caffe/CMakeFiles/cuda_compile_1.dir/layers/cuda_compile_1_generated_filter_layer.cu.o: src/caffe/CMakeFiles/cuda_compile_1.dir/layers/cuda_compile_1_generated_filter_layer.cu.o.Debug.cmake
 src/caffe/CMakeFiles/cuda_compile_1.dir/layers/cuda_compile_1_generated_filter_layer.cu.o: ../src/caffe/layers/filter_layer.cu
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/panzhenfu/Documents/caffe/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building NVCC (Device) object src/caffe/CMakeFiles/cuda_compile_1.dir/layers/cuda_compile_1_generated_filter_layer.cu.o"
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers && /home/panzhenfu/clion-2017.1.1/bin/cmake/bin/cmake -E make_directory /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers/.
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers && /home/panzhenfu/clion-2017.1.1/bin/cmake/bin/cmake -D verbose:BOOL=$(VERBOSE) -D build_configuration:STRING=Debug -D generated_file:STRING=/home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers/./cuda_compile_1_generated_filter_layer.cu.o -D generated_cubin_file:STRING=/home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers/./cuda_compile_1_generated_filter_layer.cu.o.cubin.txt -P /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers/cuda_compile_1_generated_filter_layer.cu.o.Debug.cmake
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building NVCC (Device) object src/caffe/CMakeFiles/cuda_compile_1.dir/layers/cuda_compile_1_generated_filter_layer.cu.o"
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers && /home/panzhenfu/clion-2017.1.1/bin/cmake/bin/cmake -E make_directory /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers/.
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers && /home/panzhenfu/clion-2017.1.1/bin/cmake/bin/cmake -D verbose:BOOL=$(VERBOSE) -D build_configuration:STRING=Debug -D generated_file:STRING=/home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers/./cuda_compile_1_generated_filter_layer.cu.o -D generated_cubin_file:STRING=/home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers/./cuda_compile_1_generated_filter_layer.cu.o.cubin.txt -P /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers/cuda_compile_1_generated_filter_layer.cu.o.Debug.cmake
 
 src/caffe/CMakeFiles/cuda_compile_1.dir/layers/cuda_compile_1_generated_hdf5_data_layer.cu.o: src/caffe/CMakeFiles/cuda_compile_1.dir/layers/cuda_compile_1_generated_hdf5_data_layer.cu.o.depend
 src/caffe/CMakeFiles/cuda_compile_1.dir/layers/cuda_compile_1_generated_hdf5_data_layer.cu.o: src/caffe/CMakeFiles/cuda_compile_1.dir/layers/cuda_compile_1_generated_hdf5_data_layer.cu.o.Debug.cmake
 src/caffe/CMakeFiles/cuda_compile_1.dir/layers/cuda_compile_1_generated_hdf5_data_layer.cu.o: ../src/caffe/layers/hdf5_data_layer.cu
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/panzhenfu/Documents/caffe/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building NVCC (Device) object src/caffe/CMakeFiles/cuda_compile_1.dir/layers/cuda_compile_1_generated_hdf5_data_layer.cu.o"
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers && /home/panzhenfu/clion-2017.1.1/bin/cmake/bin/cmake -E make_directory /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers/.
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers && /home/panzhenfu/clion-2017.1.1/bin/cmake/bin/cmake -D verbose:BOOL=$(VERBOSE) -D build_configuration:STRING=Debug -D generated_file:STRING=/home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers/./cuda_compile_1_generated_hdf5_data_layer.cu.o -D generated_cubin_file:STRING=/home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers/./cuda_compile_1_generated_hdf5_data_layer.cu.o.cubin.txt -P /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers/cuda_compile_1_generated_hdf5_data_layer.cu.o.Debug.cmake
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building NVCC (Device) object src/caffe/CMakeFiles/cuda_compile_1.dir/layers/cuda_compile_1_generated_hdf5_data_layer.cu.o"
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers && /home/panzhenfu/clion-2017.1.1/bin/cmake/bin/cmake -E make_directory /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers/.
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers && /home/panzhenfu/clion-2017.1.1/bin/cmake/bin/cmake -D verbose:BOOL=$(VERBOSE) -D build_configuration:STRING=Debug -D generated_file:STRING=/home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers/./cuda_compile_1_generated_hdf5_data_layer.cu.o -D generated_cubin_file:STRING=/home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers/./cuda_compile_1_generated_hdf5_data_layer.cu.o.cubin.txt -P /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers/cuda_compile_1_generated_hdf5_data_layer.cu.o.Debug.cmake
 
 src/caffe/CMakeFiles/cuda_compile_1.dir/layers/cuda_compile_1_generated_hdf5_output_layer.cu.o: src/caffe/CMakeFiles/cuda_compile_1.dir/layers/cuda_compile_1_generated_hdf5_output_layer.cu.o.depend
 src/caffe/CMakeFiles/cuda_compile_1.dir/layers/cuda_compile_1_generated_hdf5_output_layer.cu.o: src/caffe/CMakeFiles/cuda_compile_1.dir/layers/cuda_compile_1_generated_hdf5_output_layer.cu.o.Debug.cmake
 src/caffe/CMakeFiles/cuda_compile_1.dir/layers/cuda_compile_1_generated_hdf5_output_layer.cu.o: ../src/caffe/layers/hdf5_output_layer.cu
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/panzhenfu/Documents/caffe/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building NVCC (Device) object src/caffe/CMakeFiles/cuda_compile_1.dir/layers/cuda_compile_1_generated_hdf5_output_layer.cu.o"
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers && /home/panzhenfu/clion-2017.1.1/bin/cmake/bin/cmake -E make_directory /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers/.
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers && /home/panzhenfu/clion-2017.1.1/bin/cmake/bin/cmake -D verbose:BOOL=$(VERBOSE) -D build_configuration:STRING=Debug -D generated_file:STRING=/home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers/./cuda_compile_1_generated_hdf5_output_layer.cu.o -D generated_cubin_file:STRING=/home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers/./cuda_compile_1_generated_hdf5_output_layer.cu.o.cubin.txt -P /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers/cuda_compile_1_generated_hdf5_output_layer.cu.o.Debug.cmake
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building NVCC (Device) object src/caffe/CMakeFiles/cuda_compile_1.dir/layers/cuda_compile_1_generated_hdf5_output_layer.cu.o"
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers && /home/panzhenfu/clion-2017.1.1/bin/cmake/bin/cmake -E make_directory /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers/.
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers && /home/panzhenfu/clion-2017.1.1/bin/cmake/bin/cmake -D verbose:BOOL=$(VERBOSE) -D build_configuration:STRING=Debug -D generated_file:STRING=/home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers/./cuda_compile_1_generated_hdf5_output_layer.cu.o -D generated_cubin_file:STRING=/home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers/./cuda_compile_1_generated_hdf5_output_layer.cu.o.cubin.txt -P /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers/cuda_compile_1_generated_hdf5_output_layer.cu.o.Debug.cmake
 
 src/caffe/CMakeFiles/cuda_compile_1.dir/layers/cuda_compile_1_generated_im2col_layer.cu.o: src/caffe/CMakeFiles/cuda_compile_1.dir/layers/cuda_compile_1_generated_im2col_layer.cu.o.depend
 src/caffe/CMakeFiles/cuda_compile_1.dir/layers/cuda_compile_1_generated_im2col_layer.cu.o: src/caffe/CMakeFiles/cuda_compile_1.dir/layers/cuda_compile_1_generated_im2col_layer.cu.o.Debug.cmake
 src/caffe/CMakeFiles/cuda_compile_1.dir/layers/cuda_compile_1_generated_im2col_layer.cu.o: ../src/caffe/layers/im2col_layer.cu
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/panzhenfu/Documents/caffe/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building NVCC (Device) object src/caffe/CMakeFiles/cuda_compile_1.dir/layers/cuda_compile_1_generated_im2col_layer.cu.o"
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers && /home/panzhenfu/clion-2017.1.1/bin/cmake/bin/cmake -E make_directory /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers/.
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers && /home/panzhenfu/clion-2017.1.1/bin/cmake/bin/cmake -D verbose:BOOL=$(VERBOSE) -D build_configuration:STRING=Debug -D generated_file:STRING=/home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers/./cuda_compile_1_generated_im2col_layer.cu.o -D generated_cubin_file:STRING=/home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers/./cuda_compile_1_generated_im2col_layer.cu.o.cubin.txt -P /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers/cuda_compile_1_generated_im2col_layer.cu.o.Debug.cmake
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building NVCC (Device) object src/caffe/CMakeFiles/cuda_compile_1.dir/layers/cuda_compile_1_generated_im2col_layer.cu.o"
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers && /home/panzhenfu/clion-2017.1.1/bin/cmake/bin/cmake -E make_directory /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers/.
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers && /home/panzhenfu/clion-2017.1.1/bin/cmake/bin/cmake -D verbose:BOOL=$(VERBOSE) -D build_configuration:STRING=Debug -D generated_file:STRING=/home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers/./cuda_compile_1_generated_im2col_layer.cu.o -D generated_cubin_file:STRING=/home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers/./cuda_compile_1_generated_im2col_layer.cu.o.cubin.txt -P /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers/cuda_compile_1_generated_im2col_layer.cu.o.Debug.cmake
 
 src/caffe/CMakeFiles/cuda_compile_1.dir/layers/cuda_compile_1_generated_inner_product_layer.cu.o: src/caffe/CMakeFiles/cuda_compile_1.dir/layers/cuda_compile_1_generated_inner_product_layer.cu.o.depend
 src/caffe/CMakeFiles/cuda_compile_1.dir/layers/cuda_compile_1_generated_inner_product_layer.cu.o: src/caffe/CMakeFiles/cuda_compile_1.dir/layers/cuda_compile_1_generated_inner_product_layer.cu.o.Debug.cmake
 src/caffe/CMakeFiles/cuda_compile_1.dir/layers/cuda_compile_1_generated_inner_product_layer.cu.o: ../src/caffe/layers/inner_product_layer.cu
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/panzhenfu/Documents/caffe/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building NVCC (Device) object src/caffe/CMakeFiles/cuda_compile_1.dir/layers/cuda_compile_1_generated_inner_product_layer.cu.o"
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers && /home/panzhenfu/clion-2017.1.1/bin/cmake/bin/cmake -E make_directory /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers/.
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers && /home/panzhenfu/clion-2017.1.1/bin/cmake/bin/cmake -D verbose:BOOL=$(VERBOSE) -D build_configuration:STRING=Debug -D generated_file:STRING=/home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers/./cuda_compile_1_generated_inner_product_layer.cu.o -D generated_cubin_file:STRING=/home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers/./cuda_compile_1_generated_inner_product_layer.cu.o.cubin.txt -P /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers/cuda_compile_1_generated_inner_product_layer.cu.o.Debug.cmake
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building NVCC (Device) object src/caffe/CMakeFiles/cuda_compile_1.dir/layers/cuda_compile_1_generated_inner_product_layer.cu.o"
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers && /home/panzhenfu/clion-2017.1.1/bin/cmake/bin/cmake -E make_directory /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers/.
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers && /home/panzhenfu/clion-2017.1.1/bin/cmake/bin/cmake -D verbose:BOOL=$(VERBOSE) -D build_configuration:STRING=Debug -D generated_file:STRING=/home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers/./cuda_compile_1_generated_inner_product_layer.cu.o -D generated_cubin_file:STRING=/home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers/./cuda_compile_1_generated_inner_product_layer.cu.o.cubin.txt -P /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers/cuda_compile_1_generated_inner_product_layer.cu.o.Debug.cmake
 
 src/caffe/CMakeFiles/cuda_compile_1.dir/layers/cuda_compile_1_generated_log_layer.cu.o: src/caffe/CMakeFiles/cuda_compile_1.dir/layers/cuda_compile_1_generated_log_layer.cu.o.depend
 src/caffe/CMakeFiles/cuda_compile_1.dir/layers/cuda_compile_1_generated_log_layer.cu.o: src/caffe/CMakeFiles/cuda_compile_1.dir/layers/cuda_compile_1_generated_log_layer.cu.o.Debug.cmake
 src/caffe/CMakeFiles/cuda_compile_1.dir/layers/cuda_compile_1_generated_log_layer.cu.o: ../src/caffe/layers/log_layer.cu
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/panzhenfu/Documents/caffe/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building NVCC (Device) object src/caffe/CMakeFiles/cuda_compile_1.dir/layers/cuda_compile_1_generated_log_layer.cu.o"
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers && /home/panzhenfu/clion-2017.1.1/bin/cmake/bin/cmake -E make_directory /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers/.
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers && /home/panzhenfu/clion-2017.1.1/bin/cmake/bin/cmake -D verbose:BOOL=$(VERBOSE) -D build_configuration:STRING=Debug -D generated_file:STRING=/home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers/./cuda_compile_1_generated_log_layer.cu.o -D generated_cubin_file:STRING=/home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers/./cuda_compile_1_generated_log_layer.cu.o.cubin.txt -P /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers/cuda_compile_1_generated_log_layer.cu.o.Debug.cmake
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building NVCC (Device) object src/caffe/CMakeFiles/cuda_compile_1.dir/layers/cuda_compile_1_generated_log_layer.cu.o"
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers && /home/panzhenfu/clion-2017.1.1/bin/cmake/bin/cmake -E make_directory /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers/.
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers && /home/panzhenfu/clion-2017.1.1/bin/cmake/bin/cmake -D verbose:BOOL=$(VERBOSE) -D build_configuration:STRING=Debug -D generated_file:STRING=/home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers/./cuda_compile_1_generated_log_layer.cu.o -D generated_cubin_file:STRING=/home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers/./cuda_compile_1_generated_log_layer.cu.o.cubin.txt -P /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers/cuda_compile_1_generated_log_layer.cu.o.Debug.cmake
 
 src/caffe/CMakeFiles/cuda_compile_1.dir/layers/cuda_compile_1_generated_lrn_layer.cu.o: src/caffe/CMakeFiles/cuda_compile_1.dir/layers/cuda_compile_1_generated_lrn_layer.cu.o.depend
 src/caffe/CMakeFiles/cuda_compile_1.dir/layers/cuda_compile_1_generated_lrn_layer.cu.o: src/caffe/CMakeFiles/cuda_compile_1.dir/layers/cuda_compile_1_generated_lrn_layer.cu.o.Debug.cmake
 src/caffe/CMakeFiles/cuda_compile_1.dir/layers/cuda_compile_1_generated_lrn_layer.cu.o: ../src/caffe/layers/lrn_layer.cu
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/panzhenfu/Documents/caffe/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building NVCC (Device) object src/caffe/CMakeFiles/cuda_compile_1.dir/layers/cuda_compile_1_generated_lrn_layer.cu.o"
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers && /home/panzhenfu/clion-2017.1.1/bin/cmake/bin/cmake -E make_directory /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers/.
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers && /home/panzhenfu/clion-2017.1.1/bin/cmake/bin/cmake -D verbose:BOOL=$(VERBOSE) -D build_configuration:STRING=Debug -D generated_file:STRING=/home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers/./cuda_compile_1_generated_lrn_layer.cu.o -D generated_cubin_file:STRING=/home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers/./cuda_compile_1_generated_lrn_layer.cu.o.cubin.txt -P /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers/cuda_compile_1_generated_lrn_layer.cu.o.Debug.cmake
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building NVCC (Device) object src/caffe/CMakeFiles/cuda_compile_1.dir/layers/cuda_compile_1_generated_lrn_layer.cu.o"
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers && /home/panzhenfu/clion-2017.1.1/bin/cmake/bin/cmake -E make_directory /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers/.
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers && /home/panzhenfu/clion-2017.1.1/bin/cmake/bin/cmake -D verbose:BOOL=$(VERBOSE) -D build_configuration:STRING=Debug -D generated_file:STRING=/home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers/./cuda_compile_1_generated_lrn_layer.cu.o -D generated_cubin_file:STRING=/home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers/./cuda_compile_1_generated_lrn_layer.cu.o.cubin.txt -P /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers/cuda_compile_1_generated_lrn_layer.cu.o.Debug.cmake
 
 src/caffe/CMakeFiles/cuda_compile_1.dir/layers/cuda_compile_1_generated_lstm_unit_layer.cu.o: src/caffe/CMakeFiles/cuda_compile_1.dir/layers/cuda_compile_1_generated_lstm_unit_layer.cu.o.depend
 src/caffe/CMakeFiles/cuda_compile_1.dir/layers/cuda_compile_1_generated_lstm_unit_layer.cu.o: src/caffe/CMakeFiles/cuda_compile_1.dir/layers/cuda_compile_1_generated_lstm_unit_layer.cu.o.Debug.cmake
 src/caffe/CMakeFiles/cuda_compile_1.dir/layers/cuda_compile_1_generated_lstm_unit_layer.cu.o: ../src/caffe/layers/lstm_unit_layer.cu
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/panzhenfu/Documents/caffe/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building NVCC (Device) object src/caffe/CMakeFiles/cuda_compile_1.dir/layers/cuda_compile_1_generated_lstm_unit_layer.cu.o"
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers && /home/panzhenfu/clion-2017.1.1/bin/cmake/bin/cmake -E make_directory /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers/.
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers && /home/panzhenfu/clion-2017.1.1/bin/cmake/bin/cmake -D verbose:BOOL=$(VERBOSE) -D build_configuration:STRING=Debug -D generated_file:STRING=/home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers/./cuda_compile_1_generated_lstm_unit_layer.cu.o -D generated_cubin_file:STRING=/home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers/./cuda_compile_1_generated_lstm_unit_layer.cu.o.cubin.txt -P /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers/cuda_compile_1_generated_lstm_unit_layer.cu.o.Debug.cmake
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building NVCC (Device) object src/caffe/CMakeFiles/cuda_compile_1.dir/layers/cuda_compile_1_generated_lstm_unit_layer.cu.o"
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers && /home/panzhenfu/clion-2017.1.1/bin/cmake/bin/cmake -E make_directory /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers/.
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers && /home/panzhenfu/clion-2017.1.1/bin/cmake/bin/cmake -D verbose:BOOL=$(VERBOSE) -D build_configuration:STRING=Debug -D generated_file:STRING=/home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers/./cuda_compile_1_generated_lstm_unit_layer.cu.o -D generated_cubin_file:STRING=/home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers/./cuda_compile_1_generated_lstm_unit_layer.cu.o.cubin.txt -P /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers/cuda_compile_1_generated_lstm_unit_layer.cu.o.Debug.cmake
 
 src/caffe/CMakeFiles/cuda_compile_1.dir/layers/cuda_compile_1_generated_mvn_layer.cu.o: src/caffe/CMakeFiles/cuda_compile_1.dir/layers/cuda_compile_1_generated_mvn_layer.cu.o.depend
 src/caffe/CMakeFiles/cuda_compile_1.dir/layers/cuda_compile_1_generated_mvn_layer.cu.o: src/caffe/CMakeFiles/cuda_compile_1.dir/layers/cuda_compile_1_generated_mvn_layer.cu.o.Debug.cmake
 src/caffe/CMakeFiles/cuda_compile_1.dir/layers/cuda_compile_1_generated_mvn_layer.cu.o: ../src/caffe/layers/mvn_layer.cu
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/panzhenfu/Documents/caffe/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building NVCC (Device) object src/caffe/CMakeFiles/cuda_compile_1.dir/layers/cuda_compile_1_generated_mvn_layer.cu.o"
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers && /home/panzhenfu/clion-2017.1.1/bin/cmake/bin/cmake -E make_directory /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers/.
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers && /home/panzhenfu/clion-2017.1.1/bin/cmake/bin/cmake -D verbose:BOOL=$(VERBOSE) -D build_configuration:STRING=Debug -D generated_file:STRING=/home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers/./cuda_compile_1_generated_mvn_layer.cu.o -D generated_cubin_file:STRING=/home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers/./cuda_compile_1_generated_mvn_layer.cu.o.cubin.txt -P /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers/cuda_compile_1_generated_mvn_layer.cu.o.Debug.cmake
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building NVCC (Device) object src/caffe/CMakeFiles/cuda_compile_1.dir/layers/cuda_compile_1_generated_mvn_layer.cu.o"
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers && /home/panzhenfu/clion-2017.1.1/bin/cmake/bin/cmake -E make_directory /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers/.
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers && /home/panzhenfu/clion-2017.1.1/bin/cmake/bin/cmake -D verbose:BOOL=$(VERBOSE) -D build_configuration:STRING=Debug -D generated_file:STRING=/home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers/./cuda_compile_1_generated_mvn_layer.cu.o -D generated_cubin_file:STRING=/home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers/./cuda_compile_1_generated_mvn_layer.cu.o.cubin.txt -P /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers/cuda_compile_1_generated_mvn_layer.cu.o.Debug.cmake
 
 src/caffe/CMakeFiles/cuda_compile_1.dir/layers/cuda_compile_1_generated_pooling_layer.cu.o: src/caffe/CMakeFiles/cuda_compile_1.dir/layers/cuda_compile_1_generated_pooling_layer.cu.o.depend
 src/caffe/CMakeFiles/cuda_compile_1.dir/layers/cuda_compile_1_generated_pooling_layer.cu.o: src/caffe/CMakeFiles/cuda_compile_1.dir/layers/cuda_compile_1_generated_pooling_layer.cu.o.Debug.cmake
 src/caffe/CMakeFiles/cuda_compile_1.dir/layers/cuda_compile_1_generated_pooling_layer.cu.o: ../src/caffe/layers/pooling_layer.cu
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/panzhenfu/Documents/caffe/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building NVCC (Device) object src/caffe/CMakeFiles/cuda_compile_1.dir/layers/cuda_compile_1_generated_pooling_layer.cu.o"
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers && /home/panzhenfu/clion-2017.1.1/bin/cmake/bin/cmake -E make_directory /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers/.
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers && /home/panzhenfu/clion-2017.1.1/bin/cmake/bin/cmake -D verbose:BOOL=$(VERBOSE) -D build_configuration:STRING=Debug -D generated_file:STRING=/home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers/./cuda_compile_1_generated_pooling_layer.cu.o -D generated_cubin_file:STRING=/home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers/./cuda_compile_1_generated_pooling_layer.cu.o.cubin.txt -P /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers/cuda_compile_1_generated_pooling_layer.cu.o.Debug.cmake
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building NVCC (Device) object src/caffe/CMakeFiles/cuda_compile_1.dir/layers/cuda_compile_1_generated_pooling_layer.cu.o"
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers && /home/panzhenfu/clion-2017.1.1/bin/cmake/bin/cmake -E make_directory /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers/.
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers && /home/panzhenfu/clion-2017.1.1/bin/cmake/bin/cmake -D verbose:BOOL=$(VERBOSE) -D build_configuration:STRING=Debug -D generated_file:STRING=/home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers/./cuda_compile_1_generated_pooling_layer.cu.o -D generated_cubin_file:STRING=/home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers/./cuda_compile_1_generated_pooling_layer.cu.o.cubin.txt -P /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers/cuda_compile_1_generated_pooling_layer.cu.o.Debug.cmake
 
 src/caffe/CMakeFiles/cuda_compile_1.dir/layers/cuda_compile_1_generated_power_layer.cu.o: src/caffe/CMakeFiles/cuda_compile_1.dir/layers/cuda_compile_1_generated_power_layer.cu.o.depend
 src/caffe/CMakeFiles/cuda_compile_1.dir/layers/cuda_compile_1_generated_power_layer.cu.o: src/caffe/CMakeFiles/cuda_compile_1.dir/layers/cuda_compile_1_generated_power_layer.cu.o.Debug.cmake
 src/caffe/CMakeFiles/cuda_compile_1.dir/layers/cuda_compile_1_generated_power_layer.cu.o: ../src/caffe/layers/power_layer.cu
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/panzhenfu/Documents/caffe/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building NVCC (Device) object src/caffe/CMakeFiles/cuda_compile_1.dir/layers/cuda_compile_1_generated_power_layer.cu.o"
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers && /home/panzhenfu/clion-2017.1.1/bin/cmake/bin/cmake -E make_directory /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers/.
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers && /home/panzhenfu/clion-2017.1.1/bin/cmake/bin/cmake -D verbose:BOOL=$(VERBOSE) -D build_configuration:STRING=Debug -D generated_file:STRING=/home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers/./cuda_compile_1_generated_power_layer.cu.o -D generated_cubin_file:STRING=/home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers/./cuda_compile_1_generated_power_layer.cu.o.cubin.txt -P /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers/cuda_compile_1_generated_power_layer.cu.o.Debug.cmake
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building NVCC (Device) object src/caffe/CMakeFiles/cuda_compile_1.dir/layers/cuda_compile_1_generated_power_layer.cu.o"
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers && /home/panzhenfu/clion-2017.1.1/bin/cmake/bin/cmake -E make_directory /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers/.
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers && /home/panzhenfu/clion-2017.1.1/bin/cmake/bin/cmake -D verbose:BOOL=$(VERBOSE) -D build_configuration:STRING=Debug -D generated_file:STRING=/home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers/./cuda_compile_1_generated_power_layer.cu.o -D generated_cubin_file:STRING=/home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers/./cuda_compile_1_generated_power_layer.cu.o.cubin.txt -P /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers/cuda_compile_1_generated_power_layer.cu.o.Debug.cmake
 
 src/caffe/CMakeFiles/cuda_compile_1.dir/layers/cuda_compile_1_generated_prelu_layer.cu.o: src/caffe/CMakeFiles/cuda_compile_1.dir/layers/cuda_compile_1_generated_prelu_layer.cu.o.depend
 src/caffe/CMakeFiles/cuda_compile_1.dir/layers/cuda_compile_1_generated_prelu_layer.cu.o: src/caffe/CMakeFiles/cuda_compile_1.dir/layers/cuda_compile_1_generated_prelu_layer.cu.o.Debug.cmake
 src/caffe/CMakeFiles/cuda_compile_1.dir/layers/cuda_compile_1_generated_prelu_layer.cu.o: ../src/caffe/layers/prelu_layer.cu
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/panzhenfu/Documents/caffe/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building NVCC (Device) object src/caffe/CMakeFiles/cuda_compile_1.dir/layers/cuda_compile_1_generated_prelu_layer.cu.o"
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers && /home/panzhenfu/clion-2017.1.1/bin/cmake/bin/cmake -E make_directory /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers/.
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers && /home/panzhenfu/clion-2017.1.1/bin/cmake/bin/cmake -D verbose:BOOL=$(VERBOSE) -D build_configuration:STRING=Debug -D generated_file:STRING=/home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers/./cuda_compile_1_generated_prelu_layer.cu.o -D generated_cubin_file:STRING=/home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers/./cuda_compile_1_generated_prelu_layer.cu.o.cubin.txt -P /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers/cuda_compile_1_generated_prelu_layer.cu.o.Debug.cmake
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building NVCC (Device) object src/caffe/CMakeFiles/cuda_compile_1.dir/layers/cuda_compile_1_generated_prelu_layer.cu.o"
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers && /home/panzhenfu/clion-2017.1.1/bin/cmake/bin/cmake -E make_directory /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers/.
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers && /home/panzhenfu/clion-2017.1.1/bin/cmake/bin/cmake -D verbose:BOOL=$(VERBOSE) -D build_configuration:STRING=Debug -D generated_file:STRING=/home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers/./cuda_compile_1_generated_prelu_layer.cu.o -D generated_cubin_file:STRING=/home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers/./cuda_compile_1_generated_prelu_layer.cu.o.cubin.txt -P /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers/cuda_compile_1_generated_prelu_layer.cu.o.Debug.cmake
 
 src/caffe/CMakeFiles/cuda_compile_1.dir/layers/cuda_compile_1_generated_recurrent_layer.cu.o: src/caffe/CMakeFiles/cuda_compile_1.dir/layers/cuda_compile_1_generated_recurrent_layer.cu.o.depend
 src/caffe/CMakeFiles/cuda_compile_1.dir/layers/cuda_compile_1_generated_recurrent_layer.cu.o: src/caffe/CMakeFiles/cuda_compile_1.dir/layers/cuda_compile_1_generated_recurrent_layer.cu.o.Debug.cmake
 src/caffe/CMakeFiles/cuda_compile_1.dir/layers/cuda_compile_1_generated_recurrent_layer.cu.o: ../src/caffe/layers/recurrent_layer.cu
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/panzhenfu/Documents/caffe/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Building NVCC (Device) object src/caffe/CMakeFiles/cuda_compile_1.dir/layers/cuda_compile_1_generated_recurrent_layer.cu.o"
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers && /home/panzhenfu/clion-2017.1.1/bin/cmake/bin/cmake -E make_directory /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers/.
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers && /home/panzhenfu/clion-2017.1.1/bin/cmake/bin/cmake -D verbose:BOOL=$(VERBOSE) -D build_configuration:STRING=Debug -D generated_file:STRING=/home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers/./cuda_compile_1_generated_recurrent_layer.cu.o -D generated_cubin_file:STRING=/home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers/./cuda_compile_1_generated_recurrent_layer.cu.o.cubin.txt -P /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers/cuda_compile_1_generated_recurrent_layer.cu.o.Debug.cmake
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Building NVCC (Device) object src/caffe/CMakeFiles/cuda_compile_1.dir/layers/cuda_compile_1_generated_recurrent_layer.cu.o"
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers && /home/panzhenfu/clion-2017.1.1/bin/cmake/bin/cmake -E make_directory /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers/.
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers && /home/panzhenfu/clion-2017.1.1/bin/cmake/bin/cmake -D verbose:BOOL=$(VERBOSE) -D build_configuration:STRING=Debug -D generated_file:STRING=/home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers/./cuda_compile_1_generated_recurrent_layer.cu.o -D generated_cubin_file:STRING=/home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers/./cuda_compile_1_generated_recurrent_layer.cu.o.cubin.txt -P /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers/cuda_compile_1_generated_recurrent_layer.cu.o.Debug.cmake
 
 src/caffe/CMakeFiles/cuda_compile_1.dir/layers/cuda_compile_1_generated_reduction_layer.cu.o: src/caffe/CMakeFiles/cuda_compile_1.dir/layers/cuda_compile_1_generated_reduction_layer.cu.o.depend
 src/caffe/CMakeFiles/cuda_compile_1.dir/layers/cuda_compile_1_generated_reduction_layer.cu.o: src/caffe/CMakeFiles/cuda_compile_1.dir/layers/cuda_compile_1_generated_reduction_layer.cu.o.Debug.cmake
 src/caffe/CMakeFiles/cuda_compile_1.dir/layers/cuda_compile_1_generated_reduction_layer.cu.o: ../src/caffe/layers/reduction_layer.cu
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/panzhenfu/Documents/caffe/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Building NVCC (Device) object src/caffe/CMakeFiles/cuda_compile_1.dir/layers/cuda_compile_1_generated_reduction_layer.cu.o"
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers && /home/panzhenfu/clion-2017.1.1/bin/cmake/bin/cmake -E make_directory /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers/.
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers && /home/panzhenfu/clion-2017.1.1/bin/cmake/bin/cmake -D verbose:BOOL=$(VERBOSE) -D build_configuration:STRING=Debug -D generated_file:STRING=/home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers/./cuda_compile_1_generated_reduction_layer.cu.o -D generated_cubin_file:STRING=/home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers/./cuda_compile_1_generated_reduction_layer.cu.o.cubin.txt -P /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers/cuda_compile_1_generated_reduction_layer.cu.o.Debug.cmake
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Building NVCC (Device) object src/caffe/CMakeFiles/cuda_compile_1.dir/layers/cuda_compile_1_generated_reduction_layer.cu.o"
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers && /home/panzhenfu/clion-2017.1.1/bin/cmake/bin/cmake -E make_directory /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers/.
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers && /home/panzhenfu/clion-2017.1.1/bin/cmake/bin/cmake -D verbose:BOOL=$(VERBOSE) -D build_configuration:STRING=Debug -D generated_file:STRING=/home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers/./cuda_compile_1_generated_reduction_layer.cu.o -D generated_cubin_file:STRING=/home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers/./cuda_compile_1_generated_reduction_layer.cu.o.cubin.txt -P /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers/cuda_compile_1_generated_reduction_layer.cu.o.Debug.cmake
 
 src/caffe/CMakeFiles/cuda_compile_1.dir/layers/cuda_compile_1_generated_relu_layer.cu.o: src/caffe/CMakeFiles/cuda_compile_1.dir/layers/cuda_compile_1_generated_relu_layer.cu.o.depend
 src/caffe/CMakeFiles/cuda_compile_1.dir/layers/cuda_compile_1_generated_relu_layer.cu.o: src/caffe/CMakeFiles/cuda_compile_1.dir/layers/cuda_compile_1_generated_relu_layer.cu.o.Debug.cmake
 src/caffe/CMakeFiles/cuda_compile_1.dir/layers/cuda_compile_1_generated_relu_layer.cu.o: ../src/caffe/layers/relu_layer.cu
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/panzhenfu/Documents/caffe/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Building NVCC (Device) object src/caffe/CMakeFiles/cuda_compile_1.dir/layers/cuda_compile_1_generated_relu_layer.cu.o"
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers && /home/panzhenfu/clion-2017.1.1/bin/cmake/bin/cmake -E make_directory /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers/.
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers && /home/panzhenfu/clion-2017.1.1/bin/cmake/bin/cmake -D verbose:BOOL=$(VERBOSE) -D build_configuration:STRING=Debug -D generated_file:STRING=/home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers/./cuda_compile_1_generated_relu_layer.cu.o -D generated_cubin_file:STRING=/home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers/./cuda_compile_1_generated_relu_layer.cu.o.cubin.txt -P /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers/cuda_compile_1_generated_relu_layer.cu.o.Debug.cmake
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Building NVCC (Device) object src/caffe/CMakeFiles/cuda_compile_1.dir/layers/cuda_compile_1_generated_relu_layer.cu.o"
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers && /home/panzhenfu/clion-2017.1.1/bin/cmake/bin/cmake -E make_directory /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers/.
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers && /home/panzhenfu/clion-2017.1.1/bin/cmake/bin/cmake -D verbose:BOOL=$(VERBOSE) -D build_configuration:STRING=Debug -D generated_file:STRING=/home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers/./cuda_compile_1_generated_relu_layer.cu.o -D generated_cubin_file:STRING=/home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers/./cuda_compile_1_generated_relu_layer.cu.o.cubin.txt -P /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers/cuda_compile_1_generated_relu_layer.cu.o.Debug.cmake
 
 src/caffe/CMakeFiles/cuda_compile_1.dir/layers/cuda_compile_1_generated_scale_layer.cu.o: src/caffe/CMakeFiles/cuda_compile_1.dir/layers/cuda_compile_1_generated_scale_layer.cu.o.depend
 src/caffe/CMakeFiles/cuda_compile_1.dir/layers/cuda_compile_1_generated_scale_layer.cu.o: src/caffe/CMakeFiles/cuda_compile_1.dir/layers/cuda_compile_1_generated_scale_layer.cu.o.Debug.cmake
 src/caffe/CMakeFiles/cuda_compile_1.dir/layers/cuda_compile_1_generated_scale_layer.cu.o: ../src/caffe/layers/scale_layer.cu
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/panzhenfu/Documents/caffe/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Building NVCC (Device) object src/caffe/CMakeFiles/cuda_compile_1.dir/layers/cuda_compile_1_generated_scale_layer.cu.o"
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers && /home/panzhenfu/clion-2017.1.1/bin/cmake/bin/cmake -E make_directory /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers/.
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers && /home/panzhenfu/clion-2017.1.1/bin/cmake/bin/cmake -D verbose:BOOL=$(VERBOSE) -D build_configuration:STRING=Debug -D generated_file:STRING=/home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers/./cuda_compile_1_generated_scale_layer.cu.o -D generated_cubin_file:STRING=/home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers/./cuda_compile_1_generated_scale_layer.cu.o.cubin.txt -P /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers/cuda_compile_1_generated_scale_layer.cu.o.Debug.cmake
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Building NVCC (Device) object src/caffe/CMakeFiles/cuda_compile_1.dir/layers/cuda_compile_1_generated_scale_layer.cu.o"
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers && /home/panzhenfu/clion-2017.1.1/bin/cmake/bin/cmake -E make_directory /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers/.
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers && /home/panzhenfu/clion-2017.1.1/bin/cmake/bin/cmake -D verbose:BOOL=$(VERBOSE) -D build_configuration:STRING=Debug -D generated_file:STRING=/home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers/./cuda_compile_1_generated_scale_layer.cu.o -D generated_cubin_file:STRING=/home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers/./cuda_compile_1_generated_scale_layer.cu.o.cubin.txt -P /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers/cuda_compile_1_generated_scale_layer.cu.o.Debug.cmake
 
 src/caffe/CMakeFiles/cuda_compile_1.dir/layers/cuda_compile_1_generated_sigmoid_cross_entropy_loss_layer.cu.o: src/caffe/CMakeFiles/cuda_compile_1.dir/layers/cuda_compile_1_generated_sigmoid_cross_entropy_loss_layer.cu.o.depend
 src/caffe/CMakeFiles/cuda_compile_1.dir/layers/cuda_compile_1_generated_sigmoid_cross_entropy_loss_layer.cu.o: src/caffe/CMakeFiles/cuda_compile_1.dir/layers/cuda_compile_1_generated_sigmoid_cross_entropy_loss_layer.cu.o.Debug.cmake
 src/caffe/CMakeFiles/cuda_compile_1.dir/layers/cuda_compile_1_generated_sigmoid_cross_entropy_loss_layer.cu.o: ../src/caffe/layers/sigmoid_cross_entropy_loss_layer.cu
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/panzhenfu/Documents/caffe/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_43) "Building NVCC (Device) object src/caffe/CMakeFiles/cuda_compile_1.dir/layers/cuda_compile_1_generated_sigmoid_cross_entropy_loss_layer.cu.o"
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers && /home/panzhenfu/clion-2017.1.1/bin/cmake/bin/cmake -E make_directory /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers/.
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers && /home/panzhenfu/clion-2017.1.1/bin/cmake/bin/cmake -D verbose:BOOL=$(VERBOSE) -D build_configuration:STRING=Debug -D generated_file:STRING=/home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers/./cuda_compile_1_generated_sigmoid_cross_entropy_loss_layer.cu.o -D generated_cubin_file:STRING=/home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers/./cuda_compile_1_generated_sigmoid_cross_entropy_loss_layer.cu.o.cubin.txt -P /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers/cuda_compile_1_generated_sigmoid_cross_entropy_loss_layer.cu.o.Debug.cmake
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_43) "Building NVCC (Device) object src/caffe/CMakeFiles/cuda_compile_1.dir/layers/cuda_compile_1_generated_sigmoid_cross_entropy_loss_layer.cu.o"
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers && /home/panzhenfu/clion-2017.1.1/bin/cmake/bin/cmake -E make_directory /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers/.
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers && /home/panzhenfu/clion-2017.1.1/bin/cmake/bin/cmake -D verbose:BOOL=$(VERBOSE) -D build_configuration:STRING=Debug -D generated_file:STRING=/home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers/./cuda_compile_1_generated_sigmoid_cross_entropy_loss_layer.cu.o -D generated_cubin_file:STRING=/home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers/./cuda_compile_1_generated_sigmoid_cross_entropy_loss_layer.cu.o.cubin.txt -P /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers/cuda_compile_1_generated_sigmoid_cross_entropy_loss_layer.cu.o.Debug.cmake
 
 src/caffe/CMakeFiles/cuda_compile_1.dir/layers/cuda_compile_1_generated_sigmoid_layer.cu.o: src/caffe/CMakeFiles/cuda_compile_1.dir/layers/cuda_compile_1_generated_sigmoid_layer.cu.o.depend
 src/caffe/CMakeFiles/cuda_compile_1.dir/layers/cuda_compile_1_generated_sigmoid_layer.cu.o: src/caffe/CMakeFiles/cuda_compile_1.dir/layers/cuda_compile_1_generated_sigmoid_layer.cu.o.Debug.cmake
 src/caffe/CMakeFiles/cuda_compile_1.dir/layers/cuda_compile_1_generated_sigmoid_layer.cu.o: ../src/caffe/layers/sigmoid_layer.cu
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/panzhenfu/Documents/caffe/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_44) "Building NVCC (Device) object src/caffe/CMakeFiles/cuda_compile_1.dir/layers/cuda_compile_1_generated_sigmoid_layer.cu.o"
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers && /home/panzhenfu/clion-2017.1.1/bin/cmake/bin/cmake -E make_directory /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers/.
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers && /home/panzhenfu/clion-2017.1.1/bin/cmake/bin/cmake -D verbose:BOOL=$(VERBOSE) -D build_configuration:STRING=Debug -D generated_file:STRING=/home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers/./cuda_compile_1_generated_sigmoid_layer.cu.o -D generated_cubin_file:STRING=/home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers/./cuda_compile_1_generated_sigmoid_layer.cu.o.cubin.txt -P /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers/cuda_compile_1_generated_sigmoid_layer.cu.o.Debug.cmake
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_44) "Building NVCC (Device) object src/caffe/CMakeFiles/cuda_compile_1.dir/layers/cuda_compile_1_generated_sigmoid_layer.cu.o"
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers && /home/panzhenfu/clion-2017.1.1/bin/cmake/bin/cmake -E make_directory /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers/.
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers && /home/panzhenfu/clion-2017.1.1/bin/cmake/bin/cmake -D verbose:BOOL=$(VERBOSE) -D build_configuration:STRING=Debug -D generated_file:STRING=/home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers/./cuda_compile_1_generated_sigmoid_layer.cu.o -D generated_cubin_file:STRING=/home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers/./cuda_compile_1_generated_sigmoid_layer.cu.o.cubin.txt -P /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers/cuda_compile_1_generated_sigmoid_layer.cu.o.Debug.cmake
 
 src/caffe/CMakeFiles/cuda_compile_1.dir/layers/cuda_compile_1_generated_silence_layer.cu.o: src/caffe/CMakeFiles/cuda_compile_1.dir/layers/cuda_compile_1_generated_silence_layer.cu.o.depend
 src/caffe/CMakeFiles/cuda_compile_1.dir/layers/cuda_compile_1_generated_silence_layer.cu.o: src/caffe/CMakeFiles/cuda_compile_1.dir/layers/cuda_compile_1_generated_silence_layer.cu.o.Debug.cmake
 src/caffe/CMakeFiles/cuda_compile_1.dir/layers/cuda_compile_1_generated_silence_layer.cu.o: ../src/caffe/layers/silence_layer.cu
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/panzhenfu/Documents/caffe/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_45) "Building NVCC (Device) object src/caffe/CMakeFiles/cuda_compile_1.dir/layers/cuda_compile_1_generated_silence_layer.cu.o"
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers && /home/panzhenfu/clion-2017.1.1/bin/cmake/bin/cmake -E make_directory /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers/.
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers && /home/panzhenfu/clion-2017.1.1/bin/cmake/bin/cmake -D verbose:BOOL=$(VERBOSE) -D build_configuration:STRING=Debug -D generated_file:STRING=/home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers/./cuda_compile_1_generated_silence_layer.cu.o -D generated_cubin_file:STRING=/home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers/./cuda_compile_1_generated_silence_layer.cu.o.cubin.txt -P /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers/cuda_compile_1_generated_silence_layer.cu.o.Debug.cmake
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_45) "Building NVCC (Device) object src/caffe/CMakeFiles/cuda_compile_1.dir/layers/cuda_compile_1_generated_silence_layer.cu.o"
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers && /home/panzhenfu/clion-2017.1.1/bin/cmake/bin/cmake -E make_directory /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers/.
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers && /home/panzhenfu/clion-2017.1.1/bin/cmake/bin/cmake -D verbose:BOOL=$(VERBOSE) -D build_configuration:STRING=Debug -D generated_file:STRING=/home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers/./cuda_compile_1_generated_silence_layer.cu.o -D generated_cubin_file:STRING=/home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers/./cuda_compile_1_generated_silence_layer.cu.o.cubin.txt -P /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers/cuda_compile_1_generated_silence_layer.cu.o.Debug.cmake
 
 src/caffe/CMakeFiles/cuda_compile_1.dir/layers/cuda_compile_1_generated_slice_layer.cu.o: src/caffe/CMakeFiles/cuda_compile_1.dir/layers/cuda_compile_1_generated_slice_layer.cu.o.depend
 src/caffe/CMakeFiles/cuda_compile_1.dir/layers/cuda_compile_1_generated_slice_layer.cu.o: src/caffe/CMakeFiles/cuda_compile_1.dir/layers/cuda_compile_1_generated_slice_layer.cu.o.Debug.cmake
 src/caffe/CMakeFiles/cuda_compile_1.dir/layers/cuda_compile_1_generated_slice_layer.cu.o: ../src/caffe/layers/slice_layer.cu
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/panzhenfu/Documents/caffe/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_46) "Building NVCC (Device) object src/caffe/CMakeFiles/cuda_compile_1.dir/layers/cuda_compile_1_generated_slice_layer.cu.o"
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers && /home/panzhenfu/clion-2017.1.1/bin/cmake/bin/cmake -E make_directory /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers/.
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers && /home/panzhenfu/clion-2017.1.1/bin/cmake/bin/cmake -D verbose:BOOL=$(VERBOSE) -D build_configuration:STRING=Debug -D generated_file:STRING=/home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers/./cuda_compile_1_generated_slice_layer.cu.o -D generated_cubin_file:STRING=/home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers/./cuda_compile_1_generated_slice_layer.cu.o.cubin.txt -P /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers/cuda_compile_1_generated_slice_layer.cu.o.Debug.cmake
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_46) "Building NVCC (Device) object src/caffe/CMakeFiles/cuda_compile_1.dir/layers/cuda_compile_1_generated_slice_layer.cu.o"
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers && /home/panzhenfu/clion-2017.1.1/bin/cmake/bin/cmake -E make_directory /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers/.
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers && /home/panzhenfu/clion-2017.1.1/bin/cmake/bin/cmake -D verbose:BOOL=$(VERBOSE) -D build_configuration:STRING=Debug -D generated_file:STRING=/home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers/./cuda_compile_1_generated_slice_layer.cu.o -D generated_cubin_file:STRING=/home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers/./cuda_compile_1_generated_slice_layer.cu.o.cubin.txt -P /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers/cuda_compile_1_generated_slice_layer.cu.o.Debug.cmake
 
 src/caffe/CMakeFiles/cuda_compile_1.dir/layers/cuda_compile_1_generated_softmax_layer.cu.o: src/caffe/CMakeFiles/cuda_compile_1.dir/layers/cuda_compile_1_generated_softmax_layer.cu.o.depend
 src/caffe/CMakeFiles/cuda_compile_1.dir/layers/cuda_compile_1_generated_softmax_layer.cu.o: src/caffe/CMakeFiles/cuda_compile_1.dir/layers/cuda_compile_1_generated_softmax_layer.cu.o.Debug.cmake
 src/caffe/CMakeFiles/cuda_compile_1.dir/layers/cuda_compile_1_generated_softmax_layer.cu.o: ../src/caffe/layers/softmax_layer.cu
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/panzhenfu/Documents/caffe/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_47) "Building NVCC (Device) object src/caffe/CMakeFiles/cuda_compile_1.dir/layers/cuda_compile_1_generated_softmax_layer.cu.o"
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers && /home/panzhenfu/clion-2017.1.1/bin/cmake/bin/cmake -E make_directory /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers/.
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers && /home/panzhenfu/clion-2017.1.1/bin/cmake/bin/cmake -D verbose:BOOL=$(VERBOSE) -D build_configuration:STRING=Debug -D generated_file:STRING=/home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers/./cuda_compile_1_generated_softmax_layer.cu.o -D generated_cubin_file:STRING=/home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers/./cuda_compile_1_generated_softmax_layer.cu.o.cubin.txt -P /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers/cuda_compile_1_generated_softmax_layer.cu.o.Debug.cmake
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_47) "Building NVCC (Device) object src/caffe/CMakeFiles/cuda_compile_1.dir/layers/cuda_compile_1_generated_softmax_layer.cu.o"
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers && /home/panzhenfu/clion-2017.1.1/bin/cmake/bin/cmake -E make_directory /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers/.
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers && /home/panzhenfu/clion-2017.1.1/bin/cmake/bin/cmake -D verbose:BOOL=$(VERBOSE) -D build_configuration:STRING=Debug -D generated_file:STRING=/home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers/./cuda_compile_1_generated_softmax_layer.cu.o -D generated_cubin_file:STRING=/home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers/./cuda_compile_1_generated_softmax_layer.cu.o.cubin.txt -P /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers/cuda_compile_1_generated_softmax_layer.cu.o.Debug.cmake
 
 src/caffe/CMakeFiles/cuda_compile_1.dir/layers/cuda_compile_1_generated_softmax_loss_layer.cu.o: src/caffe/CMakeFiles/cuda_compile_1.dir/layers/cuda_compile_1_generated_softmax_loss_layer.cu.o.depend
 src/caffe/CMakeFiles/cuda_compile_1.dir/layers/cuda_compile_1_generated_softmax_loss_layer.cu.o: src/caffe/CMakeFiles/cuda_compile_1.dir/layers/cuda_compile_1_generated_softmax_loss_layer.cu.o.Debug.cmake
 src/caffe/CMakeFiles/cuda_compile_1.dir/layers/cuda_compile_1_generated_softmax_loss_layer.cu.o: ../src/caffe/layers/softmax_loss_layer.cu
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/panzhenfu/Documents/caffe/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_48) "Building NVCC (Device) object src/caffe/CMakeFiles/cuda_compile_1.dir/layers/cuda_compile_1_generated_softmax_loss_layer.cu.o"
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers && /home/panzhenfu/clion-2017.1.1/bin/cmake/bin/cmake -E make_directory /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers/.
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers && /home/panzhenfu/clion-2017.1.1/bin/cmake/bin/cmake -D verbose:BOOL=$(VERBOSE) -D build_configuration:STRING=Debug -D generated_file:STRING=/home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers/./cuda_compile_1_generated_softmax_loss_layer.cu.o -D generated_cubin_file:STRING=/home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers/./cuda_compile_1_generated_softmax_loss_layer.cu.o.cubin.txt -P /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers/cuda_compile_1_generated_softmax_loss_layer.cu.o.Debug.cmake
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_48) "Building NVCC (Device) object src/caffe/CMakeFiles/cuda_compile_1.dir/layers/cuda_compile_1_generated_softmax_loss_layer.cu.o"
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers && /home/panzhenfu/clion-2017.1.1/bin/cmake/bin/cmake -E make_directory /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers/.
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers && /home/panzhenfu/clion-2017.1.1/bin/cmake/bin/cmake -D verbose:BOOL=$(VERBOSE) -D build_configuration:STRING=Debug -D generated_file:STRING=/home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers/./cuda_compile_1_generated_softmax_loss_layer.cu.o -D generated_cubin_file:STRING=/home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers/./cuda_compile_1_generated_softmax_loss_layer.cu.o.cubin.txt -P /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers/cuda_compile_1_generated_softmax_loss_layer.cu.o.Debug.cmake
 
 src/caffe/CMakeFiles/cuda_compile_1.dir/layers/cuda_compile_1_generated_split_layer.cu.o: src/caffe/CMakeFiles/cuda_compile_1.dir/layers/cuda_compile_1_generated_split_layer.cu.o.depend
 src/caffe/CMakeFiles/cuda_compile_1.dir/layers/cuda_compile_1_generated_split_layer.cu.o: src/caffe/CMakeFiles/cuda_compile_1.dir/layers/cuda_compile_1_generated_split_layer.cu.o.Debug.cmake
 src/caffe/CMakeFiles/cuda_compile_1.dir/layers/cuda_compile_1_generated_split_layer.cu.o: ../src/caffe/layers/split_layer.cu
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/panzhenfu/Documents/caffe/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_49) "Building NVCC (Device) object src/caffe/CMakeFiles/cuda_compile_1.dir/layers/cuda_compile_1_generated_split_layer.cu.o"
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers && /home/panzhenfu/clion-2017.1.1/bin/cmake/bin/cmake -E make_directory /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers/.
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers && /home/panzhenfu/clion-2017.1.1/bin/cmake/bin/cmake -D verbose:BOOL=$(VERBOSE) -D build_configuration:STRING=Debug -D generated_file:STRING=/home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers/./cuda_compile_1_generated_split_layer.cu.o -D generated_cubin_file:STRING=/home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers/./cuda_compile_1_generated_split_layer.cu.o.cubin.txt -P /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers/cuda_compile_1_generated_split_layer.cu.o.Debug.cmake
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_49) "Building NVCC (Device) object src/caffe/CMakeFiles/cuda_compile_1.dir/layers/cuda_compile_1_generated_split_layer.cu.o"
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers && /home/panzhenfu/clion-2017.1.1/bin/cmake/bin/cmake -E make_directory /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers/.
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers && /home/panzhenfu/clion-2017.1.1/bin/cmake/bin/cmake -D verbose:BOOL=$(VERBOSE) -D build_configuration:STRING=Debug -D generated_file:STRING=/home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers/./cuda_compile_1_generated_split_layer.cu.o -D generated_cubin_file:STRING=/home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers/./cuda_compile_1_generated_split_layer.cu.o.cubin.txt -P /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers/cuda_compile_1_generated_split_layer.cu.o.Debug.cmake
 
 src/caffe/CMakeFiles/cuda_compile_1.dir/layers/cuda_compile_1_generated_tanh_layer.cu.o: src/caffe/CMakeFiles/cuda_compile_1.dir/layers/cuda_compile_1_generated_tanh_layer.cu.o.depend
 src/caffe/CMakeFiles/cuda_compile_1.dir/layers/cuda_compile_1_generated_tanh_layer.cu.o: src/caffe/CMakeFiles/cuda_compile_1.dir/layers/cuda_compile_1_generated_tanh_layer.cu.o.Debug.cmake
 src/caffe/CMakeFiles/cuda_compile_1.dir/layers/cuda_compile_1_generated_tanh_layer.cu.o: ../src/caffe/layers/tanh_layer.cu
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/panzhenfu/Documents/caffe/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_50) "Building NVCC (Device) object src/caffe/CMakeFiles/cuda_compile_1.dir/layers/cuda_compile_1_generated_tanh_layer.cu.o"
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers && /home/panzhenfu/clion-2017.1.1/bin/cmake/bin/cmake -E make_directory /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers/.
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers && /home/panzhenfu/clion-2017.1.1/bin/cmake/bin/cmake -D verbose:BOOL=$(VERBOSE) -D build_configuration:STRING=Debug -D generated_file:STRING=/home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers/./cuda_compile_1_generated_tanh_layer.cu.o -D generated_cubin_file:STRING=/home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers/./cuda_compile_1_generated_tanh_layer.cu.o.cubin.txt -P /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers/cuda_compile_1_generated_tanh_layer.cu.o.Debug.cmake
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_50) "Building NVCC (Device) object src/caffe/CMakeFiles/cuda_compile_1.dir/layers/cuda_compile_1_generated_tanh_layer.cu.o"
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers && /home/panzhenfu/clion-2017.1.1/bin/cmake/bin/cmake -E make_directory /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers/.
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers && /home/panzhenfu/clion-2017.1.1/bin/cmake/bin/cmake -D verbose:BOOL=$(VERBOSE) -D build_configuration:STRING=Debug -D generated_file:STRING=/home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers/./cuda_compile_1_generated_tanh_layer.cu.o -D generated_cubin_file:STRING=/home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers/./cuda_compile_1_generated_tanh_layer.cu.o.cubin.txt -P /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers/cuda_compile_1_generated_tanh_layer.cu.o.Debug.cmake
 
 src/caffe/CMakeFiles/cuda_compile_1.dir/layers/cuda_compile_1_generated_threshold_layer.cu.o: src/caffe/CMakeFiles/cuda_compile_1.dir/layers/cuda_compile_1_generated_threshold_layer.cu.o.depend
 src/caffe/CMakeFiles/cuda_compile_1.dir/layers/cuda_compile_1_generated_threshold_layer.cu.o: src/caffe/CMakeFiles/cuda_compile_1.dir/layers/cuda_compile_1_generated_threshold_layer.cu.o.Debug.cmake
 src/caffe/CMakeFiles/cuda_compile_1.dir/layers/cuda_compile_1_generated_threshold_layer.cu.o: ../src/caffe/layers/threshold_layer.cu
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/panzhenfu/Documents/caffe/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_51) "Building NVCC (Device) object src/caffe/CMakeFiles/cuda_compile_1.dir/layers/cuda_compile_1_generated_threshold_layer.cu.o"
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers && /home/panzhenfu/clion-2017.1.1/bin/cmake/bin/cmake -E make_directory /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers/.
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers && /home/panzhenfu/clion-2017.1.1/bin/cmake/bin/cmake -D verbose:BOOL=$(VERBOSE) -D build_configuration:STRING=Debug -D generated_file:STRING=/home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers/./cuda_compile_1_generated_threshold_layer.cu.o -D generated_cubin_file:STRING=/home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers/./cuda_compile_1_generated_threshold_layer.cu.o.cubin.txt -P /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers/cuda_compile_1_generated_threshold_layer.cu.o.Debug.cmake
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_51) "Building NVCC (Device) object src/caffe/CMakeFiles/cuda_compile_1.dir/layers/cuda_compile_1_generated_threshold_layer.cu.o"
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers && /home/panzhenfu/clion-2017.1.1/bin/cmake/bin/cmake -E make_directory /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers/.
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers && /home/panzhenfu/clion-2017.1.1/bin/cmake/bin/cmake -D verbose:BOOL=$(VERBOSE) -D build_configuration:STRING=Debug -D generated_file:STRING=/home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers/./cuda_compile_1_generated_threshold_layer.cu.o -D generated_cubin_file:STRING=/home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers/./cuda_compile_1_generated_threshold_layer.cu.o.cubin.txt -P /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers/cuda_compile_1_generated_threshold_layer.cu.o.Debug.cmake
 
 src/caffe/CMakeFiles/cuda_compile_1.dir/layers/cuda_compile_1_generated_tile_layer.cu.o: src/caffe/CMakeFiles/cuda_compile_1.dir/layers/cuda_compile_1_generated_tile_layer.cu.o.depend
 src/caffe/CMakeFiles/cuda_compile_1.dir/layers/cuda_compile_1_generated_tile_layer.cu.o: src/caffe/CMakeFiles/cuda_compile_1.dir/layers/cuda_compile_1_generated_tile_layer.cu.o.Debug.cmake
 src/caffe/CMakeFiles/cuda_compile_1.dir/layers/cuda_compile_1_generated_tile_layer.cu.o: ../src/caffe/layers/tile_layer.cu
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/panzhenfu/Documents/caffe/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_52) "Building NVCC (Device) object src/caffe/CMakeFiles/cuda_compile_1.dir/layers/cuda_compile_1_generated_tile_layer.cu.o"
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers && /home/panzhenfu/clion-2017.1.1/bin/cmake/bin/cmake -E make_directory /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers/.
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers && /home/panzhenfu/clion-2017.1.1/bin/cmake/bin/cmake -D verbose:BOOL=$(VERBOSE) -D build_configuration:STRING=Debug -D generated_file:STRING=/home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers/./cuda_compile_1_generated_tile_layer.cu.o -D generated_cubin_file:STRING=/home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers/./cuda_compile_1_generated_tile_layer.cu.o.cubin.txt -P /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers/cuda_compile_1_generated_tile_layer.cu.o.Debug.cmake
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_52) "Building NVCC (Device) object src/caffe/CMakeFiles/cuda_compile_1.dir/layers/cuda_compile_1_generated_tile_layer.cu.o"
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers && /home/panzhenfu/clion-2017.1.1/bin/cmake/bin/cmake -E make_directory /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers/.
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers && /home/panzhenfu/clion-2017.1.1/bin/cmake/bin/cmake -D verbose:BOOL=$(VERBOSE) -D build_configuration:STRING=Debug -D generated_file:STRING=/home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers/./cuda_compile_1_generated_tile_layer.cu.o -D generated_cubin_file:STRING=/home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers/./cuda_compile_1_generated_tile_layer.cu.o.cubin.txt -P /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers/cuda_compile_1_generated_tile_layer.cu.o.Debug.cmake
 
 src/caffe/CMakeFiles/cuda_compile_1.dir/layers/cuda_compile_1_generated_warping_layer.cu.o: src/caffe/CMakeFiles/cuda_compile_1.dir/layers/cuda_compile_1_generated_warping_layer.cu.o.depend
 src/caffe/CMakeFiles/cuda_compile_1.dir/layers/cuda_compile_1_generated_warping_layer.cu.o: src/caffe/CMakeFiles/cuda_compile_1.dir/layers/cuda_compile_1_generated_warping_layer.cu.o.Debug.cmake
 src/caffe/CMakeFiles/cuda_compile_1.dir/layers/cuda_compile_1_generated_warping_layer.cu.o: ../src/caffe/layers/warping_layer.cu
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/panzhenfu/Documents/caffe/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_53) "Building NVCC (Device) object src/caffe/CMakeFiles/cuda_compile_1.dir/layers/cuda_compile_1_generated_warping_layer.cu.o"
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers && /home/panzhenfu/clion-2017.1.1/bin/cmake/bin/cmake -E make_directory /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers/.
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers && /home/panzhenfu/clion-2017.1.1/bin/cmake/bin/cmake -D verbose:BOOL=$(VERBOSE) -D build_configuration:STRING=Debug -D generated_file:STRING=/home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers/./cuda_compile_1_generated_warping_layer.cu.o -D generated_cubin_file:STRING=/home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers/./cuda_compile_1_generated_warping_layer.cu.o.cubin.txt -P /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers/cuda_compile_1_generated_warping_layer.cu.o.Debug.cmake
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_53) "Building NVCC (Device) object src/caffe/CMakeFiles/cuda_compile_1.dir/layers/cuda_compile_1_generated_warping_layer.cu.o"
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers && /home/panzhenfu/clion-2017.1.1/bin/cmake/bin/cmake -E make_directory /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers/.
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers && /home/panzhenfu/clion-2017.1.1/bin/cmake/bin/cmake -D verbose:BOOL=$(VERBOSE) -D build_configuration:STRING=Debug -D generated_file:STRING=/home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers/./cuda_compile_1_generated_warping_layer.cu.o -D generated_cubin_file:STRING=/home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers/./cuda_compile_1_generated_warping_layer.cu.o.cubin.txt -P /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers/cuda_compile_1_generated_warping_layer.cu.o.Debug.cmake
 
 src/caffe/CMakeFiles/cuda_compile_1.dir/solvers/cuda_compile_1_generated_adadelta_solver.cu.o: src/caffe/CMakeFiles/cuda_compile_1.dir/solvers/cuda_compile_1_generated_adadelta_solver.cu.o.depend
 src/caffe/CMakeFiles/cuda_compile_1.dir/solvers/cuda_compile_1_generated_adadelta_solver.cu.o: src/caffe/CMakeFiles/cuda_compile_1.dir/solvers/cuda_compile_1_generated_adadelta_solver.cu.o.Debug.cmake
 src/caffe/CMakeFiles/cuda_compile_1.dir/solvers/cuda_compile_1_generated_adadelta_solver.cu.o: ../src/caffe/solvers/adadelta_solver.cu
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/panzhenfu/Documents/caffe/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_54) "Building NVCC (Device) object src/caffe/CMakeFiles/cuda_compile_1.dir/solvers/cuda_compile_1_generated_adadelta_solver.cu.o"
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/solvers && /home/panzhenfu/clion-2017.1.1/bin/cmake/bin/cmake -E make_directory /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/solvers/.
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/solvers && /home/panzhenfu/clion-2017.1.1/bin/cmake/bin/cmake -D verbose:BOOL=$(VERBOSE) -D build_configuration:STRING=Debug -D generated_file:STRING=/home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/solvers/./cuda_compile_1_generated_adadelta_solver.cu.o -D generated_cubin_file:STRING=/home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/solvers/./cuda_compile_1_generated_adadelta_solver.cu.o.cubin.txt -P /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/solvers/cuda_compile_1_generated_adadelta_solver.cu.o.Debug.cmake
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_54) "Building NVCC (Device) object src/caffe/CMakeFiles/cuda_compile_1.dir/solvers/cuda_compile_1_generated_adadelta_solver.cu.o"
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/solvers && /home/panzhenfu/clion-2017.1.1/bin/cmake/bin/cmake -E make_directory /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/solvers/.
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/solvers && /home/panzhenfu/clion-2017.1.1/bin/cmake/bin/cmake -D verbose:BOOL=$(VERBOSE) -D build_configuration:STRING=Debug -D generated_file:STRING=/home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/solvers/./cuda_compile_1_generated_adadelta_solver.cu.o -D generated_cubin_file:STRING=/home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/solvers/./cuda_compile_1_generated_adadelta_solver.cu.o.cubin.txt -P /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/solvers/cuda_compile_1_generated_adadelta_solver.cu.o.Debug.cmake
 
 src/caffe/CMakeFiles/cuda_compile_1.dir/solvers/cuda_compile_1_generated_adagrad_solver.cu.o: src/caffe/CMakeFiles/cuda_compile_1.dir/solvers/cuda_compile_1_generated_adagrad_solver.cu.o.depend
 src/caffe/CMakeFiles/cuda_compile_1.dir/solvers/cuda_compile_1_generated_adagrad_solver.cu.o: src/caffe/CMakeFiles/cuda_compile_1.dir/solvers/cuda_compile_1_generated_adagrad_solver.cu.o.Debug.cmake
 src/caffe/CMakeFiles/cuda_compile_1.dir/solvers/cuda_compile_1_generated_adagrad_solver.cu.o: ../src/caffe/solvers/adagrad_solver.cu
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/panzhenfu/Documents/caffe/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_55) "Building NVCC (Device) object src/caffe/CMakeFiles/cuda_compile_1.dir/solvers/cuda_compile_1_generated_adagrad_solver.cu.o"
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/solvers && /home/panzhenfu/clion-2017.1.1/bin/cmake/bin/cmake -E make_directory /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/solvers/.
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/solvers && /home/panzhenfu/clion-2017.1.1/bin/cmake/bin/cmake -D verbose:BOOL=$(VERBOSE) -D build_configuration:STRING=Debug -D generated_file:STRING=/home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/solvers/./cuda_compile_1_generated_adagrad_solver.cu.o -D generated_cubin_file:STRING=/home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/solvers/./cuda_compile_1_generated_adagrad_solver.cu.o.cubin.txt -P /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/solvers/cuda_compile_1_generated_adagrad_solver.cu.o.Debug.cmake
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_55) "Building NVCC (Device) object src/caffe/CMakeFiles/cuda_compile_1.dir/solvers/cuda_compile_1_generated_adagrad_solver.cu.o"
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/solvers && /home/panzhenfu/clion-2017.1.1/bin/cmake/bin/cmake -E make_directory /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/solvers/.
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/solvers && /home/panzhenfu/clion-2017.1.1/bin/cmake/bin/cmake -D verbose:BOOL=$(VERBOSE) -D build_configuration:STRING=Debug -D generated_file:STRING=/home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/solvers/./cuda_compile_1_generated_adagrad_solver.cu.o -D generated_cubin_file:STRING=/home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/solvers/./cuda_compile_1_generated_adagrad_solver.cu.o.cubin.txt -P /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/solvers/cuda_compile_1_generated_adagrad_solver.cu.o.Debug.cmake
 
 src/caffe/CMakeFiles/cuda_compile_1.dir/solvers/cuda_compile_1_generated_adam_solver.cu.o: src/caffe/CMakeFiles/cuda_compile_1.dir/solvers/cuda_compile_1_generated_adam_solver.cu.o.depend
 src/caffe/CMakeFiles/cuda_compile_1.dir/solvers/cuda_compile_1_generated_adam_solver.cu.o: src/caffe/CMakeFiles/cuda_compile_1.dir/solvers/cuda_compile_1_generated_adam_solver.cu.o.Debug.cmake
 src/caffe/CMakeFiles/cuda_compile_1.dir/solvers/cuda_compile_1_generated_adam_solver.cu.o: ../src/caffe/solvers/adam_solver.cu
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/panzhenfu/Documents/caffe/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_56) "Building NVCC (Device) object src/caffe/CMakeFiles/cuda_compile_1.dir/solvers/cuda_compile_1_generated_adam_solver.cu.o"
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/solvers && /home/panzhenfu/clion-2017.1.1/bin/cmake/bin/cmake -E make_directory /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/solvers/.
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/solvers && /home/panzhenfu/clion-2017.1.1/bin/cmake/bin/cmake -D verbose:BOOL=$(VERBOSE) -D build_configuration:STRING=Debug -D generated_file:STRING=/home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/solvers/./cuda_compile_1_generated_adam_solver.cu.o -D generated_cubin_file:STRING=/home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/solvers/./cuda_compile_1_generated_adam_solver.cu.o.cubin.txt -P /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/solvers/cuda_compile_1_generated_adam_solver.cu.o.Debug.cmake
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_56) "Building NVCC (Device) object src/caffe/CMakeFiles/cuda_compile_1.dir/solvers/cuda_compile_1_generated_adam_solver.cu.o"
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/solvers && /home/panzhenfu/clion-2017.1.1/bin/cmake/bin/cmake -E make_directory /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/solvers/.
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/solvers && /home/panzhenfu/clion-2017.1.1/bin/cmake/bin/cmake -D verbose:BOOL=$(VERBOSE) -D build_configuration:STRING=Debug -D generated_file:STRING=/home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/solvers/./cuda_compile_1_generated_adam_solver.cu.o -D generated_cubin_file:STRING=/home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/solvers/./cuda_compile_1_generated_adam_solver.cu.o.cubin.txt -P /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/solvers/cuda_compile_1_generated_adam_solver.cu.o.Debug.cmake
 
 src/caffe/CMakeFiles/cuda_compile_1.dir/solvers/cuda_compile_1_generated_nesterov_solver.cu.o: src/caffe/CMakeFiles/cuda_compile_1.dir/solvers/cuda_compile_1_generated_nesterov_solver.cu.o.depend
 src/caffe/CMakeFiles/cuda_compile_1.dir/solvers/cuda_compile_1_generated_nesterov_solver.cu.o: src/caffe/CMakeFiles/cuda_compile_1.dir/solvers/cuda_compile_1_generated_nesterov_solver.cu.o.Debug.cmake
 src/caffe/CMakeFiles/cuda_compile_1.dir/solvers/cuda_compile_1_generated_nesterov_solver.cu.o: ../src/caffe/solvers/nesterov_solver.cu
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/panzhenfu/Documents/caffe/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_57) "Building NVCC (Device) object src/caffe/CMakeFiles/cuda_compile_1.dir/solvers/cuda_compile_1_generated_nesterov_solver.cu.o"
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/solvers && /home/panzhenfu/clion-2017.1.1/bin/cmake/bin/cmake -E make_directory /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/solvers/.
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/solvers && /home/panzhenfu/clion-2017.1.1/bin/cmake/bin/cmake -D verbose:BOOL=$(VERBOSE) -D build_configuration:STRING=Debug -D generated_file:STRING=/home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/solvers/./cuda_compile_1_generated_nesterov_solver.cu.o -D generated_cubin_file:STRING=/home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/solvers/./cuda_compile_1_generated_nesterov_solver.cu.o.cubin.txt -P /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/solvers/cuda_compile_1_generated_nesterov_solver.cu.o.Debug.cmake
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_57) "Building NVCC (Device) object src/caffe/CMakeFiles/cuda_compile_1.dir/solvers/cuda_compile_1_generated_nesterov_solver.cu.o"
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/solvers && /home/panzhenfu/clion-2017.1.1/bin/cmake/bin/cmake -E make_directory /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/solvers/.
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/solvers && /home/panzhenfu/clion-2017.1.1/bin/cmake/bin/cmake -D verbose:BOOL=$(VERBOSE) -D build_configuration:STRING=Debug -D generated_file:STRING=/home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/solvers/./cuda_compile_1_generated_nesterov_solver.cu.o -D generated_cubin_file:STRING=/home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/solvers/./cuda_compile_1_generated_nesterov_solver.cu.o.cubin.txt -P /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/solvers/cuda_compile_1_generated_nesterov_solver.cu.o.Debug.cmake
 
 src/caffe/CMakeFiles/cuda_compile_1.dir/solvers/cuda_compile_1_generated_rmsprop_solver.cu.o: src/caffe/CMakeFiles/cuda_compile_1.dir/solvers/cuda_compile_1_generated_rmsprop_solver.cu.o.depend
 src/caffe/CMakeFiles/cuda_compile_1.dir/solvers/cuda_compile_1_generated_rmsprop_solver.cu.o: src/caffe/CMakeFiles/cuda_compile_1.dir/solvers/cuda_compile_1_generated_rmsprop_solver.cu.o.Debug.cmake
 src/caffe/CMakeFiles/cuda_compile_1.dir/solvers/cuda_compile_1_generated_rmsprop_solver.cu.o: ../src/caffe/solvers/rmsprop_solver.cu
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/panzhenfu/Documents/caffe/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_58) "Building NVCC (Device) object src/caffe/CMakeFiles/cuda_compile_1.dir/solvers/cuda_compile_1_generated_rmsprop_solver.cu.o"
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/solvers && /home/panzhenfu/clion-2017.1.1/bin/cmake/bin/cmake -E make_directory /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/solvers/.
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/solvers && /home/panzhenfu/clion-2017.1.1/bin/cmake/bin/cmake -D verbose:BOOL=$(VERBOSE) -D build_configuration:STRING=Debug -D generated_file:STRING=/home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/solvers/./cuda_compile_1_generated_rmsprop_solver.cu.o -D generated_cubin_file:STRING=/home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/solvers/./cuda_compile_1_generated_rmsprop_solver.cu.o.cubin.txt -P /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/solvers/cuda_compile_1_generated_rmsprop_solver.cu.o.Debug.cmake
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_58) "Building NVCC (Device) object src/caffe/CMakeFiles/cuda_compile_1.dir/solvers/cuda_compile_1_generated_rmsprop_solver.cu.o"
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/solvers && /home/panzhenfu/clion-2017.1.1/bin/cmake/bin/cmake -E make_directory /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/solvers/.
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/solvers && /home/panzhenfu/clion-2017.1.1/bin/cmake/bin/cmake -D verbose:BOOL=$(VERBOSE) -D build_configuration:STRING=Debug -D generated_file:STRING=/home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/solvers/./cuda_compile_1_generated_rmsprop_solver.cu.o -D generated_cubin_file:STRING=/home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/solvers/./cuda_compile_1_generated_rmsprop_solver.cu.o.cubin.txt -P /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/solvers/cuda_compile_1_generated_rmsprop_solver.cu.o.Debug.cmake
 
 src/caffe/CMakeFiles/cuda_compile_1.dir/solvers/cuda_compile_1_generated_sgd_solver.cu.o: src/caffe/CMakeFiles/cuda_compile_1.dir/solvers/cuda_compile_1_generated_sgd_solver.cu.o.depend
 src/caffe/CMakeFiles/cuda_compile_1.dir/solvers/cuda_compile_1_generated_sgd_solver.cu.o: src/caffe/CMakeFiles/cuda_compile_1.dir/solvers/cuda_compile_1_generated_sgd_solver.cu.o.Debug.cmake
 src/caffe/CMakeFiles/cuda_compile_1.dir/solvers/cuda_compile_1_generated_sgd_solver.cu.o: ../src/caffe/solvers/sgd_solver.cu
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/panzhenfu/Documents/caffe/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_59) "Building NVCC (Device) object src/caffe/CMakeFiles/cuda_compile_1.dir/solvers/cuda_compile_1_generated_sgd_solver.cu.o"
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/solvers && /home/panzhenfu/clion-2017.1.1/bin/cmake/bin/cmake -E make_directory /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/solvers/.
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/solvers && /home/panzhenfu/clion-2017.1.1/bin/cmake/bin/cmake -D verbose:BOOL=$(VERBOSE) -D build_configuration:STRING=Debug -D generated_file:STRING=/home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/solvers/./cuda_compile_1_generated_sgd_solver.cu.o -D generated_cubin_file:STRING=/home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/solvers/./cuda_compile_1_generated_sgd_solver.cu.o.cubin.txt -P /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/solvers/cuda_compile_1_generated_sgd_solver.cu.o.Debug.cmake
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_59) "Building NVCC (Device) object src/caffe/CMakeFiles/cuda_compile_1.dir/solvers/cuda_compile_1_generated_sgd_solver.cu.o"
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/solvers && /home/panzhenfu/clion-2017.1.1/bin/cmake/bin/cmake -E make_directory /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/solvers/.
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/solvers && /home/panzhenfu/clion-2017.1.1/bin/cmake/bin/cmake -D verbose:BOOL=$(VERBOSE) -D build_configuration:STRING=Debug -D generated_file:STRING=/home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/solvers/./cuda_compile_1_generated_sgd_solver.cu.o -D generated_cubin_file:STRING=/home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/solvers/./cuda_compile_1_generated_sgd_solver.cu.o.cubin.txt -P /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/solvers/cuda_compile_1_generated_sgd_solver.cu.o.Debug.cmake
 
 src/caffe/CMakeFiles/cuda_compile_1.dir/util/cuda_compile_1_generated_im2col.cu.o: src/caffe/CMakeFiles/cuda_compile_1.dir/util/cuda_compile_1_generated_im2col.cu.o.depend
 src/caffe/CMakeFiles/cuda_compile_1.dir/util/cuda_compile_1_generated_im2col.cu.o: src/caffe/CMakeFiles/cuda_compile_1.dir/util/cuda_compile_1_generated_im2col.cu.o.Debug.cmake
 src/caffe/CMakeFiles/cuda_compile_1.dir/util/cuda_compile_1_generated_im2col.cu.o: ../src/caffe/util/im2col.cu
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/panzhenfu/Documents/caffe/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_60) "Building NVCC (Device) object src/caffe/CMakeFiles/cuda_compile_1.dir/util/cuda_compile_1_generated_im2col.cu.o"
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/util && /home/panzhenfu/clion-2017.1.1/bin/cmake/bin/cmake -E make_directory /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/util/.
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/util && /home/panzhenfu/clion-2017.1.1/bin/cmake/bin/cmake -D verbose:BOOL=$(VERBOSE) -D build_configuration:STRING=Debug -D generated_file:STRING=/home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/util/./cuda_compile_1_generated_im2col.cu.o -D generated_cubin_file:STRING=/home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/util/./cuda_compile_1_generated_im2col.cu.o.cubin.txt -P /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/util/cuda_compile_1_generated_im2col.cu.o.Debug.cmake
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_60) "Building NVCC (Device) object src/caffe/CMakeFiles/cuda_compile_1.dir/util/cuda_compile_1_generated_im2col.cu.o"
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/util && /home/panzhenfu/clion-2017.1.1/bin/cmake/bin/cmake -E make_directory /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/util/.
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/util && /home/panzhenfu/clion-2017.1.1/bin/cmake/bin/cmake -D verbose:BOOL=$(VERBOSE) -D build_configuration:STRING=Debug -D generated_file:STRING=/home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/util/./cuda_compile_1_generated_im2col.cu.o -D generated_cubin_file:STRING=/home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/util/./cuda_compile_1_generated_im2col.cu.o.cubin.txt -P /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/util/cuda_compile_1_generated_im2col.cu.o.Debug.cmake
 
 src/caffe/CMakeFiles/cuda_compile_1.dir/util/cuda_compile_1_generated_math_functions.cu.o: src/caffe/CMakeFiles/cuda_compile_1.dir/util/cuda_compile_1_generated_math_functions.cu.o.depend
 src/caffe/CMakeFiles/cuda_compile_1.dir/util/cuda_compile_1_generated_math_functions.cu.o: src/caffe/CMakeFiles/cuda_compile_1.dir/util/cuda_compile_1_generated_math_functions.cu.o.Debug.cmake
 src/caffe/CMakeFiles/cuda_compile_1.dir/util/cuda_compile_1_generated_math_functions.cu.o: ../src/caffe/util/math_functions.cu
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/panzhenfu/Documents/caffe/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_61) "Building NVCC (Device) object src/caffe/CMakeFiles/cuda_compile_1.dir/util/cuda_compile_1_generated_math_functions.cu.o"
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/util && /home/panzhenfu/clion-2017.1.1/bin/cmake/bin/cmake -E make_directory /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/util/.
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/util && /home/panzhenfu/clion-2017.1.1/bin/cmake/bin/cmake -D verbose:BOOL=$(VERBOSE) -D build_configuration:STRING=Debug -D generated_file:STRING=/home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/util/./cuda_compile_1_generated_math_functions.cu.o -D generated_cubin_file:STRING=/home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/util/./cuda_compile_1_generated_math_functions.cu.o.cubin.txt -P /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/util/cuda_compile_1_generated_math_functions.cu.o.Debug.cmake
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_61) "Building NVCC (Device) object src/caffe/CMakeFiles/cuda_compile_1.dir/util/cuda_compile_1_generated_math_functions.cu.o"
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/util && /home/panzhenfu/clion-2017.1.1/bin/cmake/bin/cmake -E make_directory /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/util/.
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/util && /home/panzhenfu/clion-2017.1.1/bin/cmake/bin/cmake -D verbose:BOOL=$(VERBOSE) -D build_configuration:STRING=Debug -D generated_file:STRING=/home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/util/./cuda_compile_1_generated_math_functions.cu.o -D generated_cubin_file:STRING=/home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/util/./cuda_compile_1_generated_math_functions.cu.o.cubin.txt -P /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/util/cuda_compile_1_generated_math_functions.cu.o.Debug.cmake
 
 src/caffe/CMakeFiles/caffe.dir/blob.cpp.o: src/caffe/CMakeFiles/caffe.dir/flags.make
 src/caffe/CMakeFiles/caffe.dir/blob.cpp.o: ../src/caffe/blob.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/panzhenfu/Documents/caffe/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_62) "Building CXX object src/caffe/CMakeFiles/caffe.dir/blob.cpp.o"
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/caffe.dir/blob.cpp.o -c /home/panzhenfu/Documents/caffe/src/caffe/blob.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_62) "Building CXX object src/caffe/CMakeFiles/caffe.dir/blob.cpp.o"
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/caffe.dir/blob.cpp.o -c /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/src/caffe/blob.cpp
 
 src/caffe/CMakeFiles/caffe.dir/blob.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/caffe.dir/blob.cpp.i"
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/panzhenfu/Documents/caffe/src/caffe/blob.cpp > CMakeFiles/caffe.dir/blob.cpp.i
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/src/caffe/blob.cpp > CMakeFiles/caffe.dir/blob.cpp.i
 
 src/caffe/CMakeFiles/caffe.dir/blob.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/caffe.dir/blob.cpp.s"
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/panzhenfu/Documents/caffe/src/caffe/blob.cpp -o CMakeFiles/caffe.dir/blob.cpp.s
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/src/caffe/blob.cpp -o CMakeFiles/caffe.dir/blob.cpp.s
 
 src/caffe/CMakeFiles/caffe.dir/blob.cpp.o.requires:
 
@@ -510,16 +510,16 @@ src/caffe/CMakeFiles/caffe.dir/blob.cpp.o.provides.build: src/caffe/CMakeFiles/c
 
 src/caffe/CMakeFiles/caffe.dir/common.cpp.o: src/caffe/CMakeFiles/caffe.dir/flags.make
 src/caffe/CMakeFiles/caffe.dir/common.cpp.o: ../src/caffe/common.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/panzhenfu/Documents/caffe/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_63) "Building CXX object src/caffe/CMakeFiles/caffe.dir/common.cpp.o"
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/caffe.dir/common.cpp.o -c /home/panzhenfu/Documents/caffe/src/caffe/common.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_63) "Building CXX object src/caffe/CMakeFiles/caffe.dir/common.cpp.o"
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/caffe.dir/common.cpp.o -c /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/src/caffe/common.cpp
 
 src/caffe/CMakeFiles/caffe.dir/common.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/caffe.dir/common.cpp.i"
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/panzhenfu/Documents/caffe/src/caffe/common.cpp > CMakeFiles/caffe.dir/common.cpp.i
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/src/caffe/common.cpp > CMakeFiles/caffe.dir/common.cpp.i
 
 src/caffe/CMakeFiles/caffe.dir/common.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/caffe.dir/common.cpp.s"
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/panzhenfu/Documents/caffe/src/caffe/common.cpp -o CMakeFiles/caffe.dir/common.cpp.s
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/src/caffe/common.cpp -o CMakeFiles/caffe.dir/common.cpp.s
 
 src/caffe/CMakeFiles/caffe.dir/common.cpp.o.requires:
 
@@ -534,16 +534,16 @@ src/caffe/CMakeFiles/caffe.dir/common.cpp.o.provides.build: src/caffe/CMakeFiles
 
 src/caffe/CMakeFiles/caffe.dir/data_transformer.cpp.o: src/caffe/CMakeFiles/caffe.dir/flags.make
 src/caffe/CMakeFiles/caffe.dir/data_transformer.cpp.o: ../src/caffe/data_transformer.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/panzhenfu/Documents/caffe/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_64) "Building CXX object src/caffe/CMakeFiles/caffe.dir/data_transformer.cpp.o"
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/caffe.dir/data_transformer.cpp.o -c /home/panzhenfu/Documents/caffe/src/caffe/data_transformer.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_64) "Building CXX object src/caffe/CMakeFiles/caffe.dir/data_transformer.cpp.o"
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/caffe.dir/data_transformer.cpp.o -c /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/src/caffe/data_transformer.cpp
 
 src/caffe/CMakeFiles/caffe.dir/data_transformer.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/caffe.dir/data_transformer.cpp.i"
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/panzhenfu/Documents/caffe/src/caffe/data_transformer.cpp > CMakeFiles/caffe.dir/data_transformer.cpp.i
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/src/caffe/data_transformer.cpp > CMakeFiles/caffe.dir/data_transformer.cpp.i
 
 src/caffe/CMakeFiles/caffe.dir/data_transformer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/caffe.dir/data_transformer.cpp.s"
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/panzhenfu/Documents/caffe/src/caffe/data_transformer.cpp -o CMakeFiles/caffe.dir/data_transformer.cpp.s
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/src/caffe/data_transformer.cpp -o CMakeFiles/caffe.dir/data_transformer.cpp.s
 
 src/caffe/CMakeFiles/caffe.dir/data_transformer.cpp.o.requires:
 
@@ -558,16 +558,16 @@ src/caffe/CMakeFiles/caffe.dir/data_transformer.cpp.o.provides.build: src/caffe/
 
 src/caffe/CMakeFiles/caffe.dir/internal_thread.cpp.o: src/caffe/CMakeFiles/caffe.dir/flags.make
 src/caffe/CMakeFiles/caffe.dir/internal_thread.cpp.o: ../src/caffe/internal_thread.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/panzhenfu/Documents/caffe/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_65) "Building CXX object src/caffe/CMakeFiles/caffe.dir/internal_thread.cpp.o"
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/caffe.dir/internal_thread.cpp.o -c /home/panzhenfu/Documents/caffe/src/caffe/internal_thread.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_65) "Building CXX object src/caffe/CMakeFiles/caffe.dir/internal_thread.cpp.o"
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/caffe.dir/internal_thread.cpp.o -c /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/src/caffe/internal_thread.cpp
 
 src/caffe/CMakeFiles/caffe.dir/internal_thread.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/caffe.dir/internal_thread.cpp.i"
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/panzhenfu/Documents/caffe/src/caffe/internal_thread.cpp > CMakeFiles/caffe.dir/internal_thread.cpp.i
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/src/caffe/internal_thread.cpp > CMakeFiles/caffe.dir/internal_thread.cpp.i
 
 src/caffe/CMakeFiles/caffe.dir/internal_thread.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/caffe.dir/internal_thread.cpp.s"
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/panzhenfu/Documents/caffe/src/caffe/internal_thread.cpp -o CMakeFiles/caffe.dir/internal_thread.cpp.s
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/src/caffe/internal_thread.cpp -o CMakeFiles/caffe.dir/internal_thread.cpp.s
 
 src/caffe/CMakeFiles/caffe.dir/internal_thread.cpp.o.requires:
 
@@ -582,16 +582,16 @@ src/caffe/CMakeFiles/caffe.dir/internal_thread.cpp.o.provides.build: src/caffe/C
 
 src/caffe/CMakeFiles/caffe.dir/layer.cpp.o: src/caffe/CMakeFiles/caffe.dir/flags.make
 src/caffe/CMakeFiles/caffe.dir/layer.cpp.o: ../src/caffe/layer.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/panzhenfu/Documents/caffe/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_66) "Building CXX object src/caffe/CMakeFiles/caffe.dir/layer.cpp.o"
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/caffe.dir/layer.cpp.o -c /home/panzhenfu/Documents/caffe/src/caffe/layer.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_66) "Building CXX object src/caffe/CMakeFiles/caffe.dir/layer.cpp.o"
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/caffe.dir/layer.cpp.o -c /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/src/caffe/layer.cpp
 
 src/caffe/CMakeFiles/caffe.dir/layer.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/caffe.dir/layer.cpp.i"
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/panzhenfu/Documents/caffe/src/caffe/layer.cpp > CMakeFiles/caffe.dir/layer.cpp.i
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/src/caffe/layer.cpp > CMakeFiles/caffe.dir/layer.cpp.i
 
 src/caffe/CMakeFiles/caffe.dir/layer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/caffe.dir/layer.cpp.s"
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/panzhenfu/Documents/caffe/src/caffe/layer.cpp -o CMakeFiles/caffe.dir/layer.cpp.s
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/src/caffe/layer.cpp -o CMakeFiles/caffe.dir/layer.cpp.s
 
 src/caffe/CMakeFiles/caffe.dir/layer.cpp.o.requires:
 
@@ -606,16 +606,16 @@ src/caffe/CMakeFiles/caffe.dir/layer.cpp.o.provides.build: src/caffe/CMakeFiles/
 
 src/caffe/CMakeFiles/caffe.dir/layer_factory.cpp.o: src/caffe/CMakeFiles/caffe.dir/flags.make
 src/caffe/CMakeFiles/caffe.dir/layer_factory.cpp.o: ../src/caffe/layer_factory.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/panzhenfu/Documents/caffe/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_67) "Building CXX object src/caffe/CMakeFiles/caffe.dir/layer_factory.cpp.o"
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/caffe.dir/layer_factory.cpp.o -c /home/panzhenfu/Documents/caffe/src/caffe/layer_factory.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_67) "Building CXX object src/caffe/CMakeFiles/caffe.dir/layer_factory.cpp.o"
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/caffe.dir/layer_factory.cpp.o -c /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/src/caffe/layer_factory.cpp
 
 src/caffe/CMakeFiles/caffe.dir/layer_factory.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/caffe.dir/layer_factory.cpp.i"
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/panzhenfu/Documents/caffe/src/caffe/layer_factory.cpp > CMakeFiles/caffe.dir/layer_factory.cpp.i
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/src/caffe/layer_factory.cpp > CMakeFiles/caffe.dir/layer_factory.cpp.i
 
 src/caffe/CMakeFiles/caffe.dir/layer_factory.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/caffe.dir/layer_factory.cpp.s"
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/panzhenfu/Documents/caffe/src/caffe/layer_factory.cpp -o CMakeFiles/caffe.dir/layer_factory.cpp.s
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/src/caffe/layer_factory.cpp -o CMakeFiles/caffe.dir/layer_factory.cpp.s
 
 src/caffe/CMakeFiles/caffe.dir/layer_factory.cpp.o.requires:
 
@@ -630,16 +630,16 @@ src/caffe/CMakeFiles/caffe.dir/layer_factory.cpp.o.provides.build: src/caffe/CMa
 
 src/caffe/CMakeFiles/caffe.dir/layers/abs_loss_layer.cpp.o: src/caffe/CMakeFiles/caffe.dir/flags.make
 src/caffe/CMakeFiles/caffe.dir/layers/abs_loss_layer.cpp.o: ../src/caffe/layers/abs_loss_layer.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/panzhenfu/Documents/caffe/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_68) "Building CXX object src/caffe/CMakeFiles/caffe.dir/layers/abs_loss_layer.cpp.o"
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/caffe.dir/layers/abs_loss_layer.cpp.o -c /home/panzhenfu/Documents/caffe/src/caffe/layers/abs_loss_layer.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_68) "Building CXX object src/caffe/CMakeFiles/caffe.dir/layers/abs_loss_layer.cpp.o"
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/caffe.dir/layers/abs_loss_layer.cpp.o -c /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/src/caffe/layers/abs_loss_layer.cpp
 
 src/caffe/CMakeFiles/caffe.dir/layers/abs_loss_layer.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/caffe.dir/layers/abs_loss_layer.cpp.i"
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/panzhenfu/Documents/caffe/src/caffe/layers/abs_loss_layer.cpp > CMakeFiles/caffe.dir/layers/abs_loss_layer.cpp.i
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/src/caffe/layers/abs_loss_layer.cpp > CMakeFiles/caffe.dir/layers/abs_loss_layer.cpp.i
 
 src/caffe/CMakeFiles/caffe.dir/layers/abs_loss_layer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/caffe.dir/layers/abs_loss_layer.cpp.s"
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/panzhenfu/Documents/caffe/src/caffe/layers/abs_loss_layer.cpp -o CMakeFiles/caffe.dir/layers/abs_loss_layer.cpp.s
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/src/caffe/layers/abs_loss_layer.cpp -o CMakeFiles/caffe.dir/layers/abs_loss_layer.cpp.s
 
 src/caffe/CMakeFiles/caffe.dir/layers/abs_loss_layer.cpp.o.requires:
 
@@ -654,16 +654,16 @@ src/caffe/CMakeFiles/caffe.dir/layers/abs_loss_layer.cpp.o.provides.build: src/c
 
 src/caffe/CMakeFiles/caffe.dir/layers/absval_layer.cpp.o: src/caffe/CMakeFiles/caffe.dir/flags.make
 src/caffe/CMakeFiles/caffe.dir/layers/absval_layer.cpp.o: ../src/caffe/layers/absval_layer.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/panzhenfu/Documents/caffe/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_69) "Building CXX object src/caffe/CMakeFiles/caffe.dir/layers/absval_layer.cpp.o"
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/caffe.dir/layers/absval_layer.cpp.o -c /home/panzhenfu/Documents/caffe/src/caffe/layers/absval_layer.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_69) "Building CXX object src/caffe/CMakeFiles/caffe.dir/layers/absval_layer.cpp.o"
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/caffe.dir/layers/absval_layer.cpp.o -c /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/src/caffe/layers/absval_layer.cpp
 
 src/caffe/CMakeFiles/caffe.dir/layers/absval_layer.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/caffe.dir/layers/absval_layer.cpp.i"
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/panzhenfu/Documents/caffe/src/caffe/layers/absval_layer.cpp > CMakeFiles/caffe.dir/layers/absval_layer.cpp.i
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/src/caffe/layers/absval_layer.cpp > CMakeFiles/caffe.dir/layers/absval_layer.cpp.i
 
 src/caffe/CMakeFiles/caffe.dir/layers/absval_layer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/caffe.dir/layers/absval_layer.cpp.s"
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/panzhenfu/Documents/caffe/src/caffe/layers/absval_layer.cpp -o CMakeFiles/caffe.dir/layers/absval_layer.cpp.s
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/src/caffe/layers/absval_layer.cpp -o CMakeFiles/caffe.dir/layers/absval_layer.cpp.s
 
 src/caffe/CMakeFiles/caffe.dir/layers/absval_layer.cpp.o.requires:
 
@@ -678,16 +678,16 @@ src/caffe/CMakeFiles/caffe.dir/layers/absval_layer.cpp.o.provides.build: src/caf
 
 src/caffe/CMakeFiles/caffe.dir/layers/accuracy_layer.cpp.o: src/caffe/CMakeFiles/caffe.dir/flags.make
 src/caffe/CMakeFiles/caffe.dir/layers/accuracy_layer.cpp.o: ../src/caffe/layers/accuracy_layer.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/panzhenfu/Documents/caffe/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_70) "Building CXX object src/caffe/CMakeFiles/caffe.dir/layers/accuracy_layer.cpp.o"
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/caffe.dir/layers/accuracy_layer.cpp.o -c /home/panzhenfu/Documents/caffe/src/caffe/layers/accuracy_layer.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_70) "Building CXX object src/caffe/CMakeFiles/caffe.dir/layers/accuracy_layer.cpp.o"
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/caffe.dir/layers/accuracy_layer.cpp.o -c /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/src/caffe/layers/accuracy_layer.cpp
 
 src/caffe/CMakeFiles/caffe.dir/layers/accuracy_layer.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/caffe.dir/layers/accuracy_layer.cpp.i"
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/panzhenfu/Documents/caffe/src/caffe/layers/accuracy_layer.cpp > CMakeFiles/caffe.dir/layers/accuracy_layer.cpp.i
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/src/caffe/layers/accuracy_layer.cpp > CMakeFiles/caffe.dir/layers/accuracy_layer.cpp.i
 
 src/caffe/CMakeFiles/caffe.dir/layers/accuracy_layer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/caffe.dir/layers/accuracy_layer.cpp.s"
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/panzhenfu/Documents/caffe/src/caffe/layers/accuracy_layer.cpp -o CMakeFiles/caffe.dir/layers/accuracy_layer.cpp.s
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/src/caffe/layers/accuracy_layer.cpp -o CMakeFiles/caffe.dir/layers/accuracy_layer.cpp.s
 
 src/caffe/CMakeFiles/caffe.dir/layers/accuracy_layer.cpp.o.requires:
 
@@ -702,16 +702,16 @@ src/caffe/CMakeFiles/caffe.dir/layers/accuracy_layer.cpp.o.provides.build: src/c
 
 src/caffe/CMakeFiles/caffe.dir/layers/argmax_layer.cpp.o: src/caffe/CMakeFiles/caffe.dir/flags.make
 src/caffe/CMakeFiles/caffe.dir/layers/argmax_layer.cpp.o: ../src/caffe/layers/argmax_layer.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/panzhenfu/Documents/caffe/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_71) "Building CXX object src/caffe/CMakeFiles/caffe.dir/layers/argmax_layer.cpp.o"
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/caffe.dir/layers/argmax_layer.cpp.o -c /home/panzhenfu/Documents/caffe/src/caffe/layers/argmax_layer.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_71) "Building CXX object src/caffe/CMakeFiles/caffe.dir/layers/argmax_layer.cpp.o"
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/caffe.dir/layers/argmax_layer.cpp.o -c /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/src/caffe/layers/argmax_layer.cpp
 
 src/caffe/CMakeFiles/caffe.dir/layers/argmax_layer.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/caffe.dir/layers/argmax_layer.cpp.i"
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/panzhenfu/Documents/caffe/src/caffe/layers/argmax_layer.cpp > CMakeFiles/caffe.dir/layers/argmax_layer.cpp.i
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/src/caffe/layers/argmax_layer.cpp > CMakeFiles/caffe.dir/layers/argmax_layer.cpp.i
 
 src/caffe/CMakeFiles/caffe.dir/layers/argmax_layer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/caffe.dir/layers/argmax_layer.cpp.s"
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/panzhenfu/Documents/caffe/src/caffe/layers/argmax_layer.cpp -o CMakeFiles/caffe.dir/layers/argmax_layer.cpp.s
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/src/caffe/layers/argmax_layer.cpp -o CMakeFiles/caffe.dir/layers/argmax_layer.cpp.s
 
 src/caffe/CMakeFiles/caffe.dir/layers/argmax_layer.cpp.o.requires:
 
@@ -726,16 +726,16 @@ src/caffe/CMakeFiles/caffe.dir/layers/argmax_layer.cpp.o.provides.build: src/caf
 
 src/caffe/CMakeFiles/caffe.dir/layers/base_conv_layer.cpp.o: src/caffe/CMakeFiles/caffe.dir/flags.make
 src/caffe/CMakeFiles/caffe.dir/layers/base_conv_layer.cpp.o: ../src/caffe/layers/base_conv_layer.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/panzhenfu/Documents/caffe/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_72) "Building CXX object src/caffe/CMakeFiles/caffe.dir/layers/base_conv_layer.cpp.o"
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/caffe.dir/layers/base_conv_layer.cpp.o -c /home/panzhenfu/Documents/caffe/src/caffe/layers/base_conv_layer.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_72) "Building CXX object src/caffe/CMakeFiles/caffe.dir/layers/base_conv_layer.cpp.o"
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/caffe.dir/layers/base_conv_layer.cpp.o -c /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/src/caffe/layers/base_conv_layer.cpp
 
 src/caffe/CMakeFiles/caffe.dir/layers/base_conv_layer.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/caffe.dir/layers/base_conv_layer.cpp.i"
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/panzhenfu/Documents/caffe/src/caffe/layers/base_conv_layer.cpp > CMakeFiles/caffe.dir/layers/base_conv_layer.cpp.i
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/src/caffe/layers/base_conv_layer.cpp > CMakeFiles/caffe.dir/layers/base_conv_layer.cpp.i
 
 src/caffe/CMakeFiles/caffe.dir/layers/base_conv_layer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/caffe.dir/layers/base_conv_layer.cpp.s"
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/panzhenfu/Documents/caffe/src/caffe/layers/base_conv_layer.cpp -o CMakeFiles/caffe.dir/layers/base_conv_layer.cpp.s
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/src/caffe/layers/base_conv_layer.cpp -o CMakeFiles/caffe.dir/layers/base_conv_layer.cpp.s
 
 src/caffe/CMakeFiles/caffe.dir/layers/base_conv_layer.cpp.o.requires:
 
@@ -750,16 +750,16 @@ src/caffe/CMakeFiles/caffe.dir/layers/base_conv_layer.cpp.o.provides.build: src/
 
 src/caffe/CMakeFiles/caffe.dir/layers/base_data_layer.cpp.o: src/caffe/CMakeFiles/caffe.dir/flags.make
 src/caffe/CMakeFiles/caffe.dir/layers/base_data_layer.cpp.o: ../src/caffe/layers/base_data_layer.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/panzhenfu/Documents/caffe/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_73) "Building CXX object src/caffe/CMakeFiles/caffe.dir/layers/base_data_layer.cpp.o"
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/caffe.dir/layers/base_data_layer.cpp.o -c /home/panzhenfu/Documents/caffe/src/caffe/layers/base_data_layer.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_73) "Building CXX object src/caffe/CMakeFiles/caffe.dir/layers/base_data_layer.cpp.o"
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/caffe.dir/layers/base_data_layer.cpp.o -c /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/src/caffe/layers/base_data_layer.cpp
 
 src/caffe/CMakeFiles/caffe.dir/layers/base_data_layer.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/caffe.dir/layers/base_data_layer.cpp.i"
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/panzhenfu/Documents/caffe/src/caffe/layers/base_data_layer.cpp > CMakeFiles/caffe.dir/layers/base_data_layer.cpp.i
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/src/caffe/layers/base_data_layer.cpp > CMakeFiles/caffe.dir/layers/base_data_layer.cpp.i
 
 src/caffe/CMakeFiles/caffe.dir/layers/base_data_layer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/caffe.dir/layers/base_data_layer.cpp.s"
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/panzhenfu/Documents/caffe/src/caffe/layers/base_data_layer.cpp -o CMakeFiles/caffe.dir/layers/base_data_layer.cpp.s
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/src/caffe/layers/base_data_layer.cpp -o CMakeFiles/caffe.dir/layers/base_data_layer.cpp.s
 
 src/caffe/CMakeFiles/caffe.dir/layers/base_data_layer.cpp.o.requires:
 
@@ -774,16 +774,16 @@ src/caffe/CMakeFiles/caffe.dir/layers/base_data_layer.cpp.o.provides.build: src/
 
 src/caffe/CMakeFiles/caffe.dir/layers/batch_norm_layer.cpp.o: src/caffe/CMakeFiles/caffe.dir/flags.make
 src/caffe/CMakeFiles/caffe.dir/layers/batch_norm_layer.cpp.o: ../src/caffe/layers/batch_norm_layer.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/panzhenfu/Documents/caffe/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_74) "Building CXX object src/caffe/CMakeFiles/caffe.dir/layers/batch_norm_layer.cpp.o"
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/caffe.dir/layers/batch_norm_layer.cpp.o -c /home/panzhenfu/Documents/caffe/src/caffe/layers/batch_norm_layer.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_74) "Building CXX object src/caffe/CMakeFiles/caffe.dir/layers/batch_norm_layer.cpp.o"
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/caffe.dir/layers/batch_norm_layer.cpp.o -c /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/src/caffe/layers/batch_norm_layer.cpp
 
 src/caffe/CMakeFiles/caffe.dir/layers/batch_norm_layer.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/caffe.dir/layers/batch_norm_layer.cpp.i"
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/panzhenfu/Documents/caffe/src/caffe/layers/batch_norm_layer.cpp > CMakeFiles/caffe.dir/layers/batch_norm_layer.cpp.i
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/src/caffe/layers/batch_norm_layer.cpp > CMakeFiles/caffe.dir/layers/batch_norm_layer.cpp.i
 
 src/caffe/CMakeFiles/caffe.dir/layers/batch_norm_layer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/caffe.dir/layers/batch_norm_layer.cpp.s"
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/panzhenfu/Documents/caffe/src/caffe/layers/batch_norm_layer.cpp -o CMakeFiles/caffe.dir/layers/batch_norm_layer.cpp.s
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/src/caffe/layers/batch_norm_layer.cpp -o CMakeFiles/caffe.dir/layers/batch_norm_layer.cpp.s
 
 src/caffe/CMakeFiles/caffe.dir/layers/batch_norm_layer.cpp.o.requires:
 
@@ -798,16 +798,16 @@ src/caffe/CMakeFiles/caffe.dir/layers/batch_norm_layer.cpp.o.provides.build: src
 
 src/caffe/CMakeFiles/caffe.dir/layers/batch_reindex_layer.cpp.o: src/caffe/CMakeFiles/caffe.dir/flags.make
 src/caffe/CMakeFiles/caffe.dir/layers/batch_reindex_layer.cpp.o: ../src/caffe/layers/batch_reindex_layer.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/panzhenfu/Documents/caffe/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_75) "Building CXX object src/caffe/CMakeFiles/caffe.dir/layers/batch_reindex_layer.cpp.o"
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/caffe.dir/layers/batch_reindex_layer.cpp.o -c /home/panzhenfu/Documents/caffe/src/caffe/layers/batch_reindex_layer.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_75) "Building CXX object src/caffe/CMakeFiles/caffe.dir/layers/batch_reindex_layer.cpp.o"
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/caffe.dir/layers/batch_reindex_layer.cpp.o -c /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/src/caffe/layers/batch_reindex_layer.cpp
 
 src/caffe/CMakeFiles/caffe.dir/layers/batch_reindex_layer.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/caffe.dir/layers/batch_reindex_layer.cpp.i"
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/panzhenfu/Documents/caffe/src/caffe/layers/batch_reindex_layer.cpp > CMakeFiles/caffe.dir/layers/batch_reindex_layer.cpp.i
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/src/caffe/layers/batch_reindex_layer.cpp > CMakeFiles/caffe.dir/layers/batch_reindex_layer.cpp.i
 
 src/caffe/CMakeFiles/caffe.dir/layers/batch_reindex_layer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/caffe.dir/layers/batch_reindex_layer.cpp.s"
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/panzhenfu/Documents/caffe/src/caffe/layers/batch_reindex_layer.cpp -o CMakeFiles/caffe.dir/layers/batch_reindex_layer.cpp.s
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/src/caffe/layers/batch_reindex_layer.cpp -o CMakeFiles/caffe.dir/layers/batch_reindex_layer.cpp.s
 
 src/caffe/CMakeFiles/caffe.dir/layers/batch_reindex_layer.cpp.o.requires:
 
@@ -822,16 +822,16 @@ src/caffe/CMakeFiles/caffe.dir/layers/batch_reindex_layer.cpp.o.provides.build: 
 
 src/caffe/CMakeFiles/caffe.dir/layers/bias_layer.cpp.o: src/caffe/CMakeFiles/caffe.dir/flags.make
 src/caffe/CMakeFiles/caffe.dir/layers/bias_layer.cpp.o: ../src/caffe/layers/bias_layer.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/panzhenfu/Documents/caffe/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_76) "Building CXX object src/caffe/CMakeFiles/caffe.dir/layers/bias_layer.cpp.o"
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/caffe.dir/layers/bias_layer.cpp.o -c /home/panzhenfu/Documents/caffe/src/caffe/layers/bias_layer.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_76) "Building CXX object src/caffe/CMakeFiles/caffe.dir/layers/bias_layer.cpp.o"
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/caffe.dir/layers/bias_layer.cpp.o -c /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/src/caffe/layers/bias_layer.cpp
 
 src/caffe/CMakeFiles/caffe.dir/layers/bias_layer.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/caffe.dir/layers/bias_layer.cpp.i"
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/panzhenfu/Documents/caffe/src/caffe/layers/bias_layer.cpp > CMakeFiles/caffe.dir/layers/bias_layer.cpp.i
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/src/caffe/layers/bias_layer.cpp > CMakeFiles/caffe.dir/layers/bias_layer.cpp.i
 
 src/caffe/CMakeFiles/caffe.dir/layers/bias_layer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/caffe.dir/layers/bias_layer.cpp.s"
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/panzhenfu/Documents/caffe/src/caffe/layers/bias_layer.cpp -o CMakeFiles/caffe.dir/layers/bias_layer.cpp.s
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/src/caffe/layers/bias_layer.cpp -o CMakeFiles/caffe.dir/layers/bias_layer.cpp.s
 
 src/caffe/CMakeFiles/caffe.dir/layers/bias_layer.cpp.o.requires:
 
@@ -846,16 +846,16 @@ src/caffe/CMakeFiles/caffe.dir/layers/bias_layer.cpp.o.provides.build: src/caffe
 
 src/caffe/CMakeFiles/caffe.dir/layers/bnll_layer.cpp.o: src/caffe/CMakeFiles/caffe.dir/flags.make
 src/caffe/CMakeFiles/caffe.dir/layers/bnll_layer.cpp.o: ../src/caffe/layers/bnll_layer.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/panzhenfu/Documents/caffe/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_77) "Building CXX object src/caffe/CMakeFiles/caffe.dir/layers/bnll_layer.cpp.o"
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/caffe.dir/layers/bnll_layer.cpp.o -c /home/panzhenfu/Documents/caffe/src/caffe/layers/bnll_layer.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_77) "Building CXX object src/caffe/CMakeFiles/caffe.dir/layers/bnll_layer.cpp.o"
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/caffe.dir/layers/bnll_layer.cpp.o -c /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/src/caffe/layers/bnll_layer.cpp
 
 src/caffe/CMakeFiles/caffe.dir/layers/bnll_layer.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/caffe.dir/layers/bnll_layer.cpp.i"
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/panzhenfu/Documents/caffe/src/caffe/layers/bnll_layer.cpp > CMakeFiles/caffe.dir/layers/bnll_layer.cpp.i
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/src/caffe/layers/bnll_layer.cpp > CMakeFiles/caffe.dir/layers/bnll_layer.cpp.i
 
 src/caffe/CMakeFiles/caffe.dir/layers/bnll_layer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/caffe.dir/layers/bnll_layer.cpp.s"
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/panzhenfu/Documents/caffe/src/caffe/layers/bnll_layer.cpp -o CMakeFiles/caffe.dir/layers/bnll_layer.cpp.s
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/src/caffe/layers/bnll_layer.cpp -o CMakeFiles/caffe.dir/layers/bnll_layer.cpp.s
 
 src/caffe/CMakeFiles/caffe.dir/layers/bnll_layer.cpp.o.requires:
 
@@ -870,16 +870,16 @@ src/caffe/CMakeFiles/caffe.dir/layers/bnll_layer.cpp.o.provides.build: src/caffe
 
 src/caffe/CMakeFiles/caffe.dir/layers/concat_layer.cpp.o: src/caffe/CMakeFiles/caffe.dir/flags.make
 src/caffe/CMakeFiles/caffe.dir/layers/concat_layer.cpp.o: ../src/caffe/layers/concat_layer.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/panzhenfu/Documents/caffe/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_78) "Building CXX object src/caffe/CMakeFiles/caffe.dir/layers/concat_layer.cpp.o"
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/caffe.dir/layers/concat_layer.cpp.o -c /home/panzhenfu/Documents/caffe/src/caffe/layers/concat_layer.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_78) "Building CXX object src/caffe/CMakeFiles/caffe.dir/layers/concat_layer.cpp.o"
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/caffe.dir/layers/concat_layer.cpp.o -c /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/src/caffe/layers/concat_layer.cpp
 
 src/caffe/CMakeFiles/caffe.dir/layers/concat_layer.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/caffe.dir/layers/concat_layer.cpp.i"
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/panzhenfu/Documents/caffe/src/caffe/layers/concat_layer.cpp > CMakeFiles/caffe.dir/layers/concat_layer.cpp.i
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/src/caffe/layers/concat_layer.cpp > CMakeFiles/caffe.dir/layers/concat_layer.cpp.i
 
 src/caffe/CMakeFiles/caffe.dir/layers/concat_layer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/caffe.dir/layers/concat_layer.cpp.s"
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/panzhenfu/Documents/caffe/src/caffe/layers/concat_layer.cpp -o CMakeFiles/caffe.dir/layers/concat_layer.cpp.s
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/src/caffe/layers/concat_layer.cpp -o CMakeFiles/caffe.dir/layers/concat_layer.cpp.s
 
 src/caffe/CMakeFiles/caffe.dir/layers/concat_layer.cpp.o.requires:
 
@@ -894,16 +894,16 @@ src/caffe/CMakeFiles/caffe.dir/layers/concat_layer.cpp.o.provides.build: src/caf
 
 src/caffe/CMakeFiles/caffe.dir/layers/contrastive_loss_layer.cpp.o: src/caffe/CMakeFiles/caffe.dir/flags.make
 src/caffe/CMakeFiles/caffe.dir/layers/contrastive_loss_layer.cpp.o: ../src/caffe/layers/contrastive_loss_layer.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/panzhenfu/Documents/caffe/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_79) "Building CXX object src/caffe/CMakeFiles/caffe.dir/layers/contrastive_loss_layer.cpp.o"
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/caffe.dir/layers/contrastive_loss_layer.cpp.o -c /home/panzhenfu/Documents/caffe/src/caffe/layers/contrastive_loss_layer.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_79) "Building CXX object src/caffe/CMakeFiles/caffe.dir/layers/contrastive_loss_layer.cpp.o"
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/caffe.dir/layers/contrastive_loss_layer.cpp.o -c /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/src/caffe/layers/contrastive_loss_layer.cpp
 
 src/caffe/CMakeFiles/caffe.dir/layers/contrastive_loss_layer.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/caffe.dir/layers/contrastive_loss_layer.cpp.i"
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/panzhenfu/Documents/caffe/src/caffe/layers/contrastive_loss_layer.cpp > CMakeFiles/caffe.dir/layers/contrastive_loss_layer.cpp.i
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/src/caffe/layers/contrastive_loss_layer.cpp > CMakeFiles/caffe.dir/layers/contrastive_loss_layer.cpp.i
 
 src/caffe/CMakeFiles/caffe.dir/layers/contrastive_loss_layer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/caffe.dir/layers/contrastive_loss_layer.cpp.s"
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/panzhenfu/Documents/caffe/src/caffe/layers/contrastive_loss_layer.cpp -o CMakeFiles/caffe.dir/layers/contrastive_loss_layer.cpp.s
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/src/caffe/layers/contrastive_loss_layer.cpp -o CMakeFiles/caffe.dir/layers/contrastive_loss_layer.cpp.s
 
 src/caffe/CMakeFiles/caffe.dir/layers/contrastive_loss_layer.cpp.o.requires:
 
@@ -918,16 +918,16 @@ src/caffe/CMakeFiles/caffe.dir/layers/contrastive_loss_layer.cpp.o.provides.buil
 
 src/caffe/CMakeFiles/caffe.dir/layers/conv_layer.cpp.o: src/caffe/CMakeFiles/caffe.dir/flags.make
 src/caffe/CMakeFiles/caffe.dir/layers/conv_layer.cpp.o: ../src/caffe/layers/conv_layer.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/panzhenfu/Documents/caffe/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_80) "Building CXX object src/caffe/CMakeFiles/caffe.dir/layers/conv_layer.cpp.o"
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/caffe.dir/layers/conv_layer.cpp.o -c /home/panzhenfu/Documents/caffe/src/caffe/layers/conv_layer.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_80) "Building CXX object src/caffe/CMakeFiles/caffe.dir/layers/conv_layer.cpp.o"
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/caffe.dir/layers/conv_layer.cpp.o -c /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/src/caffe/layers/conv_layer.cpp
 
 src/caffe/CMakeFiles/caffe.dir/layers/conv_layer.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/caffe.dir/layers/conv_layer.cpp.i"
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/panzhenfu/Documents/caffe/src/caffe/layers/conv_layer.cpp > CMakeFiles/caffe.dir/layers/conv_layer.cpp.i
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/src/caffe/layers/conv_layer.cpp > CMakeFiles/caffe.dir/layers/conv_layer.cpp.i
 
 src/caffe/CMakeFiles/caffe.dir/layers/conv_layer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/caffe.dir/layers/conv_layer.cpp.s"
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/panzhenfu/Documents/caffe/src/caffe/layers/conv_layer.cpp -o CMakeFiles/caffe.dir/layers/conv_layer.cpp.s
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/src/caffe/layers/conv_layer.cpp -o CMakeFiles/caffe.dir/layers/conv_layer.cpp.s
 
 src/caffe/CMakeFiles/caffe.dir/layers/conv_layer.cpp.o.requires:
 
@@ -942,16 +942,16 @@ src/caffe/CMakeFiles/caffe.dir/layers/conv_layer.cpp.o.provides.build: src/caffe
 
 src/caffe/CMakeFiles/caffe.dir/layers/crop_layer.cpp.o: src/caffe/CMakeFiles/caffe.dir/flags.make
 src/caffe/CMakeFiles/caffe.dir/layers/crop_layer.cpp.o: ../src/caffe/layers/crop_layer.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/panzhenfu/Documents/caffe/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_81) "Building CXX object src/caffe/CMakeFiles/caffe.dir/layers/crop_layer.cpp.o"
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/caffe.dir/layers/crop_layer.cpp.o -c /home/panzhenfu/Documents/caffe/src/caffe/layers/crop_layer.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_81) "Building CXX object src/caffe/CMakeFiles/caffe.dir/layers/crop_layer.cpp.o"
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/caffe.dir/layers/crop_layer.cpp.o -c /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/src/caffe/layers/crop_layer.cpp
 
 src/caffe/CMakeFiles/caffe.dir/layers/crop_layer.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/caffe.dir/layers/crop_layer.cpp.i"
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/panzhenfu/Documents/caffe/src/caffe/layers/crop_layer.cpp > CMakeFiles/caffe.dir/layers/crop_layer.cpp.i
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/src/caffe/layers/crop_layer.cpp > CMakeFiles/caffe.dir/layers/crop_layer.cpp.i
 
 src/caffe/CMakeFiles/caffe.dir/layers/crop_layer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/caffe.dir/layers/crop_layer.cpp.s"
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/panzhenfu/Documents/caffe/src/caffe/layers/crop_layer.cpp -o CMakeFiles/caffe.dir/layers/crop_layer.cpp.s
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/src/caffe/layers/crop_layer.cpp -o CMakeFiles/caffe.dir/layers/crop_layer.cpp.s
 
 src/caffe/CMakeFiles/caffe.dir/layers/crop_layer.cpp.o.requires:
 
@@ -966,16 +966,16 @@ src/caffe/CMakeFiles/caffe.dir/layers/crop_layer.cpp.o.provides.build: src/caffe
 
 src/caffe/CMakeFiles/caffe.dir/layers/cudnn_conv_layer.cpp.o: src/caffe/CMakeFiles/caffe.dir/flags.make
 src/caffe/CMakeFiles/caffe.dir/layers/cudnn_conv_layer.cpp.o: ../src/caffe/layers/cudnn_conv_layer.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/panzhenfu/Documents/caffe/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_82) "Building CXX object src/caffe/CMakeFiles/caffe.dir/layers/cudnn_conv_layer.cpp.o"
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/caffe.dir/layers/cudnn_conv_layer.cpp.o -c /home/panzhenfu/Documents/caffe/src/caffe/layers/cudnn_conv_layer.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_82) "Building CXX object src/caffe/CMakeFiles/caffe.dir/layers/cudnn_conv_layer.cpp.o"
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/caffe.dir/layers/cudnn_conv_layer.cpp.o -c /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/src/caffe/layers/cudnn_conv_layer.cpp
 
 src/caffe/CMakeFiles/caffe.dir/layers/cudnn_conv_layer.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/caffe.dir/layers/cudnn_conv_layer.cpp.i"
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/panzhenfu/Documents/caffe/src/caffe/layers/cudnn_conv_layer.cpp > CMakeFiles/caffe.dir/layers/cudnn_conv_layer.cpp.i
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/src/caffe/layers/cudnn_conv_layer.cpp > CMakeFiles/caffe.dir/layers/cudnn_conv_layer.cpp.i
 
 src/caffe/CMakeFiles/caffe.dir/layers/cudnn_conv_layer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/caffe.dir/layers/cudnn_conv_layer.cpp.s"
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/panzhenfu/Documents/caffe/src/caffe/layers/cudnn_conv_layer.cpp -o CMakeFiles/caffe.dir/layers/cudnn_conv_layer.cpp.s
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/src/caffe/layers/cudnn_conv_layer.cpp -o CMakeFiles/caffe.dir/layers/cudnn_conv_layer.cpp.s
 
 src/caffe/CMakeFiles/caffe.dir/layers/cudnn_conv_layer.cpp.o.requires:
 
@@ -990,16 +990,16 @@ src/caffe/CMakeFiles/caffe.dir/layers/cudnn_conv_layer.cpp.o.provides.build: src
 
 src/caffe/CMakeFiles/caffe.dir/layers/cudnn_lcn_layer.cpp.o: src/caffe/CMakeFiles/caffe.dir/flags.make
 src/caffe/CMakeFiles/caffe.dir/layers/cudnn_lcn_layer.cpp.o: ../src/caffe/layers/cudnn_lcn_layer.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/panzhenfu/Documents/caffe/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_83) "Building CXX object src/caffe/CMakeFiles/caffe.dir/layers/cudnn_lcn_layer.cpp.o"
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/caffe.dir/layers/cudnn_lcn_layer.cpp.o -c /home/panzhenfu/Documents/caffe/src/caffe/layers/cudnn_lcn_layer.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_83) "Building CXX object src/caffe/CMakeFiles/caffe.dir/layers/cudnn_lcn_layer.cpp.o"
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/caffe.dir/layers/cudnn_lcn_layer.cpp.o -c /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/src/caffe/layers/cudnn_lcn_layer.cpp
 
 src/caffe/CMakeFiles/caffe.dir/layers/cudnn_lcn_layer.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/caffe.dir/layers/cudnn_lcn_layer.cpp.i"
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/panzhenfu/Documents/caffe/src/caffe/layers/cudnn_lcn_layer.cpp > CMakeFiles/caffe.dir/layers/cudnn_lcn_layer.cpp.i
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/src/caffe/layers/cudnn_lcn_layer.cpp > CMakeFiles/caffe.dir/layers/cudnn_lcn_layer.cpp.i
 
 src/caffe/CMakeFiles/caffe.dir/layers/cudnn_lcn_layer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/caffe.dir/layers/cudnn_lcn_layer.cpp.s"
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/panzhenfu/Documents/caffe/src/caffe/layers/cudnn_lcn_layer.cpp -o CMakeFiles/caffe.dir/layers/cudnn_lcn_layer.cpp.s
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/src/caffe/layers/cudnn_lcn_layer.cpp -o CMakeFiles/caffe.dir/layers/cudnn_lcn_layer.cpp.s
 
 src/caffe/CMakeFiles/caffe.dir/layers/cudnn_lcn_layer.cpp.o.requires:
 
@@ -1014,16 +1014,16 @@ src/caffe/CMakeFiles/caffe.dir/layers/cudnn_lcn_layer.cpp.o.provides.build: src/
 
 src/caffe/CMakeFiles/caffe.dir/layers/cudnn_lrn_layer.cpp.o: src/caffe/CMakeFiles/caffe.dir/flags.make
 src/caffe/CMakeFiles/caffe.dir/layers/cudnn_lrn_layer.cpp.o: ../src/caffe/layers/cudnn_lrn_layer.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/panzhenfu/Documents/caffe/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_84) "Building CXX object src/caffe/CMakeFiles/caffe.dir/layers/cudnn_lrn_layer.cpp.o"
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/caffe.dir/layers/cudnn_lrn_layer.cpp.o -c /home/panzhenfu/Documents/caffe/src/caffe/layers/cudnn_lrn_layer.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_84) "Building CXX object src/caffe/CMakeFiles/caffe.dir/layers/cudnn_lrn_layer.cpp.o"
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/caffe.dir/layers/cudnn_lrn_layer.cpp.o -c /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/src/caffe/layers/cudnn_lrn_layer.cpp
 
 src/caffe/CMakeFiles/caffe.dir/layers/cudnn_lrn_layer.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/caffe.dir/layers/cudnn_lrn_layer.cpp.i"
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/panzhenfu/Documents/caffe/src/caffe/layers/cudnn_lrn_layer.cpp > CMakeFiles/caffe.dir/layers/cudnn_lrn_layer.cpp.i
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/src/caffe/layers/cudnn_lrn_layer.cpp > CMakeFiles/caffe.dir/layers/cudnn_lrn_layer.cpp.i
 
 src/caffe/CMakeFiles/caffe.dir/layers/cudnn_lrn_layer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/caffe.dir/layers/cudnn_lrn_layer.cpp.s"
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/panzhenfu/Documents/caffe/src/caffe/layers/cudnn_lrn_layer.cpp -o CMakeFiles/caffe.dir/layers/cudnn_lrn_layer.cpp.s
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/src/caffe/layers/cudnn_lrn_layer.cpp -o CMakeFiles/caffe.dir/layers/cudnn_lrn_layer.cpp.s
 
 src/caffe/CMakeFiles/caffe.dir/layers/cudnn_lrn_layer.cpp.o.requires:
 
@@ -1038,16 +1038,16 @@ src/caffe/CMakeFiles/caffe.dir/layers/cudnn_lrn_layer.cpp.o.provides.build: src/
 
 src/caffe/CMakeFiles/caffe.dir/layers/cudnn_pooling_layer.cpp.o: src/caffe/CMakeFiles/caffe.dir/flags.make
 src/caffe/CMakeFiles/caffe.dir/layers/cudnn_pooling_layer.cpp.o: ../src/caffe/layers/cudnn_pooling_layer.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/panzhenfu/Documents/caffe/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_85) "Building CXX object src/caffe/CMakeFiles/caffe.dir/layers/cudnn_pooling_layer.cpp.o"
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/caffe.dir/layers/cudnn_pooling_layer.cpp.o -c /home/panzhenfu/Documents/caffe/src/caffe/layers/cudnn_pooling_layer.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_85) "Building CXX object src/caffe/CMakeFiles/caffe.dir/layers/cudnn_pooling_layer.cpp.o"
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/caffe.dir/layers/cudnn_pooling_layer.cpp.o -c /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/src/caffe/layers/cudnn_pooling_layer.cpp
 
 src/caffe/CMakeFiles/caffe.dir/layers/cudnn_pooling_layer.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/caffe.dir/layers/cudnn_pooling_layer.cpp.i"
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/panzhenfu/Documents/caffe/src/caffe/layers/cudnn_pooling_layer.cpp > CMakeFiles/caffe.dir/layers/cudnn_pooling_layer.cpp.i
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/src/caffe/layers/cudnn_pooling_layer.cpp > CMakeFiles/caffe.dir/layers/cudnn_pooling_layer.cpp.i
 
 src/caffe/CMakeFiles/caffe.dir/layers/cudnn_pooling_layer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/caffe.dir/layers/cudnn_pooling_layer.cpp.s"
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/panzhenfu/Documents/caffe/src/caffe/layers/cudnn_pooling_layer.cpp -o CMakeFiles/caffe.dir/layers/cudnn_pooling_layer.cpp.s
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/src/caffe/layers/cudnn_pooling_layer.cpp -o CMakeFiles/caffe.dir/layers/cudnn_pooling_layer.cpp.s
 
 src/caffe/CMakeFiles/caffe.dir/layers/cudnn_pooling_layer.cpp.o.requires:
 
@@ -1062,16 +1062,16 @@ src/caffe/CMakeFiles/caffe.dir/layers/cudnn_pooling_layer.cpp.o.provides.build: 
 
 src/caffe/CMakeFiles/caffe.dir/layers/cudnn_relu_layer.cpp.o: src/caffe/CMakeFiles/caffe.dir/flags.make
 src/caffe/CMakeFiles/caffe.dir/layers/cudnn_relu_layer.cpp.o: ../src/caffe/layers/cudnn_relu_layer.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/panzhenfu/Documents/caffe/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_86) "Building CXX object src/caffe/CMakeFiles/caffe.dir/layers/cudnn_relu_layer.cpp.o"
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/caffe.dir/layers/cudnn_relu_layer.cpp.o -c /home/panzhenfu/Documents/caffe/src/caffe/layers/cudnn_relu_layer.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_86) "Building CXX object src/caffe/CMakeFiles/caffe.dir/layers/cudnn_relu_layer.cpp.o"
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/caffe.dir/layers/cudnn_relu_layer.cpp.o -c /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/src/caffe/layers/cudnn_relu_layer.cpp
 
 src/caffe/CMakeFiles/caffe.dir/layers/cudnn_relu_layer.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/caffe.dir/layers/cudnn_relu_layer.cpp.i"
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/panzhenfu/Documents/caffe/src/caffe/layers/cudnn_relu_layer.cpp > CMakeFiles/caffe.dir/layers/cudnn_relu_layer.cpp.i
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/src/caffe/layers/cudnn_relu_layer.cpp > CMakeFiles/caffe.dir/layers/cudnn_relu_layer.cpp.i
 
 src/caffe/CMakeFiles/caffe.dir/layers/cudnn_relu_layer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/caffe.dir/layers/cudnn_relu_layer.cpp.s"
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/panzhenfu/Documents/caffe/src/caffe/layers/cudnn_relu_layer.cpp -o CMakeFiles/caffe.dir/layers/cudnn_relu_layer.cpp.s
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/src/caffe/layers/cudnn_relu_layer.cpp -o CMakeFiles/caffe.dir/layers/cudnn_relu_layer.cpp.s
 
 src/caffe/CMakeFiles/caffe.dir/layers/cudnn_relu_layer.cpp.o.requires:
 
@@ -1086,16 +1086,16 @@ src/caffe/CMakeFiles/caffe.dir/layers/cudnn_relu_layer.cpp.o.provides.build: src
 
 src/caffe/CMakeFiles/caffe.dir/layers/cudnn_sigmoid_layer.cpp.o: src/caffe/CMakeFiles/caffe.dir/flags.make
 src/caffe/CMakeFiles/caffe.dir/layers/cudnn_sigmoid_layer.cpp.o: ../src/caffe/layers/cudnn_sigmoid_layer.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/panzhenfu/Documents/caffe/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_87) "Building CXX object src/caffe/CMakeFiles/caffe.dir/layers/cudnn_sigmoid_layer.cpp.o"
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/caffe.dir/layers/cudnn_sigmoid_layer.cpp.o -c /home/panzhenfu/Documents/caffe/src/caffe/layers/cudnn_sigmoid_layer.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_87) "Building CXX object src/caffe/CMakeFiles/caffe.dir/layers/cudnn_sigmoid_layer.cpp.o"
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/caffe.dir/layers/cudnn_sigmoid_layer.cpp.o -c /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/src/caffe/layers/cudnn_sigmoid_layer.cpp
 
 src/caffe/CMakeFiles/caffe.dir/layers/cudnn_sigmoid_layer.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/caffe.dir/layers/cudnn_sigmoid_layer.cpp.i"
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/panzhenfu/Documents/caffe/src/caffe/layers/cudnn_sigmoid_layer.cpp > CMakeFiles/caffe.dir/layers/cudnn_sigmoid_layer.cpp.i
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/src/caffe/layers/cudnn_sigmoid_layer.cpp > CMakeFiles/caffe.dir/layers/cudnn_sigmoid_layer.cpp.i
 
 src/caffe/CMakeFiles/caffe.dir/layers/cudnn_sigmoid_layer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/caffe.dir/layers/cudnn_sigmoid_layer.cpp.s"
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/panzhenfu/Documents/caffe/src/caffe/layers/cudnn_sigmoid_layer.cpp -o CMakeFiles/caffe.dir/layers/cudnn_sigmoid_layer.cpp.s
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/src/caffe/layers/cudnn_sigmoid_layer.cpp -o CMakeFiles/caffe.dir/layers/cudnn_sigmoid_layer.cpp.s
 
 src/caffe/CMakeFiles/caffe.dir/layers/cudnn_sigmoid_layer.cpp.o.requires:
 
@@ -1110,16 +1110,16 @@ src/caffe/CMakeFiles/caffe.dir/layers/cudnn_sigmoid_layer.cpp.o.provides.build: 
 
 src/caffe/CMakeFiles/caffe.dir/layers/cudnn_softmax_layer.cpp.o: src/caffe/CMakeFiles/caffe.dir/flags.make
 src/caffe/CMakeFiles/caffe.dir/layers/cudnn_softmax_layer.cpp.o: ../src/caffe/layers/cudnn_softmax_layer.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/panzhenfu/Documents/caffe/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_88) "Building CXX object src/caffe/CMakeFiles/caffe.dir/layers/cudnn_softmax_layer.cpp.o"
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/caffe.dir/layers/cudnn_softmax_layer.cpp.o -c /home/panzhenfu/Documents/caffe/src/caffe/layers/cudnn_softmax_layer.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_88) "Building CXX object src/caffe/CMakeFiles/caffe.dir/layers/cudnn_softmax_layer.cpp.o"
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/caffe.dir/layers/cudnn_softmax_layer.cpp.o -c /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/src/caffe/layers/cudnn_softmax_layer.cpp
 
 src/caffe/CMakeFiles/caffe.dir/layers/cudnn_softmax_layer.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/caffe.dir/layers/cudnn_softmax_layer.cpp.i"
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/panzhenfu/Documents/caffe/src/caffe/layers/cudnn_softmax_layer.cpp > CMakeFiles/caffe.dir/layers/cudnn_softmax_layer.cpp.i
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/src/caffe/layers/cudnn_softmax_layer.cpp > CMakeFiles/caffe.dir/layers/cudnn_softmax_layer.cpp.i
 
 src/caffe/CMakeFiles/caffe.dir/layers/cudnn_softmax_layer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/caffe.dir/layers/cudnn_softmax_layer.cpp.s"
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/panzhenfu/Documents/caffe/src/caffe/layers/cudnn_softmax_layer.cpp -o CMakeFiles/caffe.dir/layers/cudnn_softmax_layer.cpp.s
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/src/caffe/layers/cudnn_softmax_layer.cpp -o CMakeFiles/caffe.dir/layers/cudnn_softmax_layer.cpp.s
 
 src/caffe/CMakeFiles/caffe.dir/layers/cudnn_softmax_layer.cpp.o.requires:
 
@@ -1134,16 +1134,16 @@ src/caffe/CMakeFiles/caffe.dir/layers/cudnn_softmax_layer.cpp.o.provides.build: 
 
 src/caffe/CMakeFiles/caffe.dir/layers/cudnn_tanh_layer.cpp.o: src/caffe/CMakeFiles/caffe.dir/flags.make
 src/caffe/CMakeFiles/caffe.dir/layers/cudnn_tanh_layer.cpp.o: ../src/caffe/layers/cudnn_tanh_layer.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/panzhenfu/Documents/caffe/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_89) "Building CXX object src/caffe/CMakeFiles/caffe.dir/layers/cudnn_tanh_layer.cpp.o"
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/caffe.dir/layers/cudnn_tanh_layer.cpp.o -c /home/panzhenfu/Documents/caffe/src/caffe/layers/cudnn_tanh_layer.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_89) "Building CXX object src/caffe/CMakeFiles/caffe.dir/layers/cudnn_tanh_layer.cpp.o"
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/caffe.dir/layers/cudnn_tanh_layer.cpp.o -c /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/src/caffe/layers/cudnn_tanh_layer.cpp
 
 src/caffe/CMakeFiles/caffe.dir/layers/cudnn_tanh_layer.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/caffe.dir/layers/cudnn_tanh_layer.cpp.i"
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/panzhenfu/Documents/caffe/src/caffe/layers/cudnn_tanh_layer.cpp > CMakeFiles/caffe.dir/layers/cudnn_tanh_layer.cpp.i
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/src/caffe/layers/cudnn_tanh_layer.cpp > CMakeFiles/caffe.dir/layers/cudnn_tanh_layer.cpp.i
 
 src/caffe/CMakeFiles/caffe.dir/layers/cudnn_tanh_layer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/caffe.dir/layers/cudnn_tanh_layer.cpp.s"
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/panzhenfu/Documents/caffe/src/caffe/layers/cudnn_tanh_layer.cpp -o CMakeFiles/caffe.dir/layers/cudnn_tanh_layer.cpp.s
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/src/caffe/layers/cudnn_tanh_layer.cpp -o CMakeFiles/caffe.dir/layers/cudnn_tanh_layer.cpp.s
 
 src/caffe/CMakeFiles/caffe.dir/layers/cudnn_tanh_layer.cpp.o.requires:
 
@@ -1158,16 +1158,16 @@ src/caffe/CMakeFiles/caffe.dir/layers/cudnn_tanh_layer.cpp.o.provides.build: src
 
 src/caffe/CMakeFiles/caffe.dir/layers/data_layer.cpp.o: src/caffe/CMakeFiles/caffe.dir/flags.make
 src/caffe/CMakeFiles/caffe.dir/layers/data_layer.cpp.o: ../src/caffe/layers/data_layer.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/panzhenfu/Documents/caffe/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_90) "Building CXX object src/caffe/CMakeFiles/caffe.dir/layers/data_layer.cpp.o"
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/caffe.dir/layers/data_layer.cpp.o -c /home/panzhenfu/Documents/caffe/src/caffe/layers/data_layer.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_90) "Building CXX object src/caffe/CMakeFiles/caffe.dir/layers/data_layer.cpp.o"
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/caffe.dir/layers/data_layer.cpp.o -c /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/src/caffe/layers/data_layer.cpp
 
 src/caffe/CMakeFiles/caffe.dir/layers/data_layer.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/caffe.dir/layers/data_layer.cpp.i"
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/panzhenfu/Documents/caffe/src/caffe/layers/data_layer.cpp > CMakeFiles/caffe.dir/layers/data_layer.cpp.i
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/src/caffe/layers/data_layer.cpp > CMakeFiles/caffe.dir/layers/data_layer.cpp.i
 
 src/caffe/CMakeFiles/caffe.dir/layers/data_layer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/caffe.dir/layers/data_layer.cpp.s"
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/panzhenfu/Documents/caffe/src/caffe/layers/data_layer.cpp -o CMakeFiles/caffe.dir/layers/data_layer.cpp.s
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/src/caffe/layers/data_layer.cpp -o CMakeFiles/caffe.dir/layers/data_layer.cpp.s
 
 src/caffe/CMakeFiles/caffe.dir/layers/data_layer.cpp.o.requires:
 
@@ -1182,16 +1182,16 @@ src/caffe/CMakeFiles/caffe.dir/layers/data_layer.cpp.o.provides.build: src/caffe
 
 src/caffe/CMakeFiles/caffe.dir/layers/deconv_layer.cpp.o: src/caffe/CMakeFiles/caffe.dir/flags.make
 src/caffe/CMakeFiles/caffe.dir/layers/deconv_layer.cpp.o: ../src/caffe/layers/deconv_layer.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/panzhenfu/Documents/caffe/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_91) "Building CXX object src/caffe/CMakeFiles/caffe.dir/layers/deconv_layer.cpp.o"
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/caffe.dir/layers/deconv_layer.cpp.o -c /home/panzhenfu/Documents/caffe/src/caffe/layers/deconv_layer.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_91) "Building CXX object src/caffe/CMakeFiles/caffe.dir/layers/deconv_layer.cpp.o"
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/caffe.dir/layers/deconv_layer.cpp.o -c /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/src/caffe/layers/deconv_layer.cpp
 
 src/caffe/CMakeFiles/caffe.dir/layers/deconv_layer.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/caffe.dir/layers/deconv_layer.cpp.i"
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/panzhenfu/Documents/caffe/src/caffe/layers/deconv_layer.cpp > CMakeFiles/caffe.dir/layers/deconv_layer.cpp.i
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/src/caffe/layers/deconv_layer.cpp > CMakeFiles/caffe.dir/layers/deconv_layer.cpp.i
 
 src/caffe/CMakeFiles/caffe.dir/layers/deconv_layer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/caffe.dir/layers/deconv_layer.cpp.s"
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/panzhenfu/Documents/caffe/src/caffe/layers/deconv_layer.cpp -o CMakeFiles/caffe.dir/layers/deconv_layer.cpp.s
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/src/caffe/layers/deconv_layer.cpp -o CMakeFiles/caffe.dir/layers/deconv_layer.cpp.s
 
 src/caffe/CMakeFiles/caffe.dir/layers/deconv_layer.cpp.o.requires:
 
@@ -1206,16 +1206,16 @@ src/caffe/CMakeFiles/caffe.dir/layers/deconv_layer.cpp.o.provides.build: src/caf
 
 src/caffe/CMakeFiles/caffe.dir/layers/dropout_layer.cpp.o: src/caffe/CMakeFiles/caffe.dir/flags.make
 src/caffe/CMakeFiles/caffe.dir/layers/dropout_layer.cpp.o: ../src/caffe/layers/dropout_layer.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/panzhenfu/Documents/caffe/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_92) "Building CXX object src/caffe/CMakeFiles/caffe.dir/layers/dropout_layer.cpp.o"
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/caffe.dir/layers/dropout_layer.cpp.o -c /home/panzhenfu/Documents/caffe/src/caffe/layers/dropout_layer.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_92) "Building CXX object src/caffe/CMakeFiles/caffe.dir/layers/dropout_layer.cpp.o"
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/caffe.dir/layers/dropout_layer.cpp.o -c /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/src/caffe/layers/dropout_layer.cpp
 
 src/caffe/CMakeFiles/caffe.dir/layers/dropout_layer.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/caffe.dir/layers/dropout_layer.cpp.i"
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/panzhenfu/Documents/caffe/src/caffe/layers/dropout_layer.cpp > CMakeFiles/caffe.dir/layers/dropout_layer.cpp.i
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/src/caffe/layers/dropout_layer.cpp > CMakeFiles/caffe.dir/layers/dropout_layer.cpp.i
 
 src/caffe/CMakeFiles/caffe.dir/layers/dropout_layer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/caffe.dir/layers/dropout_layer.cpp.s"
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/panzhenfu/Documents/caffe/src/caffe/layers/dropout_layer.cpp -o CMakeFiles/caffe.dir/layers/dropout_layer.cpp.s
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/src/caffe/layers/dropout_layer.cpp -o CMakeFiles/caffe.dir/layers/dropout_layer.cpp.s
 
 src/caffe/CMakeFiles/caffe.dir/layers/dropout_layer.cpp.o.requires:
 
@@ -1230,16 +1230,16 @@ src/caffe/CMakeFiles/caffe.dir/layers/dropout_layer.cpp.o.provides.build: src/ca
 
 src/caffe/CMakeFiles/caffe.dir/layers/dummy_data_layer.cpp.o: src/caffe/CMakeFiles/caffe.dir/flags.make
 src/caffe/CMakeFiles/caffe.dir/layers/dummy_data_layer.cpp.o: ../src/caffe/layers/dummy_data_layer.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/panzhenfu/Documents/caffe/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_93) "Building CXX object src/caffe/CMakeFiles/caffe.dir/layers/dummy_data_layer.cpp.o"
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/caffe.dir/layers/dummy_data_layer.cpp.o -c /home/panzhenfu/Documents/caffe/src/caffe/layers/dummy_data_layer.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_93) "Building CXX object src/caffe/CMakeFiles/caffe.dir/layers/dummy_data_layer.cpp.o"
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/caffe.dir/layers/dummy_data_layer.cpp.o -c /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/src/caffe/layers/dummy_data_layer.cpp
 
 src/caffe/CMakeFiles/caffe.dir/layers/dummy_data_layer.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/caffe.dir/layers/dummy_data_layer.cpp.i"
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/panzhenfu/Documents/caffe/src/caffe/layers/dummy_data_layer.cpp > CMakeFiles/caffe.dir/layers/dummy_data_layer.cpp.i
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/src/caffe/layers/dummy_data_layer.cpp > CMakeFiles/caffe.dir/layers/dummy_data_layer.cpp.i
 
 src/caffe/CMakeFiles/caffe.dir/layers/dummy_data_layer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/caffe.dir/layers/dummy_data_layer.cpp.s"
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/panzhenfu/Documents/caffe/src/caffe/layers/dummy_data_layer.cpp -o CMakeFiles/caffe.dir/layers/dummy_data_layer.cpp.s
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/src/caffe/layers/dummy_data_layer.cpp -o CMakeFiles/caffe.dir/layers/dummy_data_layer.cpp.s
 
 src/caffe/CMakeFiles/caffe.dir/layers/dummy_data_layer.cpp.o.requires:
 
@@ -1254,16 +1254,16 @@ src/caffe/CMakeFiles/caffe.dir/layers/dummy_data_layer.cpp.o.provides.build: src
 
 src/caffe/CMakeFiles/caffe.dir/layers/eltwise_layer.cpp.o: src/caffe/CMakeFiles/caffe.dir/flags.make
 src/caffe/CMakeFiles/caffe.dir/layers/eltwise_layer.cpp.o: ../src/caffe/layers/eltwise_layer.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/panzhenfu/Documents/caffe/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_94) "Building CXX object src/caffe/CMakeFiles/caffe.dir/layers/eltwise_layer.cpp.o"
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/caffe.dir/layers/eltwise_layer.cpp.o -c /home/panzhenfu/Documents/caffe/src/caffe/layers/eltwise_layer.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_94) "Building CXX object src/caffe/CMakeFiles/caffe.dir/layers/eltwise_layer.cpp.o"
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/caffe.dir/layers/eltwise_layer.cpp.o -c /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/src/caffe/layers/eltwise_layer.cpp
 
 src/caffe/CMakeFiles/caffe.dir/layers/eltwise_layer.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/caffe.dir/layers/eltwise_layer.cpp.i"
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/panzhenfu/Documents/caffe/src/caffe/layers/eltwise_layer.cpp > CMakeFiles/caffe.dir/layers/eltwise_layer.cpp.i
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/src/caffe/layers/eltwise_layer.cpp > CMakeFiles/caffe.dir/layers/eltwise_layer.cpp.i
 
 src/caffe/CMakeFiles/caffe.dir/layers/eltwise_layer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/caffe.dir/layers/eltwise_layer.cpp.s"
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/panzhenfu/Documents/caffe/src/caffe/layers/eltwise_layer.cpp -o CMakeFiles/caffe.dir/layers/eltwise_layer.cpp.s
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/src/caffe/layers/eltwise_layer.cpp -o CMakeFiles/caffe.dir/layers/eltwise_layer.cpp.s
 
 src/caffe/CMakeFiles/caffe.dir/layers/eltwise_layer.cpp.o.requires:
 
@@ -1278,16 +1278,16 @@ src/caffe/CMakeFiles/caffe.dir/layers/eltwise_layer.cpp.o.provides.build: src/ca
 
 src/caffe/CMakeFiles/caffe.dir/layers/elu_layer.cpp.o: src/caffe/CMakeFiles/caffe.dir/flags.make
 src/caffe/CMakeFiles/caffe.dir/layers/elu_layer.cpp.o: ../src/caffe/layers/elu_layer.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/panzhenfu/Documents/caffe/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_95) "Building CXX object src/caffe/CMakeFiles/caffe.dir/layers/elu_layer.cpp.o"
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/caffe.dir/layers/elu_layer.cpp.o -c /home/panzhenfu/Documents/caffe/src/caffe/layers/elu_layer.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_95) "Building CXX object src/caffe/CMakeFiles/caffe.dir/layers/elu_layer.cpp.o"
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/caffe.dir/layers/elu_layer.cpp.o -c /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/src/caffe/layers/elu_layer.cpp
 
 src/caffe/CMakeFiles/caffe.dir/layers/elu_layer.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/caffe.dir/layers/elu_layer.cpp.i"
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/panzhenfu/Documents/caffe/src/caffe/layers/elu_layer.cpp > CMakeFiles/caffe.dir/layers/elu_layer.cpp.i
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/src/caffe/layers/elu_layer.cpp > CMakeFiles/caffe.dir/layers/elu_layer.cpp.i
 
 src/caffe/CMakeFiles/caffe.dir/layers/elu_layer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/caffe.dir/layers/elu_layer.cpp.s"
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/panzhenfu/Documents/caffe/src/caffe/layers/elu_layer.cpp -o CMakeFiles/caffe.dir/layers/elu_layer.cpp.s
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/src/caffe/layers/elu_layer.cpp -o CMakeFiles/caffe.dir/layers/elu_layer.cpp.s
 
 src/caffe/CMakeFiles/caffe.dir/layers/elu_layer.cpp.o.requires:
 
@@ -1302,16 +1302,16 @@ src/caffe/CMakeFiles/caffe.dir/layers/elu_layer.cpp.o.provides.build: src/caffe/
 
 src/caffe/CMakeFiles/caffe.dir/layers/embed_layer.cpp.o: src/caffe/CMakeFiles/caffe.dir/flags.make
 src/caffe/CMakeFiles/caffe.dir/layers/embed_layer.cpp.o: ../src/caffe/layers/embed_layer.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/panzhenfu/Documents/caffe/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_96) "Building CXX object src/caffe/CMakeFiles/caffe.dir/layers/embed_layer.cpp.o"
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/caffe.dir/layers/embed_layer.cpp.o -c /home/panzhenfu/Documents/caffe/src/caffe/layers/embed_layer.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_96) "Building CXX object src/caffe/CMakeFiles/caffe.dir/layers/embed_layer.cpp.o"
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/caffe.dir/layers/embed_layer.cpp.o -c /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/src/caffe/layers/embed_layer.cpp
 
 src/caffe/CMakeFiles/caffe.dir/layers/embed_layer.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/caffe.dir/layers/embed_layer.cpp.i"
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/panzhenfu/Documents/caffe/src/caffe/layers/embed_layer.cpp > CMakeFiles/caffe.dir/layers/embed_layer.cpp.i
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/src/caffe/layers/embed_layer.cpp > CMakeFiles/caffe.dir/layers/embed_layer.cpp.i
 
 src/caffe/CMakeFiles/caffe.dir/layers/embed_layer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/caffe.dir/layers/embed_layer.cpp.s"
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/panzhenfu/Documents/caffe/src/caffe/layers/embed_layer.cpp -o CMakeFiles/caffe.dir/layers/embed_layer.cpp.s
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/src/caffe/layers/embed_layer.cpp -o CMakeFiles/caffe.dir/layers/embed_layer.cpp.s
 
 src/caffe/CMakeFiles/caffe.dir/layers/embed_layer.cpp.o.requires:
 
@@ -1326,16 +1326,16 @@ src/caffe/CMakeFiles/caffe.dir/layers/embed_layer.cpp.o.provides.build: src/caff
 
 src/caffe/CMakeFiles/caffe.dir/layers/euclidean_loss_layer.cpp.o: src/caffe/CMakeFiles/caffe.dir/flags.make
 src/caffe/CMakeFiles/caffe.dir/layers/euclidean_loss_layer.cpp.o: ../src/caffe/layers/euclidean_loss_layer.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/panzhenfu/Documents/caffe/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_97) "Building CXX object src/caffe/CMakeFiles/caffe.dir/layers/euclidean_loss_layer.cpp.o"
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/caffe.dir/layers/euclidean_loss_layer.cpp.o -c /home/panzhenfu/Documents/caffe/src/caffe/layers/euclidean_loss_layer.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_97) "Building CXX object src/caffe/CMakeFiles/caffe.dir/layers/euclidean_loss_layer.cpp.o"
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/caffe.dir/layers/euclidean_loss_layer.cpp.o -c /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/src/caffe/layers/euclidean_loss_layer.cpp
 
 src/caffe/CMakeFiles/caffe.dir/layers/euclidean_loss_layer.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/caffe.dir/layers/euclidean_loss_layer.cpp.i"
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/panzhenfu/Documents/caffe/src/caffe/layers/euclidean_loss_layer.cpp > CMakeFiles/caffe.dir/layers/euclidean_loss_layer.cpp.i
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/src/caffe/layers/euclidean_loss_layer.cpp > CMakeFiles/caffe.dir/layers/euclidean_loss_layer.cpp.i
 
 src/caffe/CMakeFiles/caffe.dir/layers/euclidean_loss_layer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/caffe.dir/layers/euclidean_loss_layer.cpp.s"
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/panzhenfu/Documents/caffe/src/caffe/layers/euclidean_loss_layer.cpp -o CMakeFiles/caffe.dir/layers/euclidean_loss_layer.cpp.s
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/src/caffe/layers/euclidean_loss_layer.cpp -o CMakeFiles/caffe.dir/layers/euclidean_loss_layer.cpp.s
 
 src/caffe/CMakeFiles/caffe.dir/layers/euclidean_loss_layer.cpp.o.requires:
 
@@ -1350,16 +1350,16 @@ src/caffe/CMakeFiles/caffe.dir/layers/euclidean_loss_layer.cpp.o.provides.build:
 
 src/caffe/CMakeFiles/caffe.dir/layers/exp_layer.cpp.o: src/caffe/CMakeFiles/caffe.dir/flags.make
 src/caffe/CMakeFiles/caffe.dir/layers/exp_layer.cpp.o: ../src/caffe/layers/exp_layer.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/panzhenfu/Documents/caffe/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_98) "Building CXX object src/caffe/CMakeFiles/caffe.dir/layers/exp_layer.cpp.o"
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/caffe.dir/layers/exp_layer.cpp.o -c /home/panzhenfu/Documents/caffe/src/caffe/layers/exp_layer.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_98) "Building CXX object src/caffe/CMakeFiles/caffe.dir/layers/exp_layer.cpp.o"
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/caffe.dir/layers/exp_layer.cpp.o -c /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/src/caffe/layers/exp_layer.cpp
 
 src/caffe/CMakeFiles/caffe.dir/layers/exp_layer.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/caffe.dir/layers/exp_layer.cpp.i"
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/panzhenfu/Documents/caffe/src/caffe/layers/exp_layer.cpp > CMakeFiles/caffe.dir/layers/exp_layer.cpp.i
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/src/caffe/layers/exp_layer.cpp > CMakeFiles/caffe.dir/layers/exp_layer.cpp.i
 
 src/caffe/CMakeFiles/caffe.dir/layers/exp_layer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/caffe.dir/layers/exp_layer.cpp.s"
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/panzhenfu/Documents/caffe/src/caffe/layers/exp_layer.cpp -o CMakeFiles/caffe.dir/layers/exp_layer.cpp.s
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/src/caffe/layers/exp_layer.cpp -o CMakeFiles/caffe.dir/layers/exp_layer.cpp.s
 
 src/caffe/CMakeFiles/caffe.dir/layers/exp_layer.cpp.o.requires:
 
@@ -1374,16 +1374,16 @@ src/caffe/CMakeFiles/caffe.dir/layers/exp_layer.cpp.o.provides.build: src/caffe/
 
 src/caffe/CMakeFiles/caffe.dir/layers/filter_layer.cpp.o: src/caffe/CMakeFiles/caffe.dir/flags.make
 src/caffe/CMakeFiles/caffe.dir/layers/filter_layer.cpp.o: ../src/caffe/layers/filter_layer.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/panzhenfu/Documents/caffe/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_99) "Building CXX object src/caffe/CMakeFiles/caffe.dir/layers/filter_layer.cpp.o"
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/caffe.dir/layers/filter_layer.cpp.o -c /home/panzhenfu/Documents/caffe/src/caffe/layers/filter_layer.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_99) "Building CXX object src/caffe/CMakeFiles/caffe.dir/layers/filter_layer.cpp.o"
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/caffe.dir/layers/filter_layer.cpp.o -c /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/src/caffe/layers/filter_layer.cpp
 
 src/caffe/CMakeFiles/caffe.dir/layers/filter_layer.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/caffe.dir/layers/filter_layer.cpp.i"
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/panzhenfu/Documents/caffe/src/caffe/layers/filter_layer.cpp > CMakeFiles/caffe.dir/layers/filter_layer.cpp.i
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/src/caffe/layers/filter_layer.cpp > CMakeFiles/caffe.dir/layers/filter_layer.cpp.i
 
 src/caffe/CMakeFiles/caffe.dir/layers/filter_layer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/caffe.dir/layers/filter_layer.cpp.s"
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/panzhenfu/Documents/caffe/src/caffe/layers/filter_layer.cpp -o CMakeFiles/caffe.dir/layers/filter_layer.cpp.s
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/src/caffe/layers/filter_layer.cpp -o CMakeFiles/caffe.dir/layers/filter_layer.cpp.s
 
 src/caffe/CMakeFiles/caffe.dir/layers/filter_layer.cpp.o.requires:
 
@@ -1398,16 +1398,16 @@ src/caffe/CMakeFiles/caffe.dir/layers/filter_layer.cpp.o.provides.build: src/caf
 
 src/caffe/CMakeFiles/caffe.dir/layers/flatten_layer.cpp.o: src/caffe/CMakeFiles/caffe.dir/flags.make
 src/caffe/CMakeFiles/caffe.dir/layers/flatten_layer.cpp.o: ../src/caffe/layers/flatten_layer.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/panzhenfu/Documents/caffe/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_100) "Building CXX object src/caffe/CMakeFiles/caffe.dir/layers/flatten_layer.cpp.o"
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/caffe.dir/layers/flatten_layer.cpp.o -c /home/panzhenfu/Documents/caffe/src/caffe/layers/flatten_layer.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_100) "Building CXX object src/caffe/CMakeFiles/caffe.dir/layers/flatten_layer.cpp.o"
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/caffe.dir/layers/flatten_layer.cpp.o -c /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/src/caffe/layers/flatten_layer.cpp
 
 src/caffe/CMakeFiles/caffe.dir/layers/flatten_layer.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/caffe.dir/layers/flatten_layer.cpp.i"
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/panzhenfu/Documents/caffe/src/caffe/layers/flatten_layer.cpp > CMakeFiles/caffe.dir/layers/flatten_layer.cpp.i
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/src/caffe/layers/flatten_layer.cpp > CMakeFiles/caffe.dir/layers/flatten_layer.cpp.i
 
 src/caffe/CMakeFiles/caffe.dir/layers/flatten_layer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/caffe.dir/layers/flatten_layer.cpp.s"
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/panzhenfu/Documents/caffe/src/caffe/layers/flatten_layer.cpp -o CMakeFiles/caffe.dir/layers/flatten_layer.cpp.s
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/src/caffe/layers/flatten_layer.cpp -o CMakeFiles/caffe.dir/layers/flatten_layer.cpp.s
 
 src/caffe/CMakeFiles/caffe.dir/layers/flatten_layer.cpp.o.requires:
 
@@ -1422,16 +1422,16 @@ src/caffe/CMakeFiles/caffe.dir/layers/flatten_layer.cpp.o.provides.build: src/ca
 
 src/caffe/CMakeFiles/caffe.dir/layers/hdf5_data_layer.cpp.o: src/caffe/CMakeFiles/caffe.dir/flags.make
 src/caffe/CMakeFiles/caffe.dir/layers/hdf5_data_layer.cpp.o: ../src/caffe/layers/hdf5_data_layer.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/panzhenfu/Documents/caffe/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_101) "Building CXX object src/caffe/CMakeFiles/caffe.dir/layers/hdf5_data_layer.cpp.o"
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/caffe.dir/layers/hdf5_data_layer.cpp.o -c /home/panzhenfu/Documents/caffe/src/caffe/layers/hdf5_data_layer.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_101) "Building CXX object src/caffe/CMakeFiles/caffe.dir/layers/hdf5_data_layer.cpp.o"
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/caffe.dir/layers/hdf5_data_layer.cpp.o -c /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/src/caffe/layers/hdf5_data_layer.cpp
 
 src/caffe/CMakeFiles/caffe.dir/layers/hdf5_data_layer.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/caffe.dir/layers/hdf5_data_layer.cpp.i"
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/panzhenfu/Documents/caffe/src/caffe/layers/hdf5_data_layer.cpp > CMakeFiles/caffe.dir/layers/hdf5_data_layer.cpp.i
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/src/caffe/layers/hdf5_data_layer.cpp > CMakeFiles/caffe.dir/layers/hdf5_data_layer.cpp.i
 
 src/caffe/CMakeFiles/caffe.dir/layers/hdf5_data_layer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/caffe.dir/layers/hdf5_data_layer.cpp.s"
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/panzhenfu/Documents/caffe/src/caffe/layers/hdf5_data_layer.cpp -o CMakeFiles/caffe.dir/layers/hdf5_data_layer.cpp.s
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/src/caffe/layers/hdf5_data_layer.cpp -o CMakeFiles/caffe.dir/layers/hdf5_data_layer.cpp.s
 
 src/caffe/CMakeFiles/caffe.dir/layers/hdf5_data_layer.cpp.o.requires:
 
@@ -1446,16 +1446,16 @@ src/caffe/CMakeFiles/caffe.dir/layers/hdf5_data_layer.cpp.o.provides.build: src/
 
 src/caffe/CMakeFiles/caffe.dir/layers/hdf5_output_layer.cpp.o: src/caffe/CMakeFiles/caffe.dir/flags.make
 src/caffe/CMakeFiles/caffe.dir/layers/hdf5_output_layer.cpp.o: ../src/caffe/layers/hdf5_output_layer.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/panzhenfu/Documents/caffe/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_102) "Building CXX object src/caffe/CMakeFiles/caffe.dir/layers/hdf5_output_layer.cpp.o"
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/caffe.dir/layers/hdf5_output_layer.cpp.o -c /home/panzhenfu/Documents/caffe/src/caffe/layers/hdf5_output_layer.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_102) "Building CXX object src/caffe/CMakeFiles/caffe.dir/layers/hdf5_output_layer.cpp.o"
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/caffe.dir/layers/hdf5_output_layer.cpp.o -c /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/src/caffe/layers/hdf5_output_layer.cpp
 
 src/caffe/CMakeFiles/caffe.dir/layers/hdf5_output_layer.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/caffe.dir/layers/hdf5_output_layer.cpp.i"
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/panzhenfu/Documents/caffe/src/caffe/layers/hdf5_output_layer.cpp > CMakeFiles/caffe.dir/layers/hdf5_output_layer.cpp.i
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/src/caffe/layers/hdf5_output_layer.cpp > CMakeFiles/caffe.dir/layers/hdf5_output_layer.cpp.i
 
 src/caffe/CMakeFiles/caffe.dir/layers/hdf5_output_layer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/caffe.dir/layers/hdf5_output_layer.cpp.s"
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/panzhenfu/Documents/caffe/src/caffe/layers/hdf5_output_layer.cpp -o CMakeFiles/caffe.dir/layers/hdf5_output_layer.cpp.s
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/src/caffe/layers/hdf5_output_layer.cpp -o CMakeFiles/caffe.dir/layers/hdf5_output_layer.cpp.s
 
 src/caffe/CMakeFiles/caffe.dir/layers/hdf5_output_layer.cpp.o.requires:
 
@@ -1470,16 +1470,16 @@ src/caffe/CMakeFiles/caffe.dir/layers/hdf5_output_layer.cpp.o.provides.build: sr
 
 src/caffe/CMakeFiles/caffe.dir/layers/hinge_loss_layer.cpp.o: src/caffe/CMakeFiles/caffe.dir/flags.make
 src/caffe/CMakeFiles/caffe.dir/layers/hinge_loss_layer.cpp.o: ../src/caffe/layers/hinge_loss_layer.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/panzhenfu/Documents/caffe/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_103) "Building CXX object src/caffe/CMakeFiles/caffe.dir/layers/hinge_loss_layer.cpp.o"
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/caffe.dir/layers/hinge_loss_layer.cpp.o -c /home/panzhenfu/Documents/caffe/src/caffe/layers/hinge_loss_layer.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_103) "Building CXX object src/caffe/CMakeFiles/caffe.dir/layers/hinge_loss_layer.cpp.o"
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/caffe.dir/layers/hinge_loss_layer.cpp.o -c /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/src/caffe/layers/hinge_loss_layer.cpp
 
 src/caffe/CMakeFiles/caffe.dir/layers/hinge_loss_layer.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/caffe.dir/layers/hinge_loss_layer.cpp.i"
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/panzhenfu/Documents/caffe/src/caffe/layers/hinge_loss_layer.cpp > CMakeFiles/caffe.dir/layers/hinge_loss_layer.cpp.i
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/src/caffe/layers/hinge_loss_layer.cpp > CMakeFiles/caffe.dir/layers/hinge_loss_layer.cpp.i
 
 src/caffe/CMakeFiles/caffe.dir/layers/hinge_loss_layer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/caffe.dir/layers/hinge_loss_layer.cpp.s"
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/panzhenfu/Documents/caffe/src/caffe/layers/hinge_loss_layer.cpp -o CMakeFiles/caffe.dir/layers/hinge_loss_layer.cpp.s
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/src/caffe/layers/hinge_loss_layer.cpp -o CMakeFiles/caffe.dir/layers/hinge_loss_layer.cpp.s
 
 src/caffe/CMakeFiles/caffe.dir/layers/hinge_loss_layer.cpp.o.requires:
 
@@ -1494,16 +1494,16 @@ src/caffe/CMakeFiles/caffe.dir/layers/hinge_loss_layer.cpp.o.provides.build: src
 
 src/caffe/CMakeFiles/caffe.dir/layers/im2col_layer.cpp.o: src/caffe/CMakeFiles/caffe.dir/flags.make
 src/caffe/CMakeFiles/caffe.dir/layers/im2col_layer.cpp.o: ../src/caffe/layers/im2col_layer.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/panzhenfu/Documents/caffe/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_104) "Building CXX object src/caffe/CMakeFiles/caffe.dir/layers/im2col_layer.cpp.o"
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/caffe.dir/layers/im2col_layer.cpp.o -c /home/panzhenfu/Documents/caffe/src/caffe/layers/im2col_layer.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_104) "Building CXX object src/caffe/CMakeFiles/caffe.dir/layers/im2col_layer.cpp.o"
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/caffe.dir/layers/im2col_layer.cpp.o -c /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/src/caffe/layers/im2col_layer.cpp
 
 src/caffe/CMakeFiles/caffe.dir/layers/im2col_layer.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/caffe.dir/layers/im2col_layer.cpp.i"
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/panzhenfu/Documents/caffe/src/caffe/layers/im2col_layer.cpp > CMakeFiles/caffe.dir/layers/im2col_layer.cpp.i
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/src/caffe/layers/im2col_layer.cpp > CMakeFiles/caffe.dir/layers/im2col_layer.cpp.i
 
 src/caffe/CMakeFiles/caffe.dir/layers/im2col_layer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/caffe.dir/layers/im2col_layer.cpp.s"
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/panzhenfu/Documents/caffe/src/caffe/layers/im2col_layer.cpp -o CMakeFiles/caffe.dir/layers/im2col_layer.cpp.s
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/src/caffe/layers/im2col_layer.cpp -o CMakeFiles/caffe.dir/layers/im2col_layer.cpp.s
 
 src/caffe/CMakeFiles/caffe.dir/layers/im2col_layer.cpp.o.requires:
 
@@ -1518,16 +1518,16 @@ src/caffe/CMakeFiles/caffe.dir/layers/im2col_layer.cpp.o.provides.build: src/caf
 
 src/caffe/CMakeFiles/caffe.dir/layers/image_data_layer.cpp.o: src/caffe/CMakeFiles/caffe.dir/flags.make
 src/caffe/CMakeFiles/caffe.dir/layers/image_data_layer.cpp.o: ../src/caffe/layers/image_data_layer.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/panzhenfu/Documents/caffe/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_105) "Building CXX object src/caffe/CMakeFiles/caffe.dir/layers/image_data_layer.cpp.o"
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/caffe.dir/layers/image_data_layer.cpp.o -c /home/panzhenfu/Documents/caffe/src/caffe/layers/image_data_layer.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_105) "Building CXX object src/caffe/CMakeFiles/caffe.dir/layers/image_data_layer.cpp.o"
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/caffe.dir/layers/image_data_layer.cpp.o -c /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/src/caffe/layers/image_data_layer.cpp
 
 src/caffe/CMakeFiles/caffe.dir/layers/image_data_layer.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/caffe.dir/layers/image_data_layer.cpp.i"
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/panzhenfu/Documents/caffe/src/caffe/layers/image_data_layer.cpp > CMakeFiles/caffe.dir/layers/image_data_layer.cpp.i
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/src/caffe/layers/image_data_layer.cpp > CMakeFiles/caffe.dir/layers/image_data_layer.cpp.i
 
 src/caffe/CMakeFiles/caffe.dir/layers/image_data_layer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/caffe.dir/layers/image_data_layer.cpp.s"
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/panzhenfu/Documents/caffe/src/caffe/layers/image_data_layer.cpp -o CMakeFiles/caffe.dir/layers/image_data_layer.cpp.s
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/src/caffe/layers/image_data_layer.cpp -o CMakeFiles/caffe.dir/layers/image_data_layer.cpp.s
 
 src/caffe/CMakeFiles/caffe.dir/layers/image_data_layer.cpp.o.requires:
 
@@ -1542,16 +1542,16 @@ src/caffe/CMakeFiles/caffe.dir/layers/image_data_layer.cpp.o.provides.build: src
 
 src/caffe/CMakeFiles/caffe.dir/layers/infogain_loss_layer.cpp.o: src/caffe/CMakeFiles/caffe.dir/flags.make
 src/caffe/CMakeFiles/caffe.dir/layers/infogain_loss_layer.cpp.o: ../src/caffe/layers/infogain_loss_layer.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/panzhenfu/Documents/caffe/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_106) "Building CXX object src/caffe/CMakeFiles/caffe.dir/layers/infogain_loss_layer.cpp.o"
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/caffe.dir/layers/infogain_loss_layer.cpp.o -c /home/panzhenfu/Documents/caffe/src/caffe/layers/infogain_loss_layer.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_106) "Building CXX object src/caffe/CMakeFiles/caffe.dir/layers/infogain_loss_layer.cpp.o"
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/caffe.dir/layers/infogain_loss_layer.cpp.o -c /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/src/caffe/layers/infogain_loss_layer.cpp
 
 src/caffe/CMakeFiles/caffe.dir/layers/infogain_loss_layer.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/caffe.dir/layers/infogain_loss_layer.cpp.i"
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/panzhenfu/Documents/caffe/src/caffe/layers/infogain_loss_layer.cpp > CMakeFiles/caffe.dir/layers/infogain_loss_layer.cpp.i
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/src/caffe/layers/infogain_loss_layer.cpp > CMakeFiles/caffe.dir/layers/infogain_loss_layer.cpp.i
 
 src/caffe/CMakeFiles/caffe.dir/layers/infogain_loss_layer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/caffe.dir/layers/infogain_loss_layer.cpp.s"
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/panzhenfu/Documents/caffe/src/caffe/layers/infogain_loss_layer.cpp -o CMakeFiles/caffe.dir/layers/infogain_loss_layer.cpp.s
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/src/caffe/layers/infogain_loss_layer.cpp -o CMakeFiles/caffe.dir/layers/infogain_loss_layer.cpp.s
 
 src/caffe/CMakeFiles/caffe.dir/layers/infogain_loss_layer.cpp.o.requires:
 
@@ -1566,16 +1566,16 @@ src/caffe/CMakeFiles/caffe.dir/layers/infogain_loss_layer.cpp.o.provides.build: 
 
 src/caffe/CMakeFiles/caffe.dir/layers/inner_product_layer.cpp.o: src/caffe/CMakeFiles/caffe.dir/flags.make
 src/caffe/CMakeFiles/caffe.dir/layers/inner_product_layer.cpp.o: ../src/caffe/layers/inner_product_layer.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/panzhenfu/Documents/caffe/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_107) "Building CXX object src/caffe/CMakeFiles/caffe.dir/layers/inner_product_layer.cpp.o"
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/caffe.dir/layers/inner_product_layer.cpp.o -c /home/panzhenfu/Documents/caffe/src/caffe/layers/inner_product_layer.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_107) "Building CXX object src/caffe/CMakeFiles/caffe.dir/layers/inner_product_layer.cpp.o"
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/caffe.dir/layers/inner_product_layer.cpp.o -c /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/src/caffe/layers/inner_product_layer.cpp
 
 src/caffe/CMakeFiles/caffe.dir/layers/inner_product_layer.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/caffe.dir/layers/inner_product_layer.cpp.i"
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/panzhenfu/Documents/caffe/src/caffe/layers/inner_product_layer.cpp > CMakeFiles/caffe.dir/layers/inner_product_layer.cpp.i
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/src/caffe/layers/inner_product_layer.cpp > CMakeFiles/caffe.dir/layers/inner_product_layer.cpp.i
 
 src/caffe/CMakeFiles/caffe.dir/layers/inner_product_layer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/caffe.dir/layers/inner_product_layer.cpp.s"
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/panzhenfu/Documents/caffe/src/caffe/layers/inner_product_layer.cpp -o CMakeFiles/caffe.dir/layers/inner_product_layer.cpp.s
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/src/caffe/layers/inner_product_layer.cpp -o CMakeFiles/caffe.dir/layers/inner_product_layer.cpp.s
 
 src/caffe/CMakeFiles/caffe.dir/layers/inner_product_layer.cpp.o.requires:
 
@@ -1590,16 +1590,16 @@ src/caffe/CMakeFiles/caffe.dir/layers/inner_product_layer.cpp.o.provides.build: 
 
 src/caffe/CMakeFiles/caffe.dir/layers/input_layer.cpp.o: src/caffe/CMakeFiles/caffe.dir/flags.make
 src/caffe/CMakeFiles/caffe.dir/layers/input_layer.cpp.o: ../src/caffe/layers/input_layer.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/panzhenfu/Documents/caffe/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_108) "Building CXX object src/caffe/CMakeFiles/caffe.dir/layers/input_layer.cpp.o"
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/caffe.dir/layers/input_layer.cpp.o -c /home/panzhenfu/Documents/caffe/src/caffe/layers/input_layer.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_108) "Building CXX object src/caffe/CMakeFiles/caffe.dir/layers/input_layer.cpp.o"
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/caffe.dir/layers/input_layer.cpp.o -c /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/src/caffe/layers/input_layer.cpp
 
 src/caffe/CMakeFiles/caffe.dir/layers/input_layer.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/caffe.dir/layers/input_layer.cpp.i"
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/panzhenfu/Documents/caffe/src/caffe/layers/input_layer.cpp > CMakeFiles/caffe.dir/layers/input_layer.cpp.i
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/src/caffe/layers/input_layer.cpp > CMakeFiles/caffe.dir/layers/input_layer.cpp.i
 
 src/caffe/CMakeFiles/caffe.dir/layers/input_layer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/caffe.dir/layers/input_layer.cpp.s"
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/panzhenfu/Documents/caffe/src/caffe/layers/input_layer.cpp -o CMakeFiles/caffe.dir/layers/input_layer.cpp.s
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/src/caffe/layers/input_layer.cpp -o CMakeFiles/caffe.dir/layers/input_layer.cpp.s
 
 src/caffe/CMakeFiles/caffe.dir/layers/input_layer.cpp.o.requires:
 
@@ -1614,16 +1614,16 @@ src/caffe/CMakeFiles/caffe.dir/layers/input_layer.cpp.o.provides.build: src/caff
 
 src/caffe/CMakeFiles/caffe.dir/layers/log_layer.cpp.o: src/caffe/CMakeFiles/caffe.dir/flags.make
 src/caffe/CMakeFiles/caffe.dir/layers/log_layer.cpp.o: ../src/caffe/layers/log_layer.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/panzhenfu/Documents/caffe/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_109) "Building CXX object src/caffe/CMakeFiles/caffe.dir/layers/log_layer.cpp.o"
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/caffe.dir/layers/log_layer.cpp.o -c /home/panzhenfu/Documents/caffe/src/caffe/layers/log_layer.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_109) "Building CXX object src/caffe/CMakeFiles/caffe.dir/layers/log_layer.cpp.o"
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/caffe.dir/layers/log_layer.cpp.o -c /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/src/caffe/layers/log_layer.cpp
 
 src/caffe/CMakeFiles/caffe.dir/layers/log_layer.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/caffe.dir/layers/log_layer.cpp.i"
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/panzhenfu/Documents/caffe/src/caffe/layers/log_layer.cpp > CMakeFiles/caffe.dir/layers/log_layer.cpp.i
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/src/caffe/layers/log_layer.cpp > CMakeFiles/caffe.dir/layers/log_layer.cpp.i
 
 src/caffe/CMakeFiles/caffe.dir/layers/log_layer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/caffe.dir/layers/log_layer.cpp.s"
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/panzhenfu/Documents/caffe/src/caffe/layers/log_layer.cpp -o CMakeFiles/caffe.dir/layers/log_layer.cpp.s
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/src/caffe/layers/log_layer.cpp -o CMakeFiles/caffe.dir/layers/log_layer.cpp.s
 
 src/caffe/CMakeFiles/caffe.dir/layers/log_layer.cpp.o.requires:
 
@@ -1638,16 +1638,16 @@ src/caffe/CMakeFiles/caffe.dir/layers/log_layer.cpp.o.provides.build: src/caffe/
 
 src/caffe/CMakeFiles/caffe.dir/layers/loss_layer.cpp.o: src/caffe/CMakeFiles/caffe.dir/flags.make
 src/caffe/CMakeFiles/caffe.dir/layers/loss_layer.cpp.o: ../src/caffe/layers/loss_layer.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/panzhenfu/Documents/caffe/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_110) "Building CXX object src/caffe/CMakeFiles/caffe.dir/layers/loss_layer.cpp.o"
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/caffe.dir/layers/loss_layer.cpp.o -c /home/panzhenfu/Documents/caffe/src/caffe/layers/loss_layer.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_110) "Building CXX object src/caffe/CMakeFiles/caffe.dir/layers/loss_layer.cpp.o"
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/caffe.dir/layers/loss_layer.cpp.o -c /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/src/caffe/layers/loss_layer.cpp
 
 src/caffe/CMakeFiles/caffe.dir/layers/loss_layer.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/caffe.dir/layers/loss_layer.cpp.i"
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/panzhenfu/Documents/caffe/src/caffe/layers/loss_layer.cpp > CMakeFiles/caffe.dir/layers/loss_layer.cpp.i
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/src/caffe/layers/loss_layer.cpp > CMakeFiles/caffe.dir/layers/loss_layer.cpp.i
 
 src/caffe/CMakeFiles/caffe.dir/layers/loss_layer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/caffe.dir/layers/loss_layer.cpp.s"
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/panzhenfu/Documents/caffe/src/caffe/layers/loss_layer.cpp -o CMakeFiles/caffe.dir/layers/loss_layer.cpp.s
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/src/caffe/layers/loss_layer.cpp -o CMakeFiles/caffe.dir/layers/loss_layer.cpp.s
 
 src/caffe/CMakeFiles/caffe.dir/layers/loss_layer.cpp.o.requires:
 
@@ -1662,16 +1662,16 @@ src/caffe/CMakeFiles/caffe.dir/layers/loss_layer.cpp.o.provides.build: src/caffe
 
 src/caffe/CMakeFiles/caffe.dir/layers/lrn_layer.cpp.o: src/caffe/CMakeFiles/caffe.dir/flags.make
 src/caffe/CMakeFiles/caffe.dir/layers/lrn_layer.cpp.o: ../src/caffe/layers/lrn_layer.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/panzhenfu/Documents/caffe/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_111) "Building CXX object src/caffe/CMakeFiles/caffe.dir/layers/lrn_layer.cpp.o"
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/caffe.dir/layers/lrn_layer.cpp.o -c /home/panzhenfu/Documents/caffe/src/caffe/layers/lrn_layer.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_111) "Building CXX object src/caffe/CMakeFiles/caffe.dir/layers/lrn_layer.cpp.o"
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/caffe.dir/layers/lrn_layer.cpp.o -c /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/src/caffe/layers/lrn_layer.cpp
 
 src/caffe/CMakeFiles/caffe.dir/layers/lrn_layer.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/caffe.dir/layers/lrn_layer.cpp.i"
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/panzhenfu/Documents/caffe/src/caffe/layers/lrn_layer.cpp > CMakeFiles/caffe.dir/layers/lrn_layer.cpp.i
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/src/caffe/layers/lrn_layer.cpp > CMakeFiles/caffe.dir/layers/lrn_layer.cpp.i
 
 src/caffe/CMakeFiles/caffe.dir/layers/lrn_layer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/caffe.dir/layers/lrn_layer.cpp.s"
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/panzhenfu/Documents/caffe/src/caffe/layers/lrn_layer.cpp -o CMakeFiles/caffe.dir/layers/lrn_layer.cpp.s
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/src/caffe/layers/lrn_layer.cpp -o CMakeFiles/caffe.dir/layers/lrn_layer.cpp.s
 
 src/caffe/CMakeFiles/caffe.dir/layers/lrn_layer.cpp.o.requires:
 
@@ -1686,16 +1686,16 @@ src/caffe/CMakeFiles/caffe.dir/layers/lrn_layer.cpp.o.provides.build: src/caffe/
 
 src/caffe/CMakeFiles/caffe.dir/layers/lstm_layer.cpp.o: src/caffe/CMakeFiles/caffe.dir/flags.make
 src/caffe/CMakeFiles/caffe.dir/layers/lstm_layer.cpp.o: ../src/caffe/layers/lstm_layer.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/panzhenfu/Documents/caffe/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_112) "Building CXX object src/caffe/CMakeFiles/caffe.dir/layers/lstm_layer.cpp.o"
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/caffe.dir/layers/lstm_layer.cpp.o -c /home/panzhenfu/Documents/caffe/src/caffe/layers/lstm_layer.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_112) "Building CXX object src/caffe/CMakeFiles/caffe.dir/layers/lstm_layer.cpp.o"
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/caffe.dir/layers/lstm_layer.cpp.o -c /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/src/caffe/layers/lstm_layer.cpp
 
 src/caffe/CMakeFiles/caffe.dir/layers/lstm_layer.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/caffe.dir/layers/lstm_layer.cpp.i"
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/panzhenfu/Documents/caffe/src/caffe/layers/lstm_layer.cpp > CMakeFiles/caffe.dir/layers/lstm_layer.cpp.i
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/src/caffe/layers/lstm_layer.cpp > CMakeFiles/caffe.dir/layers/lstm_layer.cpp.i
 
 src/caffe/CMakeFiles/caffe.dir/layers/lstm_layer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/caffe.dir/layers/lstm_layer.cpp.s"
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/panzhenfu/Documents/caffe/src/caffe/layers/lstm_layer.cpp -o CMakeFiles/caffe.dir/layers/lstm_layer.cpp.s
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/src/caffe/layers/lstm_layer.cpp -o CMakeFiles/caffe.dir/layers/lstm_layer.cpp.s
 
 src/caffe/CMakeFiles/caffe.dir/layers/lstm_layer.cpp.o.requires:
 
@@ -1710,16 +1710,16 @@ src/caffe/CMakeFiles/caffe.dir/layers/lstm_layer.cpp.o.provides.build: src/caffe
 
 src/caffe/CMakeFiles/caffe.dir/layers/lstm_unit_layer.cpp.o: src/caffe/CMakeFiles/caffe.dir/flags.make
 src/caffe/CMakeFiles/caffe.dir/layers/lstm_unit_layer.cpp.o: ../src/caffe/layers/lstm_unit_layer.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/panzhenfu/Documents/caffe/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_113) "Building CXX object src/caffe/CMakeFiles/caffe.dir/layers/lstm_unit_layer.cpp.o"
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/caffe.dir/layers/lstm_unit_layer.cpp.o -c /home/panzhenfu/Documents/caffe/src/caffe/layers/lstm_unit_layer.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_113) "Building CXX object src/caffe/CMakeFiles/caffe.dir/layers/lstm_unit_layer.cpp.o"
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/caffe.dir/layers/lstm_unit_layer.cpp.o -c /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/src/caffe/layers/lstm_unit_layer.cpp
 
 src/caffe/CMakeFiles/caffe.dir/layers/lstm_unit_layer.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/caffe.dir/layers/lstm_unit_layer.cpp.i"
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/panzhenfu/Documents/caffe/src/caffe/layers/lstm_unit_layer.cpp > CMakeFiles/caffe.dir/layers/lstm_unit_layer.cpp.i
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/src/caffe/layers/lstm_unit_layer.cpp > CMakeFiles/caffe.dir/layers/lstm_unit_layer.cpp.i
 
 src/caffe/CMakeFiles/caffe.dir/layers/lstm_unit_layer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/caffe.dir/layers/lstm_unit_layer.cpp.s"
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/panzhenfu/Documents/caffe/src/caffe/layers/lstm_unit_layer.cpp -o CMakeFiles/caffe.dir/layers/lstm_unit_layer.cpp.s
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/src/caffe/layers/lstm_unit_layer.cpp -o CMakeFiles/caffe.dir/layers/lstm_unit_layer.cpp.s
 
 src/caffe/CMakeFiles/caffe.dir/layers/lstm_unit_layer.cpp.o.requires:
 
@@ -1734,16 +1734,16 @@ src/caffe/CMakeFiles/caffe.dir/layers/lstm_unit_layer.cpp.o.provides.build: src/
 
 src/caffe/CMakeFiles/caffe.dir/layers/memory_data_layer.cpp.o: src/caffe/CMakeFiles/caffe.dir/flags.make
 src/caffe/CMakeFiles/caffe.dir/layers/memory_data_layer.cpp.o: ../src/caffe/layers/memory_data_layer.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/panzhenfu/Documents/caffe/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_114) "Building CXX object src/caffe/CMakeFiles/caffe.dir/layers/memory_data_layer.cpp.o"
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/caffe.dir/layers/memory_data_layer.cpp.o -c /home/panzhenfu/Documents/caffe/src/caffe/layers/memory_data_layer.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_114) "Building CXX object src/caffe/CMakeFiles/caffe.dir/layers/memory_data_layer.cpp.o"
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/caffe.dir/layers/memory_data_layer.cpp.o -c /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/src/caffe/layers/memory_data_layer.cpp
 
 src/caffe/CMakeFiles/caffe.dir/layers/memory_data_layer.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/caffe.dir/layers/memory_data_layer.cpp.i"
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/panzhenfu/Documents/caffe/src/caffe/layers/memory_data_layer.cpp > CMakeFiles/caffe.dir/layers/memory_data_layer.cpp.i
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/src/caffe/layers/memory_data_layer.cpp > CMakeFiles/caffe.dir/layers/memory_data_layer.cpp.i
 
 src/caffe/CMakeFiles/caffe.dir/layers/memory_data_layer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/caffe.dir/layers/memory_data_layer.cpp.s"
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/panzhenfu/Documents/caffe/src/caffe/layers/memory_data_layer.cpp -o CMakeFiles/caffe.dir/layers/memory_data_layer.cpp.s
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/src/caffe/layers/memory_data_layer.cpp -o CMakeFiles/caffe.dir/layers/memory_data_layer.cpp.s
 
 src/caffe/CMakeFiles/caffe.dir/layers/memory_data_layer.cpp.o.requires:
 
@@ -1758,16 +1758,16 @@ src/caffe/CMakeFiles/caffe.dir/layers/memory_data_layer.cpp.o.provides.build: sr
 
 src/caffe/CMakeFiles/caffe.dir/layers/multinomial_logistic_loss_layer.cpp.o: src/caffe/CMakeFiles/caffe.dir/flags.make
 src/caffe/CMakeFiles/caffe.dir/layers/multinomial_logistic_loss_layer.cpp.o: ../src/caffe/layers/multinomial_logistic_loss_layer.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/panzhenfu/Documents/caffe/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_115) "Building CXX object src/caffe/CMakeFiles/caffe.dir/layers/multinomial_logistic_loss_layer.cpp.o"
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/caffe.dir/layers/multinomial_logistic_loss_layer.cpp.o -c /home/panzhenfu/Documents/caffe/src/caffe/layers/multinomial_logistic_loss_layer.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_115) "Building CXX object src/caffe/CMakeFiles/caffe.dir/layers/multinomial_logistic_loss_layer.cpp.o"
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/caffe.dir/layers/multinomial_logistic_loss_layer.cpp.o -c /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/src/caffe/layers/multinomial_logistic_loss_layer.cpp
 
 src/caffe/CMakeFiles/caffe.dir/layers/multinomial_logistic_loss_layer.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/caffe.dir/layers/multinomial_logistic_loss_layer.cpp.i"
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/panzhenfu/Documents/caffe/src/caffe/layers/multinomial_logistic_loss_layer.cpp > CMakeFiles/caffe.dir/layers/multinomial_logistic_loss_layer.cpp.i
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/src/caffe/layers/multinomial_logistic_loss_layer.cpp > CMakeFiles/caffe.dir/layers/multinomial_logistic_loss_layer.cpp.i
 
 src/caffe/CMakeFiles/caffe.dir/layers/multinomial_logistic_loss_layer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/caffe.dir/layers/multinomial_logistic_loss_layer.cpp.s"
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/panzhenfu/Documents/caffe/src/caffe/layers/multinomial_logistic_loss_layer.cpp -o CMakeFiles/caffe.dir/layers/multinomial_logistic_loss_layer.cpp.s
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/src/caffe/layers/multinomial_logistic_loss_layer.cpp -o CMakeFiles/caffe.dir/layers/multinomial_logistic_loss_layer.cpp.s
 
 src/caffe/CMakeFiles/caffe.dir/layers/multinomial_logistic_loss_layer.cpp.o.requires:
 
@@ -1782,16 +1782,16 @@ src/caffe/CMakeFiles/caffe.dir/layers/multinomial_logistic_loss_layer.cpp.o.prov
 
 src/caffe/CMakeFiles/caffe.dir/layers/mvn_layer.cpp.o: src/caffe/CMakeFiles/caffe.dir/flags.make
 src/caffe/CMakeFiles/caffe.dir/layers/mvn_layer.cpp.o: ../src/caffe/layers/mvn_layer.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/panzhenfu/Documents/caffe/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_116) "Building CXX object src/caffe/CMakeFiles/caffe.dir/layers/mvn_layer.cpp.o"
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/caffe.dir/layers/mvn_layer.cpp.o -c /home/panzhenfu/Documents/caffe/src/caffe/layers/mvn_layer.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_116) "Building CXX object src/caffe/CMakeFiles/caffe.dir/layers/mvn_layer.cpp.o"
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/caffe.dir/layers/mvn_layer.cpp.o -c /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/src/caffe/layers/mvn_layer.cpp
 
 src/caffe/CMakeFiles/caffe.dir/layers/mvn_layer.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/caffe.dir/layers/mvn_layer.cpp.i"
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/panzhenfu/Documents/caffe/src/caffe/layers/mvn_layer.cpp > CMakeFiles/caffe.dir/layers/mvn_layer.cpp.i
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/src/caffe/layers/mvn_layer.cpp > CMakeFiles/caffe.dir/layers/mvn_layer.cpp.i
 
 src/caffe/CMakeFiles/caffe.dir/layers/mvn_layer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/caffe.dir/layers/mvn_layer.cpp.s"
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/panzhenfu/Documents/caffe/src/caffe/layers/mvn_layer.cpp -o CMakeFiles/caffe.dir/layers/mvn_layer.cpp.s
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/src/caffe/layers/mvn_layer.cpp -o CMakeFiles/caffe.dir/layers/mvn_layer.cpp.s
 
 src/caffe/CMakeFiles/caffe.dir/layers/mvn_layer.cpp.o.requires:
 
@@ -1806,16 +1806,16 @@ src/caffe/CMakeFiles/caffe.dir/layers/mvn_layer.cpp.o.provides.build: src/caffe/
 
 src/caffe/CMakeFiles/caffe.dir/layers/neuron_layer.cpp.o: src/caffe/CMakeFiles/caffe.dir/flags.make
 src/caffe/CMakeFiles/caffe.dir/layers/neuron_layer.cpp.o: ../src/caffe/layers/neuron_layer.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/panzhenfu/Documents/caffe/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_117) "Building CXX object src/caffe/CMakeFiles/caffe.dir/layers/neuron_layer.cpp.o"
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/caffe.dir/layers/neuron_layer.cpp.o -c /home/panzhenfu/Documents/caffe/src/caffe/layers/neuron_layer.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_117) "Building CXX object src/caffe/CMakeFiles/caffe.dir/layers/neuron_layer.cpp.o"
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/caffe.dir/layers/neuron_layer.cpp.o -c /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/src/caffe/layers/neuron_layer.cpp
 
 src/caffe/CMakeFiles/caffe.dir/layers/neuron_layer.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/caffe.dir/layers/neuron_layer.cpp.i"
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/panzhenfu/Documents/caffe/src/caffe/layers/neuron_layer.cpp > CMakeFiles/caffe.dir/layers/neuron_layer.cpp.i
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/src/caffe/layers/neuron_layer.cpp > CMakeFiles/caffe.dir/layers/neuron_layer.cpp.i
 
 src/caffe/CMakeFiles/caffe.dir/layers/neuron_layer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/caffe.dir/layers/neuron_layer.cpp.s"
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/panzhenfu/Documents/caffe/src/caffe/layers/neuron_layer.cpp -o CMakeFiles/caffe.dir/layers/neuron_layer.cpp.s
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/src/caffe/layers/neuron_layer.cpp -o CMakeFiles/caffe.dir/layers/neuron_layer.cpp.s
 
 src/caffe/CMakeFiles/caffe.dir/layers/neuron_layer.cpp.o.requires:
 
@@ -1830,16 +1830,16 @@ src/caffe/CMakeFiles/caffe.dir/layers/neuron_layer.cpp.o.provides.build: src/caf
 
 src/caffe/CMakeFiles/caffe.dir/layers/parameter_layer.cpp.o: src/caffe/CMakeFiles/caffe.dir/flags.make
 src/caffe/CMakeFiles/caffe.dir/layers/parameter_layer.cpp.o: ../src/caffe/layers/parameter_layer.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/panzhenfu/Documents/caffe/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_118) "Building CXX object src/caffe/CMakeFiles/caffe.dir/layers/parameter_layer.cpp.o"
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/caffe.dir/layers/parameter_layer.cpp.o -c /home/panzhenfu/Documents/caffe/src/caffe/layers/parameter_layer.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_118) "Building CXX object src/caffe/CMakeFiles/caffe.dir/layers/parameter_layer.cpp.o"
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/caffe.dir/layers/parameter_layer.cpp.o -c /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/src/caffe/layers/parameter_layer.cpp
 
 src/caffe/CMakeFiles/caffe.dir/layers/parameter_layer.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/caffe.dir/layers/parameter_layer.cpp.i"
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/panzhenfu/Documents/caffe/src/caffe/layers/parameter_layer.cpp > CMakeFiles/caffe.dir/layers/parameter_layer.cpp.i
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/src/caffe/layers/parameter_layer.cpp > CMakeFiles/caffe.dir/layers/parameter_layer.cpp.i
 
 src/caffe/CMakeFiles/caffe.dir/layers/parameter_layer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/caffe.dir/layers/parameter_layer.cpp.s"
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/panzhenfu/Documents/caffe/src/caffe/layers/parameter_layer.cpp -o CMakeFiles/caffe.dir/layers/parameter_layer.cpp.s
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/src/caffe/layers/parameter_layer.cpp -o CMakeFiles/caffe.dir/layers/parameter_layer.cpp.s
 
 src/caffe/CMakeFiles/caffe.dir/layers/parameter_layer.cpp.o.requires:
 
@@ -1854,16 +1854,16 @@ src/caffe/CMakeFiles/caffe.dir/layers/parameter_layer.cpp.o.provides.build: src/
 
 src/caffe/CMakeFiles/caffe.dir/layers/pooling_layer.cpp.o: src/caffe/CMakeFiles/caffe.dir/flags.make
 src/caffe/CMakeFiles/caffe.dir/layers/pooling_layer.cpp.o: ../src/caffe/layers/pooling_layer.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/panzhenfu/Documents/caffe/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_119) "Building CXX object src/caffe/CMakeFiles/caffe.dir/layers/pooling_layer.cpp.o"
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/caffe.dir/layers/pooling_layer.cpp.o -c /home/panzhenfu/Documents/caffe/src/caffe/layers/pooling_layer.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_119) "Building CXX object src/caffe/CMakeFiles/caffe.dir/layers/pooling_layer.cpp.o"
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/caffe.dir/layers/pooling_layer.cpp.o -c /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/src/caffe/layers/pooling_layer.cpp
 
 src/caffe/CMakeFiles/caffe.dir/layers/pooling_layer.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/caffe.dir/layers/pooling_layer.cpp.i"
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/panzhenfu/Documents/caffe/src/caffe/layers/pooling_layer.cpp > CMakeFiles/caffe.dir/layers/pooling_layer.cpp.i
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/src/caffe/layers/pooling_layer.cpp > CMakeFiles/caffe.dir/layers/pooling_layer.cpp.i
 
 src/caffe/CMakeFiles/caffe.dir/layers/pooling_layer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/caffe.dir/layers/pooling_layer.cpp.s"
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/panzhenfu/Documents/caffe/src/caffe/layers/pooling_layer.cpp -o CMakeFiles/caffe.dir/layers/pooling_layer.cpp.s
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/src/caffe/layers/pooling_layer.cpp -o CMakeFiles/caffe.dir/layers/pooling_layer.cpp.s
 
 src/caffe/CMakeFiles/caffe.dir/layers/pooling_layer.cpp.o.requires:
 
@@ -1878,16 +1878,16 @@ src/caffe/CMakeFiles/caffe.dir/layers/pooling_layer.cpp.o.provides.build: src/ca
 
 src/caffe/CMakeFiles/caffe.dir/layers/power_layer.cpp.o: src/caffe/CMakeFiles/caffe.dir/flags.make
 src/caffe/CMakeFiles/caffe.dir/layers/power_layer.cpp.o: ../src/caffe/layers/power_layer.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/panzhenfu/Documents/caffe/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_120) "Building CXX object src/caffe/CMakeFiles/caffe.dir/layers/power_layer.cpp.o"
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/caffe.dir/layers/power_layer.cpp.o -c /home/panzhenfu/Documents/caffe/src/caffe/layers/power_layer.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_120) "Building CXX object src/caffe/CMakeFiles/caffe.dir/layers/power_layer.cpp.o"
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/caffe.dir/layers/power_layer.cpp.o -c /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/src/caffe/layers/power_layer.cpp
 
 src/caffe/CMakeFiles/caffe.dir/layers/power_layer.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/caffe.dir/layers/power_layer.cpp.i"
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/panzhenfu/Documents/caffe/src/caffe/layers/power_layer.cpp > CMakeFiles/caffe.dir/layers/power_layer.cpp.i
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/src/caffe/layers/power_layer.cpp > CMakeFiles/caffe.dir/layers/power_layer.cpp.i
 
 src/caffe/CMakeFiles/caffe.dir/layers/power_layer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/caffe.dir/layers/power_layer.cpp.s"
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/panzhenfu/Documents/caffe/src/caffe/layers/power_layer.cpp -o CMakeFiles/caffe.dir/layers/power_layer.cpp.s
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/src/caffe/layers/power_layer.cpp -o CMakeFiles/caffe.dir/layers/power_layer.cpp.s
 
 src/caffe/CMakeFiles/caffe.dir/layers/power_layer.cpp.o.requires:
 
@@ -1902,16 +1902,16 @@ src/caffe/CMakeFiles/caffe.dir/layers/power_layer.cpp.o.provides.build: src/caff
 
 src/caffe/CMakeFiles/caffe.dir/layers/prelu_layer.cpp.o: src/caffe/CMakeFiles/caffe.dir/flags.make
 src/caffe/CMakeFiles/caffe.dir/layers/prelu_layer.cpp.o: ../src/caffe/layers/prelu_layer.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/panzhenfu/Documents/caffe/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_121) "Building CXX object src/caffe/CMakeFiles/caffe.dir/layers/prelu_layer.cpp.o"
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/caffe.dir/layers/prelu_layer.cpp.o -c /home/panzhenfu/Documents/caffe/src/caffe/layers/prelu_layer.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_121) "Building CXX object src/caffe/CMakeFiles/caffe.dir/layers/prelu_layer.cpp.o"
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/caffe.dir/layers/prelu_layer.cpp.o -c /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/src/caffe/layers/prelu_layer.cpp
 
 src/caffe/CMakeFiles/caffe.dir/layers/prelu_layer.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/caffe.dir/layers/prelu_layer.cpp.i"
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/panzhenfu/Documents/caffe/src/caffe/layers/prelu_layer.cpp > CMakeFiles/caffe.dir/layers/prelu_layer.cpp.i
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/src/caffe/layers/prelu_layer.cpp > CMakeFiles/caffe.dir/layers/prelu_layer.cpp.i
 
 src/caffe/CMakeFiles/caffe.dir/layers/prelu_layer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/caffe.dir/layers/prelu_layer.cpp.s"
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/panzhenfu/Documents/caffe/src/caffe/layers/prelu_layer.cpp -o CMakeFiles/caffe.dir/layers/prelu_layer.cpp.s
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/src/caffe/layers/prelu_layer.cpp -o CMakeFiles/caffe.dir/layers/prelu_layer.cpp.s
 
 src/caffe/CMakeFiles/caffe.dir/layers/prelu_layer.cpp.o.requires:
 
@@ -1926,16 +1926,16 @@ src/caffe/CMakeFiles/caffe.dir/layers/prelu_layer.cpp.o.provides.build: src/caff
 
 src/caffe/CMakeFiles/caffe.dir/layers/recurrent_layer.cpp.o: src/caffe/CMakeFiles/caffe.dir/flags.make
 src/caffe/CMakeFiles/caffe.dir/layers/recurrent_layer.cpp.o: ../src/caffe/layers/recurrent_layer.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/panzhenfu/Documents/caffe/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_122) "Building CXX object src/caffe/CMakeFiles/caffe.dir/layers/recurrent_layer.cpp.o"
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/caffe.dir/layers/recurrent_layer.cpp.o -c /home/panzhenfu/Documents/caffe/src/caffe/layers/recurrent_layer.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_122) "Building CXX object src/caffe/CMakeFiles/caffe.dir/layers/recurrent_layer.cpp.o"
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/caffe.dir/layers/recurrent_layer.cpp.o -c /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/src/caffe/layers/recurrent_layer.cpp
 
 src/caffe/CMakeFiles/caffe.dir/layers/recurrent_layer.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/caffe.dir/layers/recurrent_layer.cpp.i"
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/panzhenfu/Documents/caffe/src/caffe/layers/recurrent_layer.cpp > CMakeFiles/caffe.dir/layers/recurrent_layer.cpp.i
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/src/caffe/layers/recurrent_layer.cpp > CMakeFiles/caffe.dir/layers/recurrent_layer.cpp.i
 
 src/caffe/CMakeFiles/caffe.dir/layers/recurrent_layer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/caffe.dir/layers/recurrent_layer.cpp.s"
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/panzhenfu/Documents/caffe/src/caffe/layers/recurrent_layer.cpp -o CMakeFiles/caffe.dir/layers/recurrent_layer.cpp.s
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/src/caffe/layers/recurrent_layer.cpp -o CMakeFiles/caffe.dir/layers/recurrent_layer.cpp.s
 
 src/caffe/CMakeFiles/caffe.dir/layers/recurrent_layer.cpp.o.requires:
 
@@ -1950,16 +1950,16 @@ src/caffe/CMakeFiles/caffe.dir/layers/recurrent_layer.cpp.o.provides.build: src/
 
 src/caffe/CMakeFiles/caffe.dir/layers/reduction_layer.cpp.o: src/caffe/CMakeFiles/caffe.dir/flags.make
 src/caffe/CMakeFiles/caffe.dir/layers/reduction_layer.cpp.o: ../src/caffe/layers/reduction_layer.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/panzhenfu/Documents/caffe/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_123) "Building CXX object src/caffe/CMakeFiles/caffe.dir/layers/reduction_layer.cpp.o"
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/caffe.dir/layers/reduction_layer.cpp.o -c /home/panzhenfu/Documents/caffe/src/caffe/layers/reduction_layer.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_123) "Building CXX object src/caffe/CMakeFiles/caffe.dir/layers/reduction_layer.cpp.o"
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/caffe.dir/layers/reduction_layer.cpp.o -c /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/src/caffe/layers/reduction_layer.cpp
 
 src/caffe/CMakeFiles/caffe.dir/layers/reduction_layer.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/caffe.dir/layers/reduction_layer.cpp.i"
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/panzhenfu/Documents/caffe/src/caffe/layers/reduction_layer.cpp > CMakeFiles/caffe.dir/layers/reduction_layer.cpp.i
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/src/caffe/layers/reduction_layer.cpp > CMakeFiles/caffe.dir/layers/reduction_layer.cpp.i
 
 src/caffe/CMakeFiles/caffe.dir/layers/reduction_layer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/caffe.dir/layers/reduction_layer.cpp.s"
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/panzhenfu/Documents/caffe/src/caffe/layers/reduction_layer.cpp -o CMakeFiles/caffe.dir/layers/reduction_layer.cpp.s
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/src/caffe/layers/reduction_layer.cpp -o CMakeFiles/caffe.dir/layers/reduction_layer.cpp.s
 
 src/caffe/CMakeFiles/caffe.dir/layers/reduction_layer.cpp.o.requires:
 
@@ -1974,16 +1974,16 @@ src/caffe/CMakeFiles/caffe.dir/layers/reduction_layer.cpp.o.provides.build: src/
 
 src/caffe/CMakeFiles/caffe.dir/layers/relu_layer.cpp.o: src/caffe/CMakeFiles/caffe.dir/flags.make
 src/caffe/CMakeFiles/caffe.dir/layers/relu_layer.cpp.o: ../src/caffe/layers/relu_layer.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/panzhenfu/Documents/caffe/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_124) "Building CXX object src/caffe/CMakeFiles/caffe.dir/layers/relu_layer.cpp.o"
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/caffe.dir/layers/relu_layer.cpp.o -c /home/panzhenfu/Documents/caffe/src/caffe/layers/relu_layer.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_124) "Building CXX object src/caffe/CMakeFiles/caffe.dir/layers/relu_layer.cpp.o"
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/caffe.dir/layers/relu_layer.cpp.o -c /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/src/caffe/layers/relu_layer.cpp
 
 src/caffe/CMakeFiles/caffe.dir/layers/relu_layer.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/caffe.dir/layers/relu_layer.cpp.i"
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/panzhenfu/Documents/caffe/src/caffe/layers/relu_layer.cpp > CMakeFiles/caffe.dir/layers/relu_layer.cpp.i
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/src/caffe/layers/relu_layer.cpp > CMakeFiles/caffe.dir/layers/relu_layer.cpp.i
 
 src/caffe/CMakeFiles/caffe.dir/layers/relu_layer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/caffe.dir/layers/relu_layer.cpp.s"
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/panzhenfu/Documents/caffe/src/caffe/layers/relu_layer.cpp -o CMakeFiles/caffe.dir/layers/relu_layer.cpp.s
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/src/caffe/layers/relu_layer.cpp -o CMakeFiles/caffe.dir/layers/relu_layer.cpp.s
 
 src/caffe/CMakeFiles/caffe.dir/layers/relu_layer.cpp.o.requires:
 
@@ -1998,16 +1998,16 @@ src/caffe/CMakeFiles/caffe.dir/layers/relu_layer.cpp.o.provides.build: src/caffe
 
 src/caffe/CMakeFiles/caffe.dir/layers/reshape_layer.cpp.o: src/caffe/CMakeFiles/caffe.dir/flags.make
 src/caffe/CMakeFiles/caffe.dir/layers/reshape_layer.cpp.o: ../src/caffe/layers/reshape_layer.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/panzhenfu/Documents/caffe/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_125) "Building CXX object src/caffe/CMakeFiles/caffe.dir/layers/reshape_layer.cpp.o"
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/caffe.dir/layers/reshape_layer.cpp.o -c /home/panzhenfu/Documents/caffe/src/caffe/layers/reshape_layer.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_125) "Building CXX object src/caffe/CMakeFiles/caffe.dir/layers/reshape_layer.cpp.o"
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/caffe.dir/layers/reshape_layer.cpp.o -c /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/src/caffe/layers/reshape_layer.cpp
 
 src/caffe/CMakeFiles/caffe.dir/layers/reshape_layer.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/caffe.dir/layers/reshape_layer.cpp.i"
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/panzhenfu/Documents/caffe/src/caffe/layers/reshape_layer.cpp > CMakeFiles/caffe.dir/layers/reshape_layer.cpp.i
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/src/caffe/layers/reshape_layer.cpp > CMakeFiles/caffe.dir/layers/reshape_layer.cpp.i
 
 src/caffe/CMakeFiles/caffe.dir/layers/reshape_layer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/caffe.dir/layers/reshape_layer.cpp.s"
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/panzhenfu/Documents/caffe/src/caffe/layers/reshape_layer.cpp -o CMakeFiles/caffe.dir/layers/reshape_layer.cpp.s
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/src/caffe/layers/reshape_layer.cpp -o CMakeFiles/caffe.dir/layers/reshape_layer.cpp.s
 
 src/caffe/CMakeFiles/caffe.dir/layers/reshape_layer.cpp.o.requires:
 
@@ -2022,16 +2022,16 @@ src/caffe/CMakeFiles/caffe.dir/layers/reshape_layer.cpp.o.provides.build: src/ca
 
 src/caffe/CMakeFiles/caffe.dir/layers/rnn_layer.cpp.o: src/caffe/CMakeFiles/caffe.dir/flags.make
 src/caffe/CMakeFiles/caffe.dir/layers/rnn_layer.cpp.o: ../src/caffe/layers/rnn_layer.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/panzhenfu/Documents/caffe/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_126) "Building CXX object src/caffe/CMakeFiles/caffe.dir/layers/rnn_layer.cpp.o"
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/caffe.dir/layers/rnn_layer.cpp.o -c /home/panzhenfu/Documents/caffe/src/caffe/layers/rnn_layer.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_126) "Building CXX object src/caffe/CMakeFiles/caffe.dir/layers/rnn_layer.cpp.o"
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/caffe.dir/layers/rnn_layer.cpp.o -c /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/src/caffe/layers/rnn_layer.cpp
 
 src/caffe/CMakeFiles/caffe.dir/layers/rnn_layer.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/caffe.dir/layers/rnn_layer.cpp.i"
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/panzhenfu/Documents/caffe/src/caffe/layers/rnn_layer.cpp > CMakeFiles/caffe.dir/layers/rnn_layer.cpp.i
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/src/caffe/layers/rnn_layer.cpp > CMakeFiles/caffe.dir/layers/rnn_layer.cpp.i
 
 src/caffe/CMakeFiles/caffe.dir/layers/rnn_layer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/caffe.dir/layers/rnn_layer.cpp.s"
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/panzhenfu/Documents/caffe/src/caffe/layers/rnn_layer.cpp -o CMakeFiles/caffe.dir/layers/rnn_layer.cpp.s
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/src/caffe/layers/rnn_layer.cpp -o CMakeFiles/caffe.dir/layers/rnn_layer.cpp.s
 
 src/caffe/CMakeFiles/caffe.dir/layers/rnn_layer.cpp.o.requires:
 
@@ -2046,16 +2046,16 @@ src/caffe/CMakeFiles/caffe.dir/layers/rnn_layer.cpp.o.provides.build: src/caffe/
 
 src/caffe/CMakeFiles/caffe.dir/layers/scale_layer.cpp.o: src/caffe/CMakeFiles/caffe.dir/flags.make
 src/caffe/CMakeFiles/caffe.dir/layers/scale_layer.cpp.o: ../src/caffe/layers/scale_layer.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/panzhenfu/Documents/caffe/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_127) "Building CXX object src/caffe/CMakeFiles/caffe.dir/layers/scale_layer.cpp.o"
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/caffe.dir/layers/scale_layer.cpp.o -c /home/panzhenfu/Documents/caffe/src/caffe/layers/scale_layer.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_127) "Building CXX object src/caffe/CMakeFiles/caffe.dir/layers/scale_layer.cpp.o"
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/caffe.dir/layers/scale_layer.cpp.o -c /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/src/caffe/layers/scale_layer.cpp
 
 src/caffe/CMakeFiles/caffe.dir/layers/scale_layer.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/caffe.dir/layers/scale_layer.cpp.i"
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/panzhenfu/Documents/caffe/src/caffe/layers/scale_layer.cpp > CMakeFiles/caffe.dir/layers/scale_layer.cpp.i
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/src/caffe/layers/scale_layer.cpp > CMakeFiles/caffe.dir/layers/scale_layer.cpp.i
 
 src/caffe/CMakeFiles/caffe.dir/layers/scale_layer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/caffe.dir/layers/scale_layer.cpp.s"
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/panzhenfu/Documents/caffe/src/caffe/layers/scale_layer.cpp -o CMakeFiles/caffe.dir/layers/scale_layer.cpp.s
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/src/caffe/layers/scale_layer.cpp -o CMakeFiles/caffe.dir/layers/scale_layer.cpp.s
 
 src/caffe/CMakeFiles/caffe.dir/layers/scale_layer.cpp.o.requires:
 
@@ -2070,16 +2070,16 @@ src/caffe/CMakeFiles/caffe.dir/layers/scale_layer.cpp.o.provides.build: src/caff
 
 src/caffe/CMakeFiles/caffe.dir/layers/sigmoid_cross_entropy_loss_layer.cpp.o: src/caffe/CMakeFiles/caffe.dir/flags.make
 src/caffe/CMakeFiles/caffe.dir/layers/sigmoid_cross_entropy_loss_layer.cpp.o: ../src/caffe/layers/sigmoid_cross_entropy_loss_layer.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/panzhenfu/Documents/caffe/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_128) "Building CXX object src/caffe/CMakeFiles/caffe.dir/layers/sigmoid_cross_entropy_loss_layer.cpp.o"
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/caffe.dir/layers/sigmoid_cross_entropy_loss_layer.cpp.o -c /home/panzhenfu/Documents/caffe/src/caffe/layers/sigmoid_cross_entropy_loss_layer.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_128) "Building CXX object src/caffe/CMakeFiles/caffe.dir/layers/sigmoid_cross_entropy_loss_layer.cpp.o"
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/caffe.dir/layers/sigmoid_cross_entropy_loss_layer.cpp.o -c /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/src/caffe/layers/sigmoid_cross_entropy_loss_layer.cpp
 
 src/caffe/CMakeFiles/caffe.dir/layers/sigmoid_cross_entropy_loss_layer.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/caffe.dir/layers/sigmoid_cross_entropy_loss_layer.cpp.i"
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/panzhenfu/Documents/caffe/src/caffe/layers/sigmoid_cross_entropy_loss_layer.cpp > CMakeFiles/caffe.dir/layers/sigmoid_cross_entropy_loss_layer.cpp.i
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/src/caffe/layers/sigmoid_cross_entropy_loss_layer.cpp > CMakeFiles/caffe.dir/layers/sigmoid_cross_entropy_loss_layer.cpp.i
 
 src/caffe/CMakeFiles/caffe.dir/layers/sigmoid_cross_entropy_loss_layer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/caffe.dir/layers/sigmoid_cross_entropy_loss_layer.cpp.s"
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/panzhenfu/Documents/caffe/src/caffe/layers/sigmoid_cross_entropy_loss_layer.cpp -o CMakeFiles/caffe.dir/layers/sigmoid_cross_entropy_loss_layer.cpp.s
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/src/caffe/layers/sigmoid_cross_entropy_loss_layer.cpp -o CMakeFiles/caffe.dir/layers/sigmoid_cross_entropy_loss_layer.cpp.s
 
 src/caffe/CMakeFiles/caffe.dir/layers/sigmoid_cross_entropy_loss_layer.cpp.o.requires:
 
@@ -2094,16 +2094,16 @@ src/caffe/CMakeFiles/caffe.dir/layers/sigmoid_cross_entropy_loss_layer.cpp.o.pro
 
 src/caffe/CMakeFiles/caffe.dir/layers/sigmoid_layer.cpp.o: src/caffe/CMakeFiles/caffe.dir/flags.make
 src/caffe/CMakeFiles/caffe.dir/layers/sigmoid_layer.cpp.o: ../src/caffe/layers/sigmoid_layer.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/panzhenfu/Documents/caffe/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_129) "Building CXX object src/caffe/CMakeFiles/caffe.dir/layers/sigmoid_layer.cpp.o"
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/caffe.dir/layers/sigmoid_layer.cpp.o -c /home/panzhenfu/Documents/caffe/src/caffe/layers/sigmoid_layer.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_129) "Building CXX object src/caffe/CMakeFiles/caffe.dir/layers/sigmoid_layer.cpp.o"
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/caffe.dir/layers/sigmoid_layer.cpp.o -c /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/src/caffe/layers/sigmoid_layer.cpp
 
 src/caffe/CMakeFiles/caffe.dir/layers/sigmoid_layer.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/caffe.dir/layers/sigmoid_layer.cpp.i"
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/panzhenfu/Documents/caffe/src/caffe/layers/sigmoid_layer.cpp > CMakeFiles/caffe.dir/layers/sigmoid_layer.cpp.i
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/src/caffe/layers/sigmoid_layer.cpp > CMakeFiles/caffe.dir/layers/sigmoid_layer.cpp.i
 
 src/caffe/CMakeFiles/caffe.dir/layers/sigmoid_layer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/caffe.dir/layers/sigmoid_layer.cpp.s"
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/panzhenfu/Documents/caffe/src/caffe/layers/sigmoid_layer.cpp -o CMakeFiles/caffe.dir/layers/sigmoid_layer.cpp.s
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/src/caffe/layers/sigmoid_layer.cpp -o CMakeFiles/caffe.dir/layers/sigmoid_layer.cpp.s
 
 src/caffe/CMakeFiles/caffe.dir/layers/sigmoid_layer.cpp.o.requires:
 
@@ -2118,16 +2118,16 @@ src/caffe/CMakeFiles/caffe.dir/layers/sigmoid_layer.cpp.o.provides.build: src/ca
 
 src/caffe/CMakeFiles/caffe.dir/layers/silence_layer.cpp.o: src/caffe/CMakeFiles/caffe.dir/flags.make
 src/caffe/CMakeFiles/caffe.dir/layers/silence_layer.cpp.o: ../src/caffe/layers/silence_layer.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/panzhenfu/Documents/caffe/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_130) "Building CXX object src/caffe/CMakeFiles/caffe.dir/layers/silence_layer.cpp.o"
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/caffe.dir/layers/silence_layer.cpp.o -c /home/panzhenfu/Documents/caffe/src/caffe/layers/silence_layer.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_130) "Building CXX object src/caffe/CMakeFiles/caffe.dir/layers/silence_layer.cpp.o"
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/caffe.dir/layers/silence_layer.cpp.o -c /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/src/caffe/layers/silence_layer.cpp
 
 src/caffe/CMakeFiles/caffe.dir/layers/silence_layer.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/caffe.dir/layers/silence_layer.cpp.i"
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/panzhenfu/Documents/caffe/src/caffe/layers/silence_layer.cpp > CMakeFiles/caffe.dir/layers/silence_layer.cpp.i
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/src/caffe/layers/silence_layer.cpp > CMakeFiles/caffe.dir/layers/silence_layer.cpp.i
 
 src/caffe/CMakeFiles/caffe.dir/layers/silence_layer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/caffe.dir/layers/silence_layer.cpp.s"
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/panzhenfu/Documents/caffe/src/caffe/layers/silence_layer.cpp -o CMakeFiles/caffe.dir/layers/silence_layer.cpp.s
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/src/caffe/layers/silence_layer.cpp -o CMakeFiles/caffe.dir/layers/silence_layer.cpp.s
 
 src/caffe/CMakeFiles/caffe.dir/layers/silence_layer.cpp.o.requires:
 
@@ -2142,16 +2142,16 @@ src/caffe/CMakeFiles/caffe.dir/layers/silence_layer.cpp.o.provides.build: src/ca
 
 src/caffe/CMakeFiles/caffe.dir/layers/slice_layer.cpp.o: src/caffe/CMakeFiles/caffe.dir/flags.make
 src/caffe/CMakeFiles/caffe.dir/layers/slice_layer.cpp.o: ../src/caffe/layers/slice_layer.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/panzhenfu/Documents/caffe/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_131) "Building CXX object src/caffe/CMakeFiles/caffe.dir/layers/slice_layer.cpp.o"
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/caffe.dir/layers/slice_layer.cpp.o -c /home/panzhenfu/Documents/caffe/src/caffe/layers/slice_layer.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_131) "Building CXX object src/caffe/CMakeFiles/caffe.dir/layers/slice_layer.cpp.o"
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/caffe.dir/layers/slice_layer.cpp.o -c /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/src/caffe/layers/slice_layer.cpp
 
 src/caffe/CMakeFiles/caffe.dir/layers/slice_layer.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/caffe.dir/layers/slice_layer.cpp.i"
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/panzhenfu/Documents/caffe/src/caffe/layers/slice_layer.cpp > CMakeFiles/caffe.dir/layers/slice_layer.cpp.i
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/src/caffe/layers/slice_layer.cpp > CMakeFiles/caffe.dir/layers/slice_layer.cpp.i
 
 src/caffe/CMakeFiles/caffe.dir/layers/slice_layer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/caffe.dir/layers/slice_layer.cpp.s"
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/panzhenfu/Documents/caffe/src/caffe/layers/slice_layer.cpp -o CMakeFiles/caffe.dir/layers/slice_layer.cpp.s
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/src/caffe/layers/slice_layer.cpp -o CMakeFiles/caffe.dir/layers/slice_layer.cpp.s
 
 src/caffe/CMakeFiles/caffe.dir/layers/slice_layer.cpp.o.requires:
 
@@ -2166,16 +2166,16 @@ src/caffe/CMakeFiles/caffe.dir/layers/slice_layer.cpp.o.provides.build: src/caff
 
 src/caffe/CMakeFiles/caffe.dir/layers/softmax_layer.cpp.o: src/caffe/CMakeFiles/caffe.dir/flags.make
 src/caffe/CMakeFiles/caffe.dir/layers/softmax_layer.cpp.o: ../src/caffe/layers/softmax_layer.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/panzhenfu/Documents/caffe/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_132) "Building CXX object src/caffe/CMakeFiles/caffe.dir/layers/softmax_layer.cpp.o"
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/caffe.dir/layers/softmax_layer.cpp.o -c /home/panzhenfu/Documents/caffe/src/caffe/layers/softmax_layer.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_132) "Building CXX object src/caffe/CMakeFiles/caffe.dir/layers/softmax_layer.cpp.o"
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/caffe.dir/layers/softmax_layer.cpp.o -c /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/src/caffe/layers/softmax_layer.cpp
 
 src/caffe/CMakeFiles/caffe.dir/layers/softmax_layer.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/caffe.dir/layers/softmax_layer.cpp.i"
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/panzhenfu/Documents/caffe/src/caffe/layers/softmax_layer.cpp > CMakeFiles/caffe.dir/layers/softmax_layer.cpp.i
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/src/caffe/layers/softmax_layer.cpp > CMakeFiles/caffe.dir/layers/softmax_layer.cpp.i
 
 src/caffe/CMakeFiles/caffe.dir/layers/softmax_layer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/caffe.dir/layers/softmax_layer.cpp.s"
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/panzhenfu/Documents/caffe/src/caffe/layers/softmax_layer.cpp -o CMakeFiles/caffe.dir/layers/softmax_layer.cpp.s
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/src/caffe/layers/softmax_layer.cpp -o CMakeFiles/caffe.dir/layers/softmax_layer.cpp.s
 
 src/caffe/CMakeFiles/caffe.dir/layers/softmax_layer.cpp.o.requires:
 
@@ -2190,16 +2190,16 @@ src/caffe/CMakeFiles/caffe.dir/layers/softmax_layer.cpp.o.provides.build: src/ca
 
 src/caffe/CMakeFiles/caffe.dir/layers/softmax_loss_layer.cpp.o: src/caffe/CMakeFiles/caffe.dir/flags.make
 src/caffe/CMakeFiles/caffe.dir/layers/softmax_loss_layer.cpp.o: ../src/caffe/layers/softmax_loss_layer.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/panzhenfu/Documents/caffe/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_133) "Building CXX object src/caffe/CMakeFiles/caffe.dir/layers/softmax_loss_layer.cpp.o"
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/caffe.dir/layers/softmax_loss_layer.cpp.o -c /home/panzhenfu/Documents/caffe/src/caffe/layers/softmax_loss_layer.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_133) "Building CXX object src/caffe/CMakeFiles/caffe.dir/layers/softmax_loss_layer.cpp.o"
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/caffe.dir/layers/softmax_loss_layer.cpp.o -c /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/src/caffe/layers/softmax_loss_layer.cpp
 
 src/caffe/CMakeFiles/caffe.dir/layers/softmax_loss_layer.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/caffe.dir/layers/softmax_loss_layer.cpp.i"
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/panzhenfu/Documents/caffe/src/caffe/layers/softmax_loss_layer.cpp > CMakeFiles/caffe.dir/layers/softmax_loss_layer.cpp.i
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/src/caffe/layers/softmax_loss_layer.cpp > CMakeFiles/caffe.dir/layers/softmax_loss_layer.cpp.i
 
 src/caffe/CMakeFiles/caffe.dir/layers/softmax_loss_layer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/caffe.dir/layers/softmax_loss_layer.cpp.s"
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/panzhenfu/Documents/caffe/src/caffe/layers/softmax_loss_layer.cpp -o CMakeFiles/caffe.dir/layers/softmax_loss_layer.cpp.s
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/src/caffe/layers/softmax_loss_layer.cpp -o CMakeFiles/caffe.dir/layers/softmax_loss_layer.cpp.s
 
 src/caffe/CMakeFiles/caffe.dir/layers/softmax_loss_layer.cpp.o.requires:
 
@@ -2214,16 +2214,16 @@ src/caffe/CMakeFiles/caffe.dir/layers/softmax_loss_layer.cpp.o.provides.build: s
 
 src/caffe/CMakeFiles/caffe.dir/layers/split_layer.cpp.o: src/caffe/CMakeFiles/caffe.dir/flags.make
 src/caffe/CMakeFiles/caffe.dir/layers/split_layer.cpp.o: ../src/caffe/layers/split_layer.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/panzhenfu/Documents/caffe/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_134) "Building CXX object src/caffe/CMakeFiles/caffe.dir/layers/split_layer.cpp.o"
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/caffe.dir/layers/split_layer.cpp.o -c /home/panzhenfu/Documents/caffe/src/caffe/layers/split_layer.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_134) "Building CXX object src/caffe/CMakeFiles/caffe.dir/layers/split_layer.cpp.o"
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/caffe.dir/layers/split_layer.cpp.o -c /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/src/caffe/layers/split_layer.cpp
 
 src/caffe/CMakeFiles/caffe.dir/layers/split_layer.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/caffe.dir/layers/split_layer.cpp.i"
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/panzhenfu/Documents/caffe/src/caffe/layers/split_layer.cpp > CMakeFiles/caffe.dir/layers/split_layer.cpp.i
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/src/caffe/layers/split_layer.cpp > CMakeFiles/caffe.dir/layers/split_layer.cpp.i
 
 src/caffe/CMakeFiles/caffe.dir/layers/split_layer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/caffe.dir/layers/split_layer.cpp.s"
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/panzhenfu/Documents/caffe/src/caffe/layers/split_layer.cpp -o CMakeFiles/caffe.dir/layers/split_layer.cpp.s
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/src/caffe/layers/split_layer.cpp -o CMakeFiles/caffe.dir/layers/split_layer.cpp.s
 
 src/caffe/CMakeFiles/caffe.dir/layers/split_layer.cpp.o.requires:
 
@@ -2238,16 +2238,16 @@ src/caffe/CMakeFiles/caffe.dir/layers/split_layer.cpp.o.provides.build: src/caff
 
 src/caffe/CMakeFiles/caffe.dir/layers/spp_layer.cpp.o: src/caffe/CMakeFiles/caffe.dir/flags.make
 src/caffe/CMakeFiles/caffe.dir/layers/spp_layer.cpp.o: ../src/caffe/layers/spp_layer.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/panzhenfu/Documents/caffe/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_135) "Building CXX object src/caffe/CMakeFiles/caffe.dir/layers/spp_layer.cpp.o"
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/caffe.dir/layers/spp_layer.cpp.o -c /home/panzhenfu/Documents/caffe/src/caffe/layers/spp_layer.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_135) "Building CXX object src/caffe/CMakeFiles/caffe.dir/layers/spp_layer.cpp.o"
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/caffe.dir/layers/spp_layer.cpp.o -c /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/src/caffe/layers/spp_layer.cpp
 
 src/caffe/CMakeFiles/caffe.dir/layers/spp_layer.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/caffe.dir/layers/spp_layer.cpp.i"
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/panzhenfu/Documents/caffe/src/caffe/layers/spp_layer.cpp > CMakeFiles/caffe.dir/layers/spp_layer.cpp.i
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/src/caffe/layers/spp_layer.cpp > CMakeFiles/caffe.dir/layers/spp_layer.cpp.i
 
 src/caffe/CMakeFiles/caffe.dir/layers/spp_layer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/caffe.dir/layers/spp_layer.cpp.s"
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/panzhenfu/Documents/caffe/src/caffe/layers/spp_layer.cpp -o CMakeFiles/caffe.dir/layers/spp_layer.cpp.s
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/src/caffe/layers/spp_layer.cpp -o CMakeFiles/caffe.dir/layers/spp_layer.cpp.s
 
 src/caffe/CMakeFiles/caffe.dir/layers/spp_layer.cpp.o.requires:
 
@@ -2262,16 +2262,16 @@ src/caffe/CMakeFiles/caffe.dir/layers/spp_layer.cpp.o.provides.build: src/caffe/
 
 src/caffe/CMakeFiles/caffe.dir/layers/tanh_layer.cpp.o: src/caffe/CMakeFiles/caffe.dir/flags.make
 src/caffe/CMakeFiles/caffe.dir/layers/tanh_layer.cpp.o: ../src/caffe/layers/tanh_layer.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/panzhenfu/Documents/caffe/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_136) "Building CXX object src/caffe/CMakeFiles/caffe.dir/layers/tanh_layer.cpp.o"
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/caffe.dir/layers/tanh_layer.cpp.o -c /home/panzhenfu/Documents/caffe/src/caffe/layers/tanh_layer.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_136) "Building CXX object src/caffe/CMakeFiles/caffe.dir/layers/tanh_layer.cpp.o"
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/caffe.dir/layers/tanh_layer.cpp.o -c /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/src/caffe/layers/tanh_layer.cpp
 
 src/caffe/CMakeFiles/caffe.dir/layers/tanh_layer.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/caffe.dir/layers/tanh_layer.cpp.i"
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/panzhenfu/Documents/caffe/src/caffe/layers/tanh_layer.cpp > CMakeFiles/caffe.dir/layers/tanh_layer.cpp.i
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/src/caffe/layers/tanh_layer.cpp > CMakeFiles/caffe.dir/layers/tanh_layer.cpp.i
 
 src/caffe/CMakeFiles/caffe.dir/layers/tanh_layer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/caffe.dir/layers/tanh_layer.cpp.s"
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/panzhenfu/Documents/caffe/src/caffe/layers/tanh_layer.cpp -o CMakeFiles/caffe.dir/layers/tanh_layer.cpp.s
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/src/caffe/layers/tanh_layer.cpp -o CMakeFiles/caffe.dir/layers/tanh_layer.cpp.s
 
 src/caffe/CMakeFiles/caffe.dir/layers/tanh_layer.cpp.o.requires:
 
@@ -2286,16 +2286,16 @@ src/caffe/CMakeFiles/caffe.dir/layers/tanh_layer.cpp.o.provides.build: src/caffe
 
 src/caffe/CMakeFiles/caffe.dir/layers/threshold_layer.cpp.o: src/caffe/CMakeFiles/caffe.dir/flags.make
 src/caffe/CMakeFiles/caffe.dir/layers/threshold_layer.cpp.o: ../src/caffe/layers/threshold_layer.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/panzhenfu/Documents/caffe/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_137) "Building CXX object src/caffe/CMakeFiles/caffe.dir/layers/threshold_layer.cpp.o"
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/caffe.dir/layers/threshold_layer.cpp.o -c /home/panzhenfu/Documents/caffe/src/caffe/layers/threshold_layer.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_137) "Building CXX object src/caffe/CMakeFiles/caffe.dir/layers/threshold_layer.cpp.o"
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/caffe.dir/layers/threshold_layer.cpp.o -c /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/src/caffe/layers/threshold_layer.cpp
 
 src/caffe/CMakeFiles/caffe.dir/layers/threshold_layer.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/caffe.dir/layers/threshold_layer.cpp.i"
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/panzhenfu/Documents/caffe/src/caffe/layers/threshold_layer.cpp > CMakeFiles/caffe.dir/layers/threshold_layer.cpp.i
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/src/caffe/layers/threshold_layer.cpp > CMakeFiles/caffe.dir/layers/threshold_layer.cpp.i
 
 src/caffe/CMakeFiles/caffe.dir/layers/threshold_layer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/caffe.dir/layers/threshold_layer.cpp.s"
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/panzhenfu/Documents/caffe/src/caffe/layers/threshold_layer.cpp -o CMakeFiles/caffe.dir/layers/threshold_layer.cpp.s
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/src/caffe/layers/threshold_layer.cpp -o CMakeFiles/caffe.dir/layers/threshold_layer.cpp.s
 
 src/caffe/CMakeFiles/caffe.dir/layers/threshold_layer.cpp.o.requires:
 
@@ -2310,16 +2310,16 @@ src/caffe/CMakeFiles/caffe.dir/layers/threshold_layer.cpp.o.provides.build: src/
 
 src/caffe/CMakeFiles/caffe.dir/layers/tile_layer.cpp.o: src/caffe/CMakeFiles/caffe.dir/flags.make
 src/caffe/CMakeFiles/caffe.dir/layers/tile_layer.cpp.o: ../src/caffe/layers/tile_layer.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/panzhenfu/Documents/caffe/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_138) "Building CXX object src/caffe/CMakeFiles/caffe.dir/layers/tile_layer.cpp.o"
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/caffe.dir/layers/tile_layer.cpp.o -c /home/panzhenfu/Documents/caffe/src/caffe/layers/tile_layer.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_138) "Building CXX object src/caffe/CMakeFiles/caffe.dir/layers/tile_layer.cpp.o"
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/caffe.dir/layers/tile_layer.cpp.o -c /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/src/caffe/layers/tile_layer.cpp
 
 src/caffe/CMakeFiles/caffe.dir/layers/tile_layer.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/caffe.dir/layers/tile_layer.cpp.i"
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/panzhenfu/Documents/caffe/src/caffe/layers/tile_layer.cpp > CMakeFiles/caffe.dir/layers/tile_layer.cpp.i
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/src/caffe/layers/tile_layer.cpp > CMakeFiles/caffe.dir/layers/tile_layer.cpp.i
 
 src/caffe/CMakeFiles/caffe.dir/layers/tile_layer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/caffe.dir/layers/tile_layer.cpp.s"
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/panzhenfu/Documents/caffe/src/caffe/layers/tile_layer.cpp -o CMakeFiles/caffe.dir/layers/tile_layer.cpp.s
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/src/caffe/layers/tile_layer.cpp -o CMakeFiles/caffe.dir/layers/tile_layer.cpp.s
 
 src/caffe/CMakeFiles/caffe.dir/layers/tile_layer.cpp.o.requires:
 
@@ -2334,16 +2334,16 @@ src/caffe/CMakeFiles/caffe.dir/layers/tile_layer.cpp.o.provides.build: src/caffe
 
 src/caffe/CMakeFiles/caffe.dir/layers/warping_layer.cpp.o: src/caffe/CMakeFiles/caffe.dir/flags.make
 src/caffe/CMakeFiles/caffe.dir/layers/warping_layer.cpp.o: ../src/caffe/layers/warping_layer.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/panzhenfu/Documents/caffe/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_139) "Building CXX object src/caffe/CMakeFiles/caffe.dir/layers/warping_layer.cpp.o"
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/caffe.dir/layers/warping_layer.cpp.o -c /home/panzhenfu/Documents/caffe/src/caffe/layers/warping_layer.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_139) "Building CXX object src/caffe/CMakeFiles/caffe.dir/layers/warping_layer.cpp.o"
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/caffe.dir/layers/warping_layer.cpp.o -c /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/src/caffe/layers/warping_layer.cpp
 
 src/caffe/CMakeFiles/caffe.dir/layers/warping_layer.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/caffe.dir/layers/warping_layer.cpp.i"
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/panzhenfu/Documents/caffe/src/caffe/layers/warping_layer.cpp > CMakeFiles/caffe.dir/layers/warping_layer.cpp.i
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/src/caffe/layers/warping_layer.cpp > CMakeFiles/caffe.dir/layers/warping_layer.cpp.i
 
 src/caffe/CMakeFiles/caffe.dir/layers/warping_layer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/caffe.dir/layers/warping_layer.cpp.s"
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/panzhenfu/Documents/caffe/src/caffe/layers/warping_layer.cpp -o CMakeFiles/caffe.dir/layers/warping_layer.cpp.s
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/src/caffe/layers/warping_layer.cpp -o CMakeFiles/caffe.dir/layers/warping_layer.cpp.s
 
 src/caffe/CMakeFiles/caffe.dir/layers/warping_layer.cpp.o.requires:
 
@@ -2358,16 +2358,16 @@ src/caffe/CMakeFiles/caffe.dir/layers/warping_layer.cpp.o.provides.build: src/ca
 
 src/caffe/CMakeFiles/caffe.dir/layers/window_data_layer.cpp.o: src/caffe/CMakeFiles/caffe.dir/flags.make
 src/caffe/CMakeFiles/caffe.dir/layers/window_data_layer.cpp.o: ../src/caffe/layers/window_data_layer.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/panzhenfu/Documents/caffe/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_140) "Building CXX object src/caffe/CMakeFiles/caffe.dir/layers/window_data_layer.cpp.o"
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/caffe.dir/layers/window_data_layer.cpp.o -c /home/panzhenfu/Documents/caffe/src/caffe/layers/window_data_layer.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_140) "Building CXX object src/caffe/CMakeFiles/caffe.dir/layers/window_data_layer.cpp.o"
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/caffe.dir/layers/window_data_layer.cpp.o -c /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/src/caffe/layers/window_data_layer.cpp
 
 src/caffe/CMakeFiles/caffe.dir/layers/window_data_layer.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/caffe.dir/layers/window_data_layer.cpp.i"
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/panzhenfu/Documents/caffe/src/caffe/layers/window_data_layer.cpp > CMakeFiles/caffe.dir/layers/window_data_layer.cpp.i
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/src/caffe/layers/window_data_layer.cpp > CMakeFiles/caffe.dir/layers/window_data_layer.cpp.i
 
 src/caffe/CMakeFiles/caffe.dir/layers/window_data_layer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/caffe.dir/layers/window_data_layer.cpp.s"
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/panzhenfu/Documents/caffe/src/caffe/layers/window_data_layer.cpp -o CMakeFiles/caffe.dir/layers/window_data_layer.cpp.s
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/src/caffe/layers/window_data_layer.cpp -o CMakeFiles/caffe.dir/layers/window_data_layer.cpp.s
 
 src/caffe/CMakeFiles/caffe.dir/layers/window_data_layer.cpp.o.requires:
 
@@ -2382,16 +2382,16 @@ src/caffe/CMakeFiles/caffe.dir/layers/window_data_layer.cpp.o.provides.build: sr
 
 src/caffe/CMakeFiles/caffe.dir/net.cpp.o: src/caffe/CMakeFiles/caffe.dir/flags.make
 src/caffe/CMakeFiles/caffe.dir/net.cpp.o: ../src/caffe/net.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/panzhenfu/Documents/caffe/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_141) "Building CXX object src/caffe/CMakeFiles/caffe.dir/net.cpp.o"
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/caffe.dir/net.cpp.o -c /home/panzhenfu/Documents/caffe/src/caffe/net.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_141) "Building CXX object src/caffe/CMakeFiles/caffe.dir/net.cpp.o"
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/caffe.dir/net.cpp.o -c /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/src/caffe/net.cpp
 
 src/caffe/CMakeFiles/caffe.dir/net.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/caffe.dir/net.cpp.i"
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/panzhenfu/Documents/caffe/src/caffe/net.cpp > CMakeFiles/caffe.dir/net.cpp.i
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/src/caffe/net.cpp > CMakeFiles/caffe.dir/net.cpp.i
 
 src/caffe/CMakeFiles/caffe.dir/net.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/caffe.dir/net.cpp.s"
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/panzhenfu/Documents/caffe/src/caffe/net.cpp -o CMakeFiles/caffe.dir/net.cpp.s
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/src/caffe/net.cpp -o CMakeFiles/caffe.dir/net.cpp.s
 
 src/caffe/CMakeFiles/caffe.dir/net.cpp.o.requires:
 
@@ -2406,16 +2406,16 @@ src/caffe/CMakeFiles/caffe.dir/net.cpp.o.provides.build: src/caffe/CMakeFiles/ca
 
 src/caffe/CMakeFiles/caffe.dir/parallel.cpp.o: src/caffe/CMakeFiles/caffe.dir/flags.make
 src/caffe/CMakeFiles/caffe.dir/parallel.cpp.o: ../src/caffe/parallel.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/panzhenfu/Documents/caffe/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_142) "Building CXX object src/caffe/CMakeFiles/caffe.dir/parallel.cpp.o"
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/caffe.dir/parallel.cpp.o -c /home/panzhenfu/Documents/caffe/src/caffe/parallel.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_142) "Building CXX object src/caffe/CMakeFiles/caffe.dir/parallel.cpp.o"
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/caffe.dir/parallel.cpp.o -c /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/src/caffe/parallel.cpp
 
 src/caffe/CMakeFiles/caffe.dir/parallel.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/caffe.dir/parallel.cpp.i"
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/panzhenfu/Documents/caffe/src/caffe/parallel.cpp > CMakeFiles/caffe.dir/parallel.cpp.i
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/src/caffe/parallel.cpp > CMakeFiles/caffe.dir/parallel.cpp.i
 
 src/caffe/CMakeFiles/caffe.dir/parallel.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/caffe.dir/parallel.cpp.s"
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/panzhenfu/Documents/caffe/src/caffe/parallel.cpp -o CMakeFiles/caffe.dir/parallel.cpp.s
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/src/caffe/parallel.cpp -o CMakeFiles/caffe.dir/parallel.cpp.s
 
 src/caffe/CMakeFiles/caffe.dir/parallel.cpp.o.requires:
 
@@ -2430,16 +2430,16 @@ src/caffe/CMakeFiles/caffe.dir/parallel.cpp.o.provides.build: src/caffe/CMakeFil
 
 src/caffe/CMakeFiles/caffe.dir/solver.cpp.o: src/caffe/CMakeFiles/caffe.dir/flags.make
 src/caffe/CMakeFiles/caffe.dir/solver.cpp.o: ../src/caffe/solver.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/panzhenfu/Documents/caffe/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_143) "Building CXX object src/caffe/CMakeFiles/caffe.dir/solver.cpp.o"
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/caffe.dir/solver.cpp.o -c /home/panzhenfu/Documents/caffe/src/caffe/solver.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_143) "Building CXX object src/caffe/CMakeFiles/caffe.dir/solver.cpp.o"
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/caffe.dir/solver.cpp.o -c /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/src/caffe/solver.cpp
 
 src/caffe/CMakeFiles/caffe.dir/solver.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/caffe.dir/solver.cpp.i"
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/panzhenfu/Documents/caffe/src/caffe/solver.cpp > CMakeFiles/caffe.dir/solver.cpp.i
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/src/caffe/solver.cpp > CMakeFiles/caffe.dir/solver.cpp.i
 
 src/caffe/CMakeFiles/caffe.dir/solver.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/caffe.dir/solver.cpp.s"
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/panzhenfu/Documents/caffe/src/caffe/solver.cpp -o CMakeFiles/caffe.dir/solver.cpp.s
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/src/caffe/solver.cpp -o CMakeFiles/caffe.dir/solver.cpp.s
 
 src/caffe/CMakeFiles/caffe.dir/solver.cpp.o.requires:
 
@@ -2454,16 +2454,16 @@ src/caffe/CMakeFiles/caffe.dir/solver.cpp.o.provides.build: src/caffe/CMakeFiles
 
 src/caffe/CMakeFiles/caffe.dir/solvers/adadelta_solver.cpp.o: src/caffe/CMakeFiles/caffe.dir/flags.make
 src/caffe/CMakeFiles/caffe.dir/solvers/adadelta_solver.cpp.o: ../src/caffe/solvers/adadelta_solver.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/panzhenfu/Documents/caffe/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_144) "Building CXX object src/caffe/CMakeFiles/caffe.dir/solvers/adadelta_solver.cpp.o"
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/caffe.dir/solvers/adadelta_solver.cpp.o -c /home/panzhenfu/Documents/caffe/src/caffe/solvers/adadelta_solver.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_144) "Building CXX object src/caffe/CMakeFiles/caffe.dir/solvers/adadelta_solver.cpp.o"
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/caffe.dir/solvers/adadelta_solver.cpp.o -c /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/src/caffe/solvers/adadelta_solver.cpp
 
 src/caffe/CMakeFiles/caffe.dir/solvers/adadelta_solver.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/caffe.dir/solvers/adadelta_solver.cpp.i"
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/panzhenfu/Documents/caffe/src/caffe/solvers/adadelta_solver.cpp > CMakeFiles/caffe.dir/solvers/adadelta_solver.cpp.i
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/src/caffe/solvers/adadelta_solver.cpp > CMakeFiles/caffe.dir/solvers/adadelta_solver.cpp.i
 
 src/caffe/CMakeFiles/caffe.dir/solvers/adadelta_solver.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/caffe.dir/solvers/adadelta_solver.cpp.s"
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/panzhenfu/Documents/caffe/src/caffe/solvers/adadelta_solver.cpp -o CMakeFiles/caffe.dir/solvers/adadelta_solver.cpp.s
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/src/caffe/solvers/adadelta_solver.cpp -o CMakeFiles/caffe.dir/solvers/adadelta_solver.cpp.s
 
 src/caffe/CMakeFiles/caffe.dir/solvers/adadelta_solver.cpp.o.requires:
 
@@ -2478,16 +2478,16 @@ src/caffe/CMakeFiles/caffe.dir/solvers/adadelta_solver.cpp.o.provides.build: src
 
 src/caffe/CMakeFiles/caffe.dir/solvers/adagrad_solver.cpp.o: src/caffe/CMakeFiles/caffe.dir/flags.make
 src/caffe/CMakeFiles/caffe.dir/solvers/adagrad_solver.cpp.o: ../src/caffe/solvers/adagrad_solver.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/panzhenfu/Documents/caffe/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_145) "Building CXX object src/caffe/CMakeFiles/caffe.dir/solvers/adagrad_solver.cpp.o"
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/caffe.dir/solvers/adagrad_solver.cpp.o -c /home/panzhenfu/Documents/caffe/src/caffe/solvers/adagrad_solver.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_145) "Building CXX object src/caffe/CMakeFiles/caffe.dir/solvers/adagrad_solver.cpp.o"
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/caffe.dir/solvers/adagrad_solver.cpp.o -c /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/src/caffe/solvers/adagrad_solver.cpp
 
 src/caffe/CMakeFiles/caffe.dir/solvers/adagrad_solver.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/caffe.dir/solvers/adagrad_solver.cpp.i"
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/panzhenfu/Documents/caffe/src/caffe/solvers/adagrad_solver.cpp > CMakeFiles/caffe.dir/solvers/adagrad_solver.cpp.i
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/src/caffe/solvers/adagrad_solver.cpp > CMakeFiles/caffe.dir/solvers/adagrad_solver.cpp.i
 
 src/caffe/CMakeFiles/caffe.dir/solvers/adagrad_solver.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/caffe.dir/solvers/adagrad_solver.cpp.s"
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/panzhenfu/Documents/caffe/src/caffe/solvers/adagrad_solver.cpp -o CMakeFiles/caffe.dir/solvers/adagrad_solver.cpp.s
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/src/caffe/solvers/adagrad_solver.cpp -o CMakeFiles/caffe.dir/solvers/adagrad_solver.cpp.s
 
 src/caffe/CMakeFiles/caffe.dir/solvers/adagrad_solver.cpp.o.requires:
 
@@ -2502,16 +2502,16 @@ src/caffe/CMakeFiles/caffe.dir/solvers/adagrad_solver.cpp.o.provides.build: src/
 
 src/caffe/CMakeFiles/caffe.dir/solvers/adam_solver.cpp.o: src/caffe/CMakeFiles/caffe.dir/flags.make
 src/caffe/CMakeFiles/caffe.dir/solvers/adam_solver.cpp.o: ../src/caffe/solvers/adam_solver.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/panzhenfu/Documents/caffe/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_146) "Building CXX object src/caffe/CMakeFiles/caffe.dir/solvers/adam_solver.cpp.o"
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/caffe.dir/solvers/adam_solver.cpp.o -c /home/panzhenfu/Documents/caffe/src/caffe/solvers/adam_solver.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_146) "Building CXX object src/caffe/CMakeFiles/caffe.dir/solvers/adam_solver.cpp.o"
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/caffe.dir/solvers/adam_solver.cpp.o -c /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/src/caffe/solvers/adam_solver.cpp
 
 src/caffe/CMakeFiles/caffe.dir/solvers/adam_solver.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/caffe.dir/solvers/adam_solver.cpp.i"
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/panzhenfu/Documents/caffe/src/caffe/solvers/adam_solver.cpp > CMakeFiles/caffe.dir/solvers/adam_solver.cpp.i
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/src/caffe/solvers/adam_solver.cpp > CMakeFiles/caffe.dir/solvers/adam_solver.cpp.i
 
 src/caffe/CMakeFiles/caffe.dir/solvers/adam_solver.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/caffe.dir/solvers/adam_solver.cpp.s"
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/panzhenfu/Documents/caffe/src/caffe/solvers/adam_solver.cpp -o CMakeFiles/caffe.dir/solvers/adam_solver.cpp.s
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/src/caffe/solvers/adam_solver.cpp -o CMakeFiles/caffe.dir/solvers/adam_solver.cpp.s
 
 src/caffe/CMakeFiles/caffe.dir/solvers/adam_solver.cpp.o.requires:
 
@@ -2526,16 +2526,16 @@ src/caffe/CMakeFiles/caffe.dir/solvers/adam_solver.cpp.o.provides.build: src/caf
 
 src/caffe/CMakeFiles/caffe.dir/solvers/nesterov_solver.cpp.o: src/caffe/CMakeFiles/caffe.dir/flags.make
 src/caffe/CMakeFiles/caffe.dir/solvers/nesterov_solver.cpp.o: ../src/caffe/solvers/nesterov_solver.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/panzhenfu/Documents/caffe/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_147) "Building CXX object src/caffe/CMakeFiles/caffe.dir/solvers/nesterov_solver.cpp.o"
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/caffe.dir/solvers/nesterov_solver.cpp.o -c /home/panzhenfu/Documents/caffe/src/caffe/solvers/nesterov_solver.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_147) "Building CXX object src/caffe/CMakeFiles/caffe.dir/solvers/nesterov_solver.cpp.o"
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/caffe.dir/solvers/nesterov_solver.cpp.o -c /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/src/caffe/solvers/nesterov_solver.cpp
 
 src/caffe/CMakeFiles/caffe.dir/solvers/nesterov_solver.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/caffe.dir/solvers/nesterov_solver.cpp.i"
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/panzhenfu/Documents/caffe/src/caffe/solvers/nesterov_solver.cpp > CMakeFiles/caffe.dir/solvers/nesterov_solver.cpp.i
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/src/caffe/solvers/nesterov_solver.cpp > CMakeFiles/caffe.dir/solvers/nesterov_solver.cpp.i
 
 src/caffe/CMakeFiles/caffe.dir/solvers/nesterov_solver.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/caffe.dir/solvers/nesterov_solver.cpp.s"
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/panzhenfu/Documents/caffe/src/caffe/solvers/nesterov_solver.cpp -o CMakeFiles/caffe.dir/solvers/nesterov_solver.cpp.s
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/src/caffe/solvers/nesterov_solver.cpp -o CMakeFiles/caffe.dir/solvers/nesterov_solver.cpp.s
 
 src/caffe/CMakeFiles/caffe.dir/solvers/nesterov_solver.cpp.o.requires:
 
@@ -2550,16 +2550,16 @@ src/caffe/CMakeFiles/caffe.dir/solvers/nesterov_solver.cpp.o.provides.build: src
 
 src/caffe/CMakeFiles/caffe.dir/solvers/rmsprop_solver.cpp.o: src/caffe/CMakeFiles/caffe.dir/flags.make
 src/caffe/CMakeFiles/caffe.dir/solvers/rmsprop_solver.cpp.o: ../src/caffe/solvers/rmsprop_solver.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/panzhenfu/Documents/caffe/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_148) "Building CXX object src/caffe/CMakeFiles/caffe.dir/solvers/rmsprop_solver.cpp.o"
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/caffe.dir/solvers/rmsprop_solver.cpp.o -c /home/panzhenfu/Documents/caffe/src/caffe/solvers/rmsprop_solver.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_148) "Building CXX object src/caffe/CMakeFiles/caffe.dir/solvers/rmsprop_solver.cpp.o"
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/caffe.dir/solvers/rmsprop_solver.cpp.o -c /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/src/caffe/solvers/rmsprop_solver.cpp
 
 src/caffe/CMakeFiles/caffe.dir/solvers/rmsprop_solver.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/caffe.dir/solvers/rmsprop_solver.cpp.i"
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/panzhenfu/Documents/caffe/src/caffe/solvers/rmsprop_solver.cpp > CMakeFiles/caffe.dir/solvers/rmsprop_solver.cpp.i
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/src/caffe/solvers/rmsprop_solver.cpp > CMakeFiles/caffe.dir/solvers/rmsprop_solver.cpp.i
 
 src/caffe/CMakeFiles/caffe.dir/solvers/rmsprop_solver.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/caffe.dir/solvers/rmsprop_solver.cpp.s"
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/panzhenfu/Documents/caffe/src/caffe/solvers/rmsprop_solver.cpp -o CMakeFiles/caffe.dir/solvers/rmsprop_solver.cpp.s
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/src/caffe/solvers/rmsprop_solver.cpp -o CMakeFiles/caffe.dir/solvers/rmsprop_solver.cpp.s
 
 src/caffe/CMakeFiles/caffe.dir/solvers/rmsprop_solver.cpp.o.requires:
 
@@ -2574,16 +2574,16 @@ src/caffe/CMakeFiles/caffe.dir/solvers/rmsprop_solver.cpp.o.provides.build: src/
 
 src/caffe/CMakeFiles/caffe.dir/solvers/sgd_solver.cpp.o: src/caffe/CMakeFiles/caffe.dir/flags.make
 src/caffe/CMakeFiles/caffe.dir/solvers/sgd_solver.cpp.o: ../src/caffe/solvers/sgd_solver.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/panzhenfu/Documents/caffe/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_149) "Building CXX object src/caffe/CMakeFiles/caffe.dir/solvers/sgd_solver.cpp.o"
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/caffe.dir/solvers/sgd_solver.cpp.o -c /home/panzhenfu/Documents/caffe/src/caffe/solvers/sgd_solver.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_149) "Building CXX object src/caffe/CMakeFiles/caffe.dir/solvers/sgd_solver.cpp.o"
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/caffe.dir/solvers/sgd_solver.cpp.o -c /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/src/caffe/solvers/sgd_solver.cpp
 
 src/caffe/CMakeFiles/caffe.dir/solvers/sgd_solver.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/caffe.dir/solvers/sgd_solver.cpp.i"
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/panzhenfu/Documents/caffe/src/caffe/solvers/sgd_solver.cpp > CMakeFiles/caffe.dir/solvers/sgd_solver.cpp.i
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/src/caffe/solvers/sgd_solver.cpp > CMakeFiles/caffe.dir/solvers/sgd_solver.cpp.i
 
 src/caffe/CMakeFiles/caffe.dir/solvers/sgd_solver.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/caffe.dir/solvers/sgd_solver.cpp.s"
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/panzhenfu/Documents/caffe/src/caffe/solvers/sgd_solver.cpp -o CMakeFiles/caffe.dir/solvers/sgd_solver.cpp.s
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/src/caffe/solvers/sgd_solver.cpp -o CMakeFiles/caffe.dir/solvers/sgd_solver.cpp.s
 
 src/caffe/CMakeFiles/caffe.dir/solvers/sgd_solver.cpp.o.requires:
 
@@ -2598,16 +2598,16 @@ src/caffe/CMakeFiles/caffe.dir/solvers/sgd_solver.cpp.o.provides.build: src/caff
 
 src/caffe/CMakeFiles/caffe.dir/syncedmem.cpp.o: src/caffe/CMakeFiles/caffe.dir/flags.make
 src/caffe/CMakeFiles/caffe.dir/syncedmem.cpp.o: ../src/caffe/syncedmem.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/panzhenfu/Documents/caffe/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_150) "Building CXX object src/caffe/CMakeFiles/caffe.dir/syncedmem.cpp.o"
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/caffe.dir/syncedmem.cpp.o -c /home/panzhenfu/Documents/caffe/src/caffe/syncedmem.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_150) "Building CXX object src/caffe/CMakeFiles/caffe.dir/syncedmem.cpp.o"
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/caffe.dir/syncedmem.cpp.o -c /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/src/caffe/syncedmem.cpp
 
 src/caffe/CMakeFiles/caffe.dir/syncedmem.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/caffe.dir/syncedmem.cpp.i"
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/panzhenfu/Documents/caffe/src/caffe/syncedmem.cpp > CMakeFiles/caffe.dir/syncedmem.cpp.i
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/src/caffe/syncedmem.cpp > CMakeFiles/caffe.dir/syncedmem.cpp.i
 
 src/caffe/CMakeFiles/caffe.dir/syncedmem.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/caffe.dir/syncedmem.cpp.s"
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/panzhenfu/Documents/caffe/src/caffe/syncedmem.cpp -o CMakeFiles/caffe.dir/syncedmem.cpp.s
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/src/caffe/syncedmem.cpp -o CMakeFiles/caffe.dir/syncedmem.cpp.s
 
 src/caffe/CMakeFiles/caffe.dir/syncedmem.cpp.o.requires:
 
@@ -2622,16 +2622,16 @@ src/caffe/CMakeFiles/caffe.dir/syncedmem.cpp.o.provides.build: src/caffe/CMakeFi
 
 src/caffe/CMakeFiles/caffe.dir/util/benchmark.cpp.o: src/caffe/CMakeFiles/caffe.dir/flags.make
 src/caffe/CMakeFiles/caffe.dir/util/benchmark.cpp.o: ../src/caffe/util/benchmark.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/panzhenfu/Documents/caffe/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_151) "Building CXX object src/caffe/CMakeFiles/caffe.dir/util/benchmark.cpp.o"
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/caffe.dir/util/benchmark.cpp.o -c /home/panzhenfu/Documents/caffe/src/caffe/util/benchmark.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_151) "Building CXX object src/caffe/CMakeFiles/caffe.dir/util/benchmark.cpp.o"
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/caffe.dir/util/benchmark.cpp.o -c /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/src/caffe/util/benchmark.cpp
 
 src/caffe/CMakeFiles/caffe.dir/util/benchmark.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/caffe.dir/util/benchmark.cpp.i"
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/panzhenfu/Documents/caffe/src/caffe/util/benchmark.cpp > CMakeFiles/caffe.dir/util/benchmark.cpp.i
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/src/caffe/util/benchmark.cpp > CMakeFiles/caffe.dir/util/benchmark.cpp.i
 
 src/caffe/CMakeFiles/caffe.dir/util/benchmark.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/caffe.dir/util/benchmark.cpp.s"
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/panzhenfu/Documents/caffe/src/caffe/util/benchmark.cpp -o CMakeFiles/caffe.dir/util/benchmark.cpp.s
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/src/caffe/util/benchmark.cpp -o CMakeFiles/caffe.dir/util/benchmark.cpp.s
 
 src/caffe/CMakeFiles/caffe.dir/util/benchmark.cpp.o.requires:
 
@@ -2646,16 +2646,16 @@ src/caffe/CMakeFiles/caffe.dir/util/benchmark.cpp.o.provides.build: src/caffe/CM
 
 src/caffe/CMakeFiles/caffe.dir/util/blocking_queue.cpp.o: src/caffe/CMakeFiles/caffe.dir/flags.make
 src/caffe/CMakeFiles/caffe.dir/util/blocking_queue.cpp.o: ../src/caffe/util/blocking_queue.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/panzhenfu/Documents/caffe/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_152) "Building CXX object src/caffe/CMakeFiles/caffe.dir/util/blocking_queue.cpp.o"
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/caffe.dir/util/blocking_queue.cpp.o -c /home/panzhenfu/Documents/caffe/src/caffe/util/blocking_queue.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_152) "Building CXX object src/caffe/CMakeFiles/caffe.dir/util/blocking_queue.cpp.o"
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/caffe.dir/util/blocking_queue.cpp.o -c /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/src/caffe/util/blocking_queue.cpp
 
 src/caffe/CMakeFiles/caffe.dir/util/blocking_queue.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/caffe.dir/util/blocking_queue.cpp.i"
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/panzhenfu/Documents/caffe/src/caffe/util/blocking_queue.cpp > CMakeFiles/caffe.dir/util/blocking_queue.cpp.i
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/src/caffe/util/blocking_queue.cpp > CMakeFiles/caffe.dir/util/blocking_queue.cpp.i
 
 src/caffe/CMakeFiles/caffe.dir/util/blocking_queue.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/caffe.dir/util/blocking_queue.cpp.s"
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/panzhenfu/Documents/caffe/src/caffe/util/blocking_queue.cpp -o CMakeFiles/caffe.dir/util/blocking_queue.cpp.s
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/src/caffe/util/blocking_queue.cpp -o CMakeFiles/caffe.dir/util/blocking_queue.cpp.s
 
 src/caffe/CMakeFiles/caffe.dir/util/blocking_queue.cpp.o.requires:
 
@@ -2670,16 +2670,16 @@ src/caffe/CMakeFiles/caffe.dir/util/blocking_queue.cpp.o.provides.build: src/caf
 
 src/caffe/CMakeFiles/caffe.dir/util/cudnn.cpp.o: src/caffe/CMakeFiles/caffe.dir/flags.make
 src/caffe/CMakeFiles/caffe.dir/util/cudnn.cpp.o: ../src/caffe/util/cudnn.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/panzhenfu/Documents/caffe/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_153) "Building CXX object src/caffe/CMakeFiles/caffe.dir/util/cudnn.cpp.o"
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/caffe.dir/util/cudnn.cpp.o -c /home/panzhenfu/Documents/caffe/src/caffe/util/cudnn.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_153) "Building CXX object src/caffe/CMakeFiles/caffe.dir/util/cudnn.cpp.o"
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/caffe.dir/util/cudnn.cpp.o -c /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/src/caffe/util/cudnn.cpp
 
 src/caffe/CMakeFiles/caffe.dir/util/cudnn.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/caffe.dir/util/cudnn.cpp.i"
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/panzhenfu/Documents/caffe/src/caffe/util/cudnn.cpp > CMakeFiles/caffe.dir/util/cudnn.cpp.i
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/src/caffe/util/cudnn.cpp > CMakeFiles/caffe.dir/util/cudnn.cpp.i
 
 src/caffe/CMakeFiles/caffe.dir/util/cudnn.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/caffe.dir/util/cudnn.cpp.s"
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/panzhenfu/Documents/caffe/src/caffe/util/cudnn.cpp -o CMakeFiles/caffe.dir/util/cudnn.cpp.s
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/src/caffe/util/cudnn.cpp -o CMakeFiles/caffe.dir/util/cudnn.cpp.s
 
 src/caffe/CMakeFiles/caffe.dir/util/cudnn.cpp.o.requires:
 
@@ -2694,16 +2694,16 @@ src/caffe/CMakeFiles/caffe.dir/util/cudnn.cpp.o.provides.build: src/caffe/CMakeF
 
 src/caffe/CMakeFiles/caffe.dir/util/db.cpp.o: src/caffe/CMakeFiles/caffe.dir/flags.make
 src/caffe/CMakeFiles/caffe.dir/util/db.cpp.o: ../src/caffe/util/db.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/panzhenfu/Documents/caffe/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_154) "Building CXX object src/caffe/CMakeFiles/caffe.dir/util/db.cpp.o"
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/caffe.dir/util/db.cpp.o -c /home/panzhenfu/Documents/caffe/src/caffe/util/db.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_154) "Building CXX object src/caffe/CMakeFiles/caffe.dir/util/db.cpp.o"
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/caffe.dir/util/db.cpp.o -c /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/src/caffe/util/db.cpp
 
 src/caffe/CMakeFiles/caffe.dir/util/db.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/caffe.dir/util/db.cpp.i"
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/panzhenfu/Documents/caffe/src/caffe/util/db.cpp > CMakeFiles/caffe.dir/util/db.cpp.i
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/src/caffe/util/db.cpp > CMakeFiles/caffe.dir/util/db.cpp.i
 
 src/caffe/CMakeFiles/caffe.dir/util/db.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/caffe.dir/util/db.cpp.s"
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/panzhenfu/Documents/caffe/src/caffe/util/db.cpp -o CMakeFiles/caffe.dir/util/db.cpp.s
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/src/caffe/util/db.cpp -o CMakeFiles/caffe.dir/util/db.cpp.s
 
 src/caffe/CMakeFiles/caffe.dir/util/db.cpp.o.requires:
 
@@ -2718,16 +2718,16 @@ src/caffe/CMakeFiles/caffe.dir/util/db.cpp.o.provides.build: src/caffe/CMakeFile
 
 src/caffe/CMakeFiles/caffe.dir/util/db_leveldb.cpp.o: src/caffe/CMakeFiles/caffe.dir/flags.make
 src/caffe/CMakeFiles/caffe.dir/util/db_leveldb.cpp.o: ../src/caffe/util/db_leveldb.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/panzhenfu/Documents/caffe/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_155) "Building CXX object src/caffe/CMakeFiles/caffe.dir/util/db_leveldb.cpp.o"
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/caffe.dir/util/db_leveldb.cpp.o -c /home/panzhenfu/Documents/caffe/src/caffe/util/db_leveldb.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_155) "Building CXX object src/caffe/CMakeFiles/caffe.dir/util/db_leveldb.cpp.o"
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/caffe.dir/util/db_leveldb.cpp.o -c /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/src/caffe/util/db_leveldb.cpp
 
 src/caffe/CMakeFiles/caffe.dir/util/db_leveldb.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/caffe.dir/util/db_leveldb.cpp.i"
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/panzhenfu/Documents/caffe/src/caffe/util/db_leveldb.cpp > CMakeFiles/caffe.dir/util/db_leveldb.cpp.i
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/src/caffe/util/db_leveldb.cpp > CMakeFiles/caffe.dir/util/db_leveldb.cpp.i
 
 src/caffe/CMakeFiles/caffe.dir/util/db_leveldb.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/caffe.dir/util/db_leveldb.cpp.s"
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/panzhenfu/Documents/caffe/src/caffe/util/db_leveldb.cpp -o CMakeFiles/caffe.dir/util/db_leveldb.cpp.s
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/src/caffe/util/db_leveldb.cpp -o CMakeFiles/caffe.dir/util/db_leveldb.cpp.s
 
 src/caffe/CMakeFiles/caffe.dir/util/db_leveldb.cpp.o.requires:
 
@@ -2742,16 +2742,16 @@ src/caffe/CMakeFiles/caffe.dir/util/db_leveldb.cpp.o.provides.build: src/caffe/C
 
 src/caffe/CMakeFiles/caffe.dir/util/db_lmdb.cpp.o: src/caffe/CMakeFiles/caffe.dir/flags.make
 src/caffe/CMakeFiles/caffe.dir/util/db_lmdb.cpp.o: ../src/caffe/util/db_lmdb.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/panzhenfu/Documents/caffe/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_156) "Building CXX object src/caffe/CMakeFiles/caffe.dir/util/db_lmdb.cpp.o"
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/caffe.dir/util/db_lmdb.cpp.o -c /home/panzhenfu/Documents/caffe/src/caffe/util/db_lmdb.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_156) "Building CXX object src/caffe/CMakeFiles/caffe.dir/util/db_lmdb.cpp.o"
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/caffe.dir/util/db_lmdb.cpp.o -c /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/src/caffe/util/db_lmdb.cpp
 
 src/caffe/CMakeFiles/caffe.dir/util/db_lmdb.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/caffe.dir/util/db_lmdb.cpp.i"
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/panzhenfu/Documents/caffe/src/caffe/util/db_lmdb.cpp > CMakeFiles/caffe.dir/util/db_lmdb.cpp.i
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/src/caffe/util/db_lmdb.cpp > CMakeFiles/caffe.dir/util/db_lmdb.cpp.i
 
 src/caffe/CMakeFiles/caffe.dir/util/db_lmdb.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/caffe.dir/util/db_lmdb.cpp.s"
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/panzhenfu/Documents/caffe/src/caffe/util/db_lmdb.cpp -o CMakeFiles/caffe.dir/util/db_lmdb.cpp.s
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/src/caffe/util/db_lmdb.cpp -o CMakeFiles/caffe.dir/util/db_lmdb.cpp.s
 
 src/caffe/CMakeFiles/caffe.dir/util/db_lmdb.cpp.o.requires:
 
@@ -2766,16 +2766,16 @@ src/caffe/CMakeFiles/caffe.dir/util/db_lmdb.cpp.o.provides.build: src/caffe/CMak
 
 src/caffe/CMakeFiles/caffe.dir/util/hdf5.cpp.o: src/caffe/CMakeFiles/caffe.dir/flags.make
 src/caffe/CMakeFiles/caffe.dir/util/hdf5.cpp.o: ../src/caffe/util/hdf5.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/panzhenfu/Documents/caffe/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_157) "Building CXX object src/caffe/CMakeFiles/caffe.dir/util/hdf5.cpp.o"
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/caffe.dir/util/hdf5.cpp.o -c /home/panzhenfu/Documents/caffe/src/caffe/util/hdf5.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_157) "Building CXX object src/caffe/CMakeFiles/caffe.dir/util/hdf5.cpp.o"
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/caffe.dir/util/hdf5.cpp.o -c /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/src/caffe/util/hdf5.cpp
 
 src/caffe/CMakeFiles/caffe.dir/util/hdf5.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/caffe.dir/util/hdf5.cpp.i"
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/panzhenfu/Documents/caffe/src/caffe/util/hdf5.cpp > CMakeFiles/caffe.dir/util/hdf5.cpp.i
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/src/caffe/util/hdf5.cpp > CMakeFiles/caffe.dir/util/hdf5.cpp.i
 
 src/caffe/CMakeFiles/caffe.dir/util/hdf5.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/caffe.dir/util/hdf5.cpp.s"
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/panzhenfu/Documents/caffe/src/caffe/util/hdf5.cpp -o CMakeFiles/caffe.dir/util/hdf5.cpp.s
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/src/caffe/util/hdf5.cpp -o CMakeFiles/caffe.dir/util/hdf5.cpp.s
 
 src/caffe/CMakeFiles/caffe.dir/util/hdf5.cpp.o.requires:
 
@@ -2790,16 +2790,16 @@ src/caffe/CMakeFiles/caffe.dir/util/hdf5.cpp.o.provides.build: src/caffe/CMakeFi
 
 src/caffe/CMakeFiles/caffe.dir/util/im2col.cpp.o: src/caffe/CMakeFiles/caffe.dir/flags.make
 src/caffe/CMakeFiles/caffe.dir/util/im2col.cpp.o: ../src/caffe/util/im2col.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/panzhenfu/Documents/caffe/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_158) "Building CXX object src/caffe/CMakeFiles/caffe.dir/util/im2col.cpp.o"
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/caffe.dir/util/im2col.cpp.o -c /home/panzhenfu/Documents/caffe/src/caffe/util/im2col.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_158) "Building CXX object src/caffe/CMakeFiles/caffe.dir/util/im2col.cpp.o"
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/caffe.dir/util/im2col.cpp.o -c /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/src/caffe/util/im2col.cpp
 
 src/caffe/CMakeFiles/caffe.dir/util/im2col.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/caffe.dir/util/im2col.cpp.i"
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/panzhenfu/Documents/caffe/src/caffe/util/im2col.cpp > CMakeFiles/caffe.dir/util/im2col.cpp.i
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/src/caffe/util/im2col.cpp > CMakeFiles/caffe.dir/util/im2col.cpp.i
 
 src/caffe/CMakeFiles/caffe.dir/util/im2col.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/caffe.dir/util/im2col.cpp.s"
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/panzhenfu/Documents/caffe/src/caffe/util/im2col.cpp -o CMakeFiles/caffe.dir/util/im2col.cpp.s
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/src/caffe/util/im2col.cpp -o CMakeFiles/caffe.dir/util/im2col.cpp.s
 
 src/caffe/CMakeFiles/caffe.dir/util/im2col.cpp.o.requires:
 
@@ -2814,16 +2814,16 @@ src/caffe/CMakeFiles/caffe.dir/util/im2col.cpp.o.provides.build: src/caffe/CMake
 
 src/caffe/CMakeFiles/caffe.dir/util/insert_splits.cpp.o: src/caffe/CMakeFiles/caffe.dir/flags.make
 src/caffe/CMakeFiles/caffe.dir/util/insert_splits.cpp.o: ../src/caffe/util/insert_splits.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/panzhenfu/Documents/caffe/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_159) "Building CXX object src/caffe/CMakeFiles/caffe.dir/util/insert_splits.cpp.o"
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/caffe.dir/util/insert_splits.cpp.o -c /home/panzhenfu/Documents/caffe/src/caffe/util/insert_splits.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_159) "Building CXX object src/caffe/CMakeFiles/caffe.dir/util/insert_splits.cpp.o"
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/caffe.dir/util/insert_splits.cpp.o -c /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/src/caffe/util/insert_splits.cpp
 
 src/caffe/CMakeFiles/caffe.dir/util/insert_splits.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/caffe.dir/util/insert_splits.cpp.i"
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/panzhenfu/Documents/caffe/src/caffe/util/insert_splits.cpp > CMakeFiles/caffe.dir/util/insert_splits.cpp.i
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/src/caffe/util/insert_splits.cpp > CMakeFiles/caffe.dir/util/insert_splits.cpp.i
 
 src/caffe/CMakeFiles/caffe.dir/util/insert_splits.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/caffe.dir/util/insert_splits.cpp.s"
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/panzhenfu/Documents/caffe/src/caffe/util/insert_splits.cpp -o CMakeFiles/caffe.dir/util/insert_splits.cpp.s
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/src/caffe/util/insert_splits.cpp -o CMakeFiles/caffe.dir/util/insert_splits.cpp.s
 
 src/caffe/CMakeFiles/caffe.dir/util/insert_splits.cpp.o.requires:
 
@@ -2838,16 +2838,16 @@ src/caffe/CMakeFiles/caffe.dir/util/insert_splits.cpp.o.provides.build: src/caff
 
 src/caffe/CMakeFiles/caffe.dir/util/io.cpp.o: src/caffe/CMakeFiles/caffe.dir/flags.make
 src/caffe/CMakeFiles/caffe.dir/util/io.cpp.o: ../src/caffe/util/io.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/panzhenfu/Documents/caffe/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_160) "Building CXX object src/caffe/CMakeFiles/caffe.dir/util/io.cpp.o"
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/caffe.dir/util/io.cpp.o -c /home/panzhenfu/Documents/caffe/src/caffe/util/io.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_160) "Building CXX object src/caffe/CMakeFiles/caffe.dir/util/io.cpp.o"
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/caffe.dir/util/io.cpp.o -c /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/src/caffe/util/io.cpp
 
 src/caffe/CMakeFiles/caffe.dir/util/io.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/caffe.dir/util/io.cpp.i"
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/panzhenfu/Documents/caffe/src/caffe/util/io.cpp > CMakeFiles/caffe.dir/util/io.cpp.i
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/src/caffe/util/io.cpp > CMakeFiles/caffe.dir/util/io.cpp.i
 
 src/caffe/CMakeFiles/caffe.dir/util/io.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/caffe.dir/util/io.cpp.s"
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/panzhenfu/Documents/caffe/src/caffe/util/io.cpp -o CMakeFiles/caffe.dir/util/io.cpp.s
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/src/caffe/util/io.cpp -o CMakeFiles/caffe.dir/util/io.cpp.s
 
 src/caffe/CMakeFiles/caffe.dir/util/io.cpp.o.requires:
 
@@ -2862,16 +2862,16 @@ src/caffe/CMakeFiles/caffe.dir/util/io.cpp.o.provides.build: src/caffe/CMakeFile
 
 src/caffe/CMakeFiles/caffe.dir/util/math_functions.cpp.o: src/caffe/CMakeFiles/caffe.dir/flags.make
 src/caffe/CMakeFiles/caffe.dir/util/math_functions.cpp.o: ../src/caffe/util/math_functions.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/panzhenfu/Documents/caffe/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_161) "Building CXX object src/caffe/CMakeFiles/caffe.dir/util/math_functions.cpp.o"
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/caffe.dir/util/math_functions.cpp.o -c /home/panzhenfu/Documents/caffe/src/caffe/util/math_functions.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_161) "Building CXX object src/caffe/CMakeFiles/caffe.dir/util/math_functions.cpp.o"
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/caffe.dir/util/math_functions.cpp.o -c /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/src/caffe/util/math_functions.cpp
 
 src/caffe/CMakeFiles/caffe.dir/util/math_functions.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/caffe.dir/util/math_functions.cpp.i"
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/panzhenfu/Documents/caffe/src/caffe/util/math_functions.cpp > CMakeFiles/caffe.dir/util/math_functions.cpp.i
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/src/caffe/util/math_functions.cpp > CMakeFiles/caffe.dir/util/math_functions.cpp.i
 
 src/caffe/CMakeFiles/caffe.dir/util/math_functions.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/caffe.dir/util/math_functions.cpp.s"
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/panzhenfu/Documents/caffe/src/caffe/util/math_functions.cpp -o CMakeFiles/caffe.dir/util/math_functions.cpp.s
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/src/caffe/util/math_functions.cpp -o CMakeFiles/caffe.dir/util/math_functions.cpp.s
 
 src/caffe/CMakeFiles/caffe.dir/util/math_functions.cpp.o.requires:
 
@@ -2886,16 +2886,16 @@ src/caffe/CMakeFiles/caffe.dir/util/math_functions.cpp.o.provides.build: src/caf
 
 src/caffe/CMakeFiles/caffe.dir/util/signal_handler.cpp.o: src/caffe/CMakeFiles/caffe.dir/flags.make
 src/caffe/CMakeFiles/caffe.dir/util/signal_handler.cpp.o: ../src/caffe/util/signal_handler.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/panzhenfu/Documents/caffe/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_162) "Building CXX object src/caffe/CMakeFiles/caffe.dir/util/signal_handler.cpp.o"
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/caffe.dir/util/signal_handler.cpp.o -c /home/panzhenfu/Documents/caffe/src/caffe/util/signal_handler.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_162) "Building CXX object src/caffe/CMakeFiles/caffe.dir/util/signal_handler.cpp.o"
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/caffe.dir/util/signal_handler.cpp.o -c /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/src/caffe/util/signal_handler.cpp
 
 src/caffe/CMakeFiles/caffe.dir/util/signal_handler.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/caffe.dir/util/signal_handler.cpp.i"
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/panzhenfu/Documents/caffe/src/caffe/util/signal_handler.cpp > CMakeFiles/caffe.dir/util/signal_handler.cpp.i
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/src/caffe/util/signal_handler.cpp > CMakeFiles/caffe.dir/util/signal_handler.cpp.i
 
 src/caffe/CMakeFiles/caffe.dir/util/signal_handler.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/caffe.dir/util/signal_handler.cpp.s"
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/panzhenfu/Documents/caffe/src/caffe/util/signal_handler.cpp -o CMakeFiles/caffe.dir/util/signal_handler.cpp.s
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/src/caffe/util/signal_handler.cpp -o CMakeFiles/caffe.dir/util/signal_handler.cpp.s
 
 src/caffe/CMakeFiles/caffe.dir/util/signal_handler.cpp.o.requires:
 
@@ -2910,16 +2910,16 @@ src/caffe/CMakeFiles/caffe.dir/util/signal_handler.cpp.o.provides.build: src/caf
 
 src/caffe/CMakeFiles/caffe.dir/util/upgrade_proto.cpp.o: src/caffe/CMakeFiles/caffe.dir/flags.make
 src/caffe/CMakeFiles/caffe.dir/util/upgrade_proto.cpp.o: ../src/caffe/util/upgrade_proto.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/panzhenfu/Documents/caffe/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_163) "Building CXX object src/caffe/CMakeFiles/caffe.dir/util/upgrade_proto.cpp.o"
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/caffe.dir/util/upgrade_proto.cpp.o -c /home/panzhenfu/Documents/caffe/src/caffe/util/upgrade_proto.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_163) "Building CXX object src/caffe/CMakeFiles/caffe.dir/util/upgrade_proto.cpp.o"
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/caffe.dir/util/upgrade_proto.cpp.o -c /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/src/caffe/util/upgrade_proto.cpp
 
 src/caffe/CMakeFiles/caffe.dir/util/upgrade_proto.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/caffe.dir/util/upgrade_proto.cpp.i"
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/panzhenfu/Documents/caffe/src/caffe/util/upgrade_proto.cpp > CMakeFiles/caffe.dir/util/upgrade_proto.cpp.i
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/src/caffe/util/upgrade_proto.cpp > CMakeFiles/caffe.dir/util/upgrade_proto.cpp.i
 
 src/caffe/CMakeFiles/caffe.dir/util/upgrade_proto.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/caffe.dir/util/upgrade_proto.cpp.s"
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/panzhenfu/Documents/caffe/src/caffe/util/upgrade_proto.cpp -o CMakeFiles/caffe.dir/util/upgrade_proto.cpp.s
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/src/caffe/util/upgrade_proto.cpp -o CMakeFiles/caffe.dir/util/upgrade_proto.cpp.s
 
 src/caffe/CMakeFiles/caffe.dir/util/upgrade_proto.cpp.o.requires:
 
@@ -3039,67 +3039,67 @@ caffe_OBJECTS = \
 
 # External object files for target caffe
 caffe_EXTERNAL_OBJECTS = \
-"/home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers/cuda_compile_1_generated_abs_loss_layer.cu.o" \
-"/home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers/cuda_compile_1_generated_absval_layer.cu.o" \
-"/home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers/cuda_compile_1_generated_base_data_layer.cu.o" \
-"/home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers/cuda_compile_1_generated_batch_norm_layer.cu.o" \
-"/home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers/cuda_compile_1_generated_batch_reindex_layer.cu.o" \
-"/home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers/cuda_compile_1_generated_bias_layer.cu.o" \
-"/home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers/cuda_compile_1_generated_bnll_layer.cu.o" \
-"/home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers/cuda_compile_1_generated_concat_layer.cu.o" \
-"/home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers/cuda_compile_1_generated_contrastive_loss_layer.cu.o" \
-"/home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers/cuda_compile_1_generated_conv_layer.cu.o" \
-"/home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers/cuda_compile_1_generated_crop_layer.cu.o" \
-"/home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers/cuda_compile_1_generated_cudnn_conv_layer.cu.o" \
-"/home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers/cuda_compile_1_generated_cudnn_lcn_layer.cu.o" \
-"/home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers/cuda_compile_1_generated_cudnn_lrn_layer.cu.o" \
-"/home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers/cuda_compile_1_generated_cudnn_pooling_layer.cu.o" \
-"/home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers/cuda_compile_1_generated_cudnn_relu_layer.cu.o" \
-"/home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers/cuda_compile_1_generated_cudnn_sigmoid_layer.cu.o" \
-"/home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers/cuda_compile_1_generated_cudnn_softmax_layer.cu.o" \
-"/home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers/cuda_compile_1_generated_cudnn_tanh_layer.cu.o" \
-"/home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers/cuda_compile_1_generated_deconv_layer.cu.o" \
-"/home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers/cuda_compile_1_generated_dropout_layer.cu.o" \
-"/home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers/cuda_compile_1_generated_eltwise_layer.cu.o" \
-"/home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers/cuda_compile_1_generated_elu_layer.cu.o" \
-"/home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers/cuda_compile_1_generated_embed_layer.cu.o" \
-"/home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers/cuda_compile_1_generated_euclidean_loss_layer.cu.o" \
-"/home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers/cuda_compile_1_generated_exp_layer.cu.o" \
-"/home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers/cuda_compile_1_generated_filter_layer.cu.o" \
-"/home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers/cuda_compile_1_generated_hdf5_data_layer.cu.o" \
-"/home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers/cuda_compile_1_generated_hdf5_output_layer.cu.o" \
-"/home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers/cuda_compile_1_generated_im2col_layer.cu.o" \
-"/home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers/cuda_compile_1_generated_inner_product_layer.cu.o" \
-"/home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers/cuda_compile_1_generated_log_layer.cu.o" \
-"/home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers/cuda_compile_1_generated_lrn_layer.cu.o" \
-"/home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers/cuda_compile_1_generated_lstm_unit_layer.cu.o" \
-"/home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers/cuda_compile_1_generated_mvn_layer.cu.o" \
-"/home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers/cuda_compile_1_generated_pooling_layer.cu.o" \
-"/home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers/cuda_compile_1_generated_power_layer.cu.o" \
-"/home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers/cuda_compile_1_generated_prelu_layer.cu.o" \
-"/home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers/cuda_compile_1_generated_recurrent_layer.cu.o" \
-"/home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers/cuda_compile_1_generated_reduction_layer.cu.o" \
-"/home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers/cuda_compile_1_generated_relu_layer.cu.o" \
-"/home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers/cuda_compile_1_generated_scale_layer.cu.o" \
-"/home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers/cuda_compile_1_generated_sigmoid_cross_entropy_loss_layer.cu.o" \
-"/home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers/cuda_compile_1_generated_sigmoid_layer.cu.o" \
-"/home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers/cuda_compile_1_generated_silence_layer.cu.o" \
-"/home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers/cuda_compile_1_generated_slice_layer.cu.o" \
-"/home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers/cuda_compile_1_generated_softmax_layer.cu.o" \
-"/home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers/cuda_compile_1_generated_softmax_loss_layer.cu.o" \
-"/home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers/cuda_compile_1_generated_split_layer.cu.o" \
-"/home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers/cuda_compile_1_generated_tanh_layer.cu.o" \
-"/home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers/cuda_compile_1_generated_threshold_layer.cu.o" \
-"/home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers/cuda_compile_1_generated_tile_layer.cu.o" \
-"/home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers/cuda_compile_1_generated_warping_layer.cu.o" \
-"/home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/solvers/cuda_compile_1_generated_adadelta_solver.cu.o" \
-"/home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/solvers/cuda_compile_1_generated_adagrad_solver.cu.o" \
-"/home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/solvers/cuda_compile_1_generated_adam_solver.cu.o" \
-"/home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/solvers/cuda_compile_1_generated_nesterov_solver.cu.o" \
-"/home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/solvers/cuda_compile_1_generated_rmsprop_solver.cu.o" \
-"/home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/solvers/cuda_compile_1_generated_sgd_solver.cu.o" \
-"/home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/util/cuda_compile_1_generated_im2col.cu.o" \
-"/home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/util/cuda_compile_1_generated_math_functions.cu.o"
+"/home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers/cuda_compile_1_generated_abs_loss_layer.cu.o" \
+"/home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers/cuda_compile_1_generated_absval_layer.cu.o" \
+"/home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers/cuda_compile_1_generated_base_data_layer.cu.o" \
+"/home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers/cuda_compile_1_generated_batch_norm_layer.cu.o" \
+"/home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers/cuda_compile_1_generated_batch_reindex_layer.cu.o" \
+"/home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers/cuda_compile_1_generated_bias_layer.cu.o" \
+"/home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers/cuda_compile_1_generated_bnll_layer.cu.o" \
+"/home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers/cuda_compile_1_generated_concat_layer.cu.o" \
+"/home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers/cuda_compile_1_generated_contrastive_loss_layer.cu.o" \
+"/home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers/cuda_compile_1_generated_conv_layer.cu.o" \
+"/home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers/cuda_compile_1_generated_crop_layer.cu.o" \
+"/home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers/cuda_compile_1_generated_cudnn_conv_layer.cu.o" \
+"/home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers/cuda_compile_1_generated_cudnn_lcn_layer.cu.o" \
+"/home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers/cuda_compile_1_generated_cudnn_lrn_layer.cu.o" \
+"/home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers/cuda_compile_1_generated_cudnn_pooling_layer.cu.o" \
+"/home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers/cuda_compile_1_generated_cudnn_relu_layer.cu.o" \
+"/home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers/cuda_compile_1_generated_cudnn_sigmoid_layer.cu.o" \
+"/home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers/cuda_compile_1_generated_cudnn_softmax_layer.cu.o" \
+"/home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers/cuda_compile_1_generated_cudnn_tanh_layer.cu.o" \
+"/home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers/cuda_compile_1_generated_deconv_layer.cu.o" \
+"/home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers/cuda_compile_1_generated_dropout_layer.cu.o" \
+"/home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers/cuda_compile_1_generated_eltwise_layer.cu.o" \
+"/home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers/cuda_compile_1_generated_elu_layer.cu.o" \
+"/home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers/cuda_compile_1_generated_embed_layer.cu.o" \
+"/home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers/cuda_compile_1_generated_euclidean_loss_layer.cu.o" \
+"/home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers/cuda_compile_1_generated_exp_layer.cu.o" \
+"/home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers/cuda_compile_1_generated_filter_layer.cu.o" \
+"/home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers/cuda_compile_1_generated_hdf5_data_layer.cu.o" \
+"/home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers/cuda_compile_1_generated_hdf5_output_layer.cu.o" \
+"/home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers/cuda_compile_1_generated_im2col_layer.cu.o" \
+"/home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers/cuda_compile_1_generated_inner_product_layer.cu.o" \
+"/home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers/cuda_compile_1_generated_log_layer.cu.o" \
+"/home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers/cuda_compile_1_generated_lrn_layer.cu.o" \
+"/home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers/cuda_compile_1_generated_lstm_unit_layer.cu.o" \
+"/home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers/cuda_compile_1_generated_mvn_layer.cu.o" \
+"/home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers/cuda_compile_1_generated_pooling_layer.cu.o" \
+"/home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers/cuda_compile_1_generated_power_layer.cu.o" \
+"/home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers/cuda_compile_1_generated_prelu_layer.cu.o" \
+"/home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers/cuda_compile_1_generated_recurrent_layer.cu.o" \
+"/home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers/cuda_compile_1_generated_reduction_layer.cu.o" \
+"/home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers/cuda_compile_1_generated_relu_layer.cu.o" \
+"/home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers/cuda_compile_1_generated_scale_layer.cu.o" \
+"/home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers/cuda_compile_1_generated_sigmoid_cross_entropy_loss_layer.cu.o" \
+"/home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers/cuda_compile_1_generated_sigmoid_layer.cu.o" \
+"/home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers/cuda_compile_1_generated_silence_layer.cu.o" \
+"/home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers/cuda_compile_1_generated_slice_layer.cu.o" \
+"/home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers/cuda_compile_1_generated_softmax_layer.cu.o" \
+"/home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers/cuda_compile_1_generated_softmax_loss_layer.cu.o" \
+"/home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers/cuda_compile_1_generated_split_layer.cu.o" \
+"/home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers/cuda_compile_1_generated_tanh_layer.cu.o" \
+"/home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers/cuda_compile_1_generated_threshold_layer.cu.o" \
+"/home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers/cuda_compile_1_generated_tile_layer.cu.o" \
+"/home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers/cuda_compile_1_generated_warping_layer.cu.o" \
+"/home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/solvers/cuda_compile_1_generated_adadelta_solver.cu.o" \
+"/home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/solvers/cuda_compile_1_generated_adagrad_solver.cu.o" \
+"/home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/solvers/cuda_compile_1_generated_adam_solver.cu.o" \
+"/home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/solvers/cuda_compile_1_generated_nesterov_solver.cu.o" \
+"/home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/solvers/cuda_compile_1_generated_rmsprop_solver.cu.o" \
+"/home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/solvers/cuda_compile_1_generated_sgd_solver.cu.o" \
+"/home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/util/cuda_compile_1_generated_im2col.cu.o" \
+"/home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/util/cuda_compile_1_generated_math_functions.cu.o"
 
 lib/libcaffe-d.so.1.0.0: src/caffe/CMakeFiles/caffe.dir/blob.cpp.o
 lib/libcaffe-d.so.1.0.0: src/caffe/CMakeFiles/caffe.dir/common.cpp.o
@@ -3301,9 +3301,9 @@ lib/libcaffe-d.so.1.0.0: /usr/local/cuda-8.0/lib64/libnppc.so
 lib/libcaffe-d.so.1.0.0: /usr/local/cuda-8.0/lib64/libnppi.so
 lib/libcaffe-d.so.1.0.0: /usr/local/cuda-8.0/lib64/libnpps.so
 lib/libcaffe-d.so.1.0.0: src/caffe/CMakeFiles/caffe.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/panzhenfu/Documents/caffe/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_164) "Linking CXX shared library ../../lib/libcaffe-d.so"
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/caffe.dir/link.txt --verbose=$(VERBOSE)
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe && $(CMAKE_COMMAND) -E cmake_symlink_library ../../lib/libcaffe-d.so.1.0.0 ../../lib/libcaffe-d.so.1.0.0 ../../lib/libcaffe-d.so
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_164) "Linking CXX shared library ../../lib/libcaffe-d.so"
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/caffe.dir/link.txt --verbose=$(VERBOSE)
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe && $(CMAKE_COMMAND) -E cmake_symlink_library ../../lib/libcaffe-d.so.1.0.0 ../../lib/libcaffe-d.so.1.0.0 ../../lib/libcaffe-d.so
 
 lib/libcaffe-d.so: lib/libcaffe-d.so.1.0.0
 	@$(CMAKE_COMMAND) -E touch_nocreate lib/libcaffe-d.so
@@ -3419,7 +3419,7 @@ src/caffe/CMakeFiles/caffe.dir/requires: src/caffe/CMakeFiles/caffe.dir/util/upg
 .PHONY : src/caffe/CMakeFiles/caffe.dir/requires
 
 src/caffe/CMakeFiles/caffe.dir/clean:
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe && $(CMAKE_COMMAND) -P CMakeFiles/caffe.dir/cmake_clean.cmake
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe && $(CMAKE_COMMAND) -P CMakeFiles/caffe.dir/cmake_clean.cmake
 .PHONY : src/caffe/CMakeFiles/caffe.dir/clean
 
 src/caffe/CMakeFiles/caffe.dir/depend: src/caffe/CMakeFiles/cuda_compile_1.dir/layers/cuda_compile_1_generated_abs_loss_layer.cu.o
@@ -3483,6 +3483,6 @@ src/caffe/CMakeFiles/caffe.dir/depend: src/caffe/CMakeFiles/cuda_compile_1.dir/s
 src/caffe/CMakeFiles/caffe.dir/depend: src/caffe/CMakeFiles/cuda_compile_1.dir/solvers/cuda_compile_1_generated_sgd_solver.cu.o
 src/caffe/CMakeFiles/caffe.dir/depend: src/caffe/CMakeFiles/cuda_compile_1.dir/util/cuda_compile_1_generated_im2col.cu.o
 src/caffe/CMakeFiles/caffe.dir/depend: src/caffe/CMakeFiles/cuda_compile_1.dir/util/cuda_compile_1_generated_math_functions.cu.o
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/panzhenfu/Documents/caffe /home/panzhenfu/Documents/caffe/src/caffe /home/panzhenfu/Documents/caffe/cmake-build-debug /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/CMakeFiles/caffe.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/src/caffe /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/CMakeFiles/caffe.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : src/caffe/CMakeFiles/caffe.dir/depend
 

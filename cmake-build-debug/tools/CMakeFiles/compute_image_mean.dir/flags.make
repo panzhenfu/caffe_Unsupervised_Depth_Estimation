@@ -6,5 +6,5 @@ CXX_FLAGS =  -fPIC -Wall -Wno-sign-compare -Wno-uninitialized -g
 
 CXX_DEFINES = -DCAFFE_VERSION=1.0.0 -DUSE_CUDNN -DUSE_LEVELDB -DUSE_LMDB -DUSE_OPENCV
 
-CXX_INCLUDES = -I/home/panzhenfu/Documents/caffe/cmake-build-debug/include -I/usr/local/include/opencv -I/usr/local/include -I/home/panzhenfu/Documents/caffe/cmake-build-debug -I/usr/local/cuda-8.0/include -I/usr/include/atlas -I/home/panzhenfu/Documents/caffe/include 
+CXX_INCLUDES = -I/home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/include -I/usr/local/include/opencv -I/usr/local/include -I/home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug -I/usr/local/cuda-8.0/include -I/usr/include/atlas -I/home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/include 
 

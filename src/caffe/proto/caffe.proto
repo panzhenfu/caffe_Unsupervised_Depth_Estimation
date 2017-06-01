@@ -1263,8 +1263,8 @@ message V1LayerParameter {
     WINDOW_DATA = 24;
     THRESHOLD = 31;
    // #extension by self ,the next ID id 42
-    BACKWARP = 40;
-    ABSLOSS = 41;
+   // BACKWARP = 40;
+   // ABSLOSS = 41;
   }
   optional LayerType type = 5;
   repeated BlobProto blobs = 6;

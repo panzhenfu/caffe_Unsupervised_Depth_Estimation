@@ -1,13 +1,13 @@
-if(NOT EXISTS "/home/panzhenfu/Documents/caffe/cmake-build-debug/install_manifest.txt")
-  message(FATAL_ERROR "Cannot find install manifest: /home/panzhenfu/Documents/caffe/cmake-build-debug/install_manifest.txt")
-endif(NOT EXISTS "/home/panzhenfu/Documents/caffe/cmake-build-debug/install_manifest.txt")
+if(NOT EXISTS "/home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/install_manifest.txt")
+  message(FATAL_ERROR "Cannot find install manifest: /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/install_manifest.txt")
+endif(NOT EXISTS "/home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/install_manifest.txt")
 
 if (NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set (CMAKE_INSTALL_PREFIX "/home/panzhenfu/Documents/caffe/cmake-build-debug/install")
+  set (CMAKE_INSTALL_PREFIX "/home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/install")
 endif ()
  message(${CMAKE_INSTALL_PREFIX})
 
-file(READ "/home/panzhenfu/Documents/caffe/cmake-build-debug/install_manifest.txt" files)
+file(READ "/home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/install_manifest.txt" files)
 string(REGEX REPLACE "\n" ";" files "${files}")
 foreach(file ${files})
   message(STATUS "Uninstalling $ENV{DESTDIR}${file}")

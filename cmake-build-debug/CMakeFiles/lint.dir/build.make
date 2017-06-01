@@ -43,10 +43,10 @@ RM = /home/panzhenfu/clion-2017.1.1/bin/cmake/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/panzhenfu/Documents/caffe
+CMAKE_SOURCE_DIR = /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/panzhenfu/Documents/caffe/cmake-build-debug
+CMAKE_BINARY_DIR = /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug
 
 # Utility rule file for lint.
 
@@ -54,7 +54,7 @@ CMAKE_BINARY_DIR = /home/panzhenfu/Documents/caffe/cmake-build-debug
 include CMakeFiles/lint.dir/progress.make
 
 CMakeFiles/lint:
-	/home/panzhenfu/clion-2017.1.1/bin/cmake/bin/cmake -P /home/panzhenfu/Documents/caffe/cmake/lint.cmake
+	/home/panzhenfu/clion-2017.1.1/bin/cmake/bin/cmake -P /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake/lint.cmake
 
 lint: CMakeFiles/lint
 lint: CMakeFiles/lint.dir/build.make
@@ -71,6 +71,6 @@ CMakeFiles/lint.dir/clean:
 .PHONY : CMakeFiles/lint.dir/clean
 
 CMakeFiles/lint.dir/depend:
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/panzhenfu/Documents/caffe /home/panzhenfu/Documents/caffe /home/panzhenfu/Documents/caffe/cmake-build-debug /home/panzhenfu/Documents/caffe/cmake-build-debug /home/panzhenfu/Documents/caffe/cmake-build-debug/CMakeFiles/lint.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/CMakeFiles/lint.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/lint.dir/depend
 

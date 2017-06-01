@@ -43,10 +43,10 @@ RM = /home/panzhenfu/clion-2017.1.1/bin/cmake/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/panzhenfu/Documents/caffe
+CMAKE_SOURCE_DIR = /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/panzhenfu/Documents/caffe/cmake-build-debug
+CMAKE_BINARY_DIR = /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug
 
 # Include any dependencies generated for this target.
 include src/caffe/CMakeFiles/caffeproto.dir/depend.make
@@ -58,10 +58,10 @@ include src/caffe/CMakeFiles/caffeproto.dir/progress.make
 include src/caffe/CMakeFiles/caffeproto.dir/flags.make
 
 include/caffe/proto/caffe.pb.cc: ../src/caffe/proto/caffe.proto
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/panzhenfu/Documents/caffe/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Running C++/Python protocol buffer compiler on /home/panzhenfu/Documents/caffe/src/caffe/proto/caffe.proto"
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe && /home/panzhenfu/clion-2017.1.1/bin/cmake/bin/cmake -E make_directory /home/panzhenfu/Documents/caffe/cmake-build-debug/include/caffe/proto
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe && /usr/local/bin/protoc --cpp_out /home/panzhenfu/Documents/caffe/cmake-build-debug/include/caffe/proto -I /home/panzhenfu/Documents/caffe/src/caffe/proto /home/panzhenfu/Documents/caffe/src/caffe/proto/caffe.proto
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe && /usr/local/bin/protoc --python_out /home/panzhenfu/Documents/caffe/cmake-build-debug/include/caffe/proto -I /home/panzhenfu/Documents/caffe/src/caffe/proto /home/panzhenfu/Documents/caffe/src/caffe/proto/caffe.proto
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Running C++/Python protocol buffer compiler on /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/src/caffe/proto/caffe.proto"
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe && /home/panzhenfu/clion-2017.1.1/bin/cmake/bin/cmake -E make_directory /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/include/caffe/proto
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe && /usr/local/bin/protoc --cpp_out /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/include/caffe/proto -I /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/src/caffe/proto /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/src/caffe/proto/caffe.proto
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe && /usr/local/bin/protoc --python_out /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/include/caffe/proto -I /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/src/caffe/proto /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/src/caffe/proto/caffe.proto
 
 include/caffe/proto/caffe.pb.h: include/caffe/proto/caffe.pb.cc
 	@$(CMAKE_COMMAND) -E touch_nocreate include/caffe/proto/caffe.pb.h
@@ -71,16 +71,16 @@ include/caffe/proto/caffe_pb2.py: include/caffe/proto/caffe.pb.cc
 
 src/caffe/CMakeFiles/caffeproto.dir/__/__/include/caffe/proto/caffe.pb.cc.o: src/caffe/CMakeFiles/caffeproto.dir/flags.make
 src/caffe/CMakeFiles/caffeproto.dir/__/__/include/caffe/proto/caffe.pb.cc.o: include/caffe/proto/caffe.pb.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/panzhenfu/Documents/caffe/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object src/caffe/CMakeFiles/caffeproto.dir/__/__/include/caffe/proto/caffe.pb.cc.o"
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/caffeproto.dir/__/__/include/caffe/proto/caffe.pb.cc.o -c /home/panzhenfu/Documents/caffe/cmake-build-debug/include/caffe/proto/caffe.pb.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object src/caffe/CMakeFiles/caffeproto.dir/__/__/include/caffe/proto/caffe.pb.cc.o"
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/caffeproto.dir/__/__/include/caffe/proto/caffe.pb.cc.o -c /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/include/caffe/proto/caffe.pb.cc
 
 src/caffe/CMakeFiles/caffeproto.dir/__/__/include/caffe/proto/caffe.pb.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/caffeproto.dir/__/__/include/caffe/proto/caffe.pb.cc.i"
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/panzhenfu/Documents/caffe/cmake-build-debug/include/caffe/proto/caffe.pb.cc > CMakeFiles/caffeproto.dir/__/__/include/caffe/proto/caffe.pb.cc.i
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/include/caffe/proto/caffe.pb.cc > CMakeFiles/caffeproto.dir/__/__/include/caffe/proto/caffe.pb.cc.i
 
 src/caffe/CMakeFiles/caffeproto.dir/__/__/include/caffe/proto/caffe.pb.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/caffeproto.dir/__/__/include/caffe/proto/caffe.pb.cc.s"
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/panzhenfu/Documents/caffe/cmake-build-debug/include/caffe/proto/caffe.pb.cc -o CMakeFiles/caffeproto.dir/__/__/include/caffe/proto/caffe.pb.cc.s
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/include/caffe/proto/caffe.pb.cc -o CMakeFiles/caffeproto.dir/__/__/include/caffe/proto/caffe.pb.cc.s
 
 src/caffe/CMakeFiles/caffeproto.dir/__/__/include/caffe/proto/caffe.pb.cc.o.requires:
 
@@ -103,9 +103,9 @@ caffeproto_EXTERNAL_OBJECTS =
 lib/libcaffeproto-d.a: src/caffe/CMakeFiles/caffeproto.dir/__/__/include/caffe/proto/caffe.pb.cc.o
 lib/libcaffeproto-d.a: src/caffe/CMakeFiles/caffeproto.dir/build.make
 lib/libcaffeproto-d.a: src/caffe/CMakeFiles/caffeproto.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/panzhenfu/Documents/caffe/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX static library ../../lib/libcaffeproto-d.a"
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe && $(CMAKE_COMMAND) -P CMakeFiles/caffeproto.dir/cmake_clean_target.cmake
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/caffeproto.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX static library ../../lib/libcaffeproto-d.a"
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe && $(CMAKE_COMMAND) -P CMakeFiles/caffeproto.dir/cmake_clean_target.cmake
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/caffeproto.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 src/caffe/CMakeFiles/caffeproto.dir/build: lib/libcaffeproto-d.a
@@ -117,12 +117,12 @@ src/caffe/CMakeFiles/caffeproto.dir/requires: src/caffe/CMakeFiles/caffeproto.di
 .PHONY : src/caffe/CMakeFiles/caffeproto.dir/requires
 
 src/caffe/CMakeFiles/caffeproto.dir/clean:
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe && $(CMAKE_COMMAND) -P CMakeFiles/caffeproto.dir/cmake_clean.cmake
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe && $(CMAKE_COMMAND) -P CMakeFiles/caffeproto.dir/cmake_clean.cmake
 .PHONY : src/caffe/CMakeFiles/caffeproto.dir/clean
 
 src/caffe/CMakeFiles/caffeproto.dir/depend: include/caffe/proto/caffe.pb.cc
 src/caffe/CMakeFiles/caffeproto.dir/depend: include/caffe/proto/caffe.pb.h
 src/caffe/CMakeFiles/caffeproto.dir/depend: include/caffe/proto/caffe_pb2.py
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/panzhenfu/Documents/caffe /home/panzhenfu/Documents/caffe/src/caffe /home/panzhenfu/Documents/caffe/cmake-build-debug /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/CMakeFiles/caffeproto.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/src/caffe /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/CMakeFiles/caffeproto.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : src/caffe/CMakeFiles/caffeproto.dir/depend
 

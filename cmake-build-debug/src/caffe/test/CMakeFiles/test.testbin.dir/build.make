@@ -43,10 +43,10 @@ RM = /home/panzhenfu/clion-2017.1.1/bin/cmake/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/panzhenfu/Documents/caffe
+CMAKE_SOURCE_DIR = /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/panzhenfu/Documents/caffe/cmake-build-debug
+CMAKE_BINARY_DIR = /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug
 
 # Include any dependencies generated for this target.
 include src/caffe/test/CMakeFiles/test.testbin.dir/depend.make
@@ -60,22 +60,22 @@ include src/caffe/test/CMakeFiles/test.testbin.dir/flags.make
 src/caffe/test/CMakeFiles/cuda_compile_1.dir/cuda_compile_1_generated_test_im2col_kernel.cu.o: src/caffe/test/CMakeFiles/cuda_compile_1.dir/cuda_compile_1_generated_test_im2col_kernel.cu.o.depend
 src/caffe/test/CMakeFiles/cuda_compile_1.dir/cuda_compile_1_generated_test_im2col_kernel.cu.o: src/caffe/test/CMakeFiles/cuda_compile_1.dir/cuda_compile_1_generated_test_im2col_kernel.cu.o.Debug.cmake
 src/caffe/test/CMakeFiles/cuda_compile_1.dir/cuda_compile_1_generated_test_im2col_kernel.cu.o: ../src/caffe/test/test_im2col_kernel.cu
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/panzhenfu/Documents/caffe/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building NVCC (Device) object src/caffe/test/CMakeFiles/cuda_compile_1.dir/cuda_compile_1_generated_test_im2col_kernel.cu.o"
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/test/CMakeFiles/cuda_compile_1.dir && /home/panzhenfu/clion-2017.1.1/bin/cmake/bin/cmake -E make_directory /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/test/CMakeFiles/cuda_compile_1.dir//.
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/test/CMakeFiles/cuda_compile_1.dir && /home/panzhenfu/clion-2017.1.1/bin/cmake/bin/cmake -D verbose:BOOL=$(VERBOSE) -D build_configuration:STRING=Debug -D generated_file:STRING=/home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/test/CMakeFiles/cuda_compile_1.dir//./cuda_compile_1_generated_test_im2col_kernel.cu.o -D generated_cubin_file:STRING=/home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/test/CMakeFiles/cuda_compile_1.dir//./cuda_compile_1_generated_test_im2col_kernel.cu.o.cubin.txt -P /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/test/CMakeFiles/cuda_compile_1.dir//cuda_compile_1_generated_test_im2col_kernel.cu.o.Debug.cmake
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building NVCC (Device) object src/caffe/test/CMakeFiles/cuda_compile_1.dir/cuda_compile_1_generated_test_im2col_kernel.cu.o"
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/test/CMakeFiles/cuda_compile_1.dir && /home/panzhenfu/clion-2017.1.1/bin/cmake/bin/cmake -E make_directory /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/test/CMakeFiles/cuda_compile_1.dir//.
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/test/CMakeFiles/cuda_compile_1.dir && /home/panzhenfu/clion-2017.1.1/bin/cmake/bin/cmake -D verbose:BOOL=$(VERBOSE) -D build_configuration:STRING=Debug -D generated_file:STRING=/home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/test/CMakeFiles/cuda_compile_1.dir//./cuda_compile_1_generated_test_im2col_kernel.cu.o -D generated_cubin_file:STRING=/home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/test/CMakeFiles/cuda_compile_1.dir//./cuda_compile_1_generated_test_im2col_kernel.cu.o.cubin.txt -P /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/test/CMakeFiles/cuda_compile_1.dir//cuda_compile_1_generated_test_im2col_kernel.cu.o.Debug.cmake
 
 src/caffe/test/CMakeFiles/test.testbin.dir/test_accuracy_layer.cpp.o: src/caffe/test/CMakeFiles/test.testbin.dir/flags.make
 src/caffe/test/CMakeFiles/test.testbin.dir/test_accuracy_layer.cpp.o: ../src/caffe/test/test_accuracy_layer.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/panzhenfu/Documents/caffe/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object src/caffe/test/CMakeFiles/test.testbin.dir/test_accuracy_layer.cpp.o"
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/test && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/test.testbin.dir/test_accuracy_layer.cpp.o -c /home/panzhenfu/Documents/caffe/src/caffe/test/test_accuracy_layer.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object src/caffe/test/CMakeFiles/test.testbin.dir/test_accuracy_layer.cpp.o"
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/test && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/test.testbin.dir/test_accuracy_layer.cpp.o -c /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/src/caffe/test/test_accuracy_layer.cpp
 
 src/caffe/test/CMakeFiles/test.testbin.dir/test_accuracy_layer.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/test.testbin.dir/test_accuracy_layer.cpp.i"
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/panzhenfu/Documents/caffe/src/caffe/test/test_accuracy_layer.cpp > CMakeFiles/test.testbin.dir/test_accuracy_layer.cpp.i
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/src/caffe/test/test_accuracy_layer.cpp > CMakeFiles/test.testbin.dir/test_accuracy_layer.cpp.i
 
 src/caffe/test/CMakeFiles/test.testbin.dir/test_accuracy_layer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/test.testbin.dir/test_accuracy_layer.cpp.s"
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/panzhenfu/Documents/caffe/src/caffe/test/test_accuracy_layer.cpp -o CMakeFiles/test.testbin.dir/test_accuracy_layer.cpp.s
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/src/caffe/test/test_accuracy_layer.cpp -o CMakeFiles/test.testbin.dir/test_accuracy_layer.cpp.s
 
 src/caffe/test/CMakeFiles/test.testbin.dir/test_accuracy_layer.cpp.o.requires:
 
@@ -90,16 +90,16 @@ src/caffe/test/CMakeFiles/test.testbin.dir/test_accuracy_layer.cpp.o.provides.bu
 
 src/caffe/test/CMakeFiles/test.testbin.dir/test_argmax_layer.cpp.o: src/caffe/test/CMakeFiles/test.testbin.dir/flags.make
 src/caffe/test/CMakeFiles/test.testbin.dir/test_argmax_layer.cpp.o: ../src/caffe/test/test_argmax_layer.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/panzhenfu/Documents/caffe/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object src/caffe/test/CMakeFiles/test.testbin.dir/test_argmax_layer.cpp.o"
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/test && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/test.testbin.dir/test_argmax_layer.cpp.o -c /home/panzhenfu/Documents/caffe/src/caffe/test/test_argmax_layer.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object src/caffe/test/CMakeFiles/test.testbin.dir/test_argmax_layer.cpp.o"
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/test && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/test.testbin.dir/test_argmax_layer.cpp.o -c /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/src/caffe/test/test_argmax_layer.cpp
 
 src/caffe/test/CMakeFiles/test.testbin.dir/test_argmax_layer.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/test.testbin.dir/test_argmax_layer.cpp.i"
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/panzhenfu/Documents/caffe/src/caffe/test/test_argmax_layer.cpp > CMakeFiles/test.testbin.dir/test_argmax_layer.cpp.i
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/src/caffe/test/test_argmax_layer.cpp > CMakeFiles/test.testbin.dir/test_argmax_layer.cpp.i
 
 src/caffe/test/CMakeFiles/test.testbin.dir/test_argmax_layer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/test.testbin.dir/test_argmax_layer.cpp.s"
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/panzhenfu/Documents/caffe/src/caffe/test/test_argmax_layer.cpp -o CMakeFiles/test.testbin.dir/test_argmax_layer.cpp.s
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/src/caffe/test/test_argmax_layer.cpp -o CMakeFiles/test.testbin.dir/test_argmax_layer.cpp.s
 
 src/caffe/test/CMakeFiles/test.testbin.dir/test_argmax_layer.cpp.o.requires:
 
@@ -114,16 +114,16 @@ src/caffe/test/CMakeFiles/test.testbin.dir/test_argmax_layer.cpp.o.provides.buil
 
 src/caffe/test/CMakeFiles/test.testbin.dir/test_batch_norm_layer.cpp.o: src/caffe/test/CMakeFiles/test.testbin.dir/flags.make
 src/caffe/test/CMakeFiles/test.testbin.dir/test_batch_norm_layer.cpp.o: ../src/caffe/test/test_batch_norm_layer.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/panzhenfu/Documents/caffe/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object src/caffe/test/CMakeFiles/test.testbin.dir/test_batch_norm_layer.cpp.o"
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/test && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/test.testbin.dir/test_batch_norm_layer.cpp.o -c /home/panzhenfu/Documents/caffe/src/caffe/test/test_batch_norm_layer.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object src/caffe/test/CMakeFiles/test.testbin.dir/test_batch_norm_layer.cpp.o"
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/test && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/test.testbin.dir/test_batch_norm_layer.cpp.o -c /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/src/caffe/test/test_batch_norm_layer.cpp
 
 src/caffe/test/CMakeFiles/test.testbin.dir/test_batch_norm_layer.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/test.testbin.dir/test_batch_norm_layer.cpp.i"
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/panzhenfu/Documents/caffe/src/caffe/test/test_batch_norm_layer.cpp > CMakeFiles/test.testbin.dir/test_batch_norm_layer.cpp.i
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/src/caffe/test/test_batch_norm_layer.cpp > CMakeFiles/test.testbin.dir/test_batch_norm_layer.cpp.i
 
 src/caffe/test/CMakeFiles/test.testbin.dir/test_batch_norm_layer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/test.testbin.dir/test_batch_norm_layer.cpp.s"
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/panzhenfu/Documents/caffe/src/caffe/test/test_batch_norm_layer.cpp -o CMakeFiles/test.testbin.dir/test_batch_norm_layer.cpp.s
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/src/caffe/test/test_batch_norm_layer.cpp -o CMakeFiles/test.testbin.dir/test_batch_norm_layer.cpp.s
 
 src/caffe/test/CMakeFiles/test.testbin.dir/test_batch_norm_layer.cpp.o.requires:
 
@@ -138,16 +138,16 @@ src/caffe/test/CMakeFiles/test.testbin.dir/test_batch_norm_layer.cpp.o.provides.
 
 src/caffe/test/CMakeFiles/test.testbin.dir/test_batch_reindex_layer.cpp.o: src/caffe/test/CMakeFiles/test.testbin.dir/flags.make
 src/caffe/test/CMakeFiles/test.testbin.dir/test_batch_reindex_layer.cpp.o: ../src/caffe/test/test_batch_reindex_layer.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/panzhenfu/Documents/caffe/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object src/caffe/test/CMakeFiles/test.testbin.dir/test_batch_reindex_layer.cpp.o"
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/test && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/test.testbin.dir/test_batch_reindex_layer.cpp.o -c /home/panzhenfu/Documents/caffe/src/caffe/test/test_batch_reindex_layer.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object src/caffe/test/CMakeFiles/test.testbin.dir/test_batch_reindex_layer.cpp.o"
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/test && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/test.testbin.dir/test_batch_reindex_layer.cpp.o -c /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/src/caffe/test/test_batch_reindex_layer.cpp
 
 src/caffe/test/CMakeFiles/test.testbin.dir/test_batch_reindex_layer.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/test.testbin.dir/test_batch_reindex_layer.cpp.i"
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/panzhenfu/Documents/caffe/src/caffe/test/test_batch_reindex_layer.cpp > CMakeFiles/test.testbin.dir/test_batch_reindex_layer.cpp.i
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/src/caffe/test/test_batch_reindex_layer.cpp > CMakeFiles/test.testbin.dir/test_batch_reindex_layer.cpp.i
 
 src/caffe/test/CMakeFiles/test.testbin.dir/test_batch_reindex_layer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/test.testbin.dir/test_batch_reindex_layer.cpp.s"
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/panzhenfu/Documents/caffe/src/caffe/test/test_batch_reindex_layer.cpp -o CMakeFiles/test.testbin.dir/test_batch_reindex_layer.cpp.s
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/src/caffe/test/test_batch_reindex_layer.cpp -o CMakeFiles/test.testbin.dir/test_batch_reindex_layer.cpp.s
 
 src/caffe/test/CMakeFiles/test.testbin.dir/test_batch_reindex_layer.cpp.o.requires:
 
@@ -162,16 +162,16 @@ src/caffe/test/CMakeFiles/test.testbin.dir/test_batch_reindex_layer.cpp.o.provid
 
 src/caffe/test/CMakeFiles/test.testbin.dir/test_benchmark.cpp.o: src/caffe/test/CMakeFiles/test.testbin.dir/flags.make
 src/caffe/test/CMakeFiles/test.testbin.dir/test_benchmark.cpp.o: ../src/caffe/test/test_benchmark.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/panzhenfu/Documents/caffe/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object src/caffe/test/CMakeFiles/test.testbin.dir/test_benchmark.cpp.o"
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/test && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/test.testbin.dir/test_benchmark.cpp.o -c /home/panzhenfu/Documents/caffe/src/caffe/test/test_benchmark.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object src/caffe/test/CMakeFiles/test.testbin.dir/test_benchmark.cpp.o"
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/test && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/test.testbin.dir/test_benchmark.cpp.o -c /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/src/caffe/test/test_benchmark.cpp
 
 src/caffe/test/CMakeFiles/test.testbin.dir/test_benchmark.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/test.testbin.dir/test_benchmark.cpp.i"
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/panzhenfu/Documents/caffe/src/caffe/test/test_benchmark.cpp > CMakeFiles/test.testbin.dir/test_benchmark.cpp.i
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/src/caffe/test/test_benchmark.cpp > CMakeFiles/test.testbin.dir/test_benchmark.cpp.i
 
 src/caffe/test/CMakeFiles/test.testbin.dir/test_benchmark.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/test.testbin.dir/test_benchmark.cpp.s"
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/panzhenfu/Documents/caffe/src/caffe/test/test_benchmark.cpp -o CMakeFiles/test.testbin.dir/test_benchmark.cpp.s
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/src/caffe/test/test_benchmark.cpp -o CMakeFiles/test.testbin.dir/test_benchmark.cpp.s
 
 src/caffe/test/CMakeFiles/test.testbin.dir/test_benchmark.cpp.o.requires:
 
@@ -186,16 +186,16 @@ src/caffe/test/CMakeFiles/test.testbin.dir/test_benchmark.cpp.o.provides.build: 
 
 src/caffe/test/CMakeFiles/test.testbin.dir/test_bias_layer.cpp.o: src/caffe/test/CMakeFiles/test.testbin.dir/flags.make
 src/caffe/test/CMakeFiles/test.testbin.dir/test_bias_layer.cpp.o: ../src/caffe/test/test_bias_layer.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/panzhenfu/Documents/caffe/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object src/caffe/test/CMakeFiles/test.testbin.dir/test_bias_layer.cpp.o"
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/test && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/test.testbin.dir/test_bias_layer.cpp.o -c /home/panzhenfu/Documents/caffe/src/caffe/test/test_bias_layer.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object src/caffe/test/CMakeFiles/test.testbin.dir/test_bias_layer.cpp.o"
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/test && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/test.testbin.dir/test_bias_layer.cpp.o -c /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/src/caffe/test/test_bias_layer.cpp
 
 src/caffe/test/CMakeFiles/test.testbin.dir/test_bias_layer.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/test.testbin.dir/test_bias_layer.cpp.i"
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/panzhenfu/Documents/caffe/src/caffe/test/test_bias_layer.cpp > CMakeFiles/test.testbin.dir/test_bias_layer.cpp.i
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/src/caffe/test/test_bias_layer.cpp > CMakeFiles/test.testbin.dir/test_bias_layer.cpp.i
 
 src/caffe/test/CMakeFiles/test.testbin.dir/test_bias_layer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/test.testbin.dir/test_bias_layer.cpp.s"
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/panzhenfu/Documents/caffe/src/caffe/test/test_bias_layer.cpp -o CMakeFiles/test.testbin.dir/test_bias_layer.cpp.s
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/src/caffe/test/test_bias_layer.cpp -o CMakeFiles/test.testbin.dir/test_bias_layer.cpp.s
 
 src/caffe/test/CMakeFiles/test.testbin.dir/test_bias_layer.cpp.o.requires:
 
@@ -210,16 +210,16 @@ src/caffe/test/CMakeFiles/test.testbin.dir/test_bias_layer.cpp.o.provides.build:
 
 src/caffe/test/CMakeFiles/test.testbin.dir/test_blob.cpp.o: src/caffe/test/CMakeFiles/test.testbin.dir/flags.make
 src/caffe/test/CMakeFiles/test.testbin.dir/test_blob.cpp.o: ../src/caffe/test/test_blob.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/panzhenfu/Documents/caffe/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object src/caffe/test/CMakeFiles/test.testbin.dir/test_blob.cpp.o"
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/test && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/test.testbin.dir/test_blob.cpp.o -c /home/panzhenfu/Documents/caffe/src/caffe/test/test_blob.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object src/caffe/test/CMakeFiles/test.testbin.dir/test_blob.cpp.o"
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/test && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/test.testbin.dir/test_blob.cpp.o -c /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/src/caffe/test/test_blob.cpp
 
 src/caffe/test/CMakeFiles/test.testbin.dir/test_blob.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/test.testbin.dir/test_blob.cpp.i"
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/panzhenfu/Documents/caffe/src/caffe/test/test_blob.cpp > CMakeFiles/test.testbin.dir/test_blob.cpp.i
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/src/caffe/test/test_blob.cpp > CMakeFiles/test.testbin.dir/test_blob.cpp.i
 
 src/caffe/test/CMakeFiles/test.testbin.dir/test_blob.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/test.testbin.dir/test_blob.cpp.s"
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/panzhenfu/Documents/caffe/src/caffe/test/test_blob.cpp -o CMakeFiles/test.testbin.dir/test_blob.cpp.s
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/src/caffe/test/test_blob.cpp -o CMakeFiles/test.testbin.dir/test_blob.cpp.s
 
 src/caffe/test/CMakeFiles/test.testbin.dir/test_blob.cpp.o.requires:
 
@@ -234,16 +234,16 @@ src/caffe/test/CMakeFiles/test.testbin.dir/test_blob.cpp.o.provides.build: src/c
 
 src/caffe/test/CMakeFiles/test.testbin.dir/test_caffe_main.cpp.o: src/caffe/test/CMakeFiles/test.testbin.dir/flags.make
 src/caffe/test/CMakeFiles/test.testbin.dir/test_caffe_main.cpp.o: ../src/caffe/test/test_caffe_main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/panzhenfu/Documents/caffe/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object src/caffe/test/CMakeFiles/test.testbin.dir/test_caffe_main.cpp.o"
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/test && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/test.testbin.dir/test_caffe_main.cpp.o -c /home/panzhenfu/Documents/caffe/src/caffe/test/test_caffe_main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object src/caffe/test/CMakeFiles/test.testbin.dir/test_caffe_main.cpp.o"
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/test && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/test.testbin.dir/test_caffe_main.cpp.o -c /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/src/caffe/test/test_caffe_main.cpp
 
 src/caffe/test/CMakeFiles/test.testbin.dir/test_caffe_main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/test.testbin.dir/test_caffe_main.cpp.i"
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/panzhenfu/Documents/caffe/src/caffe/test/test_caffe_main.cpp > CMakeFiles/test.testbin.dir/test_caffe_main.cpp.i
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/src/caffe/test/test_caffe_main.cpp > CMakeFiles/test.testbin.dir/test_caffe_main.cpp.i
 
 src/caffe/test/CMakeFiles/test.testbin.dir/test_caffe_main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/test.testbin.dir/test_caffe_main.cpp.s"
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/panzhenfu/Documents/caffe/src/caffe/test/test_caffe_main.cpp -o CMakeFiles/test.testbin.dir/test_caffe_main.cpp.s
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/src/caffe/test/test_caffe_main.cpp -o CMakeFiles/test.testbin.dir/test_caffe_main.cpp.s
 
 src/caffe/test/CMakeFiles/test.testbin.dir/test_caffe_main.cpp.o.requires:
 
@@ -258,16 +258,16 @@ src/caffe/test/CMakeFiles/test.testbin.dir/test_caffe_main.cpp.o.provides.build:
 
 src/caffe/test/CMakeFiles/test.testbin.dir/test_common.cpp.o: src/caffe/test/CMakeFiles/test.testbin.dir/flags.make
 src/caffe/test/CMakeFiles/test.testbin.dir/test_common.cpp.o: ../src/caffe/test/test_common.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/panzhenfu/Documents/caffe/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object src/caffe/test/CMakeFiles/test.testbin.dir/test_common.cpp.o"
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/test && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/test.testbin.dir/test_common.cpp.o -c /home/panzhenfu/Documents/caffe/src/caffe/test/test_common.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object src/caffe/test/CMakeFiles/test.testbin.dir/test_common.cpp.o"
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/test && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/test.testbin.dir/test_common.cpp.o -c /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/src/caffe/test/test_common.cpp
 
 src/caffe/test/CMakeFiles/test.testbin.dir/test_common.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/test.testbin.dir/test_common.cpp.i"
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/panzhenfu/Documents/caffe/src/caffe/test/test_common.cpp > CMakeFiles/test.testbin.dir/test_common.cpp.i
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/src/caffe/test/test_common.cpp > CMakeFiles/test.testbin.dir/test_common.cpp.i
 
 src/caffe/test/CMakeFiles/test.testbin.dir/test_common.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/test.testbin.dir/test_common.cpp.s"
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/panzhenfu/Documents/caffe/src/caffe/test/test_common.cpp -o CMakeFiles/test.testbin.dir/test_common.cpp.s
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/src/caffe/test/test_common.cpp -o CMakeFiles/test.testbin.dir/test_common.cpp.s
 
 src/caffe/test/CMakeFiles/test.testbin.dir/test_common.cpp.o.requires:
 
@@ -282,16 +282,16 @@ src/caffe/test/CMakeFiles/test.testbin.dir/test_common.cpp.o.provides.build: src
 
 src/caffe/test/CMakeFiles/test.testbin.dir/test_concat_layer.cpp.o: src/caffe/test/CMakeFiles/test.testbin.dir/flags.make
 src/caffe/test/CMakeFiles/test.testbin.dir/test_concat_layer.cpp.o: ../src/caffe/test/test_concat_layer.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/panzhenfu/Documents/caffe/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object src/caffe/test/CMakeFiles/test.testbin.dir/test_concat_layer.cpp.o"
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/test && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/test.testbin.dir/test_concat_layer.cpp.o -c /home/panzhenfu/Documents/caffe/src/caffe/test/test_concat_layer.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object src/caffe/test/CMakeFiles/test.testbin.dir/test_concat_layer.cpp.o"
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/test && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/test.testbin.dir/test_concat_layer.cpp.o -c /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/src/caffe/test/test_concat_layer.cpp
 
 src/caffe/test/CMakeFiles/test.testbin.dir/test_concat_layer.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/test.testbin.dir/test_concat_layer.cpp.i"
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/panzhenfu/Documents/caffe/src/caffe/test/test_concat_layer.cpp > CMakeFiles/test.testbin.dir/test_concat_layer.cpp.i
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/src/caffe/test/test_concat_layer.cpp > CMakeFiles/test.testbin.dir/test_concat_layer.cpp.i
 
 src/caffe/test/CMakeFiles/test.testbin.dir/test_concat_layer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/test.testbin.dir/test_concat_layer.cpp.s"
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/panzhenfu/Documents/caffe/src/caffe/test/test_concat_layer.cpp -o CMakeFiles/test.testbin.dir/test_concat_layer.cpp.s
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/src/caffe/test/test_concat_layer.cpp -o CMakeFiles/test.testbin.dir/test_concat_layer.cpp.s
 
 src/caffe/test/CMakeFiles/test.testbin.dir/test_concat_layer.cpp.o.requires:
 
@@ -306,16 +306,16 @@ src/caffe/test/CMakeFiles/test.testbin.dir/test_concat_layer.cpp.o.provides.buil
 
 src/caffe/test/CMakeFiles/test.testbin.dir/test_contrastive_loss_layer.cpp.o: src/caffe/test/CMakeFiles/test.testbin.dir/flags.make
 src/caffe/test/CMakeFiles/test.testbin.dir/test_contrastive_loss_layer.cpp.o: ../src/caffe/test/test_contrastive_loss_layer.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/panzhenfu/Documents/caffe/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object src/caffe/test/CMakeFiles/test.testbin.dir/test_contrastive_loss_layer.cpp.o"
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/test && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/test.testbin.dir/test_contrastive_loss_layer.cpp.o -c /home/panzhenfu/Documents/caffe/src/caffe/test/test_contrastive_loss_layer.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object src/caffe/test/CMakeFiles/test.testbin.dir/test_contrastive_loss_layer.cpp.o"
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/test && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/test.testbin.dir/test_contrastive_loss_layer.cpp.o -c /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/src/caffe/test/test_contrastive_loss_layer.cpp
 
 src/caffe/test/CMakeFiles/test.testbin.dir/test_contrastive_loss_layer.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/test.testbin.dir/test_contrastive_loss_layer.cpp.i"
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/panzhenfu/Documents/caffe/src/caffe/test/test_contrastive_loss_layer.cpp > CMakeFiles/test.testbin.dir/test_contrastive_loss_layer.cpp.i
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/src/caffe/test/test_contrastive_loss_layer.cpp > CMakeFiles/test.testbin.dir/test_contrastive_loss_layer.cpp.i
 
 src/caffe/test/CMakeFiles/test.testbin.dir/test_contrastive_loss_layer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/test.testbin.dir/test_contrastive_loss_layer.cpp.s"
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/panzhenfu/Documents/caffe/src/caffe/test/test_contrastive_loss_layer.cpp -o CMakeFiles/test.testbin.dir/test_contrastive_loss_layer.cpp.s
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/src/caffe/test/test_contrastive_loss_layer.cpp -o CMakeFiles/test.testbin.dir/test_contrastive_loss_layer.cpp.s
 
 src/caffe/test/CMakeFiles/test.testbin.dir/test_contrastive_loss_layer.cpp.o.requires:
 
@@ -330,16 +330,16 @@ src/caffe/test/CMakeFiles/test.testbin.dir/test_contrastive_loss_layer.cpp.o.pro
 
 src/caffe/test/CMakeFiles/test.testbin.dir/test_convolution_layer.cpp.o: src/caffe/test/CMakeFiles/test.testbin.dir/flags.make
 src/caffe/test/CMakeFiles/test.testbin.dir/test_convolution_layer.cpp.o: ../src/caffe/test/test_convolution_layer.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/panzhenfu/Documents/caffe/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object src/caffe/test/CMakeFiles/test.testbin.dir/test_convolution_layer.cpp.o"
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/test && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/test.testbin.dir/test_convolution_layer.cpp.o -c /home/panzhenfu/Documents/caffe/src/caffe/test/test_convolution_layer.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object src/caffe/test/CMakeFiles/test.testbin.dir/test_convolution_layer.cpp.o"
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/test && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/test.testbin.dir/test_convolution_layer.cpp.o -c /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/src/caffe/test/test_convolution_layer.cpp
 
 src/caffe/test/CMakeFiles/test.testbin.dir/test_convolution_layer.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/test.testbin.dir/test_convolution_layer.cpp.i"
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/panzhenfu/Documents/caffe/src/caffe/test/test_convolution_layer.cpp > CMakeFiles/test.testbin.dir/test_convolution_layer.cpp.i
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/src/caffe/test/test_convolution_layer.cpp > CMakeFiles/test.testbin.dir/test_convolution_layer.cpp.i
 
 src/caffe/test/CMakeFiles/test.testbin.dir/test_convolution_layer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/test.testbin.dir/test_convolution_layer.cpp.s"
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/panzhenfu/Documents/caffe/src/caffe/test/test_convolution_layer.cpp -o CMakeFiles/test.testbin.dir/test_convolution_layer.cpp.s
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/src/caffe/test/test_convolution_layer.cpp -o CMakeFiles/test.testbin.dir/test_convolution_layer.cpp.s
 
 src/caffe/test/CMakeFiles/test.testbin.dir/test_convolution_layer.cpp.o.requires:
 
@@ -354,16 +354,16 @@ src/caffe/test/CMakeFiles/test.testbin.dir/test_convolution_layer.cpp.o.provides
 
 src/caffe/test/CMakeFiles/test.testbin.dir/test_crop_layer.cpp.o: src/caffe/test/CMakeFiles/test.testbin.dir/flags.make
 src/caffe/test/CMakeFiles/test.testbin.dir/test_crop_layer.cpp.o: ../src/caffe/test/test_crop_layer.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/panzhenfu/Documents/caffe/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object src/caffe/test/CMakeFiles/test.testbin.dir/test_crop_layer.cpp.o"
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/test && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/test.testbin.dir/test_crop_layer.cpp.o -c /home/panzhenfu/Documents/caffe/src/caffe/test/test_crop_layer.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object src/caffe/test/CMakeFiles/test.testbin.dir/test_crop_layer.cpp.o"
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/test && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/test.testbin.dir/test_crop_layer.cpp.o -c /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/src/caffe/test/test_crop_layer.cpp
 
 src/caffe/test/CMakeFiles/test.testbin.dir/test_crop_layer.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/test.testbin.dir/test_crop_layer.cpp.i"
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/panzhenfu/Documents/caffe/src/caffe/test/test_crop_layer.cpp > CMakeFiles/test.testbin.dir/test_crop_layer.cpp.i
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/src/caffe/test/test_crop_layer.cpp > CMakeFiles/test.testbin.dir/test_crop_layer.cpp.i
 
 src/caffe/test/CMakeFiles/test.testbin.dir/test_crop_layer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/test.testbin.dir/test_crop_layer.cpp.s"
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/panzhenfu/Documents/caffe/src/caffe/test/test_crop_layer.cpp -o CMakeFiles/test.testbin.dir/test_crop_layer.cpp.s
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/src/caffe/test/test_crop_layer.cpp -o CMakeFiles/test.testbin.dir/test_crop_layer.cpp.s
 
 src/caffe/test/CMakeFiles/test.testbin.dir/test_crop_layer.cpp.o.requires:
 
@@ -378,16 +378,16 @@ src/caffe/test/CMakeFiles/test.testbin.dir/test_crop_layer.cpp.o.provides.build:
 
 src/caffe/test/CMakeFiles/test.testbin.dir/test_data_layer.cpp.o: src/caffe/test/CMakeFiles/test.testbin.dir/flags.make
 src/caffe/test/CMakeFiles/test.testbin.dir/test_data_layer.cpp.o: ../src/caffe/test/test_data_layer.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/panzhenfu/Documents/caffe/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object src/caffe/test/CMakeFiles/test.testbin.dir/test_data_layer.cpp.o"
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/test && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/test.testbin.dir/test_data_layer.cpp.o -c /home/panzhenfu/Documents/caffe/src/caffe/test/test_data_layer.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object src/caffe/test/CMakeFiles/test.testbin.dir/test_data_layer.cpp.o"
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/test && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/test.testbin.dir/test_data_layer.cpp.o -c /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/src/caffe/test/test_data_layer.cpp
 
 src/caffe/test/CMakeFiles/test.testbin.dir/test_data_layer.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/test.testbin.dir/test_data_layer.cpp.i"
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/panzhenfu/Documents/caffe/src/caffe/test/test_data_layer.cpp > CMakeFiles/test.testbin.dir/test_data_layer.cpp.i
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/src/caffe/test/test_data_layer.cpp > CMakeFiles/test.testbin.dir/test_data_layer.cpp.i
 
 src/caffe/test/CMakeFiles/test.testbin.dir/test_data_layer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/test.testbin.dir/test_data_layer.cpp.s"
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/panzhenfu/Documents/caffe/src/caffe/test/test_data_layer.cpp -o CMakeFiles/test.testbin.dir/test_data_layer.cpp.s
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/src/caffe/test/test_data_layer.cpp -o CMakeFiles/test.testbin.dir/test_data_layer.cpp.s
 
 src/caffe/test/CMakeFiles/test.testbin.dir/test_data_layer.cpp.o.requires:
 
@@ -402,16 +402,16 @@ src/caffe/test/CMakeFiles/test.testbin.dir/test_data_layer.cpp.o.provides.build:
 
 src/caffe/test/CMakeFiles/test.testbin.dir/test_data_transformer.cpp.o: src/caffe/test/CMakeFiles/test.testbin.dir/flags.make
 src/caffe/test/CMakeFiles/test.testbin.dir/test_data_transformer.cpp.o: ../src/caffe/test/test_data_transformer.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/panzhenfu/Documents/caffe/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object src/caffe/test/CMakeFiles/test.testbin.dir/test_data_transformer.cpp.o"
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/test && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/test.testbin.dir/test_data_transformer.cpp.o -c /home/panzhenfu/Documents/caffe/src/caffe/test/test_data_transformer.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object src/caffe/test/CMakeFiles/test.testbin.dir/test_data_transformer.cpp.o"
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/test && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/test.testbin.dir/test_data_transformer.cpp.o -c /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/src/caffe/test/test_data_transformer.cpp
 
 src/caffe/test/CMakeFiles/test.testbin.dir/test_data_transformer.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/test.testbin.dir/test_data_transformer.cpp.i"
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/panzhenfu/Documents/caffe/src/caffe/test/test_data_transformer.cpp > CMakeFiles/test.testbin.dir/test_data_transformer.cpp.i
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/src/caffe/test/test_data_transformer.cpp > CMakeFiles/test.testbin.dir/test_data_transformer.cpp.i
 
 src/caffe/test/CMakeFiles/test.testbin.dir/test_data_transformer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/test.testbin.dir/test_data_transformer.cpp.s"
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/panzhenfu/Documents/caffe/src/caffe/test/test_data_transformer.cpp -o CMakeFiles/test.testbin.dir/test_data_transformer.cpp.s
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/src/caffe/test/test_data_transformer.cpp -o CMakeFiles/test.testbin.dir/test_data_transformer.cpp.s
 
 src/caffe/test/CMakeFiles/test.testbin.dir/test_data_transformer.cpp.o.requires:
 
@@ -426,16 +426,16 @@ src/caffe/test/CMakeFiles/test.testbin.dir/test_data_transformer.cpp.o.provides.
 
 src/caffe/test/CMakeFiles/test.testbin.dir/test_db.cpp.o: src/caffe/test/CMakeFiles/test.testbin.dir/flags.make
 src/caffe/test/CMakeFiles/test.testbin.dir/test_db.cpp.o: ../src/caffe/test/test_db.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/panzhenfu/Documents/caffe/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object src/caffe/test/CMakeFiles/test.testbin.dir/test_db.cpp.o"
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/test && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/test.testbin.dir/test_db.cpp.o -c /home/panzhenfu/Documents/caffe/src/caffe/test/test_db.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object src/caffe/test/CMakeFiles/test.testbin.dir/test_db.cpp.o"
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/test && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/test.testbin.dir/test_db.cpp.o -c /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/src/caffe/test/test_db.cpp
 
 src/caffe/test/CMakeFiles/test.testbin.dir/test_db.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/test.testbin.dir/test_db.cpp.i"
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/panzhenfu/Documents/caffe/src/caffe/test/test_db.cpp > CMakeFiles/test.testbin.dir/test_db.cpp.i
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/src/caffe/test/test_db.cpp > CMakeFiles/test.testbin.dir/test_db.cpp.i
 
 src/caffe/test/CMakeFiles/test.testbin.dir/test_db.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/test.testbin.dir/test_db.cpp.s"
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/panzhenfu/Documents/caffe/src/caffe/test/test_db.cpp -o CMakeFiles/test.testbin.dir/test_db.cpp.s
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/src/caffe/test/test_db.cpp -o CMakeFiles/test.testbin.dir/test_db.cpp.s
 
 src/caffe/test/CMakeFiles/test.testbin.dir/test_db.cpp.o.requires:
 
@@ -450,16 +450,16 @@ src/caffe/test/CMakeFiles/test.testbin.dir/test_db.cpp.o.provides.build: src/caf
 
 src/caffe/test/CMakeFiles/test.testbin.dir/test_deconvolution_layer.cpp.o: src/caffe/test/CMakeFiles/test.testbin.dir/flags.make
 src/caffe/test/CMakeFiles/test.testbin.dir/test_deconvolution_layer.cpp.o: ../src/caffe/test/test_deconvolution_layer.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/panzhenfu/Documents/caffe/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object src/caffe/test/CMakeFiles/test.testbin.dir/test_deconvolution_layer.cpp.o"
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/test && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/test.testbin.dir/test_deconvolution_layer.cpp.o -c /home/panzhenfu/Documents/caffe/src/caffe/test/test_deconvolution_layer.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object src/caffe/test/CMakeFiles/test.testbin.dir/test_deconvolution_layer.cpp.o"
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/test && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/test.testbin.dir/test_deconvolution_layer.cpp.o -c /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/src/caffe/test/test_deconvolution_layer.cpp
 
 src/caffe/test/CMakeFiles/test.testbin.dir/test_deconvolution_layer.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/test.testbin.dir/test_deconvolution_layer.cpp.i"
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/panzhenfu/Documents/caffe/src/caffe/test/test_deconvolution_layer.cpp > CMakeFiles/test.testbin.dir/test_deconvolution_layer.cpp.i
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/src/caffe/test/test_deconvolution_layer.cpp > CMakeFiles/test.testbin.dir/test_deconvolution_layer.cpp.i
 
 src/caffe/test/CMakeFiles/test.testbin.dir/test_deconvolution_layer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/test.testbin.dir/test_deconvolution_layer.cpp.s"
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/panzhenfu/Documents/caffe/src/caffe/test/test_deconvolution_layer.cpp -o CMakeFiles/test.testbin.dir/test_deconvolution_layer.cpp.s
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/src/caffe/test/test_deconvolution_layer.cpp -o CMakeFiles/test.testbin.dir/test_deconvolution_layer.cpp.s
 
 src/caffe/test/CMakeFiles/test.testbin.dir/test_deconvolution_layer.cpp.o.requires:
 
@@ -474,16 +474,16 @@ src/caffe/test/CMakeFiles/test.testbin.dir/test_deconvolution_layer.cpp.o.provid
 
 src/caffe/test/CMakeFiles/test.testbin.dir/test_dummy_data_layer.cpp.o: src/caffe/test/CMakeFiles/test.testbin.dir/flags.make
 src/caffe/test/CMakeFiles/test.testbin.dir/test_dummy_data_layer.cpp.o: ../src/caffe/test/test_dummy_data_layer.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/panzhenfu/Documents/caffe/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object src/caffe/test/CMakeFiles/test.testbin.dir/test_dummy_data_layer.cpp.o"
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/test && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/test.testbin.dir/test_dummy_data_layer.cpp.o -c /home/panzhenfu/Documents/caffe/src/caffe/test/test_dummy_data_layer.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object src/caffe/test/CMakeFiles/test.testbin.dir/test_dummy_data_layer.cpp.o"
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/test && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/test.testbin.dir/test_dummy_data_layer.cpp.o -c /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/src/caffe/test/test_dummy_data_layer.cpp
 
 src/caffe/test/CMakeFiles/test.testbin.dir/test_dummy_data_layer.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/test.testbin.dir/test_dummy_data_layer.cpp.i"
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/panzhenfu/Documents/caffe/src/caffe/test/test_dummy_data_layer.cpp > CMakeFiles/test.testbin.dir/test_dummy_data_layer.cpp.i
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/src/caffe/test/test_dummy_data_layer.cpp > CMakeFiles/test.testbin.dir/test_dummy_data_layer.cpp.i
 
 src/caffe/test/CMakeFiles/test.testbin.dir/test_dummy_data_layer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/test.testbin.dir/test_dummy_data_layer.cpp.s"
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/panzhenfu/Documents/caffe/src/caffe/test/test_dummy_data_layer.cpp -o CMakeFiles/test.testbin.dir/test_dummy_data_layer.cpp.s
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/src/caffe/test/test_dummy_data_layer.cpp -o CMakeFiles/test.testbin.dir/test_dummy_data_layer.cpp.s
 
 src/caffe/test/CMakeFiles/test.testbin.dir/test_dummy_data_layer.cpp.o.requires:
 
@@ -498,16 +498,16 @@ src/caffe/test/CMakeFiles/test.testbin.dir/test_dummy_data_layer.cpp.o.provides.
 
 src/caffe/test/CMakeFiles/test.testbin.dir/test_eltwise_layer.cpp.o: src/caffe/test/CMakeFiles/test.testbin.dir/flags.make
 src/caffe/test/CMakeFiles/test.testbin.dir/test_eltwise_layer.cpp.o: ../src/caffe/test/test_eltwise_layer.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/panzhenfu/Documents/caffe/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object src/caffe/test/CMakeFiles/test.testbin.dir/test_eltwise_layer.cpp.o"
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/test && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/test.testbin.dir/test_eltwise_layer.cpp.o -c /home/panzhenfu/Documents/caffe/src/caffe/test/test_eltwise_layer.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object src/caffe/test/CMakeFiles/test.testbin.dir/test_eltwise_layer.cpp.o"
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/test && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/test.testbin.dir/test_eltwise_layer.cpp.o -c /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/src/caffe/test/test_eltwise_layer.cpp
 
 src/caffe/test/CMakeFiles/test.testbin.dir/test_eltwise_layer.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/test.testbin.dir/test_eltwise_layer.cpp.i"
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/panzhenfu/Documents/caffe/src/caffe/test/test_eltwise_layer.cpp > CMakeFiles/test.testbin.dir/test_eltwise_layer.cpp.i
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/src/caffe/test/test_eltwise_layer.cpp > CMakeFiles/test.testbin.dir/test_eltwise_layer.cpp.i
 
 src/caffe/test/CMakeFiles/test.testbin.dir/test_eltwise_layer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/test.testbin.dir/test_eltwise_layer.cpp.s"
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/panzhenfu/Documents/caffe/src/caffe/test/test_eltwise_layer.cpp -o CMakeFiles/test.testbin.dir/test_eltwise_layer.cpp.s
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/src/caffe/test/test_eltwise_layer.cpp -o CMakeFiles/test.testbin.dir/test_eltwise_layer.cpp.s
 
 src/caffe/test/CMakeFiles/test.testbin.dir/test_eltwise_layer.cpp.o.requires:
 
@@ -522,16 +522,16 @@ src/caffe/test/CMakeFiles/test.testbin.dir/test_eltwise_layer.cpp.o.provides.bui
 
 src/caffe/test/CMakeFiles/test.testbin.dir/test_embed_layer.cpp.o: src/caffe/test/CMakeFiles/test.testbin.dir/flags.make
 src/caffe/test/CMakeFiles/test.testbin.dir/test_embed_layer.cpp.o: ../src/caffe/test/test_embed_layer.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/panzhenfu/Documents/caffe/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object src/caffe/test/CMakeFiles/test.testbin.dir/test_embed_layer.cpp.o"
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/test && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/test.testbin.dir/test_embed_layer.cpp.o -c /home/panzhenfu/Documents/caffe/src/caffe/test/test_embed_layer.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object src/caffe/test/CMakeFiles/test.testbin.dir/test_embed_layer.cpp.o"
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/test && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/test.testbin.dir/test_embed_layer.cpp.o -c /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/src/caffe/test/test_embed_layer.cpp
 
 src/caffe/test/CMakeFiles/test.testbin.dir/test_embed_layer.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/test.testbin.dir/test_embed_layer.cpp.i"
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/panzhenfu/Documents/caffe/src/caffe/test/test_embed_layer.cpp > CMakeFiles/test.testbin.dir/test_embed_layer.cpp.i
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/src/caffe/test/test_embed_layer.cpp > CMakeFiles/test.testbin.dir/test_embed_layer.cpp.i
 
 src/caffe/test/CMakeFiles/test.testbin.dir/test_embed_layer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/test.testbin.dir/test_embed_layer.cpp.s"
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/panzhenfu/Documents/caffe/src/caffe/test/test_embed_layer.cpp -o CMakeFiles/test.testbin.dir/test_embed_layer.cpp.s
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/src/caffe/test/test_embed_layer.cpp -o CMakeFiles/test.testbin.dir/test_embed_layer.cpp.s
 
 src/caffe/test/CMakeFiles/test.testbin.dir/test_embed_layer.cpp.o.requires:
 
@@ -546,16 +546,16 @@ src/caffe/test/CMakeFiles/test.testbin.dir/test_embed_layer.cpp.o.provides.build
 
 src/caffe/test/CMakeFiles/test.testbin.dir/test_euclidean_loss_layer.cpp.o: src/caffe/test/CMakeFiles/test.testbin.dir/flags.make
 src/caffe/test/CMakeFiles/test.testbin.dir/test_euclidean_loss_layer.cpp.o: ../src/caffe/test/test_euclidean_loss_layer.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/panzhenfu/Documents/caffe/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object src/caffe/test/CMakeFiles/test.testbin.dir/test_euclidean_loss_layer.cpp.o"
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/test && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/test.testbin.dir/test_euclidean_loss_layer.cpp.o -c /home/panzhenfu/Documents/caffe/src/caffe/test/test_euclidean_loss_layer.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object src/caffe/test/CMakeFiles/test.testbin.dir/test_euclidean_loss_layer.cpp.o"
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/test && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/test.testbin.dir/test_euclidean_loss_layer.cpp.o -c /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/src/caffe/test/test_euclidean_loss_layer.cpp
 
 src/caffe/test/CMakeFiles/test.testbin.dir/test_euclidean_loss_layer.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/test.testbin.dir/test_euclidean_loss_layer.cpp.i"
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/panzhenfu/Documents/caffe/src/caffe/test/test_euclidean_loss_layer.cpp > CMakeFiles/test.testbin.dir/test_euclidean_loss_layer.cpp.i
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/src/caffe/test/test_euclidean_loss_layer.cpp > CMakeFiles/test.testbin.dir/test_euclidean_loss_layer.cpp.i
 
 src/caffe/test/CMakeFiles/test.testbin.dir/test_euclidean_loss_layer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/test.testbin.dir/test_euclidean_loss_layer.cpp.s"
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/panzhenfu/Documents/caffe/src/caffe/test/test_euclidean_loss_layer.cpp -o CMakeFiles/test.testbin.dir/test_euclidean_loss_layer.cpp.s
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/src/caffe/test/test_euclidean_loss_layer.cpp -o CMakeFiles/test.testbin.dir/test_euclidean_loss_layer.cpp.s
 
 src/caffe/test/CMakeFiles/test.testbin.dir/test_euclidean_loss_layer.cpp.o.requires:
 
@@ -570,16 +570,16 @@ src/caffe/test/CMakeFiles/test.testbin.dir/test_euclidean_loss_layer.cpp.o.provi
 
 src/caffe/test/CMakeFiles/test.testbin.dir/test_filler.cpp.o: src/caffe/test/CMakeFiles/test.testbin.dir/flags.make
 src/caffe/test/CMakeFiles/test.testbin.dir/test_filler.cpp.o: ../src/caffe/test/test_filler.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/panzhenfu/Documents/caffe/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building CXX object src/caffe/test/CMakeFiles/test.testbin.dir/test_filler.cpp.o"
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/test && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/test.testbin.dir/test_filler.cpp.o -c /home/panzhenfu/Documents/caffe/src/caffe/test/test_filler.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building CXX object src/caffe/test/CMakeFiles/test.testbin.dir/test_filler.cpp.o"
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/test && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/test.testbin.dir/test_filler.cpp.o -c /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/src/caffe/test/test_filler.cpp
 
 src/caffe/test/CMakeFiles/test.testbin.dir/test_filler.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/test.testbin.dir/test_filler.cpp.i"
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/panzhenfu/Documents/caffe/src/caffe/test/test_filler.cpp > CMakeFiles/test.testbin.dir/test_filler.cpp.i
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/src/caffe/test/test_filler.cpp > CMakeFiles/test.testbin.dir/test_filler.cpp.i
 
 src/caffe/test/CMakeFiles/test.testbin.dir/test_filler.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/test.testbin.dir/test_filler.cpp.s"
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/panzhenfu/Documents/caffe/src/caffe/test/test_filler.cpp -o CMakeFiles/test.testbin.dir/test_filler.cpp.s
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/src/caffe/test/test_filler.cpp -o CMakeFiles/test.testbin.dir/test_filler.cpp.s
 
 src/caffe/test/CMakeFiles/test.testbin.dir/test_filler.cpp.o.requires:
 
@@ -594,16 +594,16 @@ src/caffe/test/CMakeFiles/test.testbin.dir/test_filler.cpp.o.provides.build: src
 
 src/caffe/test/CMakeFiles/test.testbin.dir/test_filter_layer.cpp.o: src/caffe/test/CMakeFiles/test.testbin.dir/flags.make
 src/caffe/test/CMakeFiles/test.testbin.dir/test_filter_layer.cpp.o: ../src/caffe/test/test_filter_layer.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/panzhenfu/Documents/caffe/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building CXX object src/caffe/test/CMakeFiles/test.testbin.dir/test_filter_layer.cpp.o"
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/test && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/test.testbin.dir/test_filter_layer.cpp.o -c /home/panzhenfu/Documents/caffe/src/caffe/test/test_filter_layer.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building CXX object src/caffe/test/CMakeFiles/test.testbin.dir/test_filter_layer.cpp.o"
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/test && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/test.testbin.dir/test_filter_layer.cpp.o -c /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/src/caffe/test/test_filter_layer.cpp
 
 src/caffe/test/CMakeFiles/test.testbin.dir/test_filter_layer.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/test.testbin.dir/test_filter_layer.cpp.i"
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/panzhenfu/Documents/caffe/src/caffe/test/test_filter_layer.cpp > CMakeFiles/test.testbin.dir/test_filter_layer.cpp.i
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/src/caffe/test/test_filter_layer.cpp > CMakeFiles/test.testbin.dir/test_filter_layer.cpp.i
 
 src/caffe/test/CMakeFiles/test.testbin.dir/test_filter_layer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/test.testbin.dir/test_filter_layer.cpp.s"
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/panzhenfu/Documents/caffe/src/caffe/test/test_filter_layer.cpp -o CMakeFiles/test.testbin.dir/test_filter_layer.cpp.s
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/src/caffe/test/test_filter_layer.cpp -o CMakeFiles/test.testbin.dir/test_filter_layer.cpp.s
 
 src/caffe/test/CMakeFiles/test.testbin.dir/test_filter_layer.cpp.o.requires:
 
@@ -618,16 +618,16 @@ src/caffe/test/CMakeFiles/test.testbin.dir/test_filter_layer.cpp.o.provides.buil
 
 src/caffe/test/CMakeFiles/test.testbin.dir/test_flatten_layer.cpp.o: src/caffe/test/CMakeFiles/test.testbin.dir/flags.make
 src/caffe/test/CMakeFiles/test.testbin.dir/test_flatten_layer.cpp.o: ../src/caffe/test/test_flatten_layer.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/panzhenfu/Documents/caffe/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building CXX object src/caffe/test/CMakeFiles/test.testbin.dir/test_flatten_layer.cpp.o"
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/test && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/test.testbin.dir/test_flatten_layer.cpp.o -c /home/panzhenfu/Documents/caffe/src/caffe/test/test_flatten_layer.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building CXX object src/caffe/test/CMakeFiles/test.testbin.dir/test_flatten_layer.cpp.o"
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/test && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/test.testbin.dir/test_flatten_layer.cpp.o -c /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/src/caffe/test/test_flatten_layer.cpp
 
 src/caffe/test/CMakeFiles/test.testbin.dir/test_flatten_layer.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/test.testbin.dir/test_flatten_layer.cpp.i"
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/panzhenfu/Documents/caffe/src/caffe/test/test_flatten_layer.cpp > CMakeFiles/test.testbin.dir/test_flatten_layer.cpp.i
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/src/caffe/test/test_flatten_layer.cpp > CMakeFiles/test.testbin.dir/test_flatten_layer.cpp.i
 
 src/caffe/test/CMakeFiles/test.testbin.dir/test_flatten_layer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/test.testbin.dir/test_flatten_layer.cpp.s"
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/panzhenfu/Documents/caffe/src/caffe/test/test_flatten_layer.cpp -o CMakeFiles/test.testbin.dir/test_flatten_layer.cpp.s
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/src/caffe/test/test_flatten_layer.cpp -o CMakeFiles/test.testbin.dir/test_flatten_layer.cpp.s
 
 src/caffe/test/CMakeFiles/test.testbin.dir/test_flatten_layer.cpp.o.requires:
 
@@ -642,16 +642,16 @@ src/caffe/test/CMakeFiles/test.testbin.dir/test_flatten_layer.cpp.o.provides.bui
 
 src/caffe/test/CMakeFiles/test.testbin.dir/test_gradient_based_solver.cpp.o: src/caffe/test/CMakeFiles/test.testbin.dir/flags.make
 src/caffe/test/CMakeFiles/test.testbin.dir/test_gradient_based_solver.cpp.o: ../src/caffe/test/test_gradient_based_solver.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/panzhenfu/Documents/caffe/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building CXX object src/caffe/test/CMakeFiles/test.testbin.dir/test_gradient_based_solver.cpp.o"
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/test && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/test.testbin.dir/test_gradient_based_solver.cpp.o -c /home/panzhenfu/Documents/caffe/src/caffe/test/test_gradient_based_solver.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building CXX object src/caffe/test/CMakeFiles/test.testbin.dir/test_gradient_based_solver.cpp.o"
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/test && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/test.testbin.dir/test_gradient_based_solver.cpp.o -c /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/src/caffe/test/test_gradient_based_solver.cpp
 
 src/caffe/test/CMakeFiles/test.testbin.dir/test_gradient_based_solver.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/test.testbin.dir/test_gradient_based_solver.cpp.i"
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/panzhenfu/Documents/caffe/src/caffe/test/test_gradient_based_solver.cpp > CMakeFiles/test.testbin.dir/test_gradient_based_solver.cpp.i
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/src/caffe/test/test_gradient_based_solver.cpp > CMakeFiles/test.testbin.dir/test_gradient_based_solver.cpp.i
 
 src/caffe/test/CMakeFiles/test.testbin.dir/test_gradient_based_solver.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/test.testbin.dir/test_gradient_based_solver.cpp.s"
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/panzhenfu/Documents/caffe/src/caffe/test/test_gradient_based_solver.cpp -o CMakeFiles/test.testbin.dir/test_gradient_based_solver.cpp.s
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/src/caffe/test/test_gradient_based_solver.cpp -o CMakeFiles/test.testbin.dir/test_gradient_based_solver.cpp.s
 
 src/caffe/test/CMakeFiles/test.testbin.dir/test_gradient_based_solver.cpp.o.requires:
 
@@ -666,16 +666,16 @@ src/caffe/test/CMakeFiles/test.testbin.dir/test_gradient_based_solver.cpp.o.prov
 
 src/caffe/test/CMakeFiles/test.testbin.dir/test_hdf5_output_layer.cpp.o: src/caffe/test/CMakeFiles/test.testbin.dir/flags.make
 src/caffe/test/CMakeFiles/test.testbin.dir/test_hdf5_output_layer.cpp.o: ../src/caffe/test/test_hdf5_output_layer.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/panzhenfu/Documents/caffe/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building CXX object src/caffe/test/CMakeFiles/test.testbin.dir/test_hdf5_output_layer.cpp.o"
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/test && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/test.testbin.dir/test_hdf5_output_layer.cpp.o -c /home/panzhenfu/Documents/caffe/src/caffe/test/test_hdf5_output_layer.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building CXX object src/caffe/test/CMakeFiles/test.testbin.dir/test_hdf5_output_layer.cpp.o"
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/test && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/test.testbin.dir/test_hdf5_output_layer.cpp.o -c /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/src/caffe/test/test_hdf5_output_layer.cpp
 
 src/caffe/test/CMakeFiles/test.testbin.dir/test_hdf5_output_layer.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/test.testbin.dir/test_hdf5_output_layer.cpp.i"
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/panzhenfu/Documents/caffe/src/caffe/test/test_hdf5_output_layer.cpp > CMakeFiles/test.testbin.dir/test_hdf5_output_layer.cpp.i
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/src/caffe/test/test_hdf5_output_layer.cpp > CMakeFiles/test.testbin.dir/test_hdf5_output_layer.cpp.i
 
 src/caffe/test/CMakeFiles/test.testbin.dir/test_hdf5_output_layer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/test.testbin.dir/test_hdf5_output_layer.cpp.s"
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/panzhenfu/Documents/caffe/src/caffe/test/test_hdf5_output_layer.cpp -o CMakeFiles/test.testbin.dir/test_hdf5_output_layer.cpp.s
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/src/caffe/test/test_hdf5_output_layer.cpp -o CMakeFiles/test.testbin.dir/test_hdf5_output_layer.cpp.s
 
 src/caffe/test/CMakeFiles/test.testbin.dir/test_hdf5_output_layer.cpp.o.requires:
 
@@ -690,16 +690,16 @@ src/caffe/test/CMakeFiles/test.testbin.dir/test_hdf5_output_layer.cpp.o.provides
 
 src/caffe/test/CMakeFiles/test.testbin.dir/test_hdf5data_layer.cpp.o: src/caffe/test/CMakeFiles/test.testbin.dir/flags.make
 src/caffe/test/CMakeFiles/test.testbin.dir/test_hdf5data_layer.cpp.o: ../src/caffe/test/test_hdf5data_layer.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/panzhenfu/Documents/caffe/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building CXX object src/caffe/test/CMakeFiles/test.testbin.dir/test_hdf5data_layer.cpp.o"
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/test && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/test.testbin.dir/test_hdf5data_layer.cpp.o -c /home/panzhenfu/Documents/caffe/src/caffe/test/test_hdf5data_layer.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building CXX object src/caffe/test/CMakeFiles/test.testbin.dir/test_hdf5data_layer.cpp.o"
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/test && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/test.testbin.dir/test_hdf5data_layer.cpp.o -c /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/src/caffe/test/test_hdf5data_layer.cpp
 
 src/caffe/test/CMakeFiles/test.testbin.dir/test_hdf5data_layer.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/test.testbin.dir/test_hdf5data_layer.cpp.i"
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/panzhenfu/Documents/caffe/src/caffe/test/test_hdf5data_layer.cpp > CMakeFiles/test.testbin.dir/test_hdf5data_layer.cpp.i
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/src/caffe/test/test_hdf5data_layer.cpp > CMakeFiles/test.testbin.dir/test_hdf5data_layer.cpp.i
 
 src/caffe/test/CMakeFiles/test.testbin.dir/test_hdf5data_layer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/test.testbin.dir/test_hdf5data_layer.cpp.s"
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/panzhenfu/Documents/caffe/src/caffe/test/test_hdf5data_layer.cpp -o CMakeFiles/test.testbin.dir/test_hdf5data_layer.cpp.s
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/src/caffe/test/test_hdf5data_layer.cpp -o CMakeFiles/test.testbin.dir/test_hdf5data_layer.cpp.s
 
 src/caffe/test/CMakeFiles/test.testbin.dir/test_hdf5data_layer.cpp.o.requires:
 
@@ -714,16 +714,16 @@ src/caffe/test/CMakeFiles/test.testbin.dir/test_hdf5data_layer.cpp.o.provides.bu
 
 src/caffe/test/CMakeFiles/test.testbin.dir/test_hinge_loss_layer.cpp.o: src/caffe/test/CMakeFiles/test.testbin.dir/flags.make
 src/caffe/test/CMakeFiles/test.testbin.dir/test_hinge_loss_layer.cpp.o: ../src/caffe/test/test_hinge_loss_layer.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/panzhenfu/Documents/caffe/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building CXX object src/caffe/test/CMakeFiles/test.testbin.dir/test_hinge_loss_layer.cpp.o"
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/test && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/test.testbin.dir/test_hinge_loss_layer.cpp.o -c /home/panzhenfu/Documents/caffe/src/caffe/test/test_hinge_loss_layer.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building CXX object src/caffe/test/CMakeFiles/test.testbin.dir/test_hinge_loss_layer.cpp.o"
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/test && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/test.testbin.dir/test_hinge_loss_layer.cpp.o -c /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/src/caffe/test/test_hinge_loss_layer.cpp
 
 src/caffe/test/CMakeFiles/test.testbin.dir/test_hinge_loss_layer.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/test.testbin.dir/test_hinge_loss_layer.cpp.i"
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/panzhenfu/Documents/caffe/src/caffe/test/test_hinge_loss_layer.cpp > CMakeFiles/test.testbin.dir/test_hinge_loss_layer.cpp.i
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/src/caffe/test/test_hinge_loss_layer.cpp > CMakeFiles/test.testbin.dir/test_hinge_loss_layer.cpp.i
 
 src/caffe/test/CMakeFiles/test.testbin.dir/test_hinge_loss_layer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/test.testbin.dir/test_hinge_loss_layer.cpp.s"
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/panzhenfu/Documents/caffe/src/caffe/test/test_hinge_loss_layer.cpp -o CMakeFiles/test.testbin.dir/test_hinge_loss_layer.cpp.s
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/src/caffe/test/test_hinge_loss_layer.cpp -o CMakeFiles/test.testbin.dir/test_hinge_loss_layer.cpp.s
 
 src/caffe/test/CMakeFiles/test.testbin.dir/test_hinge_loss_layer.cpp.o.requires:
 
@@ -738,16 +738,16 @@ src/caffe/test/CMakeFiles/test.testbin.dir/test_hinge_loss_layer.cpp.o.provides.
 
 src/caffe/test/CMakeFiles/test.testbin.dir/test_im2col_layer.cpp.o: src/caffe/test/CMakeFiles/test.testbin.dir/flags.make
 src/caffe/test/CMakeFiles/test.testbin.dir/test_im2col_layer.cpp.o: ../src/caffe/test/test_im2col_layer.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/panzhenfu/Documents/caffe/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building CXX object src/caffe/test/CMakeFiles/test.testbin.dir/test_im2col_layer.cpp.o"
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/test && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/test.testbin.dir/test_im2col_layer.cpp.o -c /home/panzhenfu/Documents/caffe/src/caffe/test/test_im2col_layer.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building CXX object src/caffe/test/CMakeFiles/test.testbin.dir/test_im2col_layer.cpp.o"
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/test && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/test.testbin.dir/test_im2col_layer.cpp.o -c /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/src/caffe/test/test_im2col_layer.cpp
 
 src/caffe/test/CMakeFiles/test.testbin.dir/test_im2col_layer.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/test.testbin.dir/test_im2col_layer.cpp.i"
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/panzhenfu/Documents/caffe/src/caffe/test/test_im2col_layer.cpp > CMakeFiles/test.testbin.dir/test_im2col_layer.cpp.i
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/src/caffe/test/test_im2col_layer.cpp > CMakeFiles/test.testbin.dir/test_im2col_layer.cpp.i
 
 src/caffe/test/CMakeFiles/test.testbin.dir/test_im2col_layer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/test.testbin.dir/test_im2col_layer.cpp.s"
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/panzhenfu/Documents/caffe/src/caffe/test/test_im2col_layer.cpp -o CMakeFiles/test.testbin.dir/test_im2col_layer.cpp.s
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/src/caffe/test/test_im2col_layer.cpp -o CMakeFiles/test.testbin.dir/test_im2col_layer.cpp.s
 
 src/caffe/test/CMakeFiles/test.testbin.dir/test_im2col_layer.cpp.o.requires:
 
@@ -762,16 +762,16 @@ src/caffe/test/CMakeFiles/test.testbin.dir/test_im2col_layer.cpp.o.provides.buil
 
 src/caffe/test/CMakeFiles/test.testbin.dir/test_image_data_layer.cpp.o: src/caffe/test/CMakeFiles/test.testbin.dir/flags.make
 src/caffe/test/CMakeFiles/test.testbin.dir/test_image_data_layer.cpp.o: ../src/caffe/test/test_image_data_layer.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/panzhenfu/Documents/caffe/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building CXX object src/caffe/test/CMakeFiles/test.testbin.dir/test_image_data_layer.cpp.o"
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/test && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/test.testbin.dir/test_image_data_layer.cpp.o -c /home/panzhenfu/Documents/caffe/src/caffe/test/test_image_data_layer.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building CXX object src/caffe/test/CMakeFiles/test.testbin.dir/test_image_data_layer.cpp.o"
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/test && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/test.testbin.dir/test_image_data_layer.cpp.o -c /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/src/caffe/test/test_image_data_layer.cpp
 
 src/caffe/test/CMakeFiles/test.testbin.dir/test_image_data_layer.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/test.testbin.dir/test_image_data_layer.cpp.i"
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/panzhenfu/Documents/caffe/src/caffe/test/test_image_data_layer.cpp > CMakeFiles/test.testbin.dir/test_image_data_layer.cpp.i
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/src/caffe/test/test_image_data_layer.cpp > CMakeFiles/test.testbin.dir/test_image_data_layer.cpp.i
 
 src/caffe/test/CMakeFiles/test.testbin.dir/test_image_data_layer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/test.testbin.dir/test_image_data_layer.cpp.s"
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/panzhenfu/Documents/caffe/src/caffe/test/test_image_data_layer.cpp -o CMakeFiles/test.testbin.dir/test_image_data_layer.cpp.s
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/src/caffe/test/test_image_data_layer.cpp -o CMakeFiles/test.testbin.dir/test_image_data_layer.cpp.s
 
 src/caffe/test/CMakeFiles/test.testbin.dir/test_image_data_layer.cpp.o.requires:
 
@@ -786,16 +786,16 @@ src/caffe/test/CMakeFiles/test.testbin.dir/test_image_data_layer.cpp.o.provides.
 
 src/caffe/test/CMakeFiles/test.testbin.dir/test_infogain_loss_layer.cpp.o: src/caffe/test/CMakeFiles/test.testbin.dir/flags.make
 src/caffe/test/CMakeFiles/test.testbin.dir/test_infogain_loss_layer.cpp.o: ../src/caffe/test/test_infogain_loss_layer.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/panzhenfu/Documents/caffe/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building CXX object src/caffe/test/CMakeFiles/test.testbin.dir/test_infogain_loss_layer.cpp.o"
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/test && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/test.testbin.dir/test_infogain_loss_layer.cpp.o -c /home/panzhenfu/Documents/caffe/src/caffe/test/test_infogain_loss_layer.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building CXX object src/caffe/test/CMakeFiles/test.testbin.dir/test_infogain_loss_layer.cpp.o"
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/test && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/test.testbin.dir/test_infogain_loss_layer.cpp.o -c /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/src/caffe/test/test_infogain_loss_layer.cpp
 
 src/caffe/test/CMakeFiles/test.testbin.dir/test_infogain_loss_layer.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/test.testbin.dir/test_infogain_loss_layer.cpp.i"
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/panzhenfu/Documents/caffe/src/caffe/test/test_infogain_loss_layer.cpp > CMakeFiles/test.testbin.dir/test_infogain_loss_layer.cpp.i
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/src/caffe/test/test_infogain_loss_layer.cpp > CMakeFiles/test.testbin.dir/test_infogain_loss_layer.cpp.i
 
 src/caffe/test/CMakeFiles/test.testbin.dir/test_infogain_loss_layer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/test.testbin.dir/test_infogain_loss_layer.cpp.s"
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/panzhenfu/Documents/caffe/src/caffe/test/test_infogain_loss_layer.cpp -o CMakeFiles/test.testbin.dir/test_infogain_loss_layer.cpp.s
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/src/caffe/test/test_infogain_loss_layer.cpp -o CMakeFiles/test.testbin.dir/test_infogain_loss_layer.cpp.s
 
 src/caffe/test/CMakeFiles/test.testbin.dir/test_infogain_loss_layer.cpp.o.requires:
 
@@ -810,16 +810,16 @@ src/caffe/test/CMakeFiles/test.testbin.dir/test_infogain_loss_layer.cpp.o.provid
 
 src/caffe/test/CMakeFiles/test.testbin.dir/test_inner_product_layer.cpp.o: src/caffe/test/CMakeFiles/test.testbin.dir/flags.make
 src/caffe/test/CMakeFiles/test.testbin.dir/test_inner_product_layer.cpp.o: ../src/caffe/test/test_inner_product_layer.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/panzhenfu/Documents/caffe/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building CXX object src/caffe/test/CMakeFiles/test.testbin.dir/test_inner_product_layer.cpp.o"
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/test && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/test.testbin.dir/test_inner_product_layer.cpp.o -c /home/panzhenfu/Documents/caffe/src/caffe/test/test_inner_product_layer.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building CXX object src/caffe/test/CMakeFiles/test.testbin.dir/test_inner_product_layer.cpp.o"
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/test && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/test.testbin.dir/test_inner_product_layer.cpp.o -c /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/src/caffe/test/test_inner_product_layer.cpp
 
 src/caffe/test/CMakeFiles/test.testbin.dir/test_inner_product_layer.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/test.testbin.dir/test_inner_product_layer.cpp.i"
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/panzhenfu/Documents/caffe/src/caffe/test/test_inner_product_layer.cpp > CMakeFiles/test.testbin.dir/test_inner_product_layer.cpp.i
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/src/caffe/test/test_inner_product_layer.cpp > CMakeFiles/test.testbin.dir/test_inner_product_layer.cpp.i
 
 src/caffe/test/CMakeFiles/test.testbin.dir/test_inner_product_layer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/test.testbin.dir/test_inner_product_layer.cpp.s"
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/panzhenfu/Documents/caffe/src/caffe/test/test_inner_product_layer.cpp -o CMakeFiles/test.testbin.dir/test_inner_product_layer.cpp.s
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/src/caffe/test/test_inner_product_layer.cpp -o CMakeFiles/test.testbin.dir/test_inner_product_layer.cpp.s
 
 src/caffe/test/CMakeFiles/test.testbin.dir/test_inner_product_layer.cpp.o.requires:
 
@@ -834,16 +834,16 @@ src/caffe/test/CMakeFiles/test.testbin.dir/test_inner_product_layer.cpp.o.provid
 
 src/caffe/test/CMakeFiles/test.testbin.dir/test_internal_thread.cpp.o: src/caffe/test/CMakeFiles/test.testbin.dir/flags.make
 src/caffe/test/CMakeFiles/test.testbin.dir/test_internal_thread.cpp.o: ../src/caffe/test/test_internal_thread.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/panzhenfu/Documents/caffe/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building CXX object src/caffe/test/CMakeFiles/test.testbin.dir/test_internal_thread.cpp.o"
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/test && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/test.testbin.dir/test_internal_thread.cpp.o -c /home/panzhenfu/Documents/caffe/src/caffe/test/test_internal_thread.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building CXX object src/caffe/test/CMakeFiles/test.testbin.dir/test_internal_thread.cpp.o"
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/test && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/test.testbin.dir/test_internal_thread.cpp.o -c /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/src/caffe/test/test_internal_thread.cpp
 
 src/caffe/test/CMakeFiles/test.testbin.dir/test_internal_thread.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/test.testbin.dir/test_internal_thread.cpp.i"
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/panzhenfu/Documents/caffe/src/caffe/test/test_internal_thread.cpp > CMakeFiles/test.testbin.dir/test_internal_thread.cpp.i
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/src/caffe/test/test_internal_thread.cpp > CMakeFiles/test.testbin.dir/test_internal_thread.cpp.i
 
 src/caffe/test/CMakeFiles/test.testbin.dir/test_internal_thread.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/test.testbin.dir/test_internal_thread.cpp.s"
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/panzhenfu/Documents/caffe/src/caffe/test/test_internal_thread.cpp -o CMakeFiles/test.testbin.dir/test_internal_thread.cpp.s
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/src/caffe/test/test_internal_thread.cpp -o CMakeFiles/test.testbin.dir/test_internal_thread.cpp.s
 
 src/caffe/test/CMakeFiles/test.testbin.dir/test_internal_thread.cpp.o.requires:
 
@@ -858,16 +858,16 @@ src/caffe/test/CMakeFiles/test.testbin.dir/test_internal_thread.cpp.o.provides.b
 
 src/caffe/test/CMakeFiles/test.testbin.dir/test_io.cpp.o: src/caffe/test/CMakeFiles/test.testbin.dir/flags.make
 src/caffe/test/CMakeFiles/test.testbin.dir/test_io.cpp.o: ../src/caffe/test/test_io.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/panzhenfu/Documents/caffe/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building CXX object src/caffe/test/CMakeFiles/test.testbin.dir/test_io.cpp.o"
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/test && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/test.testbin.dir/test_io.cpp.o -c /home/panzhenfu/Documents/caffe/src/caffe/test/test_io.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building CXX object src/caffe/test/CMakeFiles/test.testbin.dir/test_io.cpp.o"
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/test && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/test.testbin.dir/test_io.cpp.o -c /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/src/caffe/test/test_io.cpp
 
 src/caffe/test/CMakeFiles/test.testbin.dir/test_io.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/test.testbin.dir/test_io.cpp.i"
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/panzhenfu/Documents/caffe/src/caffe/test/test_io.cpp > CMakeFiles/test.testbin.dir/test_io.cpp.i
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/src/caffe/test/test_io.cpp > CMakeFiles/test.testbin.dir/test_io.cpp.i
 
 src/caffe/test/CMakeFiles/test.testbin.dir/test_io.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/test.testbin.dir/test_io.cpp.s"
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/panzhenfu/Documents/caffe/src/caffe/test/test_io.cpp -o CMakeFiles/test.testbin.dir/test_io.cpp.s
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/src/caffe/test/test_io.cpp -o CMakeFiles/test.testbin.dir/test_io.cpp.s
 
 src/caffe/test/CMakeFiles/test.testbin.dir/test_io.cpp.o.requires:
 
@@ -882,16 +882,16 @@ src/caffe/test/CMakeFiles/test.testbin.dir/test_io.cpp.o.provides.build: src/caf
 
 src/caffe/test/CMakeFiles/test.testbin.dir/test_layer_factory.cpp.o: src/caffe/test/CMakeFiles/test.testbin.dir/flags.make
 src/caffe/test/CMakeFiles/test.testbin.dir/test_layer_factory.cpp.o: ../src/caffe/test/test_layer_factory.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/panzhenfu/Documents/caffe/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building CXX object src/caffe/test/CMakeFiles/test.testbin.dir/test_layer_factory.cpp.o"
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/test && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/test.testbin.dir/test_layer_factory.cpp.o -c /home/panzhenfu/Documents/caffe/src/caffe/test/test_layer_factory.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building CXX object src/caffe/test/CMakeFiles/test.testbin.dir/test_layer_factory.cpp.o"
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/test && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/test.testbin.dir/test_layer_factory.cpp.o -c /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/src/caffe/test/test_layer_factory.cpp
 
 src/caffe/test/CMakeFiles/test.testbin.dir/test_layer_factory.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/test.testbin.dir/test_layer_factory.cpp.i"
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/panzhenfu/Documents/caffe/src/caffe/test/test_layer_factory.cpp > CMakeFiles/test.testbin.dir/test_layer_factory.cpp.i
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/src/caffe/test/test_layer_factory.cpp > CMakeFiles/test.testbin.dir/test_layer_factory.cpp.i
 
 src/caffe/test/CMakeFiles/test.testbin.dir/test_layer_factory.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/test.testbin.dir/test_layer_factory.cpp.s"
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/panzhenfu/Documents/caffe/src/caffe/test/test_layer_factory.cpp -o CMakeFiles/test.testbin.dir/test_layer_factory.cpp.s
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/src/caffe/test/test_layer_factory.cpp -o CMakeFiles/test.testbin.dir/test_layer_factory.cpp.s
 
 src/caffe/test/CMakeFiles/test.testbin.dir/test_layer_factory.cpp.o.requires:
 
@@ -906,16 +906,16 @@ src/caffe/test/CMakeFiles/test.testbin.dir/test_layer_factory.cpp.o.provides.bui
 
 src/caffe/test/CMakeFiles/test.testbin.dir/test_lrn_layer.cpp.o: src/caffe/test/CMakeFiles/test.testbin.dir/flags.make
 src/caffe/test/CMakeFiles/test.testbin.dir/test_lrn_layer.cpp.o: ../src/caffe/test/test_lrn_layer.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/panzhenfu/Documents/caffe/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building CXX object src/caffe/test/CMakeFiles/test.testbin.dir/test_lrn_layer.cpp.o"
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/test && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/test.testbin.dir/test_lrn_layer.cpp.o -c /home/panzhenfu/Documents/caffe/src/caffe/test/test_lrn_layer.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building CXX object src/caffe/test/CMakeFiles/test.testbin.dir/test_lrn_layer.cpp.o"
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/test && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/test.testbin.dir/test_lrn_layer.cpp.o -c /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/src/caffe/test/test_lrn_layer.cpp
 
 src/caffe/test/CMakeFiles/test.testbin.dir/test_lrn_layer.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/test.testbin.dir/test_lrn_layer.cpp.i"
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/panzhenfu/Documents/caffe/src/caffe/test/test_lrn_layer.cpp > CMakeFiles/test.testbin.dir/test_lrn_layer.cpp.i
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/src/caffe/test/test_lrn_layer.cpp > CMakeFiles/test.testbin.dir/test_lrn_layer.cpp.i
 
 src/caffe/test/CMakeFiles/test.testbin.dir/test_lrn_layer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/test.testbin.dir/test_lrn_layer.cpp.s"
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/panzhenfu/Documents/caffe/src/caffe/test/test_lrn_layer.cpp -o CMakeFiles/test.testbin.dir/test_lrn_layer.cpp.s
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/src/caffe/test/test_lrn_layer.cpp -o CMakeFiles/test.testbin.dir/test_lrn_layer.cpp.s
 
 src/caffe/test/CMakeFiles/test.testbin.dir/test_lrn_layer.cpp.o.requires:
 
@@ -930,16 +930,16 @@ src/caffe/test/CMakeFiles/test.testbin.dir/test_lrn_layer.cpp.o.provides.build: 
 
 src/caffe/test/CMakeFiles/test.testbin.dir/test_lstm_layer.cpp.o: src/caffe/test/CMakeFiles/test.testbin.dir/flags.make
 src/caffe/test/CMakeFiles/test.testbin.dir/test_lstm_layer.cpp.o: ../src/caffe/test/test_lstm_layer.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/panzhenfu/Documents/caffe/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building CXX object src/caffe/test/CMakeFiles/test.testbin.dir/test_lstm_layer.cpp.o"
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/test && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/test.testbin.dir/test_lstm_layer.cpp.o -c /home/panzhenfu/Documents/caffe/src/caffe/test/test_lstm_layer.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building CXX object src/caffe/test/CMakeFiles/test.testbin.dir/test_lstm_layer.cpp.o"
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/test && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/test.testbin.dir/test_lstm_layer.cpp.o -c /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/src/caffe/test/test_lstm_layer.cpp
 
 src/caffe/test/CMakeFiles/test.testbin.dir/test_lstm_layer.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/test.testbin.dir/test_lstm_layer.cpp.i"
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/panzhenfu/Documents/caffe/src/caffe/test/test_lstm_layer.cpp > CMakeFiles/test.testbin.dir/test_lstm_layer.cpp.i
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/src/caffe/test/test_lstm_layer.cpp > CMakeFiles/test.testbin.dir/test_lstm_layer.cpp.i
 
 src/caffe/test/CMakeFiles/test.testbin.dir/test_lstm_layer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/test.testbin.dir/test_lstm_layer.cpp.s"
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/panzhenfu/Documents/caffe/src/caffe/test/test_lstm_layer.cpp -o CMakeFiles/test.testbin.dir/test_lstm_layer.cpp.s
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/src/caffe/test/test_lstm_layer.cpp -o CMakeFiles/test.testbin.dir/test_lstm_layer.cpp.s
 
 src/caffe/test/CMakeFiles/test.testbin.dir/test_lstm_layer.cpp.o.requires:
 
@@ -954,16 +954,16 @@ src/caffe/test/CMakeFiles/test.testbin.dir/test_lstm_layer.cpp.o.provides.build:
 
 src/caffe/test/CMakeFiles/test.testbin.dir/test_math_functions.cpp.o: src/caffe/test/CMakeFiles/test.testbin.dir/flags.make
 src/caffe/test/CMakeFiles/test.testbin.dir/test_math_functions.cpp.o: ../src/caffe/test/test_math_functions.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/panzhenfu/Documents/caffe/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Building CXX object src/caffe/test/CMakeFiles/test.testbin.dir/test_math_functions.cpp.o"
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/test && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/test.testbin.dir/test_math_functions.cpp.o -c /home/panzhenfu/Documents/caffe/src/caffe/test/test_math_functions.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Building CXX object src/caffe/test/CMakeFiles/test.testbin.dir/test_math_functions.cpp.o"
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/test && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/test.testbin.dir/test_math_functions.cpp.o -c /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/src/caffe/test/test_math_functions.cpp
 
 src/caffe/test/CMakeFiles/test.testbin.dir/test_math_functions.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/test.testbin.dir/test_math_functions.cpp.i"
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/panzhenfu/Documents/caffe/src/caffe/test/test_math_functions.cpp > CMakeFiles/test.testbin.dir/test_math_functions.cpp.i
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/src/caffe/test/test_math_functions.cpp > CMakeFiles/test.testbin.dir/test_math_functions.cpp.i
 
 src/caffe/test/CMakeFiles/test.testbin.dir/test_math_functions.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/test.testbin.dir/test_math_functions.cpp.s"
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/panzhenfu/Documents/caffe/src/caffe/test/test_math_functions.cpp -o CMakeFiles/test.testbin.dir/test_math_functions.cpp.s
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/src/caffe/test/test_math_functions.cpp -o CMakeFiles/test.testbin.dir/test_math_functions.cpp.s
 
 src/caffe/test/CMakeFiles/test.testbin.dir/test_math_functions.cpp.o.requires:
 
@@ -978,16 +978,16 @@ src/caffe/test/CMakeFiles/test.testbin.dir/test_math_functions.cpp.o.provides.bu
 
 src/caffe/test/CMakeFiles/test.testbin.dir/test_maxpool_dropout_layers.cpp.o: src/caffe/test/CMakeFiles/test.testbin.dir/flags.make
 src/caffe/test/CMakeFiles/test.testbin.dir/test_maxpool_dropout_layers.cpp.o: ../src/caffe/test/test_maxpool_dropout_layers.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/panzhenfu/Documents/caffe/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Building CXX object src/caffe/test/CMakeFiles/test.testbin.dir/test_maxpool_dropout_layers.cpp.o"
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/test && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/test.testbin.dir/test_maxpool_dropout_layers.cpp.o -c /home/panzhenfu/Documents/caffe/src/caffe/test/test_maxpool_dropout_layers.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Building CXX object src/caffe/test/CMakeFiles/test.testbin.dir/test_maxpool_dropout_layers.cpp.o"
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/test && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/test.testbin.dir/test_maxpool_dropout_layers.cpp.o -c /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/src/caffe/test/test_maxpool_dropout_layers.cpp
 
 src/caffe/test/CMakeFiles/test.testbin.dir/test_maxpool_dropout_layers.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/test.testbin.dir/test_maxpool_dropout_layers.cpp.i"
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/panzhenfu/Documents/caffe/src/caffe/test/test_maxpool_dropout_layers.cpp > CMakeFiles/test.testbin.dir/test_maxpool_dropout_layers.cpp.i
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/src/caffe/test/test_maxpool_dropout_layers.cpp > CMakeFiles/test.testbin.dir/test_maxpool_dropout_layers.cpp.i
 
 src/caffe/test/CMakeFiles/test.testbin.dir/test_maxpool_dropout_layers.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/test.testbin.dir/test_maxpool_dropout_layers.cpp.s"
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/panzhenfu/Documents/caffe/src/caffe/test/test_maxpool_dropout_layers.cpp -o CMakeFiles/test.testbin.dir/test_maxpool_dropout_layers.cpp.s
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/src/caffe/test/test_maxpool_dropout_layers.cpp -o CMakeFiles/test.testbin.dir/test_maxpool_dropout_layers.cpp.s
 
 src/caffe/test/CMakeFiles/test.testbin.dir/test_maxpool_dropout_layers.cpp.o.requires:
 
@@ -1002,16 +1002,16 @@ src/caffe/test/CMakeFiles/test.testbin.dir/test_maxpool_dropout_layers.cpp.o.pro
 
 src/caffe/test/CMakeFiles/test.testbin.dir/test_memory_data_layer.cpp.o: src/caffe/test/CMakeFiles/test.testbin.dir/flags.make
 src/caffe/test/CMakeFiles/test.testbin.dir/test_memory_data_layer.cpp.o: ../src/caffe/test/test_memory_data_layer.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/panzhenfu/Documents/caffe/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Building CXX object src/caffe/test/CMakeFiles/test.testbin.dir/test_memory_data_layer.cpp.o"
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/test && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/test.testbin.dir/test_memory_data_layer.cpp.o -c /home/panzhenfu/Documents/caffe/src/caffe/test/test_memory_data_layer.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Building CXX object src/caffe/test/CMakeFiles/test.testbin.dir/test_memory_data_layer.cpp.o"
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/test && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/test.testbin.dir/test_memory_data_layer.cpp.o -c /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/src/caffe/test/test_memory_data_layer.cpp
 
 src/caffe/test/CMakeFiles/test.testbin.dir/test_memory_data_layer.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/test.testbin.dir/test_memory_data_layer.cpp.i"
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/panzhenfu/Documents/caffe/src/caffe/test/test_memory_data_layer.cpp > CMakeFiles/test.testbin.dir/test_memory_data_layer.cpp.i
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/src/caffe/test/test_memory_data_layer.cpp > CMakeFiles/test.testbin.dir/test_memory_data_layer.cpp.i
 
 src/caffe/test/CMakeFiles/test.testbin.dir/test_memory_data_layer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/test.testbin.dir/test_memory_data_layer.cpp.s"
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/panzhenfu/Documents/caffe/src/caffe/test/test_memory_data_layer.cpp -o CMakeFiles/test.testbin.dir/test_memory_data_layer.cpp.s
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/src/caffe/test/test_memory_data_layer.cpp -o CMakeFiles/test.testbin.dir/test_memory_data_layer.cpp.s
 
 src/caffe/test/CMakeFiles/test.testbin.dir/test_memory_data_layer.cpp.o.requires:
 
@@ -1026,16 +1026,16 @@ src/caffe/test/CMakeFiles/test.testbin.dir/test_memory_data_layer.cpp.o.provides
 
 src/caffe/test/CMakeFiles/test.testbin.dir/test_multinomial_logistic_loss_layer.cpp.o: src/caffe/test/CMakeFiles/test.testbin.dir/flags.make
 src/caffe/test/CMakeFiles/test.testbin.dir/test_multinomial_logistic_loss_layer.cpp.o: ../src/caffe/test/test_multinomial_logistic_loss_layer.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/panzhenfu/Documents/caffe/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Building CXX object src/caffe/test/CMakeFiles/test.testbin.dir/test_multinomial_logistic_loss_layer.cpp.o"
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/test && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/test.testbin.dir/test_multinomial_logistic_loss_layer.cpp.o -c /home/panzhenfu/Documents/caffe/src/caffe/test/test_multinomial_logistic_loss_layer.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Building CXX object src/caffe/test/CMakeFiles/test.testbin.dir/test_multinomial_logistic_loss_layer.cpp.o"
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/test && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/test.testbin.dir/test_multinomial_logistic_loss_layer.cpp.o -c /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/src/caffe/test/test_multinomial_logistic_loss_layer.cpp
 
 src/caffe/test/CMakeFiles/test.testbin.dir/test_multinomial_logistic_loss_layer.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/test.testbin.dir/test_multinomial_logistic_loss_layer.cpp.i"
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/panzhenfu/Documents/caffe/src/caffe/test/test_multinomial_logistic_loss_layer.cpp > CMakeFiles/test.testbin.dir/test_multinomial_logistic_loss_layer.cpp.i
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/src/caffe/test/test_multinomial_logistic_loss_layer.cpp > CMakeFiles/test.testbin.dir/test_multinomial_logistic_loss_layer.cpp.i
 
 src/caffe/test/CMakeFiles/test.testbin.dir/test_multinomial_logistic_loss_layer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/test.testbin.dir/test_multinomial_logistic_loss_layer.cpp.s"
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/panzhenfu/Documents/caffe/src/caffe/test/test_multinomial_logistic_loss_layer.cpp -o CMakeFiles/test.testbin.dir/test_multinomial_logistic_loss_layer.cpp.s
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/src/caffe/test/test_multinomial_logistic_loss_layer.cpp -o CMakeFiles/test.testbin.dir/test_multinomial_logistic_loss_layer.cpp.s
 
 src/caffe/test/CMakeFiles/test.testbin.dir/test_multinomial_logistic_loss_layer.cpp.o.requires:
 
@@ -1050,16 +1050,16 @@ src/caffe/test/CMakeFiles/test.testbin.dir/test_multinomial_logistic_loss_layer.
 
 src/caffe/test/CMakeFiles/test.testbin.dir/test_mvn_layer.cpp.o: src/caffe/test/CMakeFiles/test.testbin.dir/flags.make
 src/caffe/test/CMakeFiles/test.testbin.dir/test_mvn_layer.cpp.o: ../src/caffe/test/test_mvn_layer.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/panzhenfu/Documents/caffe/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_43) "Building CXX object src/caffe/test/CMakeFiles/test.testbin.dir/test_mvn_layer.cpp.o"
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/test && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/test.testbin.dir/test_mvn_layer.cpp.o -c /home/panzhenfu/Documents/caffe/src/caffe/test/test_mvn_layer.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_43) "Building CXX object src/caffe/test/CMakeFiles/test.testbin.dir/test_mvn_layer.cpp.o"
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/test && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/test.testbin.dir/test_mvn_layer.cpp.o -c /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/src/caffe/test/test_mvn_layer.cpp
 
 src/caffe/test/CMakeFiles/test.testbin.dir/test_mvn_layer.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/test.testbin.dir/test_mvn_layer.cpp.i"
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/panzhenfu/Documents/caffe/src/caffe/test/test_mvn_layer.cpp > CMakeFiles/test.testbin.dir/test_mvn_layer.cpp.i
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/src/caffe/test/test_mvn_layer.cpp > CMakeFiles/test.testbin.dir/test_mvn_layer.cpp.i
 
 src/caffe/test/CMakeFiles/test.testbin.dir/test_mvn_layer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/test.testbin.dir/test_mvn_layer.cpp.s"
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/panzhenfu/Documents/caffe/src/caffe/test/test_mvn_layer.cpp -o CMakeFiles/test.testbin.dir/test_mvn_layer.cpp.s
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/src/caffe/test/test_mvn_layer.cpp -o CMakeFiles/test.testbin.dir/test_mvn_layer.cpp.s
 
 src/caffe/test/CMakeFiles/test.testbin.dir/test_mvn_layer.cpp.o.requires:
 
@@ -1074,16 +1074,16 @@ src/caffe/test/CMakeFiles/test.testbin.dir/test_mvn_layer.cpp.o.provides.build: 
 
 src/caffe/test/CMakeFiles/test.testbin.dir/test_net.cpp.o: src/caffe/test/CMakeFiles/test.testbin.dir/flags.make
 src/caffe/test/CMakeFiles/test.testbin.dir/test_net.cpp.o: ../src/caffe/test/test_net.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/panzhenfu/Documents/caffe/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_44) "Building CXX object src/caffe/test/CMakeFiles/test.testbin.dir/test_net.cpp.o"
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/test && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/test.testbin.dir/test_net.cpp.o -c /home/panzhenfu/Documents/caffe/src/caffe/test/test_net.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_44) "Building CXX object src/caffe/test/CMakeFiles/test.testbin.dir/test_net.cpp.o"
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/test && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/test.testbin.dir/test_net.cpp.o -c /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/src/caffe/test/test_net.cpp
 
 src/caffe/test/CMakeFiles/test.testbin.dir/test_net.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/test.testbin.dir/test_net.cpp.i"
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/panzhenfu/Documents/caffe/src/caffe/test/test_net.cpp > CMakeFiles/test.testbin.dir/test_net.cpp.i
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/src/caffe/test/test_net.cpp > CMakeFiles/test.testbin.dir/test_net.cpp.i
 
 src/caffe/test/CMakeFiles/test.testbin.dir/test_net.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/test.testbin.dir/test_net.cpp.s"
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/panzhenfu/Documents/caffe/src/caffe/test/test_net.cpp -o CMakeFiles/test.testbin.dir/test_net.cpp.s
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/src/caffe/test/test_net.cpp -o CMakeFiles/test.testbin.dir/test_net.cpp.s
 
 src/caffe/test/CMakeFiles/test.testbin.dir/test_net.cpp.o.requires:
 
@@ -1098,16 +1098,16 @@ src/caffe/test/CMakeFiles/test.testbin.dir/test_net.cpp.o.provides.build: src/ca
 
 src/caffe/test/CMakeFiles/test.testbin.dir/test_neuron_layer.cpp.o: src/caffe/test/CMakeFiles/test.testbin.dir/flags.make
 src/caffe/test/CMakeFiles/test.testbin.dir/test_neuron_layer.cpp.o: ../src/caffe/test/test_neuron_layer.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/panzhenfu/Documents/caffe/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_45) "Building CXX object src/caffe/test/CMakeFiles/test.testbin.dir/test_neuron_layer.cpp.o"
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/test && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/test.testbin.dir/test_neuron_layer.cpp.o -c /home/panzhenfu/Documents/caffe/src/caffe/test/test_neuron_layer.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_45) "Building CXX object src/caffe/test/CMakeFiles/test.testbin.dir/test_neuron_layer.cpp.o"
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/test && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/test.testbin.dir/test_neuron_layer.cpp.o -c /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/src/caffe/test/test_neuron_layer.cpp
 
 src/caffe/test/CMakeFiles/test.testbin.dir/test_neuron_layer.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/test.testbin.dir/test_neuron_layer.cpp.i"
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/panzhenfu/Documents/caffe/src/caffe/test/test_neuron_layer.cpp > CMakeFiles/test.testbin.dir/test_neuron_layer.cpp.i
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/src/caffe/test/test_neuron_layer.cpp > CMakeFiles/test.testbin.dir/test_neuron_layer.cpp.i
 
 src/caffe/test/CMakeFiles/test.testbin.dir/test_neuron_layer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/test.testbin.dir/test_neuron_layer.cpp.s"
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/panzhenfu/Documents/caffe/src/caffe/test/test_neuron_layer.cpp -o CMakeFiles/test.testbin.dir/test_neuron_layer.cpp.s
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/src/caffe/test/test_neuron_layer.cpp -o CMakeFiles/test.testbin.dir/test_neuron_layer.cpp.s
 
 src/caffe/test/CMakeFiles/test.testbin.dir/test_neuron_layer.cpp.o.requires:
 
@@ -1122,16 +1122,16 @@ src/caffe/test/CMakeFiles/test.testbin.dir/test_neuron_layer.cpp.o.provides.buil
 
 src/caffe/test/CMakeFiles/test.testbin.dir/test_platform.cpp.o: src/caffe/test/CMakeFiles/test.testbin.dir/flags.make
 src/caffe/test/CMakeFiles/test.testbin.dir/test_platform.cpp.o: ../src/caffe/test/test_platform.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/panzhenfu/Documents/caffe/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_46) "Building CXX object src/caffe/test/CMakeFiles/test.testbin.dir/test_platform.cpp.o"
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/test && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/test.testbin.dir/test_platform.cpp.o -c /home/panzhenfu/Documents/caffe/src/caffe/test/test_platform.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_46) "Building CXX object src/caffe/test/CMakeFiles/test.testbin.dir/test_platform.cpp.o"
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/test && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/test.testbin.dir/test_platform.cpp.o -c /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/src/caffe/test/test_platform.cpp
 
 src/caffe/test/CMakeFiles/test.testbin.dir/test_platform.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/test.testbin.dir/test_platform.cpp.i"
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/panzhenfu/Documents/caffe/src/caffe/test/test_platform.cpp > CMakeFiles/test.testbin.dir/test_platform.cpp.i
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/src/caffe/test/test_platform.cpp > CMakeFiles/test.testbin.dir/test_platform.cpp.i
 
 src/caffe/test/CMakeFiles/test.testbin.dir/test_platform.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/test.testbin.dir/test_platform.cpp.s"
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/panzhenfu/Documents/caffe/src/caffe/test/test_platform.cpp -o CMakeFiles/test.testbin.dir/test_platform.cpp.s
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/src/caffe/test/test_platform.cpp -o CMakeFiles/test.testbin.dir/test_platform.cpp.s
 
 src/caffe/test/CMakeFiles/test.testbin.dir/test_platform.cpp.o.requires:
 
@@ -1146,16 +1146,16 @@ src/caffe/test/CMakeFiles/test.testbin.dir/test_platform.cpp.o.provides.build: s
 
 src/caffe/test/CMakeFiles/test.testbin.dir/test_pooling_layer.cpp.o: src/caffe/test/CMakeFiles/test.testbin.dir/flags.make
 src/caffe/test/CMakeFiles/test.testbin.dir/test_pooling_layer.cpp.o: ../src/caffe/test/test_pooling_layer.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/panzhenfu/Documents/caffe/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_47) "Building CXX object src/caffe/test/CMakeFiles/test.testbin.dir/test_pooling_layer.cpp.o"
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/test && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/test.testbin.dir/test_pooling_layer.cpp.o -c /home/panzhenfu/Documents/caffe/src/caffe/test/test_pooling_layer.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_47) "Building CXX object src/caffe/test/CMakeFiles/test.testbin.dir/test_pooling_layer.cpp.o"
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/test && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/test.testbin.dir/test_pooling_layer.cpp.o -c /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/src/caffe/test/test_pooling_layer.cpp
 
 src/caffe/test/CMakeFiles/test.testbin.dir/test_pooling_layer.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/test.testbin.dir/test_pooling_layer.cpp.i"
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/panzhenfu/Documents/caffe/src/caffe/test/test_pooling_layer.cpp > CMakeFiles/test.testbin.dir/test_pooling_layer.cpp.i
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/src/caffe/test/test_pooling_layer.cpp > CMakeFiles/test.testbin.dir/test_pooling_layer.cpp.i
 
 src/caffe/test/CMakeFiles/test.testbin.dir/test_pooling_layer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/test.testbin.dir/test_pooling_layer.cpp.s"
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/panzhenfu/Documents/caffe/src/caffe/test/test_pooling_layer.cpp -o CMakeFiles/test.testbin.dir/test_pooling_layer.cpp.s
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/src/caffe/test/test_pooling_layer.cpp -o CMakeFiles/test.testbin.dir/test_pooling_layer.cpp.s
 
 src/caffe/test/CMakeFiles/test.testbin.dir/test_pooling_layer.cpp.o.requires:
 
@@ -1170,16 +1170,16 @@ src/caffe/test/CMakeFiles/test.testbin.dir/test_pooling_layer.cpp.o.provides.bui
 
 src/caffe/test/CMakeFiles/test.testbin.dir/test_power_layer.cpp.o: src/caffe/test/CMakeFiles/test.testbin.dir/flags.make
 src/caffe/test/CMakeFiles/test.testbin.dir/test_power_layer.cpp.o: ../src/caffe/test/test_power_layer.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/panzhenfu/Documents/caffe/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_48) "Building CXX object src/caffe/test/CMakeFiles/test.testbin.dir/test_power_layer.cpp.o"
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/test && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/test.testbin.dir/test_power_layer.cpp.o -c /home/panzhenfu/Documents/caffe/src/caffe/test/test_power_layer.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_48) "Building CXX object src/caffe/test/CMakeFiles/test.testbin.dir/test_power_layer.cpp.o"
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/test && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/test.testbin.dir/test_power_layer.cpp.o -c /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/src/caffe/test/test_power_layer.cpp
 
 src/caffe/test/CMakeFiles/test.testbin.dir/test_power_layer.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/test.testbin.dir/test_power_layer.cpp.i"
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/panzhenfu/Documents/caffe/src/caffe/test/test_power_layer.cpp > CMakeFiles/test.testbin.dir/test_power_layer.cpp.i
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/src/caffe/test/test_power_layer.cpp > CMakeFiles/test.testbin.dir/test_power_layer.cpp.i
 
 src/caffe/test/CMakeFiles/test.testbin.dir/test_power_layer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/test.testbin.dir/test_power_layer.cpp.s"
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/panzhenfu/Documents/caffe/src/caffe/test/test_power_layer.cpp -o CMakeFiles/test.testbin.dir/test_power_layer.cpp.s
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/src/caffe/test/test_power_layer.cpp -o CMakeFiles/test.testbin.dir/test_power_layer.cpp.s
 
 src/caffe/test/CMakeFiles/test.testbin.dir/test_power_layer.cpp.o.requires:
 
@@ -1194,16 +1194,16 @@ src/caffe/test/CMakeFiles/test.testbin.dir/test_power_layer.cpp.o.provides.build
 
 src/caffe/test/CMakeFiles/test.testbin.dir/test_protobuf.cpp.o: src/caffe/test/CMakeFiles/test.testbin.dir/flags.make
 src/caffe/test/CMakeFiles/test.testbin.dir/test_protobuf.cpp.o: ../src/caffe/test/test_protobuf.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/panzhenfu/Documents/caffe/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_49) "Building CXX object src/caffe/test/CMakeFiles/test.testbin.dir/test_protobuf.cpp.o"
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/test && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/test.testbin.dir/test_protobuf.cpp.o -c /home/panzhenfu/Documents/caffe/src/caffe/test/test_protobuf.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_49) "Building CXX object src/caffe/test/CMakeFiles/test.testbin.dir/test_protobuf.cpp.o"
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/test && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/test.testbin.dir/test_protobuf.cpp.o -c /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/src/caffe/test/test_protobuf.cpp
 
 src/caffe/test/CMakeFiles/test.testbin.dir/test_protobuf.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/test.testbin.dir/test_protobuf.cpp.i"
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/panzhenfu/Documents/caffe/src/caffe/test/test_protobuf.cpp > CMakeFiles/test.testbin.dir/test_protobuf.cpp.i
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/src/caffe/test/test_protobuf.cpp > CMakeFiles/test.testbin.dir/test_protobuf.cpp.i
 
 src/caffe/test/CMakeFiles/test.testbin.dir/test_protobuf.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/test.testbin.dir/test_protobuf.cpp.s"
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/panzhenfu/Documents/caffe/src/caffe/test/test_protobuf.cpp -o CMakeFiles/test.testbin.dir/test_protobuf.cpp.s
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/src/caffe/test/test_protobuf.cpp -o CMakeFiles/test.testbin.dir/test_protobuf.cpp.s
 
 src/caffe/test/CMakeFiles/test.testbin.dir/test_protobuf.cpp.o.requires:
 
@@ -1218,16 +1218,16 @@ src/caffe/test/CMakeFiles/test.testbin.dir/test_protobuf.cpp.o.provides.build: s
 
 src/caffe/test/CMakeFiles/test.testbin.dir/test_random_number_generator.cpp.o: src/caffe/test/CMakeFiles/test.testbin.dir/flags.make
 src/caffe/test/CMakeFiles/test.testbin.dir/test_random_number_generator.cpp.o: ../src/caffe/test/test_random_number_generator.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/panzhenfu/Documents/caffe/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_50) "Building CXX object src/caffe/test/CMakeFiles/test.testbin.dir/test_random_number_generator.cpp.o"
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/test && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/test.testbin.dir/test_random_number_generator.cpp.o -c /home/panzhenfu/Documents/caffe/src/caffe/test/test_random_number_generator.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_50) "Building CXX object src/caffe/test/CMakeFiles/test.testbin.dir/test_random_number_generator.cpp.o"
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/test && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/test.testbin.dir/test_random_number_generator.cpp.o -c /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/src/caffe/test/test_random_number_generator.cpp
 
 src/caffe/test/CMakeFiles/test.testbin.dir/test_random_number_generator.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/test.testbin.dir/test_random_number_generator.cpp.i"
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/panzhenfu/Documents/caffe/src/caffe/test/test_random_number_generator.cpp > CMakeFiles/test.testbin.dir/test_random_number_generator.cpp.i
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/src/caffe/test/test_random_number_generator.cpp > CMakeFiles/test.testbin.dir/test_random_number_generator.cpp.i
 
 src/caffe/test/CMakeFiles/test.testbin.dir/test_random_number_generator.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/test.testbin.dir/test_random_number_generator.cpp.s"
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/panzhenfu/Documents/caffe/src/caffe/test/test_random_number_generator.cpp -o CMakeFiles/test.testbin.dir/test_random_number_generator.cpp.s
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/src/caffe/test/test_random_number_generator.cpp -o CMakeFiles/test.testbin.dir/test_random_number_generator.cpp.s
 
 src/caffe/test/CMakeFiles/test.testbin.dir/test_random_number_generator.cpp.o.requires:
 
@@ -1242,16 +1242,16 @@ src/caffe/test/CMakeFiles/test.testbin.dir/test_random_number_generator.cpp.o.pr
 
 src/caffe/test/CMakeFiles/test.testbin.dir/test_reduction_layer.cpp.o: src/caffe/test/CMakeFiles/test.testbin.dir/flags.make
 src/caffe/test/CMakeFiles/test.testbin.dir/test_reduction_layer.cpp.o: ../src/caffe/test/test_reduction_layer.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/panzhenfu/Documents/caffe/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_51) "Building CXX object src/caffe/test/CMakeFiles/test.testbin.dir/test_reduction_layer.cpp.o"
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/test && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/test.testbin.dir/test_reduction_layer.cpp.o -c /home/panzhenfu/Documents/caffe/src/caffe/test/test_reduction_layer.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_51) "Building CXX object src/caffe/test/CMakeFiles/test.testbin.dir/test_reduction_layer.cpp.o"
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/test && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/test.testbin.dir/test_reduction_layer.cpp.o -c /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/src/caffe/test/test_reduction_layer.cpp
 
 src/caffe/test/CMakeFiles/test.testbin.dir/test_reduction_layer.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/test.testbin.dir/test_reduction_layer.cpp.i"
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/panzhenfu/Documents/caffe/src/caffe/test/test_reduction_layer.cpp > CMakeFiles/test.testbin.dir/test_reduction_layer.cpp.i
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/src/caffe/test/test_reduction_layer.cpp > CMakeFiles/test.testbin.dir/test_reduction_layer.cpp.i
 
 src/caffe/test/CMakeFiles/test.testbin.dir/test_reduction_layer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/test.testbin.dir/test_reduction_layer.cpp.s"
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/panzhenfu/Documents/caffe/src/caffe/test/test_reduction_layer.cpp -o CMakeFiles/test.testbin.dir/test_reduction_layer.cpp.s
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/src/caffe/test/test_reduction_layer.cpp -o CMakeFiles/test.testbin.dir/test_reduction_layer.cpp.s
 
 src/caffe/test/CMakeFiles/test.testbin.dir/test_reduction_layer.cpp.o.requires:
 
@@ -1266,16 +1266,16 @@ src/caffe/test/CMakeFiles/test.testbin.dir/test_reduction_layer.cpp.o.provides.b
 
 src/caffe/test/CMakeFiles/test.testbin.dir/test_reshape_layer.cpp.o: src/caffe/test/CMakeFiles/test.testbin.dir/flags.make
 src/caffe/test/CMakeFiles/test.testbin.dir/test_reshape_layer.cpp.o: ../src/caffe/test/test_reshape_layer.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/panzhenfu/Documents/caffe/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_52) "Building CXX object src/caffe/test/CMakeFiles/test.testbin.dir/test_reshape_layer.cpp.o"
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/test && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/test.testbin.dir/test_reshape_layer.cpp.o -c /home/panzhenfu/Documents/caffe/src/caffe/test/test_reshape_layer.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_52) "Building CXX object src/caffe/test/CMakeFiles/test.testbin.dir/test_reshape_layer.cpp.o"
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/test && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/test.testbin.dir/test_reshape_layer.cpp.o -c /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/src/caffe/test/test_reshape_layer.cpp
 
 src/caffe/test/CMakeFiles/test.testbin.dir/test_reshape_layer.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/test.testbin.dir/test_reshape_layer.cpp.i"
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/panzhenfu/Documents/caffe/src/caffe/test/test_reshape_layer.cpp > CMakeFiles/test.testbin.dir/test_reshape_layer.cpp.i
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/src/caffe/test/test_reshape_layer.cpp > CMakeFiles/test.testbin.dir/test_reshape_layer.cpp.i
 
 src/caffe/test/CMakeFiles/test.testbin.dir/test_reshape_layer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/test.testbin.dir/test_reshape_layer.cpp.s"
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/panzhenfu/Documents/caffe/src/caffe/test/test_reshape_layer.cpp -o CMakeFiles/test.testbin.dir/test_reshape_layer.cpp.s
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/src/caffe/test/test_reshape_layer.cpp -o CMakeFiles/test.testbin.dir/test_reshape_layer.cpp.s
 
 src/caffe/test/CMakeFiles/test.testbin.dir/test_reshape_layer.cpp.o.requires:
 
@@ -1290,16 +1290,16 @@ src/caffe/test/CMakeFiles/test.testbin.dir/test_reshape_layer.cpp.o.provides.bui
 
 src/caffe/test/CMakeFiles/test.testbin.dir/test_rnn_layer.cpp.o: src/caffe/test/CMakeFiles/test.testbin.dir/flags.make
 src/caffe/test/CMakeFiles/test.testbin.dir/test_rnn_layer.cpp.o: ../src/caffe/test/test_rnn_layer.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/panzhenfu/Documents/caffe/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_53) "Building CXX object src/caffe/test/CMakeFiles/test.testbin.dir/test_rnn_layer.cpp.o"
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/test && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/test.testbin.dir/test_rnn_layer.cpp.o -c /home/panzhenfu/Documents/caffe/src/caffe/test/test_rnn_layer.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_53) "Building CXX object src/caffe/test/CMakeFiles/test.testbin.dir/test_rnn_layer.cpp.o"
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/test && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/test.testbin.dir/test_rnn_layer.cpp.o -c /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/src/caffe/test/test_rnn_layer.cpp
 
 src/caffe/test/CMakeFiles/test.testbin.dir/test_rnn_layer.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/test.testbin.dir/test_rnn_layer.cpp.i"
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/panzhenfu/Documents/caffe/src/caffe/test/test_rnn_layer.cpp > CMakeFiles/test.testbin.dir/test_rnn_layer.cpp.i
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/src/caffe/test/test_rnn_layer.cpp > CMakeFiles/test.testbin.dir/test_rnn_layer.cpp.i
 
 src/caffe/test/CMakeFiles/test.testbin.dir/test_rnn_layer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/test.testbin.dir/test_rnn_layer.cpp.s"
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/panzhenfu/Documents/caffe/src/caffe/test/test_rnn_layer.cpp -o CMakeFiles/test.testbin.dir/test_rnn_layer.cpp.s
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/src/caffe/test/test_rnn_layer.cpp -o CMakeFiles/test.testbin.dir/test_rnn_layer.cpp.s
 
 src/caffe/test/CMakeFiles/test.testbin.dir/test_rnn_layer.cpp.o.requires:
 
@@ -1314,16 +1314,16 @@ src/caffe/test/CMakeFiles/test.testbin.dir/test_rnn_layer.cpp.o.provides.build: 
 
 src/caffe/test/CMakeFiles/test.testbin.dir/test_scale_layer.cpp.o: src/caffe/test/CMakeFiles/test.testbin.dir/flags.make
 src/caffe/test/CMakeFiles/test.testbin.dir/test_scale_layer.cpp.o: ../src/caffe/test/test_scale_layer.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/panzhenfu/Documents/caffe/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_54) "Building CXX object src/caffe/test/CMakeFiles/test.testbin.dir/test_scale_layer.cpp.o"
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/test && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/test.testbin.dir/test_scale_layer.cpp.o -c /home/panzhenfu/Documents/caffe/src/caffe/test/test_scale_layer.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_54) "Building CXX object src/caffe/test/CMakeFiles/test.testbin.dir/test_scale_layer.cpp.o"
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/test && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/test.testbin.dir/test_scale_layer.cpp.o -c /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/src/caffe/test/test_scale_layer.cpp
 
 src/caffe/test/CMakeFiles/test.testbin.dir/test_scale_layer.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/test.testbin.dir/test_scale_layer.cpp.i"
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/panzhenfu/Documents/caffe/src/caffe/test/test_scale_layer.cpp > CMakeFiles/test.testbin.dir/test_scale_layer.cpp.i
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/src/caffe/test/test_scale_layer.cpp > CMakeFiles/test.testbin.dir/test_scale_layer.cpp.i
 
 src/caffe/test/CMakeFiles/test.testbin.dir/test_scale_layer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/test.testbin.dir/test_scale_layer.cpp.s"
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/panzhenfu/Documents/caffe/src/caffe/test/test_scale_layer.cpp -o CMakeFiles/test.testbin.dir/test_scale_layer.cpp.s
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/src/caffe/test/test_scale_layer.cpp -o CMakeFiles/test.testbin.dir/test_scale_layer.cpp.s
 
 src/caffe/test/CMakeFiles/test.testbin.dir/test_scale_layer.cpp.o.requires:
 
@@ -1338,16 +1338,16 @@ src/caffe/test/CMakeFiles/test.testbin.dir/test_scale_layer.cpp.o.provides.build
 
 src/caffe/test/CMakeFiles/test.testbin.dir/test_sigmoid_cross_entropy_loss_layer.cpp.o: src/caffe/test/CMakeFiles/test.testbin.dir/flags.make
 src/caffe/test/CMakeFiles/test.testbin.dir/test_sigmoid_cross_entropy_loss_layer.cpp.o: ../src/caffe/test/test_sigmoid_cross_entropy_loss_layer.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/panzhenfu/Documents/caffe/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_55) "Building CXX object src/caffe/test/CMakeFiles/test.testbin.dir/test_sigmoid_cross_entropy_loss_layer.cpp.o"
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/test && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/test.testbin.dir/test_sigmoid_cross_entropy_loss_layer.cpp.o -c /home/panzhenfu/Documents/caffe/src/caffe/test/test_sigmoid_cross_entropy_loss_layer.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_55) "Building CXX object src/caffe/test/CMakeFiles/test.testbin.dir/test_sigmoid_cross_entropy_loss_layer.cpp.o"
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/test && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/test.testbin.dir/test_sigmoid_cross_entropy_loss_layer.cpp.o -c /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/src/caffe/test/test_sigmoid_cross_entropy_loss_layer.cpp
 
 src/caffe/test/CMakeFiles/test.testbin.dir/test_sigmoid_cross_entropy_loss_layer.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/test.testbin.dir/test_sigmoid_cross_entropy_loss_layer.cpp.i"
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/panzhenfu/Documents/caffe/src/caffe/test/test_sigmoid_cross_entropy_loss_layer.cpp > CMakeFiles/test.testbin.dir/test_sigmoid_cross_entropy_loss_layer.cpp.i
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/src/caffe/test/test_sigmoid_cross_entropy_loss_layer.cpp > CMakeFiles/test.testbin.dir/test_sigmoid_cross_entropy_loss_layer.cpp.i
 
 src/caffe/test/CMakeFiles/test.testbin.dir/test_sigmoid_cross_entropy_loss_layer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/test.testbin.dir/test_sigmoid_cross_entropy_loss_layer.cpp.s"
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/panzhenfu/Documents/caffe/src/caffe/test/test_sigmoid_cross_entropy_loss_layer.cpp -o CMakeFiles/test.testbin.dir/test_sigmoid_cross_entropy_loss_layer.cpp.s
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/src/caffe/test/test_sigmoid_cross_entropy_loss_layer.cpp -o CMakeFiles/test.testbin.dir/test_sigmoid_cross_entropy_loss_layer.cpp.s
 
 src/caffe/test/CMakeFiles/test.testbin.dir/test_sigmoid_cross_entropy_loss_layer.cpp.o.requires:
 
@@ -1362,16 +1362,16 @@ src/caffe/test/CMakeFiles/test.testbin.dir/test_sigmoid_cross_entropy_loss_layer
 
 src/caffe/test/CMakeFiles/test.testbin.dir/test_slice_layer.cpp.o: src/caffe/test/CMakeFiles/test.testbin.dir/flags.make
 src/caffe/test/CMakeFiles/test.testbin.dir/test_slice_layer.cpp.o: ../src/caffe/test/test_slice_layer.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/panzhenfu/Documents/caffe/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_56) "Building CXX object src/caffe/test/CMakeFiles/test.testbin.dir/test_slice_layer.cpp.o"
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/test && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/test.testbin.dir/test_slice_layer.cpp.o -c /home/panzhenfu/Documents/caffe/src/caffe/test/test_slice_layer.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_56) "Building CXX object src/caffe/test/CMakeFiles/test.testbin.dir/test_slice_layer.cpp.o"
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/test && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/test.testbin.dir/test_slice_layer.cpp.o -c /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/src/caffe/test/test_slice_layer.cpp
 
 src/caffe/test/CMakeFiles/test.testbin.dir/test_slice_layer.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/test.testbin.dir/test_slice_layer.cpp.i"
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/panzhenfu/Documents/caffe/src/caffe/test/test_slice_layer.cpp > CMakeFiles/test.testbin.dir/test_slice_layer.cpp.i
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/src/caffe/test/test_slice_layer.cpp > CMakeFiles/test.testbin.dir/test_slice_layer.cpp.i
 
 src/caffe/test/CMakeFiles/test.testbin.dir/test_slice_layer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/test.testbin.dir/test_slice_layer.cpp.s"
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/panzhenfu/Documents/caffe/src/caffe/test/test_slice_layer.cpp -o CMakeFiles/test.testbin.dir/test_slice_layer.cpp.s
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/src/caffe/test/test_slice_layer.cpp -o CMakeFiles/test.testbin.dir/test_slice_layer.cpp.s
 
 src/caffe/test/CMakeFiles/test.testbin.dir/test_slice_layer.cpp.o.requires:
 
@@ -1386,16 +1386,16 @@ src/caffe/test/CMakeFiles/test.testbin.dir/test_slice_layer.cpp.o.provides.build
 
 src/caffe/test/CMakeFiles/test.testbin.dir/test_softmax_layer.cpp.o: src/caffe/test/CMakeFiles/test.testbin.dir/flags.make
 src/caffe/test/CMakeFiles/test.testbin.dir/test_softmax_layer.cpp.o: ../src/caffe/test/test_softmax_layer.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/panzhenfu/Documents/caffe/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_57) "Building CXX object src/caffe/test/CMakeFiles/test.testbin.dir/test_softmax_layer.cpp.o"
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/test && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/test.testbin.dir/test_softmax_layer.cpp.o -c /home/panzhenfu/Documents/caffe/src/caffe/test/test_softmax_layer.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_57) "Building CXX object src/caffe/test/CMakeFiles/test.testbin.dir/test_softmax_layer.cpp.o"
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/test && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/test.testbin.dir/test_softmax_layer.cpp.o -c /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/src/caffe/test/test_softmax_layer.cpp
 
 src/caffe/test/CMakeFiles/test.testbin.dir/test_softmax_layer.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/test.testbin.dir/test_softmax_layer.cpp.i"
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/panzhenfu/Documents/caffe/src/caffe/test/test_softmax_layer.cpp > CMakeFiles/test.testbin.dir/test_softmax_layer.cpp.i
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/src/caffe/test/test_softmax_layer.cpp > CMakeFiles/test.testbin.dir/test_softmax_layer.cpp.i
 
 src/caffe/test/CMakeFiles/test.testbin.dir/test_softmax_layer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/test.testbin.dir/test_softmax_layer.cpp.s"
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/panzhenfu/Documents/caffe/src/caffe/test/test_softmax_layer.cpp -o CMakeFiles/test.testbin.dir/test_softmax_layer.cpp.s
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/src/caffe/test/test_softmax_layer.cpp -o CMakeFiles/test.testbin.dir/test_softmax_layer.cpp.s
 
 src/caffe/test/CMakeFiles/test.testbin.dir/test_softmax_layer.cpp.o.requires:
 
@@ -1410,16 +1410,16 @@ src/caffe/test/CMakeFiles/test.testbin.dir/test_softmax_layer.cpp.o.provides.bui
 
 src/caffe/test/CMakeFiles/test.testbin.dir/test_softmax_with_loss_layer.cpp.o: src/caffe/test/CMakeFiles/test.testbin.dir/flags.make
 src/caffe/test/CMakeFiles/test.testbin.dir/test_softmax_with_loss_layer.cpp.o: ../src/caffe/test/test_softmax_with_loss_layer.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/panzhenfu/Documents/caffe/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_58) "Building CXX object src/caffe/test/CMakeFiles/test.testbin.dir/test_softmax_with_loss_layer.cpp.o"
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/test && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/test.testbin.dir/test_softmax_with_loss_layer.cpp.o -c /home/panzhenfu/Documents/caffe/src/caffe/test/test_softmax_with_loss_layer.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_58) "Building CXX object src/caffe/test/CMakeFiles/test.testbin.dir/test_softmax_with_loss_layer.cpp.o"
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/test && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/test.testbin.dir/test_softmax_with_loss_layer.cpp.o -c /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/src/caffe/test/test_softmax_with_loss_layer.cpp
 
 src/caffe/test/CMakeFiles/test.testbin.dir/test_softmax_with_loss_layer.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/test.testbin.dir/test_softmax_with_loss_layer.cpp.i"
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/panzhenfu/Documents/caffe/src/caffe/test/test_softmax_with_loss_layer.cpp > CMakeFiles/test.testbin.dir/test_softmax_with_loss_layer.cpp.i
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/src/caffe/test/test_softmax_with_loss_layer.cpp > CMakeFiles/test.testbin.dir/test_softmax_with_loss_layer.cpp.i
 
 src/caffe/test/CMakeFiles/test.testbin.dir/test_softmax_with_loss_layer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/test.testbin.dir/test_softmax_with_loss_layer.cpp.s"
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/panzhenfu/Documents/caffe/src/caffe/test/test_softmax_with_loss_layer.cpp -o CMakeFiles/test.testbin.dir/test_softmax_with_loss_layer.cpp.s
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/src/caffe/test/test_softmax_with_loss_layer.cpp -o CMakeFiles/test.testbin.dir/test_softmax_with_loss_layer.cpp.s
 
 src/caffe/test/CMakeFiles/test.testbin.dir/test_softmax_with_loss_layer.cpp.o.requires:
 
@@ -1434,16 +1434,16 @@ src/caffe/test/CMakeFiles/test.testbin.dir/test_softmax_with_loss_layer.cpp.o.pr
 
 src/caffe/test/CMakeFiles/test.testbin.dir/test_solver.cpp.o: src/caffe/test/CMakeFiles/test.testbin.dir/flags.make
 src/caffe/test/CMakeFiles/test.testbin.dir/test_solver.cpp.o: ../src/caffe/test/test_solver.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/panzhenfu/Documents/caffe/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_59) "Building CXX object src/caffe/test/CMakeFiles/test.testbin.dir/test_solver.cpp.o"
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/test && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/test.testbin.dir/test_solver.cpp.o -c /home/panzhenfu/Documents/caffe/src/caffe/test/test_solver.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_59) "Building CXX object src/caffe/test/CMakeFiles/test.testbin.dir/test_solver.cpp.o"
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/test && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/test.testbin.dir/test_solver.cpp.o -c /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/src/caffe/test/test_solver.cpp
 
 src/caffe/test/CMakeFiles/test.testbin.dir/test_solver.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/test.testbin.dir/test_solver.cpp.i"
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/panzhenfu/Documents/caffe/src/caffe/test/test_solver.cpp > CMakeFiles/test.testbin.dir/test_solver.cpp.i
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/src/caffe/test/test_solver.cpp > CMakeFiles/test.testbin.dir/test_solver.cpp.i
 
 src/caffe/test/CMakeFiles/test.testbin.dir/test_solver.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/test.testbin.dir/test_solver.cpp.s"
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/panzhenfu/Documents/caffe/src/caffe/test/test_solver.cpp -o CMakeFiles/test.testbin.dir/test_solver.cpp.s
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/src/caffe/test/test_solver.cpp -o CMakeFiles/test.testbin.dir/test_solver.cpp.s
 
 src/caffe/test/CMakeFiles/test.testbin.dir/test_solver.cpp.o.requires:
 
@@ -1458,16 +1458,16 @@ src/caffe/test/CMakeFiles/test.testbin.dir/test_solver.cpp.o.provides.build: src
 
 src/caffe/test/CMakeFiles/test.testbin.dir/test_solver_factory.cpp.o: src/caffe/test/CMakeFiles/test.testbin.dir/flags.make
 src/caffe/test/CMakeFiles/test.testbin.dir/test_solver_factory.cpp.o: ../src/caffe/test/test_solver_factory.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/panzhenfu/Documents/caffe/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_60) "Building CXX object src/caffe/test/CMakeFiles/test.testbin.dir/test_solver_factory.cpp.o"
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/test && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/test.testbin.dir/test_solver_factory.cpp.o -c /home/panzhenfu/Documents/caffe/src/caffe/test/test_solver_factory.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_60) "Building CXX object src/caffe/test/CMakeFiles/test.testbin.dir/test_solver_factory.cpp.o"
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/test && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/test.testbin.dir/test_solver_factory.cpp.o -c /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/src/caffe/test/test_solver_factory.cpp
 
 src/caffe/test/CMakeFiles/test.testbin.dir/test_solver_factory.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/test.testbin.dir/test_solver_factory.cpp.i"
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/panzhenfu/Documents/caffe/src/caffe/test/test_solver_factory.cpp > CMakeFiles/test.testbin.dir/test_solver_factory.cpp.i
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/src/caffe/test/test_solver_factory.cpp > CMakeFiles/test.testbin.dir/test_solver_factory.cpp.i
 
 src/caffe/test/CMakeFiles/test.testbin.dir/test_solver_factory.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/test.testbin.dir/test_solver_factory.cpp.s"
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/panzhenfu/Documents/caffe/src/caffe/test/test_solver_factory.cpp -o CMakeFiles/test.testbin.dir/test_solver_factory.cpp.s
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/src/caffe/test/test_solver_factory.cpp -o CMakeFiles/test.testbin.dir/test_solver_factory.cpp.s
 
 src/caffe/test/CMakeFiles/test.testbin.dir/test_solver_factory.cpp.o.requires:
 
@@ -1482,16 +1482,16 @@ src/caffe/test/CMakeFiles/test.testbin.dir/test_solver_factory.cpp.o.provides.bu
 
 src/caffe/test/CMakeFiles/test.testbin.dir/test_split_layer.cpp.o: src/caffe/test/CMakeFiles/test.testbin.dir/flags.make
 src/caffe/test/CMakeFiles/test.testbin.dir/test_split_layer.cpp.o: ../src/caffe/test/test_split_layer.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/panzhenfu/Documents/caffe/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_61) "Building CXX object src/caffe/test/CMakeFiles/test.testbin.dir/test_split_layer.cpp.o"
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/test && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/test.testbin.dir/test_split_layer.cpp.o -c /home/panzhenfu/Documents/caffe/src/caffe/test/test_split_layer.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_61) "Building CXX object src/caffe/test/CMakeFiles/test.testbin.dir/test_split_layer.cpp.o"
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/test && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/test.testbin.dir/test_split_layer.cpp.o -c /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/src/caffe/test/test_split_layer.cpp
 
 src/caffe/test/CMakeFiles/test.testbin.dir/test_split_layer.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/test.testbin.dir/test_split_layer.cpp.i"
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/panzhenfu/Documents/caffe/src/caffe/test/test_split_layer.cpp > CMakeFiles/test.testbin.dir/test_split_layer.cpp.i
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/src/caffe/test/test_split_layer.cpp > CMakeFiles/test.testbin.dir/test_split_layer.cpp.i
 
 src/caffe/test/CMakeFiles/test.testbin.dir/test_split_layer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/test.testbin.dir/test_split_layer.cpp.s"
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/panzhenfu/Documents/caffe/src/caffe/test/test_split_layer.cpp -o CMakeFiles/test.testbin.dir/test_split_layer.cpp.s
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/src/caffe/test/test_split_layer.cpp -o CMakeFiles/test.testbin.dir/test_split_layer.cpp.s
 
 src/caffe/test/CMakeFiles/test.testbin.dir/test_split_layer.cpp.o.requires:
 
@@ -1506,16 +1506,16 @@ src/caffe/test/CMakeFiles/test.testbin.dir/test_split_layer.cpp.o.provides.build
 
 src/caffe/test/CMakeFiles/test.testbin.dir/test_spp_layer.cpp.o: src/caffe/test/CMakeFiles/test.testbin.dir/flags.make
 src/caffe/test/CMakeFiles/test.testbin.dir/test_spp_layer.cpp.o: ../src/caffe/test/test_spp_layer.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/panzhenfu/Documents/caffe/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_62) "Building CXX object src/caffe/test/CMakeFiles/test.testbin.dir/test_spp_layer.cpp.o"
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/test && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/test.testbin.dir/test_spp_layer.cpp.o -c /home/panzhenfu/Documents/caffe/src/caffe/test/test_spp_layer.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_62) "Building CXX object src/caffe/test/CMakeFiles/test.testbin.dir/test_spp_layer.cpp.o"
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/test && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/test.testbin.dir/test_spp_layer.cpp.o -c /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/src/caffe/test/test_spp_layer.cpp
 
 src/caffe/test/CMakeFiles/test.testbin.dir/test_spp_layer.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/test.testbin.dir/test_spp_layer.cpp.i"
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/panzhenfu/Documents/caffe/src/caffe/test/test_spp_layer.cpp > CMakeFiles/test.testbin.dir/test_spp_layer.cpp.i
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/src/caffe/test/test_spp_layer.cpp > CMakeFiles/test.testbin.dir/test_spp_layer.cpp.i
 
 src/caffe/test/CMakeFiles/test.testbin.dir/test_spp_layer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/test.testbin.dir/test_spp_layer.cpp.s"
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/panzhenfu/Documents/caffe/src/caffe/test/test_spp_layer.cpp -o CMakeFiles/test.testbin.dir/test_spp_layer.cpp.s
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/src/caffe/test/test_spp_layer.cpp -o CMakeFiles/test.testbin.dir/test_spp_layer.cpp.s
 
 src/caffe/test/CMakeFiles/test.testbin.dir/test_spp_layer.cpp.o.requires:
 
@@ -1530,16 +1530,16 @@ src/caffe/test/CMakeFiles/test.testbin.dir/test_spp_layer.cpp.o.provides.build: 
 
 src/caffe/test/CMakeFiles/test.testbin.dir/test_stochastic_pooling.cpp.o: src/caffe/test/CMakeFiles/test.testbin.dir/flags.make
 src/caffe/test/CMakeFiles/test.testbin.dir/test_stochastic_pooling.cpp.o: ../src/caffe/test/test_stochastic_pooling.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/panzhenfu/Documents/caffe/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_63) "Building CXX object src/caffe/test/CMakeFiles/test.testbin.dir/test_stochastic_pooling.cpp.o"
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/test && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/test.testbin.dir/test_stochastic_pooling.cpp.o -c /home/panzhenfu/Documents/caffe/src/caffe/test/test_stochastic_pooling.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_63) "Building CXX object src/caffe/test/CMakeFiles/test.testbin.dir/test_stochastic_pooling.cpp.o"
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/test && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/test.testbin.dir/test_stochastic_pooling.cpp.o -c /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/src/caffe/test/test_stochastic_pooling.cpp
 
 src/caffe/test/CMakeFiles/test.testbin.dir/test_stochastic_pooling.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/test.testbin.dir/test_stochastic_pooling.cpp.i"
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/panzhenfu/Documents/caffe/src/caffe/test/test_stochastic_pooling.cpp > CMakeFiles/test.testbin.dir/test_stochastic_pooling.cpp.i
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/src/caffe/test/test_stochastic_pooling.cpp > CMakeFiles/test.testbin.dir/test_stochastic_pooling.cpp.i
 
 src/caffe/test/CMakeFiles/test.testbin.dir/test_stochastic_pooling.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/test.testbin.dir/test_stochastic_pooling.cpp.s"
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/panzhenfu/Documents/caffe/src/caffe/test/test_stochastic_pooling.cpp -o CMakeFiles/test.testbin.dir/test_stochastic_pooling.cpp.s
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/src/caffe/test/test_stochastic_pooling.cpp -o CMakeFiles/test.testbin.dir/test_stochastic_pooling.cpp.s
 
 src/caffe/test/CMakeFiles/test.testbin.dir/test_stochastic_pooling.cpp.o.requires:
 
@@ -1554,16 +1554,16 @@ src/caffe/test/CMakeFiles/test.testbin.dir/test_stochastic_pooling.cpp.o.provide
 
 src/caffe/test/CMakeFiles/test.testbin.dir/test_syncedmem.cpp.o: src/caffe/test/CMakeFiles/test.testbin.dir/flags.make
 src/caffe/test/CMakeFiles/test.testbin.dir/test_syncedmem.cpp.o: ../src/caffe/test/test_syncedmem.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/panzhenfu/Documents/caffe/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_64) "Building CXX object src/caffe/test/CMakeFiles/test.testbin.dir/test_syncedmem.cpp.o"
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/test && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/test.testbin.dir/test_syncedmem.cpp.o -c /home/panzhenfu/Documents/caffe/src/caffe/test/test_syncedmem.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_64) "Building CXX object src/caffe/test/CMakeFiles/test.testbin.dir/test_syncedmem.cpp.o"
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/test && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/test.testbin.dir/test_syncedmem.cpp.o -c /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/src/caffe/test/test_syncedmem.cpp
 
 src/caffe/test/CMakeFiles/test.testbin.dir/test_syncedmem.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/test.testbin.dir/test_syncedmem.cpp.i"
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/panzhenfu/Documents/caffe/src/caffe/test/test_syncedmem.cpp > CMakeFiles/test.testbin.dir/test_syncedmem.cpp.i
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/src/caffe/test/test_syncedmem.cpp > CMakeFiles/test.testbin.dir/test_syncedmem.cpp.i
 
 src/caffe/test/CMakeFiles/test.testbin.dir/test_syncedmem.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/test.testbin.dir/test_syncedmem.cpp.s"
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/panzhenfu/Documents/caffe/src/caffe/test/test_syncedmem.cpp -o CMakeFiles/test.testbin.dir/test_syncedmem.cpp.s
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/src/caffe/test/test_syncedmem.cpp -o CMakeFiles/test.testbin.dir/test_syncedmem.cpp.s
 
 src/caffe/test/CMakeFiles/test.testbin.dir/test_syncedmem.cpp.o.requires:
 
@@ -1578,16 +1578,16 @@ src/caffe/test/CMakeFiles/test.testbin.dir/test_syncedmem.cpp.o.provides.build: 
 
 src/caffe/test/CMakeFiles/test.testbin.dir/test_tanh_layer.cpp.o: src/caffe/test/CMakeFiles/test.testbin.dir/flags.make
 src/caffe/test/CMakeFiles/test.testbin.dir/test_tanh_layer.cpp.o: ../src/caffe/test/test_tanh_layer.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/panzhenfu/Documents/caffe/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_65) "Building CXX object src/caffe/test/CMakeFiles/test.testbin.dir/test_tanh_layer.cpp.o"
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/test && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/test.testbin.dir/test_tanh_layer.cpp.o -c /home/panzhenfu/Documents/caffe/src/caffe/test/test_tanh_layer.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_65) "Building CXX object src/caffe/test/CMakeFiles/test.testbin.dir/test_tanh_layer.cpp.o"
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/test && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/test.testbin.dir/test_tanh_layer.cpp.o -c /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/src/caffe/test/test_tanh_layer.cpp
 
 src/caffe/test/CMakeFiles/test.testbin.dir/test_tanh_layer.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/test.testbin.dir/test_tanh_layer.cpp.i"
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/panzhenfu/Documents/caffe/src/caffe/test/test_tanh_layer.cpp > CMakeFiles/test.testbin.dir/test_tanh_layer.cpp.i
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/src/caffe/test/test_tanh_layer.cpp > CMakeFiles/test.testbin.dir/test_tanh_layer.cpp.i
 
 src/caffe/test/CMakeFiles/test.testbin.dir/test_tanh_layer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/test.testbin.dir/test_tanh_layer.cpp.s"
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/panzhenfu/Documents/caffe/src/caffe/test/test_tanh_layer.cpp -o CMakeFiles/test.testbin.dir/test_tanh_layer.cpp.s
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/src/caffe/test/test_tanh_layer.cpp -o CMakeFiles/test.testbin.dir/test_tanh_layer.cpp.s
 
 src/caffe/test/CMakeFiles/test.testbin.dir/test_tanh_layer.cpp.o.requires:
 
@@ -1602,16 +1602,16 @@ src/caffe/test/CMakeFiles/test.testbin.dir/test_tanh_layer.cpp.o.provides.build:
 
 src/caffe/test/CMakeFiles/test.testbin.dir/test_threshold_layer.cpp.o: src/caffe/test/CMakeFiles/test.testbin.dir/flags.make
 src/caffe/test/CMakeFiles/test.testbin.dir/test_threshold_layer.cpp.o: ../src/caffe/test/test_threshold_layer.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/panzhenfu/Documents/caffe/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_66) "Building CXX object src/caffe/test/CMakeFiles/test.testbin.dir/test_threshold_layer.cpp.o"
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/test && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/test.testbin.dir/test_threshold_layer.cpp.o -c /home/panzhenfu/Documents/caffe/src/caffe/test/test_threshold_layer.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_66) "Building CXX object src/caffe/test/CMakeFiles/test.testbin.dir/test_threshold_layer.cpp.o"
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/test && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/test.testbin.dir/test_threshold_layer.cpp.o -c /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/src/caffe/test/test_threshold_layer.cpp
 
 src/caffe/test/CMakeFiles/test.testbin.dir/test_threshold_layer.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/test.testbin.dir/test_threshold_layer.cpp.i"
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/panzhenfu/Documents/caffe/src/caffe/test/test_threshold_layer.cpp > CMakeFiles/test.testbin.dir/test_threshold_layer.cpp.i
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/src/caffe/test/test_threshold_layer.cpp > CMakeFiles/test.testbin.dir/test_threshold_layer.cpp.i
 
 src/caffe/test/CMakeFiles/test.testbin.dir/test_threshold_layer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/test.testbin.dir/test_threshold_layer.cpp.s"
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/panzhenfu/Documents/caffe/src/caffe/test/test_threshold_layer.cpp -o CMakeFiles/test.testbin.dir/test_threshold_layer.cpp.s
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/src/caffe/test/test_threshold_layer.cpp -o CMakeFiles/test.testbin.dir/test_threshold_layer.cpp.s
 
 src/caffe/test/CMakeFiles/test.testbin.dir/test_threshold_layer.cpp.o.requires:
 
@@ -1626,16 +1626,16 @@ src/caffe/test/CMakeFiles/test.testbin.dir/test_threshold_layer.cpp.o.provides.b
 
 src/caffe/test/CMakeFiles/test.testbin.dir/test_tile_layer.cpp.o: src/caffe/test/CMakeFiles/test.testbin.dir/flags.make
 src/caffe/test/CMakeFiles/test.testbin.dir/test_tile_layer.cpp.o: ../src/caffe/test/test_tile_layer.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/panzhenfu/Documents/caffe/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_67) "Building CXX object src/caffe/test/CMakeFiles/test.testbin.dir/test_tile_layer.cpp.o"
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/test && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/test.testbin.dir/test_tile_layer.cpp.o -c /home/panzhenfu/Documents/caffe/src/caffe/test/test_tile_layer.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_67) "Building CXX object src/caffe/test/CMakeFiles/test.testbin.dir/test_tile_layer.cpp.o"
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/test && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/test.testbin.dir/test_tile_layer.cpp.o -c /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/src/caffe/test/test_tile_layer.cpp
 
 src/caffe/test/CMakeFiles/test.testbin.dir/test_tile_layer.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/test.testbin.dir/test_tile_layer.cpp.i"
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/panzhenfu/Documents/caffe/src/caffe/test/test_tile_layer.cpp > CMakeFiles/test.testbin.dir/test_tile_layer.cpp.i
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/src/caffe/test/test_tile_layer.cpp > CMakeFiles/test.testbin.dir/test_tile_layer.cpp.i
 
 src/caffe/test/CMakeFiles/test.testbin.dir/test_tile_layer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/test.testbin.dir/test_tile_layer.cpp.s"
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/panzhenfu/Documents/caffe/src/caffe/test/test_tile_layer.cpp -o CMakeFiles/test.testbin.dir/test_tile_layer.cpp.s
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/src/caffe/test/test_tile_layer.cpp -o CMakeFiles/test.testbin.dir/test_tile_layer.cpp.s
 
 src/caffe/test/CMakeFiles/test.testbin.dir/test_tile_layer.cpp.o.requires:
 
@@ -1650,16 +1650,16 @@ src/caffe/test/CMakeFiles/test.testbin.dir/test_tile_layer.cpp.o.provides.build:
 
 src/caffe/test/CMakeFiles/test.testbin.dir/test_upgrade_proto.cpp.o: src/caffe/test/CMakeFiles/test.testbin.dir/flags.make
 src/caffe/test/CMakeFiles/test.testbin.dir/test_upgrade_proto.cpp.o: ../src/caffe/test/test_upgrade_proto.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/panzhenfu/Documents/caffe/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_68) "Building CXX object src/caffe/test/CMakeFiles/test.testbin.dir/test_upgrade_proto.cpp.o"
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/test && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/test.testbin.dir/test_upgrade_proto.cpp.o -c /home/panzhenfu/Documents/caffe/src/caffe/test/test_upgrade_proto.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_68) "Building CXX object src/caffe/test/CMakeFiles/test.testbin.dir/test_upgrade_proto.cpp.o"
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/test && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/test.testbin.dir/test_upgrade_proto.cpp.o -c /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/src/caffe/test/test_upgrade_proto.cpp
 
 src/caffe/test/CMakeFiles/test.testbin.dir/test_upgrade_proto.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/test.testbin.dir/test_upgrade_proto.cpp.i"
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/panzhenfu/Documents/caffe/src/caffe/test/test_upgrade_proto.cpp > CMakeFiles/test.testbin.dir/test_upgrade_proto.cpp.i
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/src/caffe/test/test_upgrade_proto.cpp > CMakeFiles/test.testbin.dir/test_upgrade_proto.cpp.i
 
 src/caffe/test/CMakeFiles/test.testbin.dir/test_upgrade_proto.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/test.testbin.dir/test_upgrade_proto.cpp.s"
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/panzhenfu/Documents/caffe/src/caffe/test/test_upgrade_proto.cpp -o CMakeFiles/test.testbin.dir/test_upgrade_proto.cpp.s
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/src/caffe/test/test_upgrade_proto.cpp -o CMakeFiles/test.testbin.dir/test_upgrade_proto.cpp.s
 
 src/caffe/test/CMakeFiles/test.testbin.dir/test_upgrade_proto.cpp.o.requires:
 
@@ -1674,16 +1674,16 @@ src/caffe/test/CMakeFiles/test.testbin.dir/test_upgrade_proto.cpp.o.provides.bui
 
 src/caffe/test/CMakeFiles/test.testbin.dir/test_util_blas.cpp.o: src/caffe/test/CMakeFiles/test.testbin.dir/flags.make
 src/caffe/test/CMakeFiles/test.testbin.dir/test_util_blas.cpp.o: ../src/caffe/test/test_util_blas.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/panzhenfu/Documents/caffe/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_69) "Building CXX object src/caffe/test/CMakeFiles/test.testbin.dir/test_util_blas.cpp.o"
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/test && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/test.testbin.dir/test_util_blas.cpp.o -c /home/panzhenfu/Documents/caffe/src/caffe/test/test_util_blas.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_69) "Building CXX object src/caffe/test/CMakeFiles/test.testbin.dir/test_util_blas.cpp.o"
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/test && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/test.testbin.dir/test_util_blas.cpp.o -c /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/src/caffe/test/test_util_blas.cpp
 
 src/caffe/test/CMakeFiles/test.testbin.dir/test_util_blas.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/test.testbin.dir/test_util_blas.cpp.i"
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/panzhenfu/Documents/caffe/src/caffe/test/test_util_blas.cpp > CMakeFiles/test.testbin.dir/test_util_blas.cpp.i
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/src/caffe/test/test_util_blas.cpp > CMakeFiles/test.testbin.dir/test_util_blas.cpp.i
 
 src/caffe/test/CMakeFiles/test.testbin.dir/test_util_blas.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/test.testbin.dir/test_util_blas.cpp.s"
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/panzhenfu/Documents/caffe/src/caffe/test/test_util_blas.cpp -o CMakeFiles/test.testbin.dir/test_util_blas.cpp.s
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/src/caffe/test/test_util_blas.cpp -o CMakeFiles/test.testbin.dir/test_util_blas.cpp.s
 
 src/caffe/test/CMakeFiles/test.testbin.dir/test_util_blas.cpp.o.requires:
 
@@ -1769,7 +1769,7 @@ test_testbin_OBJECTS = \
 
 # External object files for target test.testbin
 test_testbin_EXTERNAL_OBJECTS = \
-"/home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/test/CMakeFiles/cuda_compile_1.dir/cuda_compile_1_generated_test_im2col_kernel.cu.o"
+"/home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/test/CMakeFiles/cuda_compile_1.dir/cuda_compile_1_generated_test_im2col_kernel.cu.o"
 
 test/test.testbin-d: src/caffe/test/CMakeFiles/test.testbin.dir/test_accuracy_layer.cpp.o
 test/test.testbin-d: src/caffe/test/CMakeFiles/test.testbin.dir/test_argmax_layer.cpp.o
@@ -1878,8 +1878,8 @@ test/test.testbin-d: /usr/lib/liblapack.so
 test/test.testbin-d: /usr/lib/libcblas.so
 test/test.testbin-d: /usr/lib/libatlas.so
 test/test.testbin-d: src/caffe/test/CMakeFiles/test.testbin.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/panzhenfu/Documents/caffe/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_70) "Linking CXX executable ../../../test/test.testbin-d"
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/test && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/test.testbin.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_70) "Linking CXX executable ../../../test/test.testbin-d"
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/test && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/test.testbin.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 src/caffe/test/CMakeFiles/test.testbin.dir/build: test/test.testbin-d
@@ -1958,10 +1958,10 @@ src/caffe/test/CMakeFiles/test.testbin.dir/requires: src/caffe/test/CMakeFiles/t
 .PHONY : src/caffe/test/CMakeFiles/test.testbin.dir/requires
 
 src/caffe/test/CMakeFiles/test.testbin.dir/clean:
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/test && $(CMAKE_COMMAND) -P CMakeFiles/test.testbin.dir/cmake_clean.cmake
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/test && $(CMAKE_COMMAND) -P CMakeFiles/test.testbin.dir/cmake_clean.cmake
 .PHONY : src/caffe/test/CMakeFiles/test.testbin.dir/clean
 
 src/caffe/test/CMakeFiles/test.testbin.dir/depend: src/caffe/test/CMakeFiles/cuda_compile_1.dir/cuda_compile_1_generated_test_im2col_kernel.cu.o
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/panzhenfu/Documents/caffe /home/panzhenfu/Documents/caffe/src/caffe/test /home/panzhenfu/Documents/caffe/cmake-build-debug /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/test /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/test/CMakeFiles/test.testbin.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/src/caffe/test /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/test /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/test/CMakeFiles/test.testbin.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : src/caffe/test/CMakeFiles/test.testbin.dir/depend
 

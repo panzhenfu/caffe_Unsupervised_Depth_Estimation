@@ -43,10 +43,10 @@ RM = /home/panzhenfu/clion-2017.1.1/bin/cmake/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/panzhenfu/Documents/caffe
+CMAKE_SOURCE_DIR = /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/panzhenfu/Documents/caffe/cmake-build-debug
+CMAKE_BINARY_DIR = /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug
 
 # Utility rule file for runtest.
 
@@ -54,7 +54,7 @@ CMAKE_BINARY_DIR = /home/panzhenfu/Documents/caffe/cmake-build-debug
 include src/caffe/test/CMakeFiles/runtest.dir/progress.make
 
 src/caffe/test/CMakeFiles/runtest:
-	cd /home/panzhenfu/Documents/caffe && /home/panzhenfu/Documents/caffe/cmake-build-debug/test/test.testbin-d --gtest_shuffle
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation && /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/test/test.testbin-d --gtest_shuffle
 
 runtest: src/caffe/test/CMakeFiles/runtest
 runtest: src/caffe/test/CMakeFiles/runtest.dir/build.make
@@ -67,10 +67,10 @@ src/caffe/test/CMakeFiles/runtest.dir/build: runtest
 .PHONY : src/caffe/test/CMakeFiles/runtest.dir/build
 
 src/caffe/test/CMakeFiles/runtest.dir/clean:
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/test && $(CMAKE_COMMAND) -P CMakeFiles/runtest.dir/cmake_clean.cmake
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/test && $(CMAKE_COMMAND) -P CMakeFiles/runtest.dir/cmake_clean.cmake
 .PHONY : src/caffe/test/CMakeFiles/runtest.dir/clean
 
 src/caffe/test/CMakeFiles/runtest.dir/depend:
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/panzhenfu/Documents/caffe /home/panzhenfu/Documents/caffe/src/caffe/test /home/panzhenfu/Documents/caffe/cmake-build-debug /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/test /home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/test/CMakeFiles/runtest.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/src/caffe/test /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/test /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/test/CMakeFiles/runtest.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : src/caffe/test/CMakeFiles/runtest.dir/depend
 

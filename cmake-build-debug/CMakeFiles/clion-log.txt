@@ -1,4 +1,4 @@
-/home/panzhenfu/clion-2017.1.1/bin/cmake/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /home/panzhenfu/Documents/caffe
+/home/panzhenfu/clion-2017.1.1/bin/cmake/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation
 -- Boost version: 1.54.0
 -- Found the following Boost libraries:
 --   system
@@ -45,7 +45,7 @@ ImportError: /usr/lib/liblapack.so.3: undefined symbol: ATL_chemv
 -- ******************* Caffe Configuration Summary *******************
 -- General:
 --   Version           :   1.0.0
---   Git               :   1.0-11-g91b0928-dirty
+--   Git               :   17da0a2-dirty
 --   System            :   Linux
 --   C++ compiler      :   /usr/bin/c++
 --   Release CXX flags :   -O3 -DNDEBUG -fPIC -Wall -Wno-sign-compare -Wno-uninitialized
@@ -82,10 +82,10 @@ ImportError: /usr/lib/liblapack.so.3: undefined symbol: ATL_chemv
 -- 
 -- Documentaion:
 --   Doxygen           :   /usr/bin/doxygen (1.8.6)
---   config_file       :   /home/panzhenfu/Documents/caffe/.Doxyfile
+--   config_file       :   /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/.Doxyfile
 -- 
 -- Install:
---   Install path      :   /home/panzhenfu/Documents/caffe/cmake-build-debug/install
+--   Install path      :   /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/install
 -- 
 -- Configuring done
 CMake Error at CMakeLists.txt:104 (add_dependencies):
@@ -93,4 +93,4 @@ CMake Error at CMakeLists.txt:104 (add_dependencies):
 
 
 -- Generating done
--- Build files have been written to: /home/panzhenfu/Documents/caffe/cmake-build-debug
+-- Build files have been written to: /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug

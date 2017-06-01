@@ -10,7 +10,7 @@ The output was:
 
 Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
 
-The C compiler identification is GNU, found in "/home/panzhenfu/Documents/caffe/cmake-build-debug/CMakeFiles/3.7.1/CompilerIdC/a.out"
+The C compiler identification is GNU, found in "/home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/CMakeFiles/3.7.1/CompilerIdC/a.out"
 
 Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
 Compiler: /usr/bin/c++ 
@@ -23,33 +23,33 @@ The output was:
 
 Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
 
-The CXX compiler identification is GNU, found in "/home/panzhenfu/Documents/caffe/cmake-build-debug/CMakeFiles/3.7.1/CompilerIdCXX/a.out"
+The CXX compiler identification is GNU, found in "/home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/CMakeFiles/3.7.1/CompilerIdCXX/a.out"
 
 Determining if the C compiler works passed with the following output:
-Change Dir: /home/panzhenfu/Documents/caffe/cmake-build-debug/CMakeFiles/CMakeTmp
+Change Dir: /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_71eec/fast"
-/usr/bin/make -f CMakeFiles/cmTC_71eec.dir/build.make CMakeFiles/cmTC_71eec.dir/build
-make[1]: Entering directory `/home/panzhenfu/Documents/caffe/cmake-build-debug/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_71eec.dir/testCCompiler.c.o
-/usr/bin/cc     -o CMakeFiles/cmTC_71eec.dir/testCCompiler.c.o   -c /home/panzhenfu/Documents/caffe/cmake-build-debug/CMakeFiles/CMakeTmp/testCCompiler.c
-Linking C executable cmTC_71eec
-/home/panzhenfu/clion-2017.1.1/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_71eec.dir/link.txt --verbose=1
-/usr/bin/cc       CMakeFiles/cmTC_71eec.dir/testCCompiler.c.o  -o cmTC_71eec -rdynamic 
-make[1]: Leaving directory `/home/panzhenfu/Documents/caffe/cmake-build-debug/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_381cb/fast"
+/usr/bin/make -f CMakeFiles/cmTC_381cb.dir/build.make CMakeFiles/cmTC_381cb.dir/build
+make[1]: Entering directory `/home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_381cb.dir/testCCompiler.c.o
+/usr/bin/cc     -o CMakeFiles/cmTC_381cb.dir/testCCompiler.c.o   -c /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTC_381cb
+/home/panzhenfu/clion-2017.1.1/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_381cb.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTC_381cb.dir/testCCompiler.c.o  -o cmTC_381cb -rdynamic 
+make[1]: Leaving directory `/home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/CMakeFiles/CMakeTmp'
 
 
 Detecting C compiler ABI info compiled with the following output:
-Change Dir: /home/panzhenfu/Documents/caffe/cmake-build-debug/CMakeFiles/CMakeTmp
+Change Dir: /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_d59c7/fast"
-/usr/bin/make -f CMakeFiles/cmTC_d59c7.dir/build.make CMakeFiles/cmTC_d59c7.dir/build
-make[1]: Entering directory `/home/panzhenfu/Documents/caffe/cmake-build-debug/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_d59c7.dir/CMakeCCompilerABI.c.o
-/usr/bin/cc     -o CMakeFiles/cmTC_d59c7.dir/CMakeCCompilerABI.c.o   -c /home/panzhenfu/clion-2017.1.1/bin/cmake/share/cmake-3.7/Modules/CMakeCCompilerABI.c
-Linking C executable cmTC_d59c7
-/home/panzhenfu/clion-2017.1.1/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d59c7.dir/link.txt --verbose=1
-/usr/bin/cc      -v CMakeFiles/cmTC_d59c7.dir/CMakeCCompilerABI.c.o  -o cmTC_d59c7 -rdynamic  
+Run Build Command:"/usr/bin/make" "cmTC_1b7f5/fast"
+/usr/bin/make -f CMakeFiles/cmTC_1b7f5.dir/build.make CMakeFiles/cmTC_1b7f5.dir/build
+make[1]: Entering directory `/home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_1b7f5.dir/CMakeCCompilerABI.c.o
+/usr/bin/cc     -o CMakeFiles/cmTC_1b7f5.dir/CMakeCCompilerABI.c.o   -c /home/panzhenfu/clion-2017.1.1/bin/cmake/share/cmake-3.7/Modules/CMakeCCompilerABI.c
+Linking C executable cmTC_1b7f5
+/home/panzhenfu/clion-2017.1.1/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1b7f5.dir/link.txt --verbose=1
+/usr/bin/cc      -v CMakeFiles/cmTC_1b7f5.dir/CMakeCCompilerABI.c.o  -o cmTC_1b7f5 -rdynamic  
 Using built-in specs.
 COLLECT_GCC=/usr/bin/cc
 COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/4.8/lto-wrapper
@@ -59,23 +59,23 @@ Thread model: posix
 gcc version 4.8.4 (Ubuntu 4.8.4-2ubuntu1~14.04.3) 
 COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/
 LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../:/lib/:/usr/lib/
-COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_d59c7' '-rdynamic' '-mtune=generic' '-march=x86-64'
- /usr/lib/gcc/x86_64-linux-gnu/4.8/collect2 --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTC_d59c7 /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/4.8/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/4.8 -L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../.. CMakeFiles/cmTC_d59c7.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/x86_64-linux-gnu/4.8/crtend.o /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crtn.o
-make[1]: Leaving directory `/home/panzhenfu/Documents/caffe/cmake-build-debug/CMakeFiles/CMakeTmp'
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_1b7f5' '-rdynamic' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/4.8/collect2 --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTC_1b7f5 /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/4.8/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/4.8 -L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../.. CMakeFiles/cmTC_1b7f5.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/x86_64-linux-gnu/4.8/crtend.o /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crtn.o
+make[1]: Leaving directory `/home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/CMakeFiles/CMakeTmp'
 
 
 Parsed C implicit link information from above output:
   link line regex: [^( *|.*[/\])(ld|([^/\]+-)?ld|collect2)[^/\]*( |$)]
-  ignore line: [Change Dir: /home/panzhenfu/Documents/caffe/cmake-build-debug/CMakeFiles/CMakeTmp]
+  ignore line: [Change Dir: /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_d59c7/fast"]
-  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_d59c7.dir/build.make CMakeFiles/cmTC_d59c7.dir/build]
-  ignore line: [make[1]: Entering directory `/home/panzhenfu/Documents/caffe/cmake-build-debug/CMakeFiles/CMakeTmp']
-  ignore line: [Building C object CMakeFiles/cmTC_d59c7.dir/CMakeCCompilerABI.c.o]
-  ignore line: [/usr/bin/cc     -o CMakeFiles/cmTC_d59c7.dir/CMakeCCompilerABI.c.o   -c /home/panzhenfu/clion-2017.1.1/bin/cmake/share/cmake-3.7/Modules/CMakeCCompilerABI.c]
-  ignore line: [Linking C executable cmTC_d59c7]
-  ignore line: [/home/panzhenfu/clion-2017.1.1/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d59c7.dir/link.txt --verbose=1]
-  ignore line: [/usr/bin/cc      -v CMakeFiles/cmTC_d59c7.dir/CMakeCCompilerABI.c.o  -o cmTC_d59c7 -rdynamic  ]
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_1b7f5/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_1b7f5.dir/build.make CMakeFiles/cmTC_1b7f5.dir/build]
+  ignore line: [make[1]: Entering directory `/home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/CMakeFiles/CMakeTmp']
+  ignore line: [Building C object CMakeFiles/cmTC_1b7f5.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/usr/bin/cc     -o CMakeFiles/cmTC_1b7f5.dir/CMakeCCompilerABI.c.o   -c /home/panzhenfu/clion-2017.1.1/bin/cmake/share/cmake-3.7/Modules/CMakeCCompilerABI.c]
+  ignore line: [Linking C executable cmTC_1b7f5]
+  ignore line: [/home/panzhenfu/clion-2017.1.1/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1b7f5.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/cc      -v CMakeFiles/cmTC_1b7f5.dir/CMakeCCompilerABI.c.o  -o cmTC_1b7f5 -rdynamic  ]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=/usr/bin/cc]
   ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/4.8/lto-wrapper]
@@ -85,8 +85,8 @@ Parsed C implicit link information from above output:
   ignore line: [gcc version 4.8.4 (Ubuntu 4.8.4-2ubuntu1~14.04.3) ]
   ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/]
   ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../:/lib/:/usr/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_d59c7' '-rdynamic' '-mtune=generic' '-march=x86-64']
-  link line: [ /usr/lib/gcc/x86_64-linux-gnu/4.8/collect2 --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTC_d59c7 /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/4.8/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/4.8 -L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../.. CMakeFiles/cmTC_d59c7.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/x86_64-linux-gnu/4.8/crtend.o /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crtn.o]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_1b7f5' '-rdynamic' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/lib/gcc/x86_64-linux-gnu/4.8/collect2 --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTC_1b7f5 /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/4.8/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/4.8 -L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../.. CMakeFiles/cmTC_1b7f5.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/x86_64-linux-gnu/4.8/crtend.o /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crtn.o]
     arg [/usr/lib/gcc/x86_64-linux-gnu/4.8/collect2] ==> ignore
     arg [--sysroot=/] ==> ignore
     arg [--build-id] ==> ignore
@@ -100,7 +100,7 @@ Parsed C implicit link information from above output:
     arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
     arg [-zrelro] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_d59c7] ==> ignore
+    arg [cmTC_1b7f5] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crt1.o] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crti.o] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/4.8/crtbegin.o] ==> ignore
@@ -112,7 +112,7 @@ Parsed C implicit link information from above output:
     arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
     arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
     arg [-L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/4.8/../../..]
-    arg [CMakeFiles/cmTC_d59c7.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [CMakeFiles/cmTC_1b7f5.dir/CMakeCCompilerABI.c.o] ==> ignore
     arg [-lgcc] ==> lib [gcc]
     arg [--as-needed] ==> ignore
     arg [-lgcc_s] ==> lib [gcc_s]
@@ -144,17 +144,17 @@ Parsed C implicit link information from above output:
 
 
 Detecting C [-std=c11] compiler features compiled with the following output:
-Change Dir: /home/panzhenfu/Documents/caffe/cmake-build-debug/CMakeFiles/CMakeTmp
+Change Dir: /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_3e80a/fast"
-/usr/bin/make -f CMakeFiles/cmTC_3e80a.dir/build.make CMakeFiles/cmTC_3e80a.dir/build
-make[1]: Entering directory `/home/panzhenfu/Documents/caffe/cmake-build-debug/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_3e80a.dir/feature_tests.c.o
-/usr/bin/cc    -std=c11 -o CMakeFiles/cmTC_3e80a.dir/feature_tests.c.o   -c /home/panzhenfu/Documents/caffe/cmake-build-debug/CMakeFiles/feature_tests.c
-Linking C executable cmTC_3e80a
-/home/panzhenfu/clion-2017.1.1/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3e80a.dir/link.txt --verbose=1
-/usr/bin/cc       CMakeFiles/cmTC_3e80a.dir/feature_tests.c.o  -o cmTC_3e80a -rdynamic 
-make[1]: Leaving directory `/home/panzhenfu/Documents/caffe/cmake-build-debug/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_47571/fast"
+/usr/bin/make -f CMakeFiles/cmTC_47571.dir/build.make CMakeFiles/cmTC_47571.dir/build
+make[1]: Entering directory `/home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_47571.dir/feature_tests.c.o
+/usr/bin/cc    -std=c11 -o CMakeFiles/cmTC_47571.dir/feature_tests.c.o   -c /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/CMakeFiles/feature_tests.c
+Linking C executable cmTC_47571
+/home/panzhenfu/clion-2017.1.1/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_47571.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTC_47571.dir/feature_tests.c.o  -o cmTC_47571 -rdynamic 
+make[1]: Leaving directory `/home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/CMakeFiles/CMakeTmp'
 
 
     Feature record: C_FEATURE:1c_function_prototypes
@@ -164,17 +164,17 @@ make[1]: Leaving directory `/home/panzhenfu/Documents/caffe/cmake-build-debug/CM
 
 
 Detecting C [-std=c99] compiler features compiled with the following output:
-Change Dir: /home/panzhenfu/Documents/caffe/cmake-build-debug/CMakeFiles/CMakeTmp
+Change Dir: /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_6121f/fast"
-/usr/bin/make -f CMakeFiles/cmTC_6121f.dir/build.make CMakeFiles/cmTC_6121f.dir/build
-make[1]: Entering directory `/home/panzhenfu/Documents/caffe/cmake-build-debug/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_6121f.dir/feature_tests.c.o
-/usr/bin/cc    -std=c99 -o CMakeFiles/cmTC_6121f.dir/feature_tests.c.o   -c /home/panzhenfu/Documents/caffe/cmake-build-debug/CMakeFiles/feature_tests.c
-Linking C executable cmTC_6121f
-/home/panzhenfu/clion-2017.1.1/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6121f.dir/link.txt --verbose=1
-/usr/bin/cc       CMakeFiles/cmTC_6121f.dir/feature_tests.c.o  -o cmTC_6121f -rdynamic 
-make[1]: Leaving directory `/home/panzhenfu/Documents/caffe/cmake-build-debug/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_67538/fast"
+/usr/bin/make -f CMakeFiles/cmTC_67538.dir/build.make CMakeFiles/cmTC_67538.dir/build
+make[1]: Entering directory `/home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_67538.dir/feature_tests.c.o
+/usr/bin/cc    -std=c99 -o CMakeFiles/cmTC_67538.dir/feature_tests.c.o   -c /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/CMakeFiles/feature_tests.c
+Linking C executable cmTC_67538
+/home/panzhenfu/clion-2017.1.1/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_67538.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTC_67538.dir/feature_tests.c.o  -o cmTC_67538 -rdynamic 
+make[1]: Leaving directory `/home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/CMakeFiles/CMakeTmp'
 
 
     Feature record: C_FEATURE:1c_function_prototypes
@@ -184,17 +184,17 @@ make[1]: Leaving directory `/home/panzhenfu/Documents/caffe/cmake-build-debug/CM
 
 
 Detecting C [-std=c90] compiler features compiled with the following output:
-Change Dir: /home/panzhenfu/Documents/caffe/cmake-build-debug/CMakeFiles/CMakeTmp
+Change Dir: /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_847bc/fast"
-/usr/bin/make -f CMakeFiles/cmTC_847bc.dir/build.make CMakeFiles/cmTC_847bc.dir/build
-make[1]: Entering directory `/home/panzhenfu/Documents/caffe/cmake-build-debug/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_847bc.dir/feature_tests.c.o
-/usr/bin/cc    -std=c90 -o CMakeFiles/cmTC_847bc.dir/feature_tests.c.o   -c /home/panzhenfu/Documents/caffe/cmake-build-debug/CMakeFiles/feature_tests.c
-Linking C executable cmTC_847bc
-/home/panzhenfu/clion-2017.1.1/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_847bc.dir/link.txt --verbose=1
-/usr/bin/cc       CMakeFiles/cmTC_847bc.dir/feature_tests.c.o  -o cmTC_847bc -rdynamic 
-make[1]: Leaving directory `/home/panzhenfu/Documents/caffe/cmake-build-debug/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_ffb39/fast"
+/usr/bin/make -f CMakeFiles/cmTC_ffb39.dir/build.make CMakeFiles/cmTC_ffb39.dir/build
+make[1]: Entering directory `/home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_ffb39.dir/feature_tests.c.o
+/usr/bin/cc    -std=c90 -o CMakeFiles/cmTC_ffb39.dir/feature_tests.c.o   -c /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/CMakeFiles/feature_tests.c
+Linking C executable cmTC_ffb39
+/home/panzhenfu/clion-2017.1.1/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ffb39.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTC_ffb39.dir/feature_tests.c.o  -o cmTC_ffb39 -rdynamic 
+make[1]: Leaving directory `/home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/CMakeFiles/CMakeTmp'
 
 
     Feature record: C_FEATURE:1c_function_prototypes
@@ -202,30 +202,30 @@ make[1]: Leaving directory `/home/panzhenfu/Documents/caffe/cmake-build-debug/CM
     Feature record: C_FEATURE:0c_static_assert
     Feature record: C_FEATURE:0c_variadic_macros
 Determining if the CXX compiler works passed with the following output:
-Change Dir: /home/panzhenfu/Documents/caffe/cmake-build-debug/CMakeFiles/CMakeTmp
+Change Dir: /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_58493/fast"
-/usr/bin/make -f CMakeFiles/cmTC_58493.dir/build.make CMakeFiles/cmTC_58493.dir/build
-make[1]: Entering directory `/home/panzhenfu/Documents/caffe/cmake-build-debug/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_58493.dir/testCXXCompiler.cxx.o
-/usr/bin/c++      -o CMakeFiles/cmTC_58493.dir/testCXXCompiler.cxx.o -c /home/panzhenfu/Documents/caffe/cmake-build-debug/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
-Linking CXX executable cmTC_58493
-/home/panzhenfu/clion-2017.1.1/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_58493.dir/link.txt --verbose=1
-/usr/bin/c++        CMakeFiles/cmTC_58493.dir/testCXXCompiler.cxx.o  -o cmTC_58493 -rdynamic 
-make[1]: Leaving directory `/home/panzhenfu/Documents/caffe/cmake-build-debug/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_ae8ec/fast"
+/usr/bin/make -f CMakeFiles/cmTC_ae8ec.dir/build.make CMakeFiles/cmTC_ae8ec.dir/build
+make[1]: Entering directory `/home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_ae8ec.dir/testCXXCompiler.cxx.o
+/usr/bin/c++      -o CMakeFiles/cmTC_ae8ec.dir/testCXXCompiler.cxx.o -c /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+Linking CXX executable cmTC_ae8ec
+/home/panzhenfu/clion-2017.1.1/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ae8ec.dir/link.txt --verbose=1
+/usr/bin/c++        CMakeFiles/cmTC_ae8ec.dir/testCXXCompiler.cxx.o  -o cmTC_ae8ec -rdynamic 
+make[1]: Leaving directory `/home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/CMakeFiles/CMakeTmp'
 
 
 Detecting CXX compiler ABI info compiled with the following output:
-Change Dir: /home/panzhenfu/Documents/caffe/cmake-build-debug/CMakeFiles/CMakeTmp
+Change Dir: /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_2343a/fast"
-/usr/bin/make -f CMakeFiles/cmTC_2343a.dir/build.make CMakeFiles/cmTC_2343a.dir/build
-make[1]: Entering directory `/home/panzhenfu/Documents/caffe/cmake-build-debug/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_2343a.dir/CMakeCXXCompilerABI.cpp.o
-/usr/bin/c++      -o CMakeFiles/cmTC_2343a.dir/CMakeCXXCompilerABI.cpp.o -c /home/panzhenfu/clion-2017.1.1/bin/cmake/share/cmake-3.7/Modules/CMakeCXXCompilerABI.cpp
-Linking CXX executable cmTC_2343a
-/home/panzhenfu/clion-2017.1.1/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2343a.dir/link.txt --verbose=1
-/usr/bin/c++       -v CMakeFiles/cmTC_2343a.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_2343a -rdynamic  
+Run Build Command:"/usr/bin/make" "cmTC_6171d/fast"
+/usr/bin/make -f CMakeFiles/cmTC_6171d.dir/build.make CMakeFiles/cmTC_6171d.dir/build
+make[1]: Entering directory `/home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_6171d.dir/CMakeCXXCompilerABI.cpp.o
+/usr/bin/c++      -o CMakeFiles/cmTC_6171d.dir/CMakeCXXCompilerABI.cpp.o -c /home/panzhenfu/clion-2017.1.1/bin/cmake/share/cmake-3.7/Modules/CMakeCXXCompilerABI.cpp
+Linking CXX executable cmTC_6171d
+/home/panzhenfu/clion-2017.1.1/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6171d.dir/link.txt --verbose=1
+/usr/bin/c++       -v CMakeFiles/cmTC_6171d.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_6171d -rdynamic  
 Using built-in specs.
 COLLECT_GCC=/usr/bin/c++
 COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/4.8/lto-wrapper
@@ -235,23 +235,23 @@ Thread model: posix
 gcc version 4.8.4 (Ubuntu 4.8.4-2ubuntu1~14.04.3) 
 COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/
 LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../:/lib/:/usr/lib/
-COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_2343a' '-rdynamic' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
- /usr/lib/gcc/x86_64-linux-gnu/4.8/collect2 --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTC_2343a /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/4.8/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/4.8 -L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../.. CMakeFiles/cmTC_2343a.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/4.8/crtend.o /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crtn.o
-make[1]: Leaving directory `/home/panzhenfu/Documents/caffe/cmake-build-debug/CMakeFiles/CMakeTmp'
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_6171d' '-rdynamic' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/4.8/collect2 --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTC_6171d /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/4.8/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/4.8 -L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../.. CMakeFiles/cmTC_6171d.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/4.8/crtend.o /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crtn.o
+make[1]: Leaving directory `/home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/CMakeFiles/CMakeTmp'
 
 
 Parsed CXX implicit link information from above output:
   link line regex: [^( *|.*[/\])(ld|([^/\]+-)?ld|collect2)[^/\]*( |$)]
-  ignore line: [Change Dir: /home/panzhenfu/Documents/caffe/cmake-build-debug/CMakeFiles/CMakeTmp]
+  ignore line: [Change Dir: /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_2343a/fast"]
-  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_2343a.dir/build.make CMakeFiles/cmTC_2343a.dir/build]
-  ignore line: [make[1]: Entering directory `/home/panzhenfu/Documents/caffe/cmake-build-debug/CMakeFiles/CMakeTmp']
-  ignore line: [Building CXX object CMakeFiles/cmTC_2343a.dir/CMakeCXXCompilerABI.cpp.o]
-  ignore line: [/usr/bin/c++      -o CMakeFiles/cmTC_2343a.dir/CMakeCXXCompilerABI.cpp.o -c /home/panzhenfu/clion-2017.1.1/bin/cmake/share/cmake-3.7/Modules/CMakeCXXCompilerABI.cpp]
-  ignore line: [Linking CXX executable cmTC_2343a]
-  ignore line: [/home/panzhenfu/clion-2017.1.1/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2343a.dir/link.txt --verbose=1]
-  ignore line: [/usr/bin/c++       -v CMakeFiles/cmTC_2343a.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_2343a -rdynamic  ]
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_6171d/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_6171d.dir/build.make CMakeFiles/cmTC_6171d.dir/build]
+  ignore line: [make[1]: Entering directory `/home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/CMakeFiles/CMakeTmp']
+  ignore line: [Building CXX object CMakeFiles/cmTC_6171d.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/usr/bin/c++      -o CMakeFiles/cmTC_6171d.dir/CMakeCXXCompilerABI.cpp.o -c /home/panzhenfu/clion-2017.1.1/bin/cmake/share/cmake-3.7/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Linking CXX executable cmTC_6171d]
+  ignore line: [/home/panzhenfu/clion-2017.1.1/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6171d.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/c++       -v CMakeFiles/cmTC_6171d.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_6171d -rdynamic  ]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=/usr/bin/c++]
   ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/4.8/lto-wrapper]
@@ -261,8 +261,8 @@ Parsed CXX implicit link information from above output:
   ignore line: [gcc version 4.8.4 (Ubuntu 4.8.4-2ubuntu1~14.04.3) ]
   ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/]
   ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../:/lib/:/usr/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_2343a' '-rdynamic' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
-  link line: [ /usr/lib/gcc/x86_64-linux-gnu/4.8/collect2 --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTC_2343a /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/4.8/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/4.8 -L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../.. CMakeFiles/cmTC_2343a.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/4.8/crtend.o /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crtn.o]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_6171d' '-rdynamic' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/lib/gcc/x86_64-linux-gnu/4.8/collect2 --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTC_6171d /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/4.8/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/4.8 -L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../.. CMakeFiles/cmTC_6171d.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/4.8/crtend.o /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crtn.o]
     arg [/usr/lib/gcc/x86_64-linux-gnu/4.8/collect2] ==> ignore
     arg [--sysroot=/] ==> ignore
     arg [--build-id] ==> ignore
@@ -276,7 +276,7 @@ Parsed CXX implicit link information from above output:
     arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
     arg [-zrelro] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_2343a] ==> ignore
+    arg [cmTC_6171d] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crt1.o] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crti.o] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/4.8/crtbegin.o] ==> ignore
@@ -288,7 +288,7 @@ Parsed CXX implicit link information from above output:
     arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
     arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
     arg [-L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/4.8/../../..]
-    arg [CMakeFiles/cmTC_2343a.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [CMakeFiles/cmTC_6171d.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
     arg [-lstdc++] ==> lib [stdc++]
     arg [-lm] ==> lib [m]
     arg [-lgcc_s] ==> lib [gcc_s]
@@ -318,17 +318,17 @@ Parsed CXX implicit link information from above output:
 
 
 Detecting CXX [-std=c++1y] compiler features compiled with the following output:
-Change Dir: /home/panzhenfu/Documents/caffe/cmake-build-debug/CMakeFiles/CMakeTmp
+Change Dir: /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_29ca4/fast"
-/usr/bin/make -f CMakeFiles/cmTC_29ca4.dir/build.make CMakeFiles/cmTC_29ca4.dir/build
-make[1]: Entering directory `/home/panzhenfu/Documents/caffe/cmake-build-debug/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_29ca4.dir/feature_tests.cxx.o
-/usr/bin/c++     -std=c++1y -o CMakeFiles/cmTC_29ca4.dir/feature_tests.cxx.o -c /home/panzhenfu/Documents/caffe/cmake-build-debug/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_29ca4
-/home/panzhenfu/clion-2017.1.1/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_29ca4.dir/link.txt --verbose=1
-/usr/bin/c++        CMakeFiles/cmTC_29ca4.dir/feature_tests.cxx.o  -o cmTC_29ca4 -rdynamic 
-make[1]: Leaving directory `/home/panzhenfu/Documents/caffe/cmake-build-debug/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_d9f84/fast"
+/usr/bin/make -f CMakeFiles/cmTC_d9f84.dir/build.make CMakeFiles/cmTC_d9f84.dir/build
+make[1]: Entering directory `/home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_d9f84.dir/feature_tests.cxx.o
+/usr/bin/c++     -std=c++1y -o CMakeFiles/cmTC_d9f84.dir/feature_tests.cxx.o -c /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_d9f84
+/home/panzhenfu/clion-2017.1.1/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d9f84.dir/link.txt --verbose=1
+/usr/bin/c++        CMakeFiles/cmTC_d9f84.dir/feature_tests.cxx.o  -o cmTC_d9f84 -rdynamic 
+make[1]: Leaving directory `/home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/CMakeFiles/CMakeTmp'
 
 
     Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
@@ -391,17 +391,17 @@ make[1]: Leaving directory `/home/panzhenfu/Documents/caffe/cmake-build-debug/CM
 
 
 Detecting CXX [-std=c++11] compiler features compiled with the following output:
-Change Dir: /home/panzhenfu/Documents/caffe/cmake-build-debug/CMakeFiles/CMakeTmp
+Change Dir: /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_f7df7/fast"
-/usr/bin/make -f CMakeFiles/cmTC_f7df7.dir/build.make CMakeFiles/cmTC_f7df7.dir/build
-make[1]: Entering directory `/home/panzhenfu/Documents/caffe/cmake-build-debug/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_f7df7.dir/feature_tests.cxx.o
-/usr/bin/c++     -std=c++11 -o CMakeFiles/cmTC_f7df7.dir/feature_tests.cxx.o -c /home/panzhenfu/Documents/caffe/cmake-build-debug/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_f7df7
-/home/panzhenfu/clion-2017.1.1/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f7df7.dir/link.txt --verbose=1
-/usr/bin/c++        CMakeFiles/cmTC_f7df7.dir/feature_tests.cxx.o  -o cmTC_f7df7 -rdynamic 
-make[1]: Leaving directory `/home/panzhenfu/Documents/caffe/cmake-build-debug/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_e45ac/fast"
+/usr/bin/make -f CMakeFiles/cmTC_e45ac.dir/build.make CMakeFiles/cmTC_e45ac.dir/build
+make[1]: Entering directory `/home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_e45ac.dir/feature_tests.cxx.o
+/usr/bin/c++     -std=c++11 -o CMakeFiles/cmTC_e45ac.dir/feature_tests.cxx.o -c /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_e45ac
+/home/panzhenfu/clion-2017.1.1/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e45ac.dir/link.txt --verbose=1
+/usr/bin/c++        CMakeFiles/cmTC_e45ac.dir/feature_tests.cxx.o  -o cmTC_e45ac -rdynamic 
+make[1]: Leaving directory `/home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/CMakeFiles/CMakeTmp'
 
 
     Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
@@ -464,17 +464,17 @@ make[1]: Leaving directory `/home/panzhenfu/Documents/caffe/cmake-build-debug/CM
 
 
 Detecting CXX [-std=c++98] compiler features compiled with the following output:
-Change Dir: /home/panzhenfu/Documents/caffe/cmake-build-debug/CMakeFiles/CMakeTmp
+Change Dir: /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_94f06/fast"
-/usr/bin/make -f CMakeFiles/cmTC_94f06.dir/build.make CMakeFiles/cmTC_94f06.dir/build
-make[1]: Entering directory `/home/panzhenfu/Documents/caffe/cmake-build-debug/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_94f06.dir/feature_tests.cxx.o
-/usr/bin/c++     -std=c++98 -o CMakeFiles/cmTC_94f06.dir/feature_tests.cxx.o -c /home/panzhenfu/Documents/caffe/cmake-build-debug/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_94f06
-/home/panzhenfu/clion-2017.1.1/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_94f06.dir/link.txt --verbose=1
-/usr/bin/c++        CMakeFiles/cmTC_94f06.dir/feature_tests.cxx.o  -o cmTC_94f06 -rdynamic 
-make[1]: Leaving directory `/home/panzhenfu/Documents/caffe/cmake-build-debug/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_0164d/fast"
+/usr/bin/make -f CMakeFiles/cmTC_0164d.dir/build.make CMakeFiles/cmTC_0164d.dir/build
+make[1]: Entering directory `/home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_0164d.dir/feature_tests.cxx.o
+/usr/bin/c++     -std=c++98 -o CMakeFiles/cmTC_0164d.dir/feature_tests.cxx.o -c /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_0164d
+/home/panzhenfu/clion-2017.1.1/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0164d.dir/link.txt --verbose=1
+/usr/bin/c++        CMakeFiles/cmTC_0164d.dir/feature_tests.cxx.o  -o cmTC_0164d -rdynamic 
+make[1]: Leaving directory `/home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/CMakeFiles/CMakeTmp'
 
 
     Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
@@ -535,30 +535,30 @@ make[1]: Leaving directory `/home/panzhenfu/Documents/caffe/cmake-build-debug/CM
     Feature record: CXX_FEATURE:0cxx_variadic_macros
     Feature record: CXX_FEATURE:0cxx_variadic_templates
 Determining if the include file pthread.h exists passed with the following output:
-Change Dir: /home/panzhenfu/Documents/caffe/cmake-build-debug/CMakeFiles/CMakeTmp
+Change Dir: /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_dca0c/fast"
-/usr/bin/make -f CMakeFiles/cmTC_dca0c.dir/build.make CMakeFiles/cmTC_dca0c.dir/build
-make[1]: Entering directory `/home/panzhenfu/Documents/caffe/cmake-build-debug/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_dca0c.dir/CheckIncludeFile.c.o
-/usr/bin/cc     -o CMakeFiles/cmTC_dca0c.dir/CheckIncludeFile.c.o   -c /home/panzhenfu/Documents/caffe/cmake-build-debug/CMakeFiles/CMakeTmp/CheckIncludeFile.c
-Linking C executable cmTC_dca0c
-/home/panzhenfu/clion-2017.1.1/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_dca0c.dir/link.txt --verbose=1
-/usr/bin/cc       CMakeFiles/cmTC_dca0c.dir/CheckIncludeFile.c.o  -o cmTC_dca0c -rdynamic 
-make[1]: Leaving directory `/home/panzhenfu/Documents/caffe/cmake-build-debug/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_05bfb/fast"
+/usr/bin/make -f CMakeFiles/cmTC_05bfb.dir/build.make CMakeFiles/cmTC_05bfb.dir/build
+make[1]: Entering directory `/home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_05bfb.dir/CheckIncludeFile.c.o
+/usr/bin/cc     -o CMakeFiles/cmTC_05bfb.dir/CheckIncludeFile.c.o   -c /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_05bfb
+/home/panzhenfu/clion-2017.1.1/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_05bfb.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTC_05bfb.dir/CheckIncludeFile.c.o  -o cmTC_05bfb -rdynamic 
+make[1]: Leaving directory `/home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/CMakeFiles/CMakeTmp'
 
 
 Determining if the function pthread_create exists in the pthread passed with the following output:
-Change Dir: /home/panzhenfu/Documents/caffe/cmake-build-debug/CMakeFiles/CMakeTmp
+Change Dir: /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_07ce5/fast"
-/usr/bin/make -f CMakeFiles/cmTC_07ce5.dir/build.make CMakeFiles/cmTC_07ce5.dir/build
-make[1]: Entering directory `/home/panzhenfu/Documents/caffe/cmake-build-debug/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_07ce5.dir/CheckFunctionExists.c.o
-/usr/bin/cc    -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_07ce5.dir/CheckFunctionExists.c.o   -c /home/panzhenfu/clion-2017.1.1/bin/cmake/share/cmake-3.7/Modules/CheckFunctionExists.c
-Linking C executable cmTC_07ce5
-/home/panzhenfu/clion-2017.1.1/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_07ce5.dir/link.txt --verbose=1
-/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTC_07ce5.dir/CheckFunctionExists.c.o  -o cmTC_07ce5 -rdynamic -lpthread 
-make[1]: Leaving directory `/home/panzhenfu/Documents/caffe/cmake-build-debug/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_876f4/fast"
+/usr/bin/make -f CMakeFiles/cmTC_876f4.dir/build.make CMakeFiles/cmTC_876f4.dir/build
+make[1]: Entering directory `/home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_876f4.dir/CheckFunctionExists.c.o
+/usr/bin/cc    -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_876f4.dir/CheckFunctionExists.c.o   -c /home/panzhenfu/clion-2017.1.1/bin/cmake/share/cmake-3.7/Modules/CheckFunctionExists.c
+Linking C executable cmTC_876f4
+/home/panzhenfu/clion-2017.1.1/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_876f4.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTC_876f4.dir/CheckFunctionExists.c.o  -o cmTC_876f4 -rdynamic -lpthread 
+make[1]: Leaving directory `/home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/CMakeFiles/CMakeTmp'
 
 

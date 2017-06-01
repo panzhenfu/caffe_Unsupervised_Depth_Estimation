@@ -56,18 +56,18 @@ endif()
 
 # Set these up as variables to make reading the generated file easier
 set(CMAKE_COMMAND "/home/panzhenfu/clion-2017.1.1/bin/cmake/bin/cmake") # path
-set(source_file "/home/panzhenfu/Documents/caffe/src/caffe/layers/dropout_layer.cu") # path
-set(NVCC_generated_dependency_file "/home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers/cuda_compile_1_generated_dropout_layer.cu.o.NVCC-depend") # path
-set(cmake_dependency_file "/home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers/cuda_compile_1_generated_dropout_layer.cu.o.depend") # path
+set(source_file "/home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/src/caffe/layers/dropout_layer.cu") # path
+set(NVCC_generated_dependency_file "/home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers/cuda_compile_1_generated_dropout_layer.cu.o.NVCC-depend") # path
+set(cmake_dependency_file "/home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers/cuda_compile_1_generated_dropout_layer.cu.o.depend") # path
 set(CUDA_make2cmake "/home/panzhenfu/clion-2017.1.1/bin/cmake/share/cmake-3.7/Modules/FindCUDA/make2cmake.cmake") # path
 set(CUDA_parse_cubin "/home/panzhenfu/clion-2017.1.1/bin/cmake/share/cmake-3.7/Modules/FindCUDA/parse_cubin.cmake") # path
 set(build_cubin OFF) # bool
 set(CUDA_HOST_COMPILER "/usr/bin/cc") # path
 # We won't actually use these variables for now, but we need to set this, in
 # order to force this file to be run again if it changes.
-set(generated_file_path "/home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers/.") # path
-set(generated_file_internal "/home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers/./cuda_compile_1_generated_dropout_layer.cu.o") # path
-set(generated_cubin_file_internal "/home/panzhenfu/Documents/caffe/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers/./cuda_compile_1_generated_dropout_layer.cu.o.cubin.txt") # path
+set(generated_file_path "/home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers/.") # path
+set(generated_file_internal "/home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers/./cuda_compile_1_generated_dropout_layer.cu.o") # path
+set(generated_cubin_file_internal "/home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile_1.dir/layers/./cuda_compile_1_generated_dropout_layer.cu.o.cubin.txt") # path
 
 set(CUDA_NVCC_EXECUTABLE "/usr/local/cuda-8.0/bin/nvcc") # path
 set(CUDA_NVCC_FLAGS -gencode;arch=compute_61,code=sm_61;-Xcudafe;--diag_suppress=cc_clobber_ignored;-Xcudafe;--diag_suppress=integer_sign_change;-Xcudafe;--diag_suppress=useless_using_declaration;-Xcudafe;--diag_suppress=set_but_not_used;-DUSE_LMDB;-DUSE_LEVELDB;-DUSE_CUDNN;-DUSE_OPENCV;-Xcompiler;-fPIC ;; ) # list
@@ -77,7 +77,7 @@ set(CUDA_NVCC_FLAGS_RELEASE  ; )
 set(CUDA_NVCC_FLAGS_MINSIZEREL  ; )
 set(CUDA_NVCC_FLAGS_RELWITHDEBINFO  ; )
 set(nvcc_flags -m64) # list
-set(CUDA_NVCC_INCLUDE_DIRS "/home/panzhenfu/Documents/caffe/include;/home/panzhenfu/Documents/caffe/src;/usr/include;/usr/include;/usr/include;/usr/local/include;/usr/include;/usr/include;/usr/include;/usr/include;/usr/local/cuda-8.0/include;/usr/local/cuda-8.0/include;/usr/local/include/opencv;/usr/local/include;/usr/include;/usr/include/atlas;/usr/local/cuda-8.0/include;/home/panzhenfu/Documents/caffe/cmake-build-debug/include;/usr/local/include/opencv;/usr/local/include;/home/panzhenfu/Documents/caffe/cmake-build-debug") # list (needs to be in quotes to handle spaces properly).
+set(CUDA_NVCC_INCLUDE_DIRS "/home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/include;/home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/src;/usr/include;/usr/include;/usr/include;/usr/local/include;/usr/include;/usr/include;/usr/include;/usr/include;/usr/local/cuda-8.0/include;/usr/local/cuda-8.0/include;/usr/local/include/opencv;/usr/local/include;/usr/include;/usr/include/atlas;/usr/local/cuda-8.0/include;/home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/include;/usr/local/include/opencv;/usr/local/include;/home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug") # list (needs to be in quotes to handle spaces properly).
 set(CUDA_NVCC_COMPILE_DEFINITIONS "CAFFE_VERSION=1.0.0") # list (needs to be in quotes to handle spaces properly).
 set(format_flag "-c") # string
 set(cuda_language_flag ) # list

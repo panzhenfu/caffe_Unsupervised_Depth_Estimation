@@ -43,10 +43,10 @@ RM = /home/panzhenfu/clion-2017.1.1/bin/cmake/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/panzhenfu/Documents/caffe
+CMAKE_SOURCE_DIR = /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/panzhenfu/Documents/caffe/cmake-build-debug
+CMAKE_BINARY_DIR = /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug
 
 # Utility rule file for jekyll.
 
@@ -54,8 +54,8 @@ CMAKE_BINARY_DIR = /home/panzhenfu/Documents/caffe/cmake-build-debug
 include docs/CMakeFiles/jekyll.dir/progress.make
 
 docs/CMakeFiles/jekyll:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/panzhenfu/Documents/caffe/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Launching jekyll..."
-	cd /home/panzhenfu/Documents/caffe/docs && jekyll serve -w -s . -d _site --port=4000
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Launching jekyll..."
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/docs && jekyll serve -w -s . -d _site --port=4000
 
 jekyll: docs/CMakeFiles/jekyll
 jekyll: docs/CMakeFiles/jekyll.dir/build.make
@@ -68,10 +68,10 @@ docs/CMakeFiles/jekyll.dir/build: jekyll
 .PHONY : docs/CMakeFiles/jekyll.dir/build
 
 docs/CMakeFiles/jekyll.dir/clean:
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug/docs && $(CMAKE_COMMAND) -P CMakeFiles/jekyll.dir/cmake_clean.cmake
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/docs && $(CMAKE_COMMAND) -P CMakeFiles/jekyll.dir/cmake_clean.cmake
 .PHONY : docs/CMakeFiles/jekyll.dir/clean
 
 docs/CMakeFiles/jekyll.dir/depend:
-	cd /home/panzhenfu/Documents/caffe/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/panzhenfu/Documents/caffe /home/panzhenfu/Documents/caffe/docs /home/panzhenfu/Documents/caffe/cmake-build-debug /home/panzhenfu/Documents/caffe/cmake-build-debug/docs /home/panzhenfu/Documents/caffe/cmake-build-debug/docs/CMakeFiles/jekyll.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/docs /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/docs /home/panzhenfu/Documents/mygit/caffe_Unsupervised_Depth_Estimation/cmake-build-debug/docs/CMakeFiles/jekyll.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : docs/CMakeFiles/jekyll.dir/depend
 
